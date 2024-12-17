@@ -1,0 +1,118 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 22211886496
+      numberOfFiles: 78
+      numberOfSubjects: 27
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - TwoPhotonSeries
+      - Units
+      - PlaneSegmentation
+      - BehavioralTimeSeries
+    citation: "Millman, Daniel; de Vries, Saskia (2023) Allen Institute \u2013 TF
+      x SF tuning in mouse visual cortex with calcium imaging (Version 0.230223.1424)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000049/0.230223.1424"
+    contributor:
+    - affiliation: []
+      identifier: 0000-0002-6255-6085
+      includeInCitation: true
+      name: Millman, Daniel
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: saskiad@alleninstitute.org
+      identifier: 0000-0002-3704-3499
+      includeInCitation: true
+      name: de Vries, Saskia
+      roleName:
+      - dcite:ContactPerson
+      - dcite:ProjectLeader
+      schemaKey: Person
+    dateCreated: '2020-12-10T16:33:45.474000+00:00'
+    datePublished: '2023-02-23T14:24:50.744585+00:00'
+    description: 'A two photon calcium imaging dataset from Allen Institute measuring
+      responses to full-field drifting gratings (approx. 120x90 degrees of visual
+      space) moving in 4 different directions, at 5 spatial frequencies (0.02, 0.04,
+      0.08, 0.16, 0.32 cpd), and 5 temporal frequencies (0.5, 1, 2, 4, 8 Hz). The
+      ratio of TF/SF is speed (deg/sec) and the extent to which visual neurons exhibit
+      speed tuning has been shown to vary across some cortical areas (Andermann et
+      al. 2011).
+
+      Mouse Cre lines expressing GCaMPf were imaged to record responses of pyramidal
+      neurons across cortical layers (Cux2: layer 2/3; Rorb: layer 4; Rbp4: layer
+      5; Ntsr1: layer 6) as well as somatostatin inhibitory interneurons (Sst). All
+      Cre lines were imaged in VISp, and some (Cux2 and Sst) were also imaged in VISl,
+      VISal, VISpm, VISam, and VISrl. All experimental sessions took place on the
+      same data collection pipeline as the Allen Brain Observatory (see de Vries,
+      Lecoq, Buice et al. 2020) and have the same visual stimulus monitor calibration
+      and positioning, two photon imaging systems and image processing pipeline, and
+      running wheel to track locomotion. Data are subject to Allen Institute Terms
+      of Use policy, available at: http://www.alleninstitute.org/legal/terms-use/'
+    ethicsApproval: []
+    id: DANDI:000049/0.230223.1424
+    identifier: DANDI:000049
+    keywords:
+    - Mouse
+    - 2-photon calcium imaging
+    - visual cortex
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000049/0.230223.1424/assets.yaml
+    name: "Allen Institute \u2013 TF x SF tuning in mouse visual cortex with calcium
+      imaging"
+    protocol: []
+    publishedBy:
+      endDate: '2023-02-23T14:24:50.744585+00:00'
+      id: urn:uuid:65f04e11-e791-4792-b099-2c8804eadbb6
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-02-23T14:24:50.744585+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:05dfafef-29bb-4931-82d2-d74b7b4a9ea2
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    studyTarget:
+    - To characterize the the speed tuning of different cell types in the mouse visual
+      cortex
+    url: https://dandiarchive.org/dandiset/000049/0.230223.1424
+    version: 0.230223.1424
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

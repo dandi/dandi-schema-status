@@ -1,0 +1,146 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000489/0.230518.1811",
+      "url": "https://dandiarchive.org/dandiset/000489/0.230518.1811",
+      "name": "The impact of the second phase amplitude (% to the first phase) on the electroporation efficiency (measured as YP emission)",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230518.1811",
+      "citation": "Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023) The impact of the second phase amplitude (% to the first phase) on the electroporation efficiency (measured as YP emission) (Version 0.230518.1811) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000489/0.230518.1811",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000489",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kim, Vitalii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0699-5582",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Semenov, Iurii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0302-1355",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1R21EY034258",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-04-21T18:50:06.335247+00:00",
+      "description": "Cells were electroporated by a train of 5 unipolar 600 ns pulses (0 percent) or bipolar 600 + 600 ns pulses (25, 50, 75, 100 percent) at 1 Hz. 25, 50, 75, and 100% represent the second pulse's amplitude in relation to the first pulse's amplitude. 0% represents a unipolar pulse, where no second pulse was applied. The electrodes were two parallel stainless-steel cylinders, 1.5 mm in diameter and 3 mm apart. Supported by NIH 1R21EY034258",
+      "publishedBy": {
+        "id": "urn:uuid:ea5ff355-93de-4345-8b27-0d1c02c27a5f",
+        "name": "DANDI publish",
+        "endDate": "2023-05-18T18:11:29.314373+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-05-18T18:11:29.314373+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:62e464e1-242a-422c-b2fb-76ed889d33ad",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Bos taurus - Cattle",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9913"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 18594422294,
+        "numberOfFiles": 18,
+        "numberOfSubjects": 18,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2023-05-18T18:11:29.314373+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "used": [],
+          "endDate": "2023-07-31T00:00:00-04:00",
+          "schemaKey": "Project",
+          "startDate": "2022-08-01T00:00:00-04:00",
+          "identifier": "1R21EY034258",
+          "wasAssociatedWith": []
+        }
+      ],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.1016/j.bioelechem.2022.108319",
+          "name": "Action spectra and mechanisms of (in) efficiency of bipolar electric pulses at electroporation",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000489/0.230518.1811/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

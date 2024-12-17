@@ -1,0 +1,149 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R21 EY 034275-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000562/draft",
+      "doi": "10.80507/dandi.123456/0.123456.1234",
+      "url": "https://dandiarchive.org/dandiset/000562/draft",
+      "name": "neuromodulation using a microwave split ring resonator",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "neuromodulation using a microwave split ring resonator (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000562",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R21 EY 034275-01"
+        }
+      ],
+      "dateCreated": "2023-06-15T18:26:42.097947+00:00",
+      "description": "Minimally invasive neural modulation at sub-millimeter spatial resolution remains a critical yet unmet biomedical need. We build a minimally invasive neuromodulation device by taking advantage of a microwave split ring resonator (SRR) design.",
+      "publishedBy": {
+        "id": "urn:uuid:13515f19-87f7-4f62-b453-061c380a3613",
+        "name": "DANDI publish",
+        "endDate": "2023-12-15T00:39:15.665175+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-12-15T00:39:15.665175+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:60875170-995a-46d7-904a-10c4c8540bdb",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Rattus norvegicus - Norway rat",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+          },
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 67484514496,
+        "numberOfFiles": 88,
+        "numberOfSubjects": 3,
+        "variableMeasured": [
+          "OpticalChannel",
+          "ImagingPlane",
+          "ElectricalSeries",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-12-15T00:39:15.665175+00:00",
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000562/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

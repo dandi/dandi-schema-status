@@ -1,0 +1,157 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000875/0.240515.1925",
+      "url": "https://dandiarchive.org/dandiset/000875/0.240515.1925",
+      "name": "Influence of unipolar pulse packet quantity on centering the electroporation effect within a quadrupole electrode array.",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240515.1925",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Silkuniene, Giedre; Pakhomov, Andrei; Gudvangen, Emily; Mangalanathan, Uma; Semenov, Iurii (2024) Influence of unipolar pulse packet quantity on centering the electroporation effect within a quadrupole electrode array (Version 0.240515.1925) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000875/0.240515.1925",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000875",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Gudvangen, Emily",
+          "roleName": [],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Mangalanathan, Uma",
+          "roleName": [],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Semenov, Iurii",
+          "roleName": [
+            "dcite:Researcher"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0302-1355",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health ",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "NIH 1R21EY034258",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-01-24T15:59:59.693440+00:00",
+      "description": "This data provides images of Yo-Pro uptake when different numbers of nanosecond electric pulse packets were applied in a four-electrode array. Increasing the total number of applied packets from 4 to 20 and 40 significantly enhanced the electroporative effect across the electrode array. The peak of electroporation at the center was clearly distinguishable for all tested treatments. The study was supported in part by NIH R21EY034258",
+      "publishedBy": {
+        "id": "urn:uuid:48a361d6-06f3-433a-b7c1-82001f531dcc",
+        "name": "DANDI publish",
+        "endDate": "2024-05-15T19:25:04.476809+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-05-15T19:25:04.476809+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:f095a73a-14ef-45a9-92c2-d9d34d70fec2",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Bos taurus - Cattle",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9913"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 3607438018,
+        "numberOfFiles": 9,
+        "numberOfSubjects": 18,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2024-05-15T19:25:04.476809+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "used": [],
+          "endDate": "2024-08-01T00:00:00-04:00",
+          "schemaKey": "Project",
+          "startDate": "2022-08-01T00:00:00-04:00",
+          "identifier": "NIH 1R21EY034258",
+          "wasAssociatedWith": []
+        }
+      ],
+      "relatedResource": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37030093/",
+          "name": "Next generation CANCAN focusing for remote stimulation by nanosecond electric pulses",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource",
+          "identifier": "10.1016/j.bioelechem.2023.108437"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000875/0.240515.1925/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

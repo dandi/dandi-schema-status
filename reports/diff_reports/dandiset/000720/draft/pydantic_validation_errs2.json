@@ -1,0 +1,86 @@
+[
+  {
+    "type": "union_tag_not_found",
+    "loc": [
+      "contributor",
+      0
+    ],
+    "msg": "Unable to extract tag using discriminator 'schemaKey'",
+    "input": {},
+    "ctx": {
+      "discriminator": "'schemaKey'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+  },
+  {
+    "type": "union_tag_not_found",
+    "loc": [
+      "about",
+      0
+    ],
+    "msg": "Unable to extract tag using discriminator 'schemaKey'",
+    "input": {},
+    "ctx": {
+      "discriminator": "'schemaKey'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "10.80507/dandi.123456/0.123456.1234",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "publishedBy"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": {
+      "id": "urn:uuid:ebfb2690-a2fe-43ec-8882-35a41beb8135",
+      "name": "DANDI publish",
+      "endDate": "2023-12-06T22:18:28.318201+00:00",
+      "schemaKey": "PublishActivity",
+      "startDate": "2023-12-06T22:18:28.318201+00:00",
+      "wasAssociatedWith": [
+        {
+          "id": "urn:uuid:6ece696e-6c81-4151-bc9f-3940fcffa66b",
+          "name": "DANDI API",
+          "version": "0.1.0",
+          "schemaKey": "Software",
+          "identifier": "RRID:SCR_017571"
+        }
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "datePublished"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "2023-12-06T22:18:28.318201+00:00",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R01 NS 119911-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000729/draft",
+      "doi": "10.80507/dandi.123456/0.123456.1234",
+      "url": "https://dandiarchive.org/dandiset/000729/draft",
+      "name": "IronTract Challenge",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "IronTract Challenge (2023). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000729",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R01 NS 119911-01"
+        }
+      ],
+      "dateCreated": "2023-12-11T18:54:22.433009+00:00",
+      "description": "DWI datasets and seed areas used in the IronTract Challenge (https://irontract.mgh.harvard.edu/).",
+      "publishedBy": {
+        "id": "urn:uuid:f972437d-7c41-4e97-8e9f-dddd7b67f5ec",
+        "name": "DANDI publish",
+        "endDate": "2023-12-11T18:54:24.733697+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-12-11T18:54:24.733697+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:e116fd2e-e669-4d24-b807-39a76709e924",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Brain Imaging Data Structure (BIDS)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_016124"
+          }
+        ],
+        "numberOfBytes": 1454760874,
+        "numberOfFiles": 28,
+        "numberOfSubjects": 2,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2023-12-11T18:54:24.733697+00:00",
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000729/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "10.80507/dandi.123456/0.123456.1234",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "publishedBy"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": {
+      "id": "urn:uuid:f972437d-7c41-4e97-8e9f-dddd7b67f5ec",
+      "name": "DANDI publish",
+      "endDate": "2023-12-11T18:54:24.733697+00:00",
+      "schemaKey": "PublishActivity",
+      "startDate": "2023-12-11T18:54:24.733697+00:00",
+      "wasAssociatedWith": [
+        {
+          "id": "urn:uuid:e116fd2e-e669-4d24-b807-39a76709e924",
+          "name": "DANDI API",
+          "version": "0.1.0",
+          "schemaKey": "Software",
+          "identifier": "RRID:SCR_017571"
+        }
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "datePublished"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "2023-12-11T18:54:24.733697+00:00",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  }
+]

@@ -1,0 +1,112 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: Supported by Simons Collaboration on the Global Brain, Janelia
+      Visitor Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 18808209152
+      numberOfFiles: 174
+      numberOfSubjects: 28
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - ElectrodeGroup
+      - BehavioralEvents
+      - BehavioralTimeSeries
+    citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2022) Mesoscale
+      Activity Map Dataset (Version 0.221127.2345) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/0.221127.2345
+    contributor:
+    - affiliation: []
+      email: chens2@janelia.hhmi.org
+      includeInCitation: true
+      name: Chen, Susu
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Nguyen, Thinh
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      email: nuo.li@bcm.edu
+      includeInCitation: true
+      name: Li, Nuo
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: karel.svoboda@alleninstitute.org
+      includeInCitation: true
+      name: Svoboda, Karel
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2022-11-22T00:16:37.650241+00:00'
+    datePublished: '2022-11-27T23:45:06.227039+00:00'
+    description: 'Mesoscale Activity Map Project. Map behavior-related activity in
+      a multi-regional network supporting memory-guided movement in mice. Anatomy-guided
+      recordings from multiple connected brain regions, from anterior lateral motor
+      cortex to the medulla.
+
+
+      Supported by Simons Collaboration on the Global Brain, Janelia Visitor Project,
+      NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation'
+    ethicsApproval: []
+    id: DANDI:000363/0.221127.2345
+    identifier: DANDI:000363
+    keywords: []
+    license:
+    - spdx:CC0-1.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000363/0.221127.2345/assets.yaml
+    name: Mesoscale Activity Map Dataset
+    protocol: []
+    publishedBy:
+      endDate: '2022-11-27T23:45:06.227039+00:00'
+      id: urn:uuid:819aaa65-5240-474f-8c1d-1808c3acde82
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2022-11-27T23:45:06.227039+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:6cb37c96-1557-4a46-b414-d32413fbc851
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000363/0.221127.2345
+    version: 0.221127.2345
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

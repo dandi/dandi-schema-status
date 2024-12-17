@@ -1,0 +1,186 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000933/0.240315.1758",
+      "url": "https://dandiarchive.org/dandiset/000933/0.240315.1758",
+      "name": "20240331_AIBS_Patchseq_human",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240315.1758",
+      "citation": "Soliman, Sherif; Lee, Brian; Allen Institute for Brain Science; National Institute of Mental Health; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2024) 20240331_AIBS_Patchseq_human (Version 0.240315.1758) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000933/0.240315.1758",
+      "keywords": [
+        "Patch-seq",
+        "human",
+        "multimodal"
+      ],
+      "protocol": [
+        "https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3"
+      ],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000933",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Soliman, Sherif",
+          "email": "sherif.soliman@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0009-0008-7098-0717",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Lee, Brian",
+          "email": "brianle@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3210-5638",
+          "includeInCitation": true
+        },
+        {
+          "url": "https://alleninstitute.org/",
+          "name": "Allen Institute for Brain Science",
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/00dcv1019",
+          "awardNumber": "UM1MH130981",
+          "includeInCitation": true
+        },
+        {
+          "url": "https://www.nimh.nih.gov/",
+          "name": "National Institute of Mental Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/04xeg9z08",
+          "awardNumber": "UM1MH130981",
+          "includeInCitation": true
+        },
+        {
+          "name": "Kalmbach, Brian",
+          "email": "briank@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3136-8097",
+          "includeInCitation": true
+        },
+        {
+          "name": "Dalley, Rachel",
+          "email": "racheld@alleninstitute.org",
+          "roleName": [
+            "dcite:ProjectMember"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-7461-7845",
+          "includeInCitation": true
+        },
+        {
+          "name": "Lein, Ed",
+          "email": "edl@alleninstitute.org",
+          "roleName": [
+            "dcite:ProjectLeader"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9012-6552",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-03-06T00:30:41.849294+00:00",
+      "description": "HMBA Lein PatchSeq upload (human) (Q1 2024)",
+      "publishedBy": {
+        "id": "urn:uuid:cd77774e-dbc2-42cc-980e-ad640beb54c8",
+        "name": "DANDI publish",
+        "endDate": "2024-03-15T17:58:43.264140+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-03-15T17:58:43.264140+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:a0be2a94-a78a-4d98-bfd9-da28bdec0626",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Multimodal classifcation of cell types in humans."
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Homo sapiens - Human",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1715556217,
+        "numberOfFiles": 28,
+        "numberOfSubjects": 4,
+        "variableMeasured": [
+          "VoltageClampStimulusSeries",
+          "CurrentClampStimulusSeries",
+          "ProcessingModule",
+          "VoltageClampSeries",
+          "CurrentClampSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "voltage clamp technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "current clamp technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-03-15T17:58:43.264140+00:00",
+      "schemaVersion": "0.6.6",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000933/0.240315.1758/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

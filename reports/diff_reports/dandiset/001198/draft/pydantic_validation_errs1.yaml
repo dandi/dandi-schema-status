@@ -1,0 +1,64 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R21 EY 034283-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+      schemaKey: AssetsSummary
+    citation: 'Source data for main manuscript: Light-induced rolling of azobenzene
+      polymer thin films for wrapping subcellular neuronal structures (2024). (Version
+      draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001198/draft'
+    contributor:
+    - awardNumber: 1 R21 EY 034283-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-09-28T14:00:55.663811+00:00'
+    description: 'This archive contains the source images, videos, and graphs datapoints
+      included in the main article entitled "Light-induced rolling of azobenzene polymer
+      thin films for wrapping subcellular neuronal structures". '
+    id: DANDI:001198/draft
+    identifier: DANDI:001198
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/001198/versions/draft/assets/
+    name: 'Source data for main manuscript: Light-induced rolling of azobenzene polymer
+      thin films for wrapping subcellular neuronal structures'
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    url: https://dandiarchive.org/dandiset/001198/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

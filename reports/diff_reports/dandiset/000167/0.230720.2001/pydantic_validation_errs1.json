@@ -1,0 +1,142 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000167/0.230720.2001",
+      "url": "https://dandiarchive.org/dandiset/000167/0.230720.2001",
+      "name": "Two photon calcium imaging of mice piriform cortex under passive odor presentation",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230720.2001",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json",
+      "citation": "Daste, Simon; Pierr\u00e9, Andrea; Pham, Tuan (2023) Two photon calcium imaging of mice piriform cortex under passive odor presentation (Version 0.230720.2001) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000167/0.230720.2001",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000167",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Daste, Simon",
+          "email": "simon_daste@brown.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:Researcher",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5139-2743",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pierr\u00e9, Andrea",
+          "email": "andrea_pierre@brown.edu",
+          "roleName": [
+            "dcite:Software",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-4501-5428",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pham, Tuan",
+          "email": "tuanhpham@brown.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-6891-3760",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2021-11-10T22:38:18.542708+00:00",
+      "description": "Two-photon calcium imaging of mouse piriform cortex pyramidal population, under head-fixed condition and passive odor stimulus delivery. There were 10 different odors used (8 trials each), delivered at 10-second for each of the 30-second trial. Imaging was preprocessed with Suite2p. The data was collected by Simon Daste in the Fleischmann lab at Brown University. Showcase notebook available at: https://gitlab.com/fleischmann-lab/datasets/daste-odor-set-2021-11",
+      "publishedBy": {
+        "id": "urn:uuid:a5a6691c-2f79-4c19-9ee1-081f9e2fb29f",
+        "name": "DANDI publish",
+        "endDate": "2023-07-20T20:01:31.157812+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-07-20T20:01:31.157812+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:36ba342b-2860-4aed-80ee-1999d2f1e82b",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1218408045,
+        "numberOfFiles": 6,
+        "numberOfSubjects": 5,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule",
+          "ImagingPlane",
+          "OpticalChannel"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-07-20T20:01:31.157812+00:00",
+      "schemaVersion": "0.6.0",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000167/0.230720.2001/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

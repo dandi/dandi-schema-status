@@ -1,0 +1,40 @@
+- ctx:
+    pattern: ^([\w\s\-\.']+),\s+([\w\s\-\.']+)$
+  input: "Amalia Callado-P\xE9rez"
+  loc:
+  - contributor
+  - 1
+  - Person
+  - name
+  msg: String should match pattern '^([\w\s\-\.']+),\s+([\w\s\-\.']+)$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+- input: 10.80507/dandi.123456/0.123456.1234
+  loc:
+  - doi
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input:
+    endDate: '2023-10-13T20:49:55.743651+00:00'
+    id: urn:uuid:27be626c-0230-4aee-bc1a-84261f789249
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2023-10-13T20:49:55.743651+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:b8a27946-fd04-431b-9e9a-fe8f50fb4933
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input: '2023-10-13T20:49:55.743651+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden

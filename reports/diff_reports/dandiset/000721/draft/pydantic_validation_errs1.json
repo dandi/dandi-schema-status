@@ -1,0 +1,85 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "0 OO OO 000000-00A0"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000721/draft",
+      "url": "https://dandiarchive.org/dandiset/000721/draft",
+      "name": "Visual Encoding in Mouse V1 (Neuropixel 1.0)",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Visual Encoding in Mouse V1 (Neuropixel 1.0) (2023). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000721/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000721",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "0 OO OO 000000-00A0"
+        }
+      ],
+      "dateCreated": "2023-12-04T16:26:05.947035+00:00",
+      "description": "This is a recording from a head-fixed mouse in V1, using neuropixels 1.0. The mouse was presented a variety of visual stimuli during the course of the recording.",
+      "assetsSummary": {
+        "schemaKey": "AssetsSummary",
+        "numberOfBytes": 0,
+        "numberOfFiles": 0
+      },
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000721/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

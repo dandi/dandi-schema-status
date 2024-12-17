@@ -1,0 +1,264 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: signal filtering technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 138887036866
+      numberOfFiles: 45
+      numberOfSubjects: 9
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - LFP
+      - ElectrodeGroup
+      - ElectricalSeries
+      - ProcessingModule
+      - BehavioralEvents
+    citation: Boran, Ece; Fedele, Tommaso; Hilfiker, Peter; Stieglitz, Lennart; Grunwald,
+      Thomas; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of human medial temporal
+      lobe neurons, scalp and intracranial EEG during a verbal working memory task
+      (Version 0.231010.1809) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000574/0.231010.1809
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/01462r250
+        name: "Klinik f\xFCr Neurochirurgie, Universit\xE4tsSpital und Universit\xE4t
+          Z\xFCrich, 8091 Z\xFCrich, Switzerland"
+        schemaKey: Affiliation
+      identifier: 0000-0002-0395-7575
+      includeInCitation: true
+      name: Boran, Ece
+      roleName: []
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/01462r250
+        name: "Klinik f\xFCr Neurochirurgie, Universit\xE4tsSpital und Universit\xE4t
+          Z\xFCrich, 8091 Z\xFCrich, Switzerland."
+        schemaKey: Affiliation
+      - identifier: https://ror.org/05a28rw58
+        name: "Zentrum f\xFCr Neurowissenschaften Z\xFCrich, ETH Z\xFCrich, Z\xFCrich,
+          Switzerland."
+        schemaKey: Affiliation
+      - identifier: https://ror.org/055f7t516
+        name: Institute for Cognitive Neuroscience, National Research University Higher
+          School of Economics, Russian Federation.
+        schemaKey: Affiliation
+      email: fedele.tm@gmail.com
+      identifier: 0000-0001-7574-8062
+      includeInCitation: true
+      name: Fedele, Tommaso
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-7729-4754
+      includeInCitation: true
+      name: Hilfiker, Peter
+      roleName: []
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/01462r250
+        name: "Klinik f\xFCr Neurochirurgie, Universit\xE4tsSpital und Universit\xE4t
+          Z\xFCrich, 8091 Z\xFCrich, Switzerland."
+        schemaKey: Affiliation
+      identifier: 0000-0002-3744-5105
+      includeInCitation: true
+      name: Stieglitz, Lennart
+      roleName: []
+      schemaKey: Person
+    - affiliation:
+      - name: "Schweizerisches Epilepsie-Zentrum, 8008 Z\xFCrich, Switzerland."
+        schemaKey: Affiliation
+      - identifier: https://ror.org/01462r250
+        name: "Klinik f\xFCr Neurologie, Universit\xE4tsSpital Z\xFCrich, 8091 Z\xFCrich,
+          Switzerland."
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Grunwald, Thomas
+      roleName: []
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/02crff812
+        name: Institute of Neuroinformatics, University of Zurich
+        schemaKey: Affiliation
+      - identifier: https://ror.org/05a28rw58
+        name: Institute of Neuroinformatics, ETH Zurich
+        schemaKey: Affiliation
+      email: jan@hohenheim.ch
+      identifier: 0000-0001-9436-8348
+      includeInCitation: true
+      name: Hohenheim, Jan
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataCurator
+      schemaKey: Person
+      url: https://www.hohenheim.ch
+    - affiliation:
+      - identifier: https://ror.org/01462r250
+        name: "Klinik f\xFCr Neurochirurgie, Universit\xE4tsSpital und Universit\xE4t
+          Z\xFCrich, 8091 Z\xFCrich, Switzerland."
+        schemaKey: Affiliation
+      - identifier: https://ror.org/05a28rw58
+        name: "Zentrum f\xFCr Neurowissenschaften Z\xFCrich, ETH Z\xFCrich, Z\xFCrich,
+          Switzerland."
+        schemaKey: Affiliation
+      email: Johannes.Sarnthein@usz.ch
+      identifier: 0000-0001-9141-381X
+      includeInCitation: true
+      name: Sarnthein, Johannes
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      - dcite:Conceptualization
+      schemaKey: Person
+    - awardNumber: '204651'
+      contactPoint: []
+      email: projects.ls@snf.ch
+      identifier: https://ror.org/00yjd3n13
+      includeInCitation: false
+      name: ' Swiss National Science Foundation'
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.snf.ch/en
+    - awardNumber: '2586'
+      contactPoint: []
+      email: communications@kavlifoundation.org
+      identifier: https://ror.org/00kztt736
+      includeInCitation: false
+      name: ' The Kavli Foundation'
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+      url: https://www.kavlifoundation.org/
+    dateCreated: '2023-07-04T13:52:07.557094+00:00'
+    datePublished: '2023-10-10T18:09:24.752555+00:00'
+    description: We present an electrophysiological dataset recorded from nine subjects
+      during a verbal working memory task. Subjects were epilepsy patients undergoing
+      intracranial monitoring for localization of epileptic seizures. Subjects performed
+      a modified Sternberg task in which the encoding of memory items, maintenance,
+      and recall were temporally separated. The dataset includes simultaneously recorded
+      scalp EEG with the 10-20 system, intracranial EEG (iEEG) recorded with depth
+      electrodes, waveforms and spike times of 1526 units recorded in the medial temporal
+      lobe, and the MNI coordinates and anatomical labels of all intracranial electrodes.
+      Subject characteristics and information on sessions (set size, match/mismatch,
+      correct/incorrect, response, response time for each trial) are also provided.
+      This dataset enables the investigation of working memory by providing simultaneous
+      scalp EEG and iEEG recordings, which can be used for connectivity analysis,
+      alongside hard to obtain unit recordings from humans.
+    ethicsApproval: []
+    id: DANDI:000574/0.231010.1809
+    identifier: DANDI:000574
+    keywords:
+    - 'Electrophysiology '
+    - Human
+    - Awake
+    - Local field potential
+    - Neuronal action potential
+    - Spikes
+    - Medial temporal lobe
+    - Hippocampus
+    - Entorhinal cortex
+    - Amygdala
+    - Scalp EEG
+    - Intracranial EEG
+    - Cognitive task
+    - Verbal working memory
+    - Epilepsy
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000574/0.231010.1809/assets.yaml
+    name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG
+      during a verbal working memory task
+    protocol: []
+    publishedBy:
+      endDate: '2023-10-10T18:09:24.752555+00:00'
+      id: urn:uuid:f564caee-e350-452e-93db-cbbb4add141c
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-10-10T18:09:24.752555+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:0923f328-cb28-4605-94bf-6fd119ca6e37
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: usz-neuro-conversion
+      name: USZ Neuro Conversion
+      relation: dcite:IsCompiledBy
+      repository: GitHub
+      schemaKey: Resource
+      url: https://github.com/janhohenheim/usz-neuro-conversion
+    - identifier: 10.1126/sciadv.aav3687
+      name: Persistent hippocampal neural firing and hippocampal-cortical coupling
+        predict verbal working memory load
+      relation: dcite:IsSupplementTo
+      repository: Science Advances
+      schemaKey: Resource
+      url: http://doi.org/10.1126/sciadv.aav3687
+    - identifier: Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+      name: Dataset of human medial temporal lobe neurons, scalp and intracranial
+        EEG during a verbal working memory task
+      relation: dcite:IsVariantFormOf
+      repository: G-Node
+      schemaKey: Resource
+      url: https://gin.g-node.org/USZ_NCH/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+    - identifier: doi.org/10.1038/s41597-020-0364-3
+      name: Data descriptor
+      relation: dcite:IsDescribedBy
+      repository: scientific data
+      schemaKey: Resource
+      url: https://doi.org/10.1038/s41597-020-0364-3
+    - identifier: Verbal working memory Sternberg task with simultaneous presentation
+        of letters.
+      name: Presentation Files
+      relation: dcite:IsSupplementedBy
+      repository: Neurobehavioral Systems
+      schemaKey: Resource
+      url: http://www.neurobs.com/ex_files/expt_view?id=266
+    - identifier: nwb-example
+      name: Example Reading Code
+      relation: dcite:IsSupplementedBy
+      repository: GitHub
+      schemaKey: Resource
+      url: https://github.com/janhohenheim/nwb-example
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000574/0.231010.1809
+    version: 0.231010.1809
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

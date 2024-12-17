@@ -1,0 +1,266 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about:
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0001965
+      name: substantia nigra pars compacta
+      schemaKey: Anatomy
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0035999
+      name: dopaminergic cell groups
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 22753138491
+      numberOfFiles: 1238
+      numberOfSubjects: 105
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+    citation: Azcorra, Maite; Gaertner, Zachary; Davidson, Connor; He, Qianzi; Kim,
+      Hailey; Nagappan, Shivathmihai; Hayes, Cooper K.; Ramakrishnan, Charu; Fenno,
+      Lief; Kim, Yoon Seok; Deisseroth, Karl; Longnecker, Richard; Awatramani, Rajeshwar;
+      Dombeck, Daniel A. (2024) Unique functional responses differentially map onto
+      genetic subtypes of dopamine neurons (Version 0.241111.1719) [Data set]. DANDI
+      archive. https://dandiarchive.org/dandiset/001038/0.241111.1719
+    contributor:
+    - affiliation: []
+      identifier: 0000-0002-2919-3825
+      includeInCitation: true
+      name: Azcorra, Maite
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-1760-6549
+      includeInCitation: true
+      name: Gaertner, Zachary
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Davidson, Connor
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: He, Qianzi
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Kim, Hailey
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Nagappan, Shivathmihai
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-2419-0286
+      includeInCitation: true
+      name: Hayes, Cooper K.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-3474-6332
+      includeInCitation: true
+      name: Ramakrishnan, Charu
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-5237-6179
+      includeInCitation: true
+      name: Fenno, Lief
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Kim, Yoon Seok
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-9440-3967
+      includeInCitation: true
+      name: Deisseroth, Karl
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Longnecker, Richard
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0713-2140
+      includeInCitation: true
+      name: Awatramani, Rajeshwar
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: d-dombeck@northwestern.edu
+      identifier: 0000-0003-2576-5918
+      includeInCitation: true
+      name: Dombeck, Daniel A.
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: ASAP-020600
+      identifier: https://ror.org/03arq3225
+      includeInCitation: false
+      name: Michael J. Fox Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: R01MH110556
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: ' 1R01NS119690-01'
+      identifier: https://ror.org/01s5ya894
+      includeInCitation: false
+      name: National Institute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: P50 DA044121-01A1
+      includeInCitation: false
+      name: National Institute on Drug Abuse
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: 5T32GM008152-34
+      identifier: https://ror.org/04q48ey07
+      includeInCitation: false
+      name: National Institute of General Medical Sciences
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: CA060553
+      identifier: https://ror.org/040gcmg81
+      includeInCitation: false
+      name: National Cancer Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-24T13:54:10.941834+00:00'
+    datePublished: '2024-11-11T17:19:19.113592+00:00'
+    description: Dopamine neurons are characterized by their response to unexpected
+      rewards, but they also fire during movement and aversive stimuli. Dopamine neuron
+      diversity has been observed based on molecular expression profiles; however,
+      whether different functions map onto such genetic subtypes remains unclear.
+      In this study, we established that three genetic dopamine neuron subtypes within
+      the substantia nigra pars compacta, characterized by the expression of Slc17a6
+      (Vglut2), Calb1 and Anxa1, each have a unique set of responses to rewards, aversive
+      stimuli and accelerations and decelerations, and these signaling patterns are
+      highly correlated between somas and axons within subtypes. Remarkably, reward
+      responses were almost entirely absent in the Anxa1+ subtype, which instead displayed
+      acceleration-correlated signaling. Our findings establish a connection between
+      functional and genetic dopamine neuron subtypes and demonstrate that molecular
+      expression patterns can serve as a common framework to dissect dopaminergic
+      functions.
+    ethicsApproval: []
+    id: DANDI:001038/0.241111.1719
+    identifier: DANDI:001038
+    keywords:
+    - Fiber photometry
+    - GCaMP6f
+    - Dopamine
+    - 'substantia nigra pars compacta '
+    - striatum
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001038/0.241111.1719/assets.yaml
+    name: Unique functional responses differentially map onto genetic subtypes of
+      dopamine neurons
+    protocol:
+    - https://www.protocols.io/view/acute-striatal-or-midbrain-fiber-photometry-in-hea-4r3l27yj4g1y/v1
+    - https://www.protocols.io/view/midbrain-viral-injections-for-striatal-fiber-photo-5qpvor8zxv4o/v1
+    publishedBy:
+      endDate: '2024-11-11T17:19:19.113592+00:00'
+      id: urn:uuid:f8902eba-d36c-4590-89b7-5fb41b4b659e
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-11-11T17:19:19.113592+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:ce12d58c-e232-4568-82b9-c7db8b29a5af
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1038/s41593-023-01401-9
+      name: Unique functional responses differentially map onto genetic subtypes of
+        dopamine neurons
+      relation: dcite:IsDescribedBy
+      repository: Nature Neuroscience
+      resourceType: dcite:JournalArticle
+      schemaKey: Resource
+      url: https://doi.org/https://doi.org/10.1038/s41593-023-01401-9
+    - name: Azcorra2023
+      relation: dcite:IsSupplementedBy
+      repository: GitHub
+      resourceType: dcite:Software
+      schemaKey: Resource
+      url: https://github.com/DombeckLab/Azcorra2023/
+    - identifier: https://doi.org/10.5281/zenodo.7871634
+      name: Azcorra2023 - Raw fiber photometry recordings
+      relation: dcite:IsDerivedFrom
+      repository: Zenodo
+      resourceType: dcite:Dataset
+      schemaKey: Resource
+      url: https://zenodo.org/records/7871634
+    - identifier: https://doi.org/10.5281/zenodo.7871982
+      name: Azcorra2023 - Fiber photometry recordings (pre-processed to get DF/F)
+      relation: dcite:IsDerivedFrom
+      repository: Zenodo
+      resourceType: dcite:Dataset
+      schemaKey: Resource
+      url: https://zenodo.org/records/7871982
+    - name: dombeck-lab-to-nwb
+      relation: dcite:IsCompiledBy
+      repository: GitHub
+      resourceType: dcite:Software
+      schemaKey: Resource
+      url: https://github.com/catalystneuro/dombeck-lab-to-nwb
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001038/0.241111.1719
+    version: 0.241111.1719
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

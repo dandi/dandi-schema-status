@@ -1,0 +1,233 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about:
+    - name: Medial Temporal Lobe
+      schemaKey: GenericType
+    - name: Medial Frontal Cortex
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 9788560252
+      numberOfFiles: 41
+      numberOfSubjects: 21
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - ElectrodeGroup
+    citation: Kyzar, Michael; Kaminski, Jan; Brzezicka, Aneta; Reed, Chrystal M.;
+      Chung, Jeffrey M. ; Mamelak, Adam M.; Rutishauser, Ueli (2023) Dataset of human-single
+      neuron activity during a Sternberg working memory task (Version 0.231213.2047)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000469/0.231213.2047
+    contributor:
+    - affiliation:
+      - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles,
+          CA, USA
+        schemaKey: Affiliation
+      email: kyzarnexus@gmail.com
+      identifier: 0009-0004-4392-9933
+      includeInCitation: true
+      name: Kyzar, Michael
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      - dcite:Investigation
+      - dcite:Maintainer
+      - dcite:Methodology
+      - dcite:ProjectLeader
+      - dcite:ProjectManager
+      - dcite:ProjectMember
+      - dcite:Researcher
+      - dcite:Software
+      - dcite:Validation
+      - dcite:Visualization
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-8663-7314
+      includeInCitation: true
+      name: Kaminski, Jan
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-1950-4180
+      includeInCitation: true
+      name: Brzezicka, Aneta
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-7157-3645
+      includeInCitation: true
+      name: Reed, Chrystal M.
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: 'Chung, Jeffrey M. '
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-4245-6431
+      includeInCitation: true
+      name: Mamelak, Adam M.
+      roleName: []
+      schemaKey: Person
+    - affiliation:
+      - name: Department of Neurosurgery, Cedars-Sinai Medical Center, Los Angeles,
+          CA, USA
+        schemaKey: Affiliation
+      - name: Department of Neurology, Cedars-Sinai Medical Center, Los Angeles, CA,
+          USA
+        schemaKey: Affiliation
+      - name: Division of Biology and Biological Engineering, California Institute
+          of Technology, Pasadena, CA, USA
+        schemaKey: Affiliation
+      - name: Computational and Neural Systems Program, California Institute of Technology,
+          Pasadena, CA, USA
+        schemaKey: Affiliation
+      - name: Center for Neural Science and Medicine, Department of Biomedical Science,
+          Cedars-Sinai Medical Center, Los Angeles, CA, USA
+        schemaKey: Affiliation
+      awardNumber: ''
+      email: Ueli.Rutishauser@cshs.org
+      identifier: 0000-0002-9207-7069
+      includeInCitation: true
+      name: Rutishauser, Ueli
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:ProjectMember
+      - dcite:FundingAcquisition
+      - dcite:Resources
+      - dcite:Software
+      - dcite:Supervision
+      - dcite:Validation
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: R01MH110831
+      contactPoint: []
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - affiliation: []
+      identifier: 0000-0002-1137-8987
+      includeInCitation: false
+      name: Sullivan, Shannon
+      roleName:
+      - dcite:DataCollector
+      - dcite:Validation
+      schemaKey: Person
+    - awardNumber: U01NS117839, U01NS098961
+      contactPoint: []
+      includeInCitation: false
+      name: National Insitute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    dateCreated: '2023-03-30T17:37:36.429935+00:00'
+    datePublished: '2023-12-13T20:47:02.458075+00:00'
+    description: "We present a dataset of 1809 single neurons  recorded from the human
+      medial temporal lobe (amygdala and hippocampus) and medial frontal lobe (anterior
+      cingulate cortex, pre-supplementary motor area, ventral medial prefrontal cortex)
+      across 41 sessions from 21 patients that underwent intracranial monitoring for
+      epileptic activity. Subjects first performed a screening task (907 neurons),
+      based on which we identified images for which highly selective cells were present
+      in the medial temporal lobe. Subjects then performed a working memory task (902
+      neurons), in which they were sequentially presented with 1-3 images, and following
+      a maintenance period, were asked if a probe was identical to one of the currently
+      maintained images. This Neural data without borders (NWB) formatted dataset
+      includes spike times, extracellular spike waveforms, stimuli presented, behavior,
+      electrode locations, and subject demographics. As validation, we replicate previous
+      findings on the existence of concept cells and their persistent activity during
+      working memory maintenance.  This dataset provides a substantial amount of rare
+      human single neuron recordings together with behavior, thereby enabling investigation
+      of the neural mechanisms of working memory at the single-neuron level.\n\nSample
+      code to access and analyze this dataset has been provided: \nhttps://github.com/rutishauserlab/workingmem-release-NWB\n"
+    ethicsApproval: []
+    id: DANDI:000469/0.231213.2047
+    identifier: DANDI:000469
+    keywords:
+    - cognitive neuroscience
+    - data standardization
+    - working memory
+    - neurophysiology
+    - neurosurgery
+    - NWB
+    - open source
+    - single-neurons
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000469/0.231213.2047/assets.yaml
+    name: Dataset of human-single neuron activity during a Sternberg working memory
+      task.
+    protocol: []
+    publishedBy:
+      endDate: '2023-12-13T20:47:02.458075+00:00'
+      id: urn:uuid:46a1520a-307e-4989-bd9d-c9ae48e69700
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-12-13T20:47:02.458075+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:2242c4f0-1f83-45d3-8fc2-82561d9464c6
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.5281/zenodo.8161627
+      name: 'Source code for: Dataset of human-single neuron activity during a Sternberg
+        working memory task'
+      relation: dcite:IsSupplementedBy
+      repository: workingmem-release-NWB
+      schemaKey: Resource
+      url: https://github.com/rutishauserlab/workingmem-release-NWB
+    - identifier: 10.1038/nn.4509
+      name: Persistently active neurons in human medial frontal and medial temporal
+        lobe support working memory
+      relation: dcite:IsDerivedFrom
+      repository: Nature Neuroscience
+      schemaKey: Resource
+      url: https://www.nature.com/articles/nn.4509
+    - identifier: 10.1016/j.neuron.2020.01.032
+      name: Combined Phase-Rate Coding by Persistently Active Neurons as a Mechanism
+        for Maintaining Multiple Items in Working Memory in Humans
+      relation: dcite:IsDerivedFrom
+      repository: Neuron
+      schemaKey: Resource
+      url: https://www.sciencedirect.com/science/article/pii/S0896627320300581?via%3Dihub
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000469/0.231213.2047
+    version: 0.231213.2047
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

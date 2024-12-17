@@ -1,0 +1,99 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 14156734169
+      numberOfFiles: 54
+      numberOfSubjects: 12
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Use of
+      MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near Electrode
+      Ablation (Version 0.240610.2022) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001047/0.240610.2022
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - identifier: 0000-0002-4568-9265
+      includeInCitation: true
+      name: Silkunas, Mantas
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: 1R21EY034258
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-06-04T17:21:04.141576+00:00'
+    datePublished: '2024-06-10T20:22:04.641181+00:00'
+    description: This study enhanced the Next Generation (NG) CanCan protocols using
+      MHz compression for electric pulse packet delivery. The NG CanCan protocol's
+      packets were delivered at  0.2 MHz. Compared to the same protocol delivered
+      at a 1 Hz frequency, the MHz compression significantly reduced the cell ablation
+      area near the electrodes while maintaining the same level of effect at the center.
+      The experimental setup utilized a four-electrode array. For cell permeabilization
+      evaluation, YoPro-1 was used, and to assess cell death two hours post-protocol
+      delivery, Propidium Iodide was used. This study was supported by NIH grant 1R21EY034258.
+    ethicsApproval: []
+    id: DANDI:001047/0.240610.2022
+    identifier: DANDI:001047
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001047/0.240610.2022/assets.yaml
+    name: Use of MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize
+      Near Electrode Ablation
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-10T20:22:04.641181+00:00'
+      id: urn:uuid:e667b356-347f-4e23-9303-20f618dd5a00
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-10T20:22:04.641181+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:1aa1f797-f801-4241-8e59-cfa6ffddf533
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001047/0.240610.2022
+    version: 0.240610.2022
+    wasGeneratedBy:
+    - identifier: NIH 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

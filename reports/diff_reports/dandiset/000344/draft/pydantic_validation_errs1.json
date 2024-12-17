@@ -1,0 +1,33 @@
+[
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "contributor",
+      1,
+      "Person",
+      "name"
+    ],
+    "msg": "String should match pattern '^([\\w\\s\\-\\.']+),\\s+([\\w\\s\\-\\.']+)$'",
+    "input": "Mary Salvi",
+    "ctx": {
+      "pattern": "^([\\w\\s\\-\\.']+),\\s+([\\w\\s\\-\\.']+)$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

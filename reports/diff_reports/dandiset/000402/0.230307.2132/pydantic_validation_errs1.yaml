@@ -1,0 +1,811 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation:
+    - name: Department of Neuroscience, Baylor College of Medicine
+      schemaKey: Affiliation
+    - name: Center for Neuroscience and Artificial Intelligence, Baylor College of
+        Medicine
+      schemaKey: Affiliation
+    identifier: 0000-0001-6844-3551
+    includeInCitation: true
+    name: Fahey, Paul G.
+    roleName:
+    - dcite:Author
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 13
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+    about:
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0035912
+      name: rostrolateral visual area
+      schemaKey: Anatomy
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0035894
+      name: anterolateral visual area
+      schemaKey: Anatomy
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0002436
+      name: primary visual cortex
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: Supported by Intelligence Advanced Research Projects Activity
+      (IARPA) via Department of Interior/ Interior Business Center (DoI/IBC) contract
+      numbers D16PC00003, D16PC00004, and D16PC0005. NIH/NINDS U19 NS104648, NIH/NEI
+      R01 EY027036, NIH/NIMH U01 MH114824, NIH/NIMH U01 MH117072 NIH/NINDS R01 NS104926,
+      NIH/NIMH RF1 MH117815, NIH/NIMH RF1 MH123400, Mathers Foundation, NSF CAREER
+      grant IOS-1552868, NSF NeuroNex grant 1707400, National Institute of Mental
+      Health and National Institute of Neurological Disorders And Stroke under Award
+      Number U19MH114830.
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1347665448061
+      numberOfFiles: 19
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - SpatialSeries
+      - ImagingPlane
+      - OpticalChannel
+      - EyeTracking
+      - PupilTracking
+      - PlaneSegmentation
+      - ProcessingModule
+      - TwoPhotonSeries
+    citation: "Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
+      Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
+      Erick ; Collman, Forrest; Ma\xE7arico da Costa, Nuno; Dorkenwald, Sven; Elabbady,
+      Leila; Fahey, Paul G.; Fliss, Tim; Gager, Jay; Gamlin, Clare; Halageri, Akhilesh;
+      Hebditch, James; Jia, Zhen; Jordan, Chris; Kapner, Daniel; Kemnitz, Nico; Kinn,
+      Sam; Koolman, Selden; Kuehner, Kai; Lee, Kisuk; Li, Kai; Lu, Ran; Macrina, Thomas;
+      Mahalingam, Gayathri; McReynolds, Sarah; Miranda, Elanine; Mitchell, Eric; Mondal,
+      Shanka Subhra; Moore, Merlin; Mu, Shang; Muhammad, Taliah; Nehoran, Barak; Ogedengbe,
+      Oluwaseun; Papadopoulos, Christos; Papadopoulos, Stelios; Patel, Saumil; Pitkow,
+      Xaq; Popovych, Sergiy; Ramos, Anthony; Reid, R. Clay; Reimer, Jacob; Schneider-Mizell,
+      Casey M.; Seung, H. Sebastian; Silverman, Ben; Silversmith, William; Sterling,
+      Amy; Sinz, Fabian H.; Smith, Cameron L.; Suckow, Shelby; Takeno, Marc; Tan,
+      Zheng H.; Tolias, Andreas S.; Torres, Russel; Turner, Nicholas L.; Walker, Edgar
+      Y.; Wang, Tianyu; Williams, Grace; Williams, Sarah; Willie, Kyle; Willie, Ryan;
+      Wong, William; Wu, Jingpeng; Xu, Chris; Yang, Runzhe; Yatsenko, Dimitri; Ye,
+      Fei; Yin, Wenjing; Yu, Szi-chieh (2023) MICrONS Two Photon Functional Imaging
+      (Version 0.230307.2132) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000402/0.230307.2132"
+    contributor:
+    - affiliation: []
+      identifier: 0000-0002-4681-6342
+      includeInCitation: true
+      name: Bae, J. Alexander
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Department of Neuroscience, Baylor College of Medicine
+        schemaKey: Affiliation
+      - name: Center for Neuroscience and Artificial Intelligence, Baylor College
+          of Medicine
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Baptiste, Mahaly
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Bodor, Agnes L.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Brittain, Derrick
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      identifier: 0000-0002-4212-5560
+      includeInCitation: true
+      name: Buchanan, JoAnn
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Bumbarger, Daniel J.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Princeton Neuroscience Institute, Princeton University
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Castro, Manuel A.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Department of Neuroscience, Baylor College of Medicine
+        schemaKey: Affiliation
+      - name: Center for Neuroscience and Artificial Intelligence, Baylor College
+          of Medicine
+        schemaKey: Affiliation
+      - name: Department of Electrical and Computer Engineering, Rice University
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Celii, Brendan
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Department of Neuroscience, Baylor College of Medicine
+        schemaKey: Affiliation
+      - name: Center for Neuroscience and Artificial Intelligence, Baylor College
+          of Medicine
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: 'Cobos, Erick '
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      email: nunod@alleninstitute.org
+      includeInCitation: true
+      name: Collman, Forrest
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      email: nunod@alleninstitute.org
+      identifier: 0000-0003-2001-4568
+      includeInCitation: true
+      name: "Ma\xE7arico da Costa, Nuno"
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Princeton Neuroscience Institute, Princeton University
+        schemaKey: Affiliation
+      - name: Computer Science Department, Princeton University
+        schemaKey: Affiliation
+      identifier: 0000-0003-2352-319X
+      includeInCitation: true
+      name: Dorkenwald, Sven
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Elabbady, Leila
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: Department of Neuroscience, Baylor College of Medicine
+        schemaKey: Affiliation
+      - name: Center for Neuroscience and Artificial Intelligence, Baylor College
+          of Medicine
+        schemaKey: Affiliation
+      identifier: 0000-0001-6844-3551
+      includeInCitation: true
+      name: Fahey, Paul G.
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation:
+      - name: Allen Institute for Brain Science
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Fliss, Tim
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: false
+      name: Froudarakis, Emmanouil
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Gager, Jay
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Gamlin, Clare
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Halageri, Akhilesh
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Hebditch, James
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Jia, Zhen
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Jordan, Chris
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Kapner, Daniel
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0260-4532
+      includeInCitation: true
+      name: Kemnitz, Nico
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Kinn, Sam
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Koolman, Selden
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Kuehner, Kai
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Lee, Kisuk
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Li, Kai
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Lu, Ran
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0622-9338
+      includeInCitation: true
+      name: Macrina, Thomas
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Mahalingam, Gayathri
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: McReynolds, Sarah
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Miranda, Elanine
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Mitchell, Eric
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Mondal, Shanka Subhra
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Moore, Merlin
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Mu, Shang
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Muhammad, Taliah
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Nehoran, Barak
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Ogedengbe, Oluwaseun
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Papadopoulos, Christos
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-7991-6377
+      includeInCitation: true
+      name: Papadopoulos, Stelios
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Patel, Saumil
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-6376-329X
+      includeInCitation: true
+      name: Pitkow, Xaq
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Popovych, Sergiy
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Ramos, Anthony
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Reid, R. Clay
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Reimer, Jacob
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-9477-3853
+      includeInCitation: true
+      name: Schneider-Mizell, Casey M.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-8591-6733
+      includeInCitation: true
+      name: Seung, H. Sebastian
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Silverman, Ben
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-5485-5341
+      includeInCitation: true
+      name: Silversmith, William
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Sterling, Amy
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Sinz, Fabian H.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-2079-4667
+      includeInCitation: true
+      name: Smith, Cameron L.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Suckow, Shelby
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-8384-7500
+      includeInCitation: true
+      name: Takeno, Marc
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Tan, Zheng H.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Tolias, Andreas S.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Torres, Russel
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-5382-3420
+      includeInCitation: true
+      name: Turner, Nicholas L.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-0057-957X
+      includeInCitation: true
+      name: Walker, Edgar Y.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-6087-6376
+      includeInCitation: true
+      name: Wang, Tianyu
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-8463-2886
+      includeInCitation: true
+      name: Williams, Grace
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Williams, Sarah
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Willie, Kyle
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Willie, Ryan
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Wong, William
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-1604-8802
+      includeInCitation: true
+      name: Wu, Jingpeng
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Xu, Chris
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-8891-5149
+      includeInCitation: true
+      name: Yang, Runzhe
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Yatsenko, Dimitri
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Ye, Fei
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Yin, Wenjing
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Yu, Szi-chieh
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - awardNumber: D16PC00003
+      contactPoint: []
+      includeInCitation: false
+      name: Intelligence Advanced Research Projects Activity (IARPA)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.iarpa.gov
+    - awardNumber: D16PC0005
+      contactPoint: []
+      includeInCitation: false
+      name: Intelligence Advanced Research Projects Activity (IARPA)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: ' D16PC00004'
+      contactPoint: []
+      includeInCitation: false
+      name: Intelligence Advanced Research Projects Activity (IARPA)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: U01 MH114824
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nimh.nih.gov
+    - awardNumber: U01 MH117072
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nimh.nih.gov
+    - awardNumber: RF1 MH117815
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nimh.nih.gov
+    - awardNumber: U19 NS104648
+      contactPoint: []
+      identifier: https://ror.org/01s5ya894
+      includeInCitation: false
+      name: National Institute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.ninds.nih.gov/
+    - awardNumber: R01 EY027036
+      contactPoint: []
+      identifier: https://ror.org/03wkg3b53
+      includeInCitation: false
+      name: National Eye Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://nei.nih.gov/
+    - awardNumber: U19MH114830
+      contactPoint: []
+      identifier: https://ror.org/01s5ya894
+      includeInCitation: false
+      name: National Institute of Mental Health and National Institute of Neurological
+        Disorders And Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: R01 NS104926
+      contactPoint: []
+      identifier: https://ror.org/01s5ya894
+      includeInCitation: false
+      name: National Institute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.ninds.nih.gov/
+    - awardNumber: IOS-1552868
+      contactPoint: []
+      includeInCitation: false
+      name: National Science Foundation - Faculty Early Career Development Program
+        (CAREER)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nsf.gov/
+    - awardNumber: RF1 MH123400
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nimh.nih.gov
+    - awardNumber: '1707400'
+      contactPoint: []
+      identifier: https://ror.org/021nxhr62
+      includeInCitation: false
+      name: National Science Foundation - Next Generation Networks for Neuroscience
+        (NeuroNex)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-01-04T10:47:01.770484+00:00'
+    datePublished: '2023-03-07T21:32:06.168531+00:00'
+    description: "The light microscopic images were acquired from a cubic millimeter
+      volume that spanned portions of primary visual cortex and three higher visual
+      cortical areas. The volume was imaged in vivo by two-photon random access mesoscope
+      (2P-RAM) from postnatal days P75 to P81 in a male mouse expressing a genetically
+      encoded calcium indicator in excitatory cells, while the mouse viewed natural
+      movies and parametric stimuli. The calcium imaging data includes the single-cell
+      responses of an estimated 75,000 pyramidal cells imaged over a volume of approximately
+      1200 x 1100 x 500 \u03BCm3 (anteroposterior x mediolateral x radial depth).
+      The center of the volume was placed at the junction of primary visual cortex
+      (VISp) and three higher visual areas, lateromedial area (VISlm), rostrolateral
+      area (VISrl) and anterolateral area (VISal). During imaging, the animal was
+      head-restrained, and the stimulus was presented to the left visual field. Treadmill
+      rotation (single axis) and video of the animal's left eye were captured throughout
+      the scan, yielding the locomotion velocity, eye movements, and pupil diameter
+      data included here.\n\nThe functional data were co-registered with electron
+      microscopy (EM) data. The structural identifiers of the matched cells are added
+      as plane segmentation columns extracted from the CAVE database. To access the
+      latest revision see the notebook that is linked to this dandiset. The structural
+      ids might not be present for all plane segmentations."
+    ethicsApproval: []
+    id: DANDI:000402/0.230307.2132
+    identifier: DANDI:000402
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000402/0.230307.2132/assets.yaml
+    name: MICrONS Two Photon Functional Imaging
+    protocol: []
+    publishedBy:
+      endDate: '2023-03-07T21:32:06.168531+00:00'
+      id: urn:uuid:8134248d-1421-44c4-ab43-bac2305e1dec
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-03-07T21:32:06.168531+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:fab3617c-0f5b-4be6-8a6c-00e75eef5720
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: MICrONS Explorer
+      relation: dcite:IsSupplementTo
+      repository: ''
+      schemaKey: Resource
+      url: https://www.microns-explorer.org/cortical-mm3
+    - name: Access to functional data mapping to electron microscopy (EM) data
+      relation: dcite:IsSupplementTo
+      repository: microns_phase3_nda
+      schemaKey: Resource
+      url: https://github.com/cajal/microns_phase3_nda/blob/master/notebooks/Overview_Matched_Cell_Functional_Data.ipynb
+    - name: Access to functional data
+      relation: dcite:IsSupplementTo
+      schemaKey: Resource
+      url: https://www.microns-explorer.org/cortical-mm3#f-data
+    - identifier: https://doi.org/10.1101/2021.07.28.454025
+      name: Functional connectomics spanning multiple areas of mouse visual cortex
+      relation: dcite:IsDescribedBy
+      repository: bioRxiv
+      schemaKey: Resource
+      url: https://www.biorxiv.org/content/10.1101/2021.07.28.454025v2
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000402/0.230307.2132
+    version: 0.230307.2132
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

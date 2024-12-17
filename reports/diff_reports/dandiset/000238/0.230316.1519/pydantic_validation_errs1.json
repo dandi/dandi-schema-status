@@ -1,0 +1,145 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000238/0.230316.1519",
+      "url": "https://dandiarchive.org/dandiset/000238/0.230316.1519",
+      "name": "Thermoregulatory Responses Reticulospinal system",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230316.1519",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json",
+      "citation": "Haesemeyer, Martin; Schwinn, Sina (2023) Thermoregulatory Responses Reticulospinal system (Version 0.230316.1519) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000238/0.230316.1519",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000238",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R01 NS 123887-01"
+        },
+        {
+          "name": "Haesemeyer, Martin",
+          "email": "haesemeyer.1@osu.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Schwinn, Sina",
+          "roleName": [
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2022-04-16T22:46:04.756411+00:00",
+      "description": "Imaging in the hindbrain and midbrain of nac -/-; Elavl3-H2B:GCaMP6s +/- larval zebrafish after reticulospinal backfills with Texas-Red Dextran during random wave temperature stimulus presentation",
+      "publishedBy": {
+        "id": "urn:uuid:09227549-a257-4b02-b8b5-22e7ea917ed3",
+        "name": "DANDI publish",
+        "endDate": "2023-03-16T15:19:35.598196+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-03-16T15:19:35.598196+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:0a5005a4-d8e5-40cb-a506-f4e94a5c30bb",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Danio rerio - Zebra fish",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 25911936112,
+        "numberOfFiles": 6,
+        "numberOfSubjects": 6,
+        "variableMeasured": [
+          "OpticalChannel",
+          "BehavioralTimeSeries",
+          "TwoPhotonSeries",
+          "PlaneSegmentation",
+          "ImagingPlane",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-03-16T15:19:35.598196+00:00",
+      "schemaVersion": "0.6.2",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000238/0.230316.1519/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

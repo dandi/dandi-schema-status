@@ -1,0 +1,144 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000049/0.230223.1424",
+      "url": "https://dandiarchive.org/dandiset/000049/0.230223.1424",
+      "name": "Allen Institute \u2013 TF x SF tuning in mouse visual cortex with calcium imaging",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230223.1424",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json",
+      "citation": "Millman, Daniel; de Vries, Saskia (2023) Allen Institute \u2013 TF x SF tuning in mouse visual cortex with calcium imaging (Version 0.230223.1424) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000049/0.230223.1424",
+      "keywords": [
+        "Mouse",
+        "2-photon calcium imaging",
+        "visual cortex"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000049",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Millman, Daniel",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-6255-6085",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "de Vries, Saskia",
+          "email": "saskiad@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:ProjectLeader"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3704-3499",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2020-12-10T16:33:45.474000+00:00",
+      "description": "A two photon calcium imaging dataset from Allen Institute measuring responses to full-field drifting gratings (approx. 120x90 degrees of visual space) moving in 4 different directions, at 5 spatial frequencies (0.02, 0.04, 0.08, 0.16, 0.32 cpd), and 5 temporal frequencies (0.5, 1, 2, 4, 8 Hz). The ratio of TF/SF is speed (deg/sec) and the extent to which visual neurons exhibit speed tuning has been shown to vary across some cortical areas (Andermann et al. 2011).\nMouse Cre lines expressing GCaMPf were imaged to record responses of pyramidal neurons across cortical layers (Cux2: layer 2/3; Rorb: layer 4; Rbp4: layer 5; Ntsr1: layer 6) as well as somatostatin inhibitory interneurons (Sst). All Cre lines were imaged in VISp, and some (Cux2 and Sst) were also imaged in VISl, VISal, VISpm, VISam, and VISrl. All experimental sessions took place on the same data collection pipeline as the Allen Brain Observatory (see de Vries, Lecoq, Buice et al. 2020) and have the same visual stimulus monitor calibration and positioning, two photon imaging systems and image processing pipeline, and running wheel to track locomotion. Data are subject to Allen Institute Terms of Use policy, available at: http://www.alleninstitute.org/legal/terms-use/",
+      "publishedBy": {
+        "id": "urn:uuid:65f04e11-e791-4792-b099-2c8804eadbb6",
+        "name": "DANDI publish",
+        "endDate": "2023-02-23T14:24:50.744585+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-02-23T14:24:50.744585+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:05dfafef-29bb-4931-82d2-d74b7b4a9ea2",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "To characterize the the speed tuning of different cell types in the mouse visual cortex"
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 22211886496,
+        "numberOfFiles": 78,
+        "numberOfSubjects": 27,
+        "variableMeasured": [
+          "TwoPhotonSeries",
+          "Units",
+          "PlaneSegmentation",
+          "BehavioralTimeSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-02-23T14:24:50.744585+00:00",
+      "schemaVersion": "0.6.0",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000049/0.230223.1424/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,184 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation: []
+    includeInCitation: true
+    name: Senzai, Yuta
+    roleName:
+    - dcite:Author
+    - dcite:ContactPerson
+    - dcite:DataCollector
+    - dcite:FormalAnalysis
+    schemaKey: Person
+  loc:
+  - contributor
+  - 0
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    about:
+    - identifier: UBERON:0002421
+      name: hippocampus
+      schemaKey: Anatomy
+    access:
+    - contactPoint:
+        email: petersen.peter@gmail.com
+        schemaKey: ContactPoint
+      schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: signal filtering technique
+        schemaKey: MeasurementTechniqueType
+      - name: fourier analysis technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 2559248010229
+      numberOfFiles: 101
+      numberOfSubjects: 16
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - DecompositionSeries
+      - LFP
+      - Units
+      - Position
+      - ElectricalSeries
+    citation: "Senzai, Yuta; Fernandez-Ruiz, Antonio; Buzs\xE1ki, Gy\xF6rgy (2023)
+      Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells
+      and Mossy Cells (Version 0.230629.1955) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000003/0.230629.1955"
+    contributor:
+    - affiliation: []
+      includeInCitation: true
+      name: Senzai, Yuta
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-8481-0796
+      includeInCitation: true
+      name: Fernandez-Ruiz, Antonio
+      roleName:
+      - dcite:Author
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/005dvqh91
+        name: New York University Langone Medical Center
+        schemaKey: Affiliation
+      identifier: 0000-0002-3100-4800
+      includeInCitation: true
+      name: "Buzs\xE1ki, Gy\xF6rgy"
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - awardNumber: NIHMH54671, MH107396, NS090583
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nih.gov/
+    - contactPoint: []
+      identifier: https://ror.org/000k40t10
+      includeInCitation: false
+      name: Nakajima Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://hnf.jp/
+    - awardNumber: PIRE
+      contactPoint: []
+      identifier: https://ror.org/021nxhr62
+      includeInCitation: false
+      name: National Science Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nsf.gov/
+    - contactPoint: []
+      identifier: https://ror.org/01cmst727
+      includeInCitation: false
+      name: Simons Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.simonsfoundation.org
+    dateCreated: '2020-03-15T22:56:55.655000+00:00'
+    datePublished: '2023-06-29T19:55:30.807473+00:00'
+    description: Data from "Physiological Properties and Behavioral Correlates of
+      Hippocampal Granule Cells and Mossy Cells" Senzai, Buzsaki, Neuron 2017. Electrophysiology
+      recordings of hippocampus during theta maze exploration.
+    ethicsApproval: []
+    id: DANDI:000003/0.230629.1955
+    identifier: DANDI:000003
+    keywords:
+    - cell types
+    - current source density
+    - laminar recordings
+    - oscillations
+    - mossy cells
+    - granule cells
+    - optogenetics
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000003/0.230629.1955/assets.yaml
+    name: Physiological Properties and Behavioral Correlates of Hippocampal Granule
+      Cells and Mossy Cells
+    protocol: []
+    publishedBy:
+      endDate: '2023-06-29T19:55:30.807473+00:00'
+      id: urn:uuid:1d146605-5d67-4517-91b4-51cd3b9a5cf3
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-06-29T19:55:30.807473+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:0fca6ff4-84ca-42fe-bbed-85d3fb4291f0
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: doi:10.1016/j.neuron.2016.12.011
+      name: Physiological Properties and Behavioral Correlates of Hippocampal Granule
+        Cells and Mossy Cells
+      relation: dcite:IsDescribedBy
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.neuron.2016.12.011
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000003/0.230629.1955
+    version: 0.230629.1955
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

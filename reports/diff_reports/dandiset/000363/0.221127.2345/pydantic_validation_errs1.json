@@ -1,0 +1,150 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000363/0.221127.2345",
+      "url": "https://dandiarchive.org/dandiset/000363/0.221127.2345",
+      "name": "Mesoscale Activity Map Dataset",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.221127.2345",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json",
+      "citation": "Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2022) Mesoscale Activity Map Dataset (Version 0.221127.2345) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/0.221127.2345",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000363",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Chen, Susu",
+          "email": "chens2@janelia.hhmi.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Nguyen, Thinh",
+          "roleName": [],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Li, Nuo",
+          "email": "nuo.li@bcm.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Svoboda, Karel",
+          "email": "karel.svoboda@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2022-11-22T00:16:37.650241+00:00",
+      "description": "Mesoscale Activity Map Project. Map behavior-related activity in a multi-regional network supporting memory-guided movement in mice. Anatomy-guided recordings from multiple connected brain regions, from anterior lateral motor cortex to the medulla.\n\nSupported by Simons Collaboration on the Global Brain, Janelia Visitor Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation",
+      "publishedBy": {
+        "id": "urn:uuid:819aaa65-5240-474f-8c1d-1808c3acde82",
+        "name": "DANDI publish",
+        "endDate": "2022-11-27T23:45:06.227039+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2022-11-27T23:45:06.227039+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:6cb37c96-1557-4a46-b414-d32413fbc851",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 18808209152,
+        "numberOfFiles": 174,
+        "numberOfSubjects": 28,
+        "variableMeasured": [
+          "Units",
+          "ElectrodeGroup",
+          "BehavioralEvents",
+          "BehavioralTimeSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2022-11-27T23:45:06.227039+00:00",
+      "schemaVersion": "0.6.3",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "Supported by Simons Collaboration on the Global Brain, Janelia Visitor Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation",
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000363/0.221127.2345/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

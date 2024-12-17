@@ -1,0 +1,172 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001037/0.240816.1841",
+      "url": "https://dandiarchive.org/dandiset/001037/0.240816.1841",
+      "name": "Causal evidence of a line attractor encoding an affective state",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240816.1841",
+      "citation": "Nair, Aditya (2024) Causal evidence of a line attractor encoding an affective state (Version 0.240816.1841) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001037/0.240816.1841",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001037",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "url": "https://adinair.people.caltech.edu/",
+          "name": "Nair, Aditya",
+          "email": "adi.nair@caltech.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5242-5527",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "HHMI",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/006w34k90",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "RO1MH112593",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "RO1MH123612",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "RO1NS123916",
+          "includeInCitation": false
+        },
+        {
+          "name": "Agency of Science, Technology and Research, Singapore",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/059yjzn93",
+          "awardNumber": "National Science Scholarship",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-05-22T21:39:13.894493+00:00",
+      "description": "This dataset provides neural and behavioural annotation data from the paper: \"Causal evidence of a line attractor encoding an affective state\". Data is stored in the NWB format and contains GCaMP traces, behavioural annotation (timing of behaviour), low-dimensional latent factors from dynamical models and other metadata.",
+      "publishedBy": {
+        "id": "urn:uuid:209e6df7-f6d0-4252-964d-a11b1b435550",
+        "name": "DANDI publish",
+        "endDate": "2024-08-16T18:41:00.562934+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-08-16T18:41:00.562934+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:66d71d7a-8e3b-4f45-b638-230f6c284ce6",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 4589844,
+        "numberOfFiles": 2,
+        "numberOfSubjects": 2,
+        "variableMeasured": [
+          "BehavioralEpochs",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-08-16T18:41:00.562934+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://www.nature.com/articles/s41586-024-07915-x",
+          "name": " Causal evidence of a line attractor encoding an affective state.",
+          "relation": "dcite:IsPartOf",
+          "schemaKey": "Resource",
+          "identifier": "10.1038/s41586-024-07915-x",
+          "repository": "Nature",
+          "resourceType": "dcite:JournalArticle"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001037/0.240816.1841/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

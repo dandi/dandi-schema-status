@@ -1,0 +1,78 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 911493615448
+      numberOfFiles: 63
+      numberOfSubjects: 62
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+    citation: 'Lakhani, Alishah (2024) Data for: Whisker deprivation triggers a distinct
+      form of cortical homeostatic plasticity that is impaired in the Fmr1 KO (Version
+      0.240917.1434) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001171/0.240917.1434'
+    contributor:
+    - affiliation: []
+      email: lakhanialishah@gmail.com
+      includeInCitation: true
+      name: Lakhani, Alishah
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-08-12T12:23:20.214623+00:00'
+    datePublished: '2024-09-17T14:34:54.972159+00:00'
+    description: 'This dataset contains all the raw data files for the paper: Whisker
+      deprivation triggers a distinct form of cortical homeostatic plasticity that
+      is impaired in the Fmr1 KO'
+    ethicsApproval: []
+    id: DANDI:001171/0.240917.1434
+    identifier: DANDI:001171
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001171/0.240917.1434/assets.yaml
+    name: 'Data for: Whisker deprivation triggers a distinct form of cortical homeostatic
+      plasticity that is impaired in the Fmr1 KO'
+    protocol: []
+    publishedBy:
+      endDate: '2024-09-17T14:34:54.972159+00:00'
+      id: urn:uuid:4252a90b-d678-4a2d-9436-53293fb89386
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-09-17T14:34:54.972159+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:2a82b792-4a8c-4e90-83a4-5a1b8c5158f5
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001171/0.240917.1434
+    version: 0.240917.1434
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

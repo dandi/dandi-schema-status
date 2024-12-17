@@ -1,0 +1,205 @@
+- input:
+    about:
+    - name: Sprague-Dawley
+      schemaKey: GenericType
+    - name: dentate gyrus (DG)
+      schemaKey: Anatomy
+    - name: CA1 subfield of the hippocampus (CA1)
+      schemaKey: Anatomy
+    - name: CA3 subfield of the hippocampus (CA3)
+      schemaKey: Anatomy
+    - name: anterior nucleus of the thalamus (ANT)
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 3611530887
+      numberOfFiles: 56
+      numberOfSubjects: 7
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ElectrodeGroup
+    citation: Yufang, Yang; Yuting, Sun; Yanjie, Xing; Haoqi, Ni; Chang, Wang; Jianmin,
+      Zhang; Junming, Zhu; Kedi, Xu (2024) Individualized Target Selection of Closed-loop
+      Electrical Stimulation for the Treatment of Spontaneous Temporal Lobe Epilepsy
+      (Version 0.241023.0931) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001212/0.241023.0931
+    contributor:
+    - email: yufang_yangy@163.com
+      includeInCitation: true
+      name: Yufang, Yang
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Yuting, Sun
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Yanjie, Xing
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - identifier: 0000-0002-9059-3860
+      includeInCitation: true
+      name: Haoqi, Ni
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Chang, Wang
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Jianmin, Zhang
+      roleName:
+      - dcite:Supervision
+      - dcite:Validation
+      schemaKey: Person
+    - includeInCitation: true
+      name: Junming, Zhu
+      roleName:
+      - dcite:Supervision
+      - dcite:Validation
+      schemaKey: Person
+    - email: xukd@zju.edu.cn
+      identifier: 0000-0002-9059-3860
+      includeInCitation: true
+      name: Kedi, Xu
+      roleName:
+      - dcite:ContactPerson
+      - dcite:ProjectAdministration
+      - dcite:Supervision
+      schemaKey: Person
+    - awardNumber: 2021ZD0200405
+      includeInCitation: false
+      name: "STI 2030\u2014Major Projects"
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: '82272112'
+      includeInCitation: false
+      name: 'National Natural Science Foundation of China '
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: LR23H180002
+      includeInCitation: false
+      name: 'Outstanding Youth Program of Zhejiang Natural Science Foundation '
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: 2023C03078
+      includeInCitation: false
+      name: Key R&D Program of Zhejiang
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: '551001852022'
+      includeInCitation: false
+      name: 5510 Project of the second affliated hospital of Zhejiang Univeristy
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: SN-ZJU-SIAS-002
+      includeInCitation: false
+      name: 'the Starry Night Science Fund of Zhejiang University Shanghai Institute
+        for Advanced Study '
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-10-23T03:16:24.283681+00:00'
+    datePublished: '2024-10-23T09:31:35.456661+00:00'
+    description: We provided a comprehensive dataset from a study involving 4-channel
+      long-term brain electrophysiological recordings from 7 pilocarpine-treated rats,
+      each subjected to 4 baseline and 4 stimulation groups. Each group was monitored
+      over a period of 5 to 10 days, with a minimum of 6 spontaneous seizures recorded.
+      The baseline groups captured spontaneous seizures without therapeutic stimulation,
+      while the stimulation groups included spontaneous seizures with therapeutic
+      intervention. Stimulation targets were randomly assigned and not repeated across
+      groups, ensuring independent assessments of treatment effects. The LFP data
+      were saved in MATLAB, adhering to the Neurodata Without Borders (NWB) standard,
+      and are available on the DANDI Archive. This dataset facilitates the evaluation
+      of brain network dynamics and the effects of different stimulation targets on
+      individual responses throughout the study, highlighting the varying effects
+      of stimulation across different individuals.
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: Zhejiang University 15896
+      schemaKey: EthicsApproval
+    id: DANDI:001212/0.241023.0931
+    identifier: DANDI:001212
+    keywords:
+    - neurophysiology
+    - neurosurgery
+    - local field potential
+    - spontaneous seizures
+    - multi-site
+    - NWB
+    - temporal lobe epilepsy
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001212/0.241023.0931/assets.yaml
+    name: Individualized Target Selection of Closed-loop Electrical Stimulation for
+      the Treatment of Spontaneous Temporal Lobe Epilepsy.
+    protocol: []
+    publishedBy:
+      endDate: '2024-10-23T09:31:35.456661+00:00'
+      id: urn:uuid:514a3f5c-4caa-420b-8ad1-e05700b6c239
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-10-23T09:31:35.456661+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:a23c14ca-88a2-42ca-8f62-0ee56ce7ff7f
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Progressive alterations in electrophysiological and epileptic network
+        properties during the development of temporal lobe epilepsy in rats
+      relation: dcite:Cites
+      resourceType: dcite:JournalArticle
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.yebeh.2023.109120
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    studyTarget:
+    - Evaluation of brain network dynamics and the effects of different stimulation
+      targets on individual responses.
+    url: https://dandiarchive.org/dandiset/001212/0.241023.0931
+    version: 0.241023.0931
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

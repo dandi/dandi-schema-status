@@ -1,0 +1,145 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000634/0.231005.1820",
+      "url": "https://dandiarchive.org/dandiset/000634/0.231005.1820",
+      "name": "Cell Membrane Charging by Co- and Counter-Directional ns electrical pulses (nsEP)",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.231005.1820",
+      "citation": "Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023) Cell Membrane Charging by Co- and Counter-Directional ns electrical pulses (nsEP) (Version 0.231005.1820) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000634/0.231005.1820",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000634",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:DataCurator"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kim, Vitalii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0699-5582",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Semenov, Iurii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0302-1355",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health ",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "NIH 1R21EY034258",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-09-14T19:16:36.468068+00:00",
+      "description": "Strobe photography, used at nanosecond resolution, captures the dynamic process of cell membrane charging and relaxation kinetics in cells treated with FluoVolt dye and exposed to electric pulses. This study uses a triangular electrode array where 300 ns pulses are applied alternately at a frequency of 1.67 MHz. The precise coordination of electric pulses and laser flashes, adjusted in 50 ns steps, allows for the detailed imaging of the cell's response. The electric field induces enhanced fluorescence at the cathode-facing side of the FluoVolt-loaded CHO cells and suppressed fluorescence at the anode-facing side. This research method provides a comprehensive and reliable examination of the cell membrane's behavior under electrical stimulation without causing damage, ensuring consistent observations to understand cellular responses to varying electrical stimuli. Supported by NIH 1R21EY034258",
+      "publishedBy": {
+        "id": "urn:uuid:7078e3a3-8590-41ca-ab1d-148e0d6d8bf5",
+        "name": "DANDI publish",
+        "endDate": "2023-10-05T18:20:45.199876+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-10-05T18:20:45.199876+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:81901dde-6ec2-4210-9580-339e6fb62367",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Cricetulus griseus - Cricetulus aureus",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10029"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1035526841,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 10,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2023-10-05T18:20:45.199876+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "used": [],
+          "schemaKey": "Project",
+          "identifier": "NIH 1R21EY034258",
+          "wasAssociatedWith": []
+        }
+      ],
+      "relatedResource": [
+        {
+          "url": "https://www.mdpi.com/1422-0067/24/13/10921",
+          "name": "Control of the Electroporation Efficiency of Nanosecond Pulses by Swinging the Electric Field Vector Direction",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000634/0.231005.1820/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "type": "url_parsing",
+    "loc": [
+      "contributor",
+      0,
+      "Person",
+      "url"
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "www.inb.unam.mx",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  },
+  {
+    "type": "enum",
+    "loc": [
+      "license",
+      0
+    ],
+    "msg": "Input should be 'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'",
+    "input": "spdx:CC-BY-NC-4.0",
+    "ctx": {
+      "expected": "'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/enum"
+  },
+  {
+    "type": "url_parsing",
+    "loc": [
+      "ethicsApproval",
+      0,
+      "contactPoint",
+      "url"
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "www.inb.unam.mx",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  },
+  {
+    "type": "url_parsing",
+    "loc": [
+      "access",
+      0,
+      "contactPoint",
+      "url"
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "www.inb.unam.mx",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  }
+]

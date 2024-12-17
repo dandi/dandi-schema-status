@@ -1,0 +1,192 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000569/0.230706.1630",
+      "url": "https://dandiarchive.org/dandiset/000569/0.230706.1630",
+      "name": "20230630_AIBS_Patchseq_nonhuman_primate",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230706.1630",
+      "citation": "Mei, Nicholas; Lee, Brian; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2023) 20230630_AIBS_Patchseq_nonhuman_primate (Version 0.230706.1630) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000569/0.230706.1630",
+      "keywords": [
+        "Patch-seq",
+        "non-human primate",
+        "multimodal"
+      ],
+      "protocol": [
+        "https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3"
+      ],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000569",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Mei, Nicholas",
+          "email": "nicholas.mei@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8893-1763",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Lee, Brian",
+          "email": "brianle@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3210-5638",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kalmbach, Brian",
+          "email": "briank@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3136-8097",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Dalley, Rachel",
+          "email": "racheld@alleninstitute.org",
+          "roleName": [
+            "dcite:ProjectMember"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Lein, Ed",
+          "email": "edl@alleninstitute.org",
+          "roleName": [
+            "dcite:ProjectLeader"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9012-6552",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://alleninstitute.org/",
+          "name": "Allen Institute for Brain Science",
+          "roleName": [],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/00dcv1019",
+          "awardNumber": "UM1MH130981",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "https://www.nimh.nih.gov/",
+          "name": "National Institute of Mental Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/04xeg9z08",
+          "awardNumber": "UM1MH130981",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-06-28T23:52:27.567158+00:00",
+      "description": "HMBA Lein PatchSeq upload (Q2 2023)",
+      "publishedBy": {
+        "id": "urn:uuid:af712cf5-f39f-47ba-ab60-846e668cebcf",
+        "name": "DANDI publish",
+        "endDate": "2023-07-06T16:30:03.950867+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-07-06T16:30:03.950867+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:b8425b3e-3e90-4128-a5a9-1fa8e93a705e",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Multimodal classification of cell types in the non-human primate."
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca nemestrina - Pigtail macaque",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9545"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 5622625870,
+        "numberOfFiles": 103,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "VoltageClampStimulusSeries",
+          "CurrentClampStimulusSeries",
+          "ProcessingModule",
+          "CurrentClampSeries",
+          "VoltageClampSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "voltage clamp technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "current clamp technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-07-06T16:30:03.950867+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000569/0.230706.1630/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

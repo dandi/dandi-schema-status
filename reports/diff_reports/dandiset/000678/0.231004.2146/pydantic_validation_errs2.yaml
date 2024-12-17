@@ -1,0 +1,173 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation: []
+    identifier: 0000-0002-6595-8450
+    includeInCitation: true
+    name: Jaramillo, Santiago
+    roleName:
+    - dcite:Author
+    - dcite:Conceptualization
+    - dcite:FundingAcquisition
+    - dcite:Methodology
+    - dcite:Software
+    - dcite:Supervision
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 4
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 8108311416
+      numberOfFiles: 391
+      numberOfSubjects: 13
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Hulsey, Daniel; Zumwalt, Kevin; Mazzucato, Luca; McCormick, David A.;
+      Jaramillo, Santiago (2023) Pupil and movement measurements during mouse auditory
+      and visual discrimination (Version 0.231004.2146) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000678/0.231004.2146
+    contributor:
+    - affiliation: []
+      email: hulsey.daniel@gmail.com
+      identifier: 0000-0003-3243-6282
+      includeInCitation: true
+      name: Hulsey, Daniel
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      - dcite:Investigation
+      - dcite:Methodology
+      - dcite:Researcher
+      - dcite:Software
+      - dcite:Visualization
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Zumwalt, Kevin
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:Investigation
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-8525-7539
+      includeInCitation: true
+      name: Mazzucato, Luca
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FundingAcquisition
+      - dcite:Methodology
+      - dcite:Software
+      - dcite:Supervision
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: McCormick, David A.
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FundingAcquisition
+      - dcite:Resources
+      - dcite:Supervision
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-6595-8450
+      includeInCitation: true
+      name: Jaramillo, Santiago
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FundingAcquisition
+      - dcite:Methodology
+      - dcite:Software
+      - dcite:Supervision
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: 'R01NS118461, R35NS097287 '
+      contactPoint: []
+      includeInCitation: false
+      name: National Institute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: '2024926'
+      contactPoint: []
+      includeInCitation: false
+      name: National Science Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-10-03T18:14:28.045050+00:00'
+    datePublished: '2023-10-04T21:46:12.097668+00:00'
+    description: Pupil diameter, face motion energy, and locomotion speed measures
+      recorded during sensory discrimination behavior of head-fixed mice. Subjects
+      classify the frequency of an auditory tone cloud stimulus, or the angle of a
+      drifting Gabor patch, at right or left lick ports. Data include 391 behavioral
+      sessions from 13 subjects. For more information see the preprint at https://www.biorxiv.org/content/10.1101/2023.03.02.530651v2.
+    ethicsApproval: []
+    id: DANDI:000678/0.231004.2146
+    identifier: DANDI:000678
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000678/0.231004.2146/assets.yaml
+    name: Pupil and movement measurements during mouse auditory and visual discrimination
+    protocol: []
+    publishedBy:
+      endDate: '2023-10-04T21:46:12.097668+00:00'
+      id: urn:uuid:c151012e-4d70-4c26-b260-31179676c621
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-10-04T21:46:12.097668+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:6d4849cc-117b-4f70-a487-7e69521ffcdc
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Analysis code
+      relation: dcite:IsSupplementTo
+      repository: ''
+      schemaKey: Resource
+      url: https://github.com/sjara/uobrainflex/tree/master/hulsey2023
+    - name: Decision-making dynamics are predicted by arousal and uninstructed movements
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://www.biorxiv.org/content/10.1101/2023.03.02.530651v2
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000678/0.231004.2146
+    version: 0.231004.2146
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,137 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: voltage clamp technique
+        schemaKey: MeasurementTechniqueType
+      - name: current clamp technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 5622625870
+      numberOfFiles: 103
+      numberOfSubjects: 9
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
+        name: Macaca nemestrina - Pigtail macaque
+        schemaKey: SpeciesType
+      variableMeasured:
+      - VoltageClampStimulusSeries
+      - CurrentClampStimulusSeries
+      - ProcessingModule
+      - CurrentClampSeries
+      - VoltageClampSeries
+    citation: Mei, Nicholas; Lee, Brian; Kalmbach, Brian; Dalley, Rachel; Lein, Ed
+      (2023) 20230630_AIBS_Patchseq_nonhuman_primate (Version 0.230706.1630) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/000569/0.230706.1630
+    contributor:
+    - affiliation: []
+      email: nicholas.mei@alleninstitute.org
+      identifier: 0000-0001-8893-1763
+      includeInCitation: true
+      name: Mei, Nicholas
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: brianle@alleninstitute.org
+      identifier: 0000-0002-3210-5638
+      includeInCitation: true
+      name: Lee, Brian
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: briank@alleninstitute.org
+      identifier: 0000-0003-3136-8097
+      includeInCitation: true
+      name: Kalmbach, Brian
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: racheld@alleninstitute.org
+      includeInCitation: true
+      name: Dalley, Rachel
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - affiliation: []
+      email: edl@alleninstitute.org
+      identifier: 0000-0001-9012-6552
+      includeInCitation: true
+      name: Lein, Ed
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: UM1MH130981
+      contactPoint: []
+      identifier: https://ror.org/00dcv1019
+      includeInCitation: false
+      name: Allen Institute for Brain Science
+      roleName: []
+      schemaKey: Organization
+      url: https://alleninstitute.org/
+    - awardNumber: UM1MH130981
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nimh.nih.gov/
+    dateCreated: '2023-06-28T23:52:27.567158+00:00'
+    datePublished: '2023-07-06T16:30:03.950867+00:00'
+    description: HMBA Lein PatchSeq upload (Q2 2023)
+    ethicsApproval: []
+    id: DANDI:000569/0.230706.1630
+    identifier: DANDI:000569
+    keywords:
+    - Patch-seq
+    - non-human primate
+    - multimodal
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000569/0.230706.1630/assets.yaml
+    name: 20230630_AIBS_Patchseq_nonhuman_primate
+    protocol:
+    - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+    publishedBy:
+      endDate: '2023-07-06T16:30:03.950867+00:00'
+      id: urn:uuid:af712cf5-f39f-47ba-ab60-846e668cebcf
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-07-06T16:30:03.950867+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:b8425b3e-3e90-4128-a5a9-1fa8e93a705e
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget:
+    - Multimodal classification of cell types in the non-human primate.
+    url: https://dandiarchive.org/dandiset/000569/0.230706.1630
+    version: 0.230706.1630
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

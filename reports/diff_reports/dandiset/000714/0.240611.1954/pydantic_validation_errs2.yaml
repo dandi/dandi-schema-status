@@ -1,0 +1,145 @@
+- input:
+    about:
+    - name: C. elegans whole-brain
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 478075700
+      numberOfFiles: 9
+      numberOfSubjects: 9
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+        name: Caenorhabditis elegans
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - PlaneSegmentation
+    citation: Sprague, Daniel; Chaudhary, Shivesh; Lee, Sol Ah; Li, Yueyi; Patel,
+      Dhaval S; Lu, Hang (2024) Segmented and labeled NeuroPAL structural images (Version
+      0.240611.1954) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000714/0.240611.1954
+    contributor:
+    - affiliation: []
+      email: daniel.y.sprague@gmail.com
+      includeInCitation: true
+      name: Sprague, Daniel
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation:
+      - name: School of Chemical & Biomolecular Engineering, Georgia Institute of
+          Technology, Atlanta, United States
+        schemaKey: Affiliation
+      email: shiveshc@gmail.com
+      includeInCitation: true
+      name: Chaudhary, Shivesh
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:Conceptualization
+      - dcite:FormalAnalysis
+      - dcite:Investigation
+      - dcite:Methodology
+      - dcite:Validation
+      - dcite:Software
+      schemaKey: Person
+    - affiliation:
+      - name: School of Chemical & Biomolecular Engineering, Georgia Institute of
+          Technology, Atlanta, United States
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Lee, Sol Ah
+      roleName:
+      - dcite:Investigation
+      schemaKey: Person
+    - affiliation:
+      - name: School of Chemical & Biomolecular Engineering, Georgia Institute of
+          Technology, Atlanta, United States
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Li, Yueyi
+      roleName:
+      - dcite:Investigation
+      schemaKey: Person
+    - affiliation:
+      - name: School of Chemical & Biomolecular Engineering, Georgia Institute of
+          Technology, Atlanta, United States
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Patel, Dhaval S
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - affiliation:
+      - name: School of Chemical & Biomolecular Engineering, Georgia Institute of
+          Technology, Atlanta, United States
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Lu, Hang
+      roleName:
+      - dcite:Conceptualization
+      - dcite:FormalAnalysis
+      - dcite:Investigation
+      - dcite:Methodology
+      - dcite:ProjectAdministration
+      - dcite:Visualization
+      schemaKey: Person
+    dateCreated: '2023-11-20T21:32:21.225581+00:00'
+    datePublished: '2024-06-11T19:54:24.167389+00:00'
+    description: Segmented and labeled NeuroPAL datasets from "Graphical-model framework
+      for automated annotation of cell identities in dense cellular images" by Shivesh
+      Chaudhary, et al.
+    ethicsApproval: []
+    id: DANDI:000714/0.240611.1954
+    identifier: DANDI:000714
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000714/0.240611.1954/assets.yaml
+    name: Segmented and labeled NeuroPAL structural images
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-11T19:54:24.167389+00:00'
+      id: urn:uuid:633359ed-7cf6-46e8-ada9-1621060d51bf
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-11T19:54:24.167389+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:bfe421e0-76c0-4413-bd95-c26b283b2a79
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Conditional Random Field Graphical Model for Annotation of C. elegans
+        whole-brain images
+      relation: dcite:IsSupplementTo
+      repository: CRF_Cell_ID
+      schemaKey: Resource
+      url: https://github.com/shiveshc/CRF_Cell_ID
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000714/0.240611.1954
+    version: 0.240611.1954
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

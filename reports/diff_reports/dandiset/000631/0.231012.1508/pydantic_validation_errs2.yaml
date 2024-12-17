@@ -1,0 +1,130 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 18379955860
+      numberOfFiles: 15
+      numberOfSubjects: 15
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
+        name: Bos taurus - Cattle
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
+      Effect of the electric field vector change on the electroporation efficiency
+      of paired-pulse trains compared to single-pulse trains (Version 0.231012.1508)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000631/0.231012.1508
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-0699-5582
+      includeInCitation: true
+      name: Kim, Vitalii
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName: []
+      schemaKey: Person
+    - awardNumber: NIH 1R21EY034258
+      contactPoint: []
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-09-14T18:38:55.144430+00:00'
+    datePublished: '2023-10-12T15:08:58.645902+00:00'
+    description: In the study, the impact of varying the electric field vector on
+      the effectiveness of electroporation was examined, utilizing both paired-pulse
+      trains, consisting of 5 pulses at 600 + 600 ns, and single-pulse trains with
+      5 pulses at 600 ns. These were applied to a BPAE cell monolayer at frequencies
+      of either 1 Hz or 833 kHz. The focus was on assessing the alterations in electroporation
+      efficiency, gauged through the changes in YoPro-1 emission when compared to
+      the baseline established by a single-pulse train in the identical region of
+      interest, which was set at 100%. The evaluation criteria included the angle
+      at which the electric field vector direction alternated between two pulses within
+      a pair. Introduction of pulses in pairs amplified the electroporation efficiency
+      at smaller angles but resulted in an inhibition at larger angles, indicating
+      a frequency-dependent relationship. The images captured during the experiments
+      provided a comprehensive visualization of this effect, highlighting the nuanced
+      impact of electric field vector modifications on electroporation efficiency.
+      Supported by NIH 1R21EY034258
+    ethicsApproval: []
+    id: DANDI:000631/0.231012.1508
+    identifier: DANDI:000631
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000631/0.231012.1508/assets.yaml
+    name: Effect of the electric field vector change on the electroporation efficiency
+      of paired-pulse trains compared to single-pulse trains
+    protocol: []
+    publishedBy:
+      endDate: '2023-10-12T15:08:58.645902+00:00'
+      id: urn:uuid:7b568e6a-4d38-4a19-b01b-c72c0b455160
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-10-12T15:08:58.645902+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:9076b991-3729-4ad6-8b10-8c013d5554ef
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Control of the Electroporation Efficiency of Nanosecond Pulses by Swinging
+        the Electric Field Vector Direction
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.3390/ijms241310921
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000631/0.231012.1508
+    version: 0.231012.1508
+    wasGeneratedBy:
+    - endDate: '2023-07-31T00:00:00-04:00'
+      identifier: NIH 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+      startDate: '2022-08-01T00:00:00-04:00'
+      used: []
+      wasAssociatedWith:
+      - contactPoint: []
+        includeInCitation: false
+        roleName: []
+        schemaKey: Organization
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

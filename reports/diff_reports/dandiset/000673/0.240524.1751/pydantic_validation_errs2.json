@@ -1,0 +1,446 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      10,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "Rutishauser, Ueli",
+      "roleName": [
+        "dcite:Author",
+        "dcite:Conceptualization",
+        "dcite:ContactPerson",
+        "dcite:FormalAnalysis",
+        "dcite:FundingAcquisition",
+        "dcite:ProjectAdministration"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0002-9207-7069",
+      "affiliation": [
+        {
+          "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+          "schemaKey": "Affiliation"
+        },
+        {
+          "name": "Department of Neurology, Cedars-Sinai Medical Center",
+          "schemaKey": "Affiliation"
+        },
+        {
+          "name": "Center for Neural Science and Medicine, Department of Biomedical Sciences, Cedars-Sinai Medical Center",
+          "schemaKey": "Affiliation"
+        },
+        {
+          "name": "Division of Biology and Biological Engineering, California Institute of Technology",
+          "schemaKey": "Affiliation"
+        }
+      ],
+      "includeInCitation": true
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000673/0.240524.1751",
+      "url": "https://dandiarchive.org/dandiset/000673/0.240524.1751",
+      "name": "Data for: Control of working memory by phase\u2013amplitude coupling of human hippocampal neurons",
+      "about": [
+        {
+          "name": "Medial Temporal Lobe",
+          "schemaKey": "GenericType"
+        },
+        {
+          "name": "Medial Frontal Cortex",
+          "schemaKey": "GenericType"
+        }
+      ],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240524.1751",
+      "citation": "Daume, Jonathan; Kaminski, Jan; Schjetnan, Andrea G. P. ; Salimpour, Yousef; Khan, Umais; Kyzar, Michael; Reed, Chrystal M.; Anderson, William S.; Valiante, Taufik A.; Mamelak, Adam N.; Rutishauser, Ueli (2024) Data for: Control of working memory by phase\u2013amplitude coupling of human hippocampal neurons (Version 0.240524.1751) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000673/0.240524.1751",
+      "keywords": [
+        "cognitive neuroscience",
+        "data standardization",
+        "working memory",
+        "neurophysiology",
+        "neurosurgery",
+        "NWB",
+        "open source",
+        "single-neurons",
+        "phase-amplitude coupling"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000673",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Daume, Jonathan",
+          "email": "Jonathan.Daume@cshs.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:ContactPerson",
+            "dcite:DataCollector",
+            "dcite:FormalAnalysis",
+            "dcite:FundingAcquisition",
+            "dcite:Investigation",
+            "dcite:Methodology"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-6516-7288",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "Department of Neurology, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "Center for Neural Science and Medicine, Department of Biomedical Sciences, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kaminski, Jan",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:FormalAnalysis",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-8663-7314",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "Center of Excellence for Neural Plasticity and Brain Disorders: BRAINCITY, Nencki Institute of Experi-15 mental Biology, Polish Academy of Sciences",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Schjetnan, Andrea G. P. ",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-4319-7689",
+          "affiliation": [
+            {
+              "name": "Krembil Research Institute and Division of Neurosurgery, University Health Network (UHN), University of Toronto",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Salimpour, Yousef",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-7546-004X",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Johns Hopkins School of Medicine",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Khan, Umais",
+          "roleName": [
+            "dcite:Author",
+            "dcite:FormalAnalysis"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0009-0005-5328-3977",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kyzar, Michael",
+          "email": "Michael.Kyzar@cshs.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:Software",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0009-0004-4392-9933",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Reed, Chrystal M.",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Methodology",
+            "dcite:DataCollector",
+            "dcite:ProjectAdministration"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-7157-3645",
+          "affiliation": [
+            {
+              "name": "Department of Neurology, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Anderson, William S.",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:Methodology",
+            "dcite:ProjectAdministration"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0958-050X",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Johns Hopkins School of Medicine",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Valiante, Taufik A.",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:Methodology",
+            "dcite:ProjectAdministration"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3443-3790",
+          "affiliation": [
+            {
+              "name": "Krembil Research Institute and Division of Neurosurgery, University Health Network (UHN), University of Toronto",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Mamelak, Adam N.",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:Methodology",
+            "dcite:ProjectAdministration"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-4245-6431",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Rutishauser, Ueli",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:ContactPerson",
+            "dcite:FormalAnalysis",
+            "dcite:FundingAcquisition",
+            "dcite:ProjectAdministration"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-9207-7069",
+          "affiliation": [
+            {
+              "name": "Department of Neurosurgery, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "Department of Neurology, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "Center for Neural Science and Medicine, Department of Biomedical Sciences, Cedars-Sinai Medical Center",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "Division of Biology and Biological Engineering, California Institute of Technology",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "5 U01 NS 117839-04",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "U01NS117839",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "National Science Foundation (NSF)",
+          "roleName": [],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/021nxhr62",
+          "awardNumber": "BCS-2219800",
+          "contactPoint": [
+            {
+              "schemaKey": "ContactPoint"
+            }
+          ],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-09-26T20:41:29.787964+00:00",
+      "description": "Retaining information in working memory (WM) is a demanding process that relies on cognitive control to protect memoranda-specific persistent activity from interference. How cognitive control regulates WM storage, however, remains unknown. Here we show that interactions of frontal control and hippocampal persistent activity are coordinated by theta-gamma phase amplitude coupling (TG-PAC). We recorded single neurons in the human medial temporal and frontal lobe while patients maintained multiple items in WM. In the hippocampus, TG-PAC was indicative of WM load and quality. We identified cells that selectively spiked during nonlinear interactions of theta phase and gamma amplitude. The spike timing of these PAC neurons was coordinated with frontal theta activity when cognitive control demand was high. By introducing noise correlations with persistently active neurons in the hippocampus, PAC neurons shaped the geometry of the population code. This led to higher-fidelity representations of WM content that were associated with improved behavior. Our results support a multicomponent architecture of WM, with frontal control managing maintenance of WM content in storage-related areas. Within this framework, hippocampal TG-PAC integrates cognitive control and WM storage across brain areas, thereby suggesting a potential mechanism for top-down control over sensory-driven processes.\n\nSample code that illustrates how to replicate key figures/analysis in Daume et. al. can be found here: https://github.com/rutishauserlab/SBCAT-release-NWB\n\nNote: sub-35_ses-1_ecephys+image.nwb is missing mean/std waveform data, but these data can be derived from the raw spike waveforms included in the file.",
+      "publishedBy": {
+        "id": "urn:uuid:b06c4417-81b5-444c-9f05-6e4086f495e4",
+        "name": "DANDI publish",
+        "endDate": "2024-05-24T17:51:48.432408+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-05-24T17:51:48.432408+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:45d9a2b0-f2e6-4abc-af1a-75cd3310dd63",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Homo sapiens - Human",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 23447043476,
+        "numberOfFiles": 44,
+        "numberOfSubjects": 36,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "ElectrodeGroup",
+          "Units"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-05-24T17:51:48.432408+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://www.nature.com/articles/s41586-024-07309-z",
+          "name": "Control of working memory by phase\u2013amplitude coupling of human hippocampal neurons",
+          "relation": "dcite:IsSourceOf",
+          "schemaKey": "Resource",
+          "identifier": "https://doi.org/10.1038/s41586-024-07309-z",
+          "repository": "Nature",
+          "resourceType": "dcite:JournalArticle"
+        },
+        {
+          "url": "https://zenodo.org/records/10494534",
+          "name": "Sample code for: Control of working memory by phase\u2013amplitude coupling of human hippocampal neurons",
+          "relation": "dcite:IsSupplementTo",
+          "schemaKey": "Resource",
+          "identifier": "10.5281/zenodo.10494533",
+          "repository": "Zenodo"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000673/0.240524.1751/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

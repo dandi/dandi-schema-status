@@ -1,0 +1,237 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000252/0.230408.2207",
+      "url": "https://dandiarchive.org/dandiset/000252/0.230408.2207",
+      "name": "Finger_RL: human intracortical recordings during attempted finger movements of right and left hands",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230408.2207",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json",
+      "citation": "Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2023) Finger_RL: human intracortical recordings during attempted finger movements of right and left hands (Version 0.230408.2207) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/0.230408.2207",
+      "keywords": [
+        "PPC",
+        "human",
+        "finger",
+        "MC",
+        "posterior parietal cortex",
+        "motor cortex",
+        "ipsilateral"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000252",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Guan, Charles",
+          "email": "cguan@caltech.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-8040-8844",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Aflalo, Tyson",
+          "email": "taflalo@caltech.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0101-2455",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kadlec, Kelly",
+          "email": "kkadlec@caltech.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-8765-7253",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Gamez, Jorge",
+          "email": "jgamez@caltech.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://www.nei.nih.gov/",
+          "name": "NIH National Eye Institute",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/03wkg3b53",
+          "awardNumber": "UG1EY032039, R01EY015545",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "T&C Chen Brain-Machine Interface Center",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2022-05-29T15:58:08.867753+00:00",
+      "description": "This dataset contains single-neuron recordings from two tetraplegic human participants as they attempted individual finger movements. One participant had an electrode array implanted in the left posterior parietal cortex (PPC) at the junction of the postcentral and intraparietal sulci (PC-IP). The other participant had one electrode array implanted in the hand knob of the left motor cortex (MC) and one electrode array implanted in the superior parietal lobule (SPL) of the left PPC.",
+      "publishedBy": {
+        "id": "urn:uuid:43244b2b-04dc-4e52-9cf0-9de0c1ca15e7",
+        "name": "DANDI publish",
+        "endDate": "2023-04-08T22:07:52.050129+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-04-08T22:07:52.050129+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:3d7683e0-b008-4ba5-b1f6-82741c7de251",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Enable neural control of contralateral/ipsilateral prosthetic fingers for participants with paralysis."
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Homo sapiens - Human",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 38128728,
+        "numberOfFiles": 12,
+        "numberOfSubjects": 2,
+        "variableMeasured": [
+          "ElectrodeGroup",
+          "Units"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-04-08T22:07:52.050129+00:00",
+      "schemaVersion": "0.6.3",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "18-0401",
+          "contactPoint": {
+            "url": "https://researchcompliance.caltech.edu/committees/institutional-review-board",
+            "email": "irb@caltech.edu",
+            "schemaKey": "ContactPoint"
+          }
+        },
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "13-000576",
+          "contactPoint": {
+            "url": "https://ohrpp.research.ucla.edu/",
+            "email": "ohrpp@research.ucla.edu",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://www.medrxiv.org/content/10.1101/2022.12.07.22283227",
+          "name": "Compositional coding of individual finger movements in human posterior parietal cortex and motor cortex enables ten-finger decoding",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "https://doi.org/10.1101/2022.12.07.22283227 ",
+          "repository": "medRxiv"
+        },
+        {
+          "url": "https://doi.org/10.48324/dandi.000147/0.221122.2256",
+          "name": "PPC_Finger: human posterior parietal cortex recordings during attempted finger movements",
+          "relation": "dcite:Continues",
+          "schemaKey": "Resource",
+          "identifier": "DANDI:000147",
+          "repository": "DANDI: Distributed Archives for Neurophysiology Data Integration"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000252/0.230408.2207/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

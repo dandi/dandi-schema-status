@@ -1,0 +1,130 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000472/0.241009.1501",
+      "url": "https://dandiarchive.org/dandiset/000472/0.241009.1501",
+      "name": "NeuroPAL volumetric images",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241009.1501",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Sprague, Daniel; Borchardt, Jackson; Dunn, Raymond; Bubnis, Greg; Kato, Saul (2024) NeuroPAL volumetric images (Version 0.241009.1501) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000472/0.241009.1501",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000472",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Sprague, Daniel",
+          "email": "daniel.y.sprague@gmail.com",
+          "roleName": [],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Borchardt, Jackson",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Dunn, Raymond",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Bubnis, Greg",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Kato, Saul",
+          "email": "saul.kato@ucsf.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-04-06T19:58:28.232167+00:00",
+      "description": "Partially labeled NeuroPAL volumetric images produced by the Kato lab at UCSF as part of an effort to add to the corpus of existing labeled data to facilitate the development of automatic cell identification algorithms. We hope that making these datasets more easily accessible in a centralized location like DANDI will significantly speed up development by allowing new researchers to start working on algorithms without the need to build up their own full dataset of training data beforehand. \n\nAs part of this effort, we also propose a novel extension to the NWB data format to allow for multichannel volumetric data.\n\nContents:\n\nSubject (C. elegans subject) - contains relevant metadata about the experimental subject\n\nAcquisition, \"NeuroPALImageRaw\" (MultiChannelVolume) - contains the raw image and associated metadata with dimensions (X, Y, Z, C)\n\nProcessing,  \"NeuroPAL\", \"VolumeSegmentation\" (VolumeSegmentation) - contains a list of neuron centers and associated IDs (X, Y, Z, weight, ID)\n\nProcessing, \"NeuroPAL\", \"ImagingVolume\" (ImagingVolume) - contains the metadata associated with the imaging acquisition\n\nProcessing, \"NeuroPAL\", \"OpticalChannelRefs\" (OpticalChannelReferences) - contains the order of the optical channels in the image\n\nProcessing, \"ProcessedImage\", \"Hist_match_med_filt\" - contains the processed NeuroPAL image with dimensions (X,Y,Z,C)",
+      "publishedBy": {
+        "id": "urn:uuid:3d8a32c8-353a-4b52-82b7-8a0fb1c1a4f7",
+        "name": "DANDI publish",
+        "endDate": "2024-10-09T15:01:38.842980+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-09T15:01:38.842980+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:8b16133f-5ee1-494e-b8f5-f268d372bc6b",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 18442605394,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 10,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-09T15:01:38.842980+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000472/0.241009.1501/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

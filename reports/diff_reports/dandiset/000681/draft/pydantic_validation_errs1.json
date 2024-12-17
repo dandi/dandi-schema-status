@@ -1,0 +1,33 @@
+[
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "contributor",
+      9,
+      "Person",
+      "identifier"
+    ],
+    "msg": "String should match pattern '^\\d{4}-\\d{4}-\\d{4}-(\\d{3}X|\\d{4})$'",
+    "input": "",
+    "ctx": {
+      "pattern": "^\\d{4}-\\d{4}-\\d{4}-(\\d{3}X|\\d{4})$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

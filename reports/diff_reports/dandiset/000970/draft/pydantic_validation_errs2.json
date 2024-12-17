@@ -1,0 +1,27 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      13,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "Kleinfeld, David",
+      "roleName": [
+        "dcite:Author",
+        "dcite:Conceptualization",
+        "dcite:ContactPerson",
+        "dcite:FundingAcquisition"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0001-9797-4722",
+      "includeInCitation": true
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

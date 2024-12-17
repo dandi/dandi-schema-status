@@ -1,0 +1,34 @@
+[
+  {
+    "type": "url_parsing",
+    "loc": [
+      "about",
+      0,
+      "Disorder",
+      "identifier",
+      "url['http','https']"
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "01",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  },
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "about",
+      0,
+      "Disorder",
+      "identifier",
+      "constrained-str"
+    ],
+    "msg": "String should match pattern '^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$'",
+    "input": "01",
+    "ctx": {
+      "pattern": "^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  }
+]

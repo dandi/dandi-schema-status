@@ -1,0 +1,31 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      0,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "Brezovec, Luke",
+      "roleName": [
+        "dcite:Author",
+        "dcite:Researcher",
+        "dcite:Software",
+        "dcite:Visualization",
+        "dcite:ContactPerson",
+        "dcite:Conceptualization",
+        "dcite:DataCollector"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0001-9341-3565",
+      "affiliation": [],
+      "includeInCitation": true
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

@@ -1,0 +1,115 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 11109213211
+      numberOfCells: 191
+      numberOfFiles: 291
+      numberOfSubjects: 67
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+    citation: Wakeman, Wayne; Kalmbach, Brian; Lein, Ed; Chartrand, Thomas (2023)
+      20211223_AIBS_Patchseq_human (Version 0.230522.1918) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000209/0.230522.1918
+    contributor:
+    - affiliation: []
+      email: waynew@alleninstitute.org
+      includeInCitation: true
+      name: Wakeman, Wayne
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: briank@alleninstitute.org
+      includeInCitation: true
+      name: Kalmbach, Brian
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: EdL@alleninstitute.org
+      includeInCitation: true
+      name: Lein, Ed
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - affiliation: []
+      email: tom.chartrand@alleninstitute.org
+      includeInCitation: true
+      name: Chartrand, Thomas
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: U01MH114812
+      contactPoint:
+      - schemaKey: ContactPoint
+      identifier: https://ror.org/00dcv1019
+      includeInCitation: false
+      name: Allen Institute for Brain Science
+      roleName: []
+      schemaKey: Organization
+    - awardNumber: U01MH114812
+      contactPoint: []
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2021-12-21T19:50:19.326743+00:00'
+    datePublished: '2023-05-22T19:18:32.264216+00:00'
+    description: U01 Lein PatchSeq upload December 2021
+    ethicsApproval: []
+    id: DANDI:000209/0.230522.1918
+    identifier: DANDI:000209
+    keywords:
+    - Patch-seq
+    - human
+    - neocortical
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000209/0.230522.1918/assets.yaml
+    name: 20211223_AIBS_Patchseq_human
+    protocol:
+    - https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+    publishedBy:
+      endDate: '2023-05-22T19:18:32.264216+00:00'
+      id: urn:uuid:75795e18-e1e2-4ff9-9d07-f7e71b975aa6
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-05-22T19:18:32.264216+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:ab77b518-66dc-46fe-8432-c9f5f4b0f449
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    studyTarget:
+    - human neocortical neurons
+    url: https://dandiarchive.org/dandiset/000209/0.230522.1918
+    version: 0.230522.1918
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

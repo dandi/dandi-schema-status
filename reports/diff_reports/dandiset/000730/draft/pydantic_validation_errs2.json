@@ -1,0 +1,47 @@
+[
+  {
+    "type": "url_parsing",
+    "loc": [
+      "about",
+      0,
+      "GenericType",
+      "identifier",
+      "url['http','https']"
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "2photon data",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  },
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "about",
+      0,
+      "GenericType",
+      "identifier",
+      "constrained-str"
+    ],
+    "msg": "String should match pattern '^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$'",
+    "input": "2photon data",
+    "ctx": {
+      "pattern": "^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  },
+  {
+    "type": "url_parsing",
+    "loc": [
+      "protocol",
+      0
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "2015-0023",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  }
+]

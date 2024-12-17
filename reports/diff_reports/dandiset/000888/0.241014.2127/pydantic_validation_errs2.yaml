@@ -1,0 +1,90 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1834409113
+      numberOfFiles: 52
+      numberOfSubjects: 104
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+        name: Danio rerio - Zebra fish
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - CompassDirection
+      - SpatialSeries
+      - Position
+    citation: Anderson, Lindsay; Haesemeyer, Martin (2024) Thermal Plaid Experiments
+      - steep gradients (Version 0.241014.2127) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000888/0.241014.2127
+    contributor:
+    - awardNumber: 5 R01 NS 123887-03
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - affiliation: []
+      includeInCitation: true
+      name: Anderson, Lindsay
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - email: martin.haesemeyer@osumc.edu
+      includeInCitation: true
+      name: Haesemeyer, Martin
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-02-06T17:41:05.710678+00:00'
+    datePublished: '2024-10-14T21:27:02.425464+00:00'
+    description: Larval zebrafish navigating a virtual thermal plaid created by an
+      infrared stimulus laser in a preheated experimental chamber
+    ethicsApproval: []
+    id: DANDI:000888/0.241014.2127
+    identifier: DANDI:000888
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000888/0.241014.2127/assets.yaml
+    name: Thermal Plaid Experiments - steep gradients
+    protocol: []
+    publishedBy:
+      endDate: '2024-10-14T21:27:02.425464+00:00'
+      id: urn:uuid:05d5eb55-80ea-4810-9291-9b8f70ec8c5f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-10-14T21:27:02.425464+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:27958cd0-d48d-4dab-a4da-10e79deeabed
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000888/0.241014.2127
+    version: 0.241014.2127
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

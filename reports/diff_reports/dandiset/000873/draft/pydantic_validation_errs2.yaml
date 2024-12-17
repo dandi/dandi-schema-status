@@ -1,0 +1,129 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 5 R01 NS 119519-03
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 2726504539
+      numberOfFiles: 6
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+        name: Macaca mulatta - Rhesus monkey
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - ProcessingModule
+      - ElectrodeGroup
+      - SpatialSeries
+    citation: Watters Test (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+    contributor:
+    - awardNumber: 5 R01 NS 119519-03
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-01-22T16:04:08.530970+00:00'
+    datePublished: '2024-01-26T22:57:10.416108+00:00'
+    description: Test for Watters
+    doi: 10.80507/dandi.123456/0.123456.1234
+    id: DANDI:000873/draft
+    identifier: DANDI:000873
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000873/versions/draft/assets/
+    name: Watters Test
+    publishedBy:
+      endDate: '2024-01-26T22:57:10.416108+00:00'
+      id: urn:uuid:89e29236-912a-4e52-a15a-e2f705886c9b
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-01-26T22:57:10.416108+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:10c3aec7-aae8-4ae8-966b-994079b73f6e
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000873/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input: 10.80507/dandi.123456/0.123456.1234
+  loc:
+  - doi
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input:
+    endDate: '2024-01-26T22:57:10.416108+00:00'
+    id: urn:uuid:89e29236-912a-4e52-a15a-e2f705886c9b
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2024-01-26T22:57:10.416108+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:10c3aec7-aae8-4ae8-966b-994079b73f6e
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input: '2024-01-26T22:57:10.416108+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden

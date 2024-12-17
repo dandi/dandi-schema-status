@@ -1,0 +1,171 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001131/0.240826.1647",
+      "url": "https://dandiarchive.org/dandiset/001131/0.240826.1647",
+      "name": "A line attractor encoding a persistent internal state requires neuropeptide signaling",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240826.1647",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json",
+      "citation": "Nair, Aditya (2024) A line attractor encoding a persistent internal state requires neuropeptide signaling (Version 0.240826.1647) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001131/0.240826.1647",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001131",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Nair, Aditya",
+          "email": "adi.nair@caltech.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "HHMI",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/006w34k90",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "RO1MH112593",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "RO1MH123612",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "RO1NS123916",
+          "includeInCitation": false
+        },
+        {
+          "name": "Agency of Science, Technology and Research, Singapore",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/059yjzn93",
+          "awardNumber": "National Science Scholarship",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-07-31T17:31:29.917438+00:00",
+      "description": "This dataset provides neural and behavioural annotation data from the paper: \"A line attractor encoding a persistent internal state requires neuropeptide signaling\". Data is stored in the NWB or HDF5 format and contains GCaMP traces, behavioural annotation (timing of behaviour) and other metadata.",
+      "publishedBy": {
+        "id": "urn:uuid:f5c257cf-01bc-4fe3-b22f-974d6c3d766c",
+        "name": "DANDI publish",
+        "endDate": "2024-08-26T16:47:29.372123+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-08-26T16:47:29.372123+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:59521674-91d4-4b61-8689-5cf20c54f5b3",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 23676040,
+        "numberOfFiles": 2,
+        "numberOfSubjects": 2,
+        "variableMeasured": [
+          "ProcessingModule",
+          "BehavioralEpochs"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-08-26T16:47:29.372123+00:00",
+      "schemaVersion": "0.6.8",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0092867424009061",
+          "name": "A line attractor encoding a persistent internal state requires neuropeptide signaling",
+          "relation": "dcite:IsPartOf",
+          "schemaKey": "Resource",
+          "identifier": "10.1016/j.cell.2024.08.015",
+          "repository": "Cell",
+          "resourceType": "dcite:JournalArticle"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001131/0.240826.1647/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

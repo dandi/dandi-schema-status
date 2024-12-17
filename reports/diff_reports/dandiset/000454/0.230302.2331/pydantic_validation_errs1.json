@@ -1,0 +1,193 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000454/0.230302.2331",
+      "url": "https://dandiarchive.org/dandiset/000454/0.230302.2331",
+      "name": "Guide to the construction and use of an adaptive optics two-photon microscope with direct wavefront sensing",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.230302.2331",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json",
+      "citation": "Klienfeld, David; Yao, Pantong; Liu, Rui; Broginni, Thomas; Thunemann, Martin; University of California, San Diego; Boston University; University of California, San Diego (2023) Guide to the construction and use of an adaptive optics two-photon microscope with direct wavefront sensing (Version 0.230302.2331) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000454/0.230302.2331",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000454",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "url": "http://ucsd.edu/",
+          "name": "Klienfeld, David",
+          "email": "dk@physics.ucsd.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://ucsd.edu/",
+          "name": "Yao, Pantong",
+          "email": "p1yao@health.ucsd.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://ucsd.edu/",
+          "name": "Liu, Rui",
+          "email": "rul087@physics.ucsd.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://ucsd.edu/",
+          "name": "Broginni, Thomas",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://www.bu.edu/",
+          "name": "Thunemann, Martin",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://ucsd.edu/",
+          "name": "University of California, San Diego",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/0168r3w48",
+          "awardNumber": "U24 EB028942",
+          "contactPoint": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://www.bu.edu/",
+          "name": "Boston University",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/05qwgg493",
+          "awardNumber": "U19 NS123717",
+          "contactPoint": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://ucsd.edu/",
+          "name": "University of California, San Diego",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/0168r3w48",
+          "awardNumber": "U19 NS107466",
+          "contactPoint": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-03-02T21:52:11.686223+00:00",
+      "description": "Two-photon microscopy, combined with appropriate optical labeling, has enabled the study of structure and function throughout animals and their organ systems, especially nervous systems. This methodology enables, for example, the measurement and tracking of sub-micrometer structures within brain cells, the spatio-temporal mapping of spikes in individual neurons, and the spatio-temporal mapping of transmitter release in individual synapses. Yet the spatial resolution of two-photon microscopy rapidly degrades as imaging is attempted at depths more than a few scattering lengths into tissue, i.e., below the superficial layers that constitute the top 300 to 400\u00a0\u00b5m of neocortex. To obviate this limitation, we measure the wavefront of the guide star at the focus of the excitation beam and utilize adaptive optics that alters the incident wavefront to achieve an improved focal volume. We describe the construction, calibration, and operation of a two-photon microscope that incorporates adaptive optics to restore diffraction-limited resolution throughout the nearly 900\u00a0\u00b5m depth of mouse cortex. Our realization utilizes a guide star formed by excitation of red-shifted dye within the blood serum to directly measure the wavefront. We incorporate predominantly commercial optical, optomechanical, mechanical, and electronic components; computer aided design models of the exceptional custom components are supplied. The resultant adaptive-optics two-photon microscope is modular and allows for expanded imaging and optical excitation capabilities. We demonstrate our methodology in mouse neocortex by imaging the morphology of somatostatin-expressing neurons that lie 700 \u00b5m beneath the pia, calcium dynamics of layer 5b projection neurons, and thalamocortical glutamate transmission to L4 neurons.",
+      "publishedBy": {
+        "id": "urn:uuid:c5b0d82b-e823-4044-86bd-fc596384be61",
+        "name": "DANDI publish",
+        "endDate": "2023-03-02T23:31:53.735293+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-03-02T23:31:53.735293+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:2287b0ae-2955-472d-b285-189a0377ed92",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 7401238168,
+        "numberOfFiles": 4,
+        "numberOfSubjects": 5,
+        "variableMeasured": [
+          "TwoPhotonSeries",
+          "ImagingPlane",
+          "OpticalChannel"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-03-02T23:31:53.735293+00:00",
+      "schemaVersion": "0.6.3",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000454/0.230302.2331/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000932/0.240317.0101",
+      "url": "https://dandiarchive.org/dandiset/000932/0.240317.0101",
+      "name": "An electroencephalogram microdisplay to visualize neuronal activity on the brain surface",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240317.0101",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.6/context.json",
+      "citation": "Tchoe, Youngbin (2024) An electroencephalogram microdisplay to visualize neuronal activity on the brain surface (Version 0.240317.0101) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000932/0.240317.0101",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000932",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Tchoe, Youngbin",
+          "email": "ybtchoe@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-03-05T15:48:35.030063+00:00",
+      "description": "These datasets contain electrocorticography recordings from the brains of pigs and rats, utilizing a 1024-channel intracranial electroencephalography (iEEG) microdisplay. These recordings were obtained from animals that participated in the study documented in the paper titled 'An electroencephalogram microdisplay to visualize neuronal activity on the brain surface'. The data includes noise that can be filtered out. For detailed instructions on this process, please consult the accompanying journal article.",
+      "publishedBy": {
+        "id": "urn:uuid:92c7635b-1643-44da-9662-5ef8311c181f",
+        "name": "DANDI publish",
+        "endDate": "2024-03-17T01:01:00.291537+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-03-17T01:01:00.291537+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:cc5b3dac-14d3-4471-b94e-5f4bdb6b456c",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Sus scrofa domesticus - Domestic pig",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+          },
+          {
+            "name": "Rattus norvegicus - Norway rat",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 199844377549,
+        "numberOfFiles": 238,
+        "numberOfSubjects": 10,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-03-17T01:01:00.291537+00:00",
+      "schemaVersion": "0.6.6",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "UCSD Institutional Animal Care and Use Committee protocol S16020",
+          "contactPoint": {
+            "schemaKey": "ContactPoint"
+          }
+        },
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "UCSD Institutional Animal Care and Use Committee protocol S19030",
+          "contactPoint": {
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [
+        {
+          "name": "Bringing Light to Functional Mapping in Resective Neurosurgery",
+          "schemaKey": "Project",
+          "identifier": "NIBIB DP2-EB029757"
+        },
+        {
+          "name": "Integration of High Definition Display Technologies with Platinum Nanorod Microelectrodes for Large Scale in-vivo Recording and Stimulation",
+          "schemaKey": "Project",
+          "identifier": "1R01NS123655-01"
+        },
+        {
+          "name": "Thin, High-Density, High-Performance, Depth and Surface Microelectrodes for Diagnosis and Treatment of Epilepsy",
+          "schemaKey": "Project",
+          "identifier": "UG3NS123723"
+        }
+      ],
+      "acknowledgement": "",
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000932/0.240317.0101/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,81 @@
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 56677001352
+      numberOfFiles: 6
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - OpticalChannel
+      - ImagingPlane
+      - SpatialSeries
+      - Position
+      - ProcessingModule
+    citation: Bakker, Marleen (2024) Intrinsic optical imaging (IOI) and GCaMP mouse
+      brain data, with and without rigidified carotid artery (Version 0.241111.1757)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001210/0.241111.1757
+    contributor:
+    - affiliation: []
+      email: marleenbakkermarleen@gmail.com
+      includeInCitation: true
+      name: Bakker, Marleen
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-10-18T20:18:47.706730+00:00'
+    datePublished: '2024-11-11T17:57:57.817701+00:00'
+    description: 'Dataset corresponding to the article "Neurovascular Coupling over
+      Cortical Brain Areas and Resting State  Network Connectivity With and Without
+      Rigidified Carotid Artery". '
+    id: DANDI:001210/0.241111.1757
+    identifier: DANDI:001210
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001210/0.241111.1757/assets.yaml
+    name: Intrinsic optical imaging (IOI) and GCaMP mouse brain data, with and without
+      rigidified carotid artery
+    publishedBy:
+      endDate: '2024-11-11T17:57:57.817701+00:00'
+      id: urn:uuid:00131370-8575-4410-bc3b-165d467ff254
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-11-11T17:57:57.817701+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:a6b14626-386a-4b75-99f8-40aff5b85200
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    url: https://dandiarchive.org/dandiset/001210/0.241111.1757
+    version: 0.241111.1757
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

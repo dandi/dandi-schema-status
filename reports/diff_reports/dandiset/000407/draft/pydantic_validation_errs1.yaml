@@ -1,0 +1,34 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 RF1 NS 128873-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input: {}
+  loc:
+  - ethicsApproval
+  - 0
+  - identifier
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

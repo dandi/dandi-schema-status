@@ -1,0 +1,80 @@
+- ctx:
+    discriminator: '''schemaKey'''
+  input: {}
+  loc:
+  - contributor
+  - 1
+  msg: Unable to extract tag using discriminator 'schemaKey'
+  type: union_tag_not_found
+  url: https://errors.pydantic.dev/2.9/v/union_tag_not_found
+- ctx:
+    error: input is empty
+  input: ''
+  loc:
+  - about
+  - 0
+  - Disorder
+  - identifier
+  - url['http','https']
+  msg: Input should be a valid URL, input is empty
+  type: url_parsing
+  url: https://errors.pydantic.dev/2.9/v/url_parsing
+- ctx:
+    pattern: ^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\._]+$
+  input: ''
+  loc:
+  - about
+  - 0
+  - Disorder
+  - identifier
+  - constrained-str
+  msg: String should match pattern '^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\._]+$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+- ctx:
+    discriminator: '''schemaKey'''
+  input: {}
+  loc:
+  - about
+  - 2
+  msg: Unable to extract tag using discriminator 'schemaKey'
+  type: union_tag_not_found
+  url: https://errors.pydantic.dev/2.9/v/union_tag_not_found
+- ctx:
+    error: relative URL without a base
+  input: My Protocol
+  loc:
+  - protocol
+  - 0
+  msg: Input should be a valid URL, relative URL without a base
+  type: url_parsing
+  url: https://errors.pydantic.dev/2.9/v/url_parsing
+- input: {}
+  loc:
+  - ethicsApproval
+  - 0
+  - identifier
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input: {}
+  loc:
+  - wasGeneratedBy
+  - 0
+  - name
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,24 @@
+- ctx:
+    error: relative URL without a base
+  input: '193237003'
+  loc:
+  - about
+  - 0
+  - Disorder
+  - identifier
+  - url['http','https']
+  msg: Input should be a valid URL, relative URL without a base
+  type: url_parsing
+  url: https://errors.pydantic.dev/2.9/v/url_parsing
+- ctx:
+    pattern: ^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\._]+$
+  input: '193237003'
+  loc:
+  - about
+  - 0
+  - Disorder
+  - identifier
+  - constrained-str
+  msg: String should match pattern '^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\._]+$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch

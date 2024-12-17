@@ -1,0 +1,173 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 38128728
+      numberOfFiles: 12
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - Units
+    citation: 'Guan, Charles; Aflalo, Tyson; Kadlec, Kelly; Gamez, Jorge (2023) Finger_RL:
+      human intracortical recordings during attempted finger movements of right and
+      left hands (Version 0.230408.2207) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000252/0.230408.2207'
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: cguan@caltech.edu
+      identifier: 0000-0002-8040-8844
+      includeInCitation: true
+      name: Guan, Charles
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: taflalo@caltech.edu
+      identifier: 0000-0002-0101-2455
+      includeInCitation: true
+      name: Aflalo, Tyson
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: kkadlec@caltech.edu
+      identifier: 0000-0002-8765-7253
+      includeInCitation: true
+      name: Kadlec, Kelly
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: jgamez@caltech.edu
+      includeInCitation: true
+      name: Gamez, Jorge
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - awardNumber: UG1EY032039, R01EY015545
+      contactPoint: []
+      identifier: https://ror.org/03wkg3b53
+      includeInCitation: false
+      name: NIH National Eye Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nei.nih.gov/
+    - contactPoint: []
+      includeInCitation: false
+      name: T&C Chen Brain-Machine Interface Center
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2022-05-29T15:58:08.867753+00:00'
+    datePublished: '2023-04-08T22:07:52.050129+00:00'
+    description: This dataset contains single-neuron recordings from two tetraplegic
+      human participants as they attempted individual finger movements. One participant
+      had an electrode array implanted in the left posterior parietal cortex (PPC)
+      at the junction of the postcentral and intraparietal sulci (PC-IP). The other
+      participant had one electrode array implanted in the hand knob of the left motor
+      cortex (MC) and one electrode array implanted in the superior parietal lobule
+      (SPL) of the left PPC.
+    ethicsApproval:
+    - contactPoint:
+        email: irb@caltech.edu
+        schemaKey: ContactPoint
+        url: https://researchcompliance.caltech.edu/committees/institutional-review-board
+      identifier: 18-0401
+      schemaKey: EthicsApproval
+    - contactPoint:
+        email: ohrpp@research.ucla.edu
+        schemaKey: ContactPoint
+        url: https://ohrpp.research.ucla.edu/
+      identifier: 13-000576
+      schemaKey: EthicsApproval
+    id: DANDI:000252/0.230408.2207
+    identifier: DANDI:000252
+    keywords:
+    - PPC
+    - human
+    - finger
+    - MC
+    - posterior parietal cortex
+    - motor cortex
+    - ipsilateral
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000252/0.230408.2207/assets.yaml
+    name: 'Finger_RL: human intracortical recordings during attempted finger movements
+      of right and left hands'
+    protocol: []
+    publishedBy:
+      endDate: '2023-04-08T22:07:52.050129+00:00'
+      id: urn:uuid:43244b2b-04dc-4e52-9cf0-9de0c1ca15e7
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-04-08T22:07:52.050129+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:3d7683e0-b008-4ba5-b1f6-82741c7de251
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: 'https://doi.org/10.1101/2022.12.07.22283227 '
+      name: Compositional coding of individual finger movements in human posterior
+        parietal cortex and motor cortex enables ten-finger decoding
+      relation: dcite:IsDescribedBy
+      repository: medRxiv
+      schemaKey: Resource
+      url: https://www.medrxiv.org/content/10.1101/2022.12.07.22283227
+    - identifier: DANDI:000147
+      name: 'PPC_Finger: human posterior parietal cortex recordings during attempted
+        finger movements'
+      relation: dcite:Continues
+      repository: 'DANDI: Distributed Archives for Neurophysiology Data Integration'
+      schemaKey: Resource
+      url: https://doi.org/10.48324/dandi.000147/0.221122.2256
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget:
+    - Enable neural control of contralateral/ipsilateral prosthetic fingers for participants
+      with paralysis.
+    url: https://dandiarchive.org/dandiset/000252/0.230408.2207
+    version: 0.230408.2207
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

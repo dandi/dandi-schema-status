@@ -1,0 +1,121 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "5 R01 NS 123887-02"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000486/draft",
+      "url": "https://dandiarchive.org/dandiset/000486/draft",
+      "name": "Thermal Plaid Replay Experiments",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "Thermal Plaid Replay Experiments (2023). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000486/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000486",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "5 R01 NS 123887-02"
+        }
+      ],
+      "dateCreated": "2023-04-20T20:59:59.652701+00:00",
+      "description": "Larval zebrafish experiencing the replay of another fish that navigated a virtual thermal plaid created by an infrared stimulus laser",
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Danio rerio - Zebra fish",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 316572974,
+        "numberOfFiles": 9,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "CompassDirection",
+          "Position",
+          "ProcessingModule",
+          "SpatialSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000486/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

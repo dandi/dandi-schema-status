@@ -1,0 +1,85 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R21 EY 034283-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001198/draft",
+      "url": "https://dandiarchive.org/dandiset/001198/draft",
+      "name": "Source data for main manuscript: Light-induced rolling of azobenzene polymer thin films for wrapping subcellular neuronal structures",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json",
+      "citation": "Source data for main manuscript: Light-induced rolling of azobenzene polymer thin films for wrapping subcellular neuronal structures (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001198/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001198",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R21 EY 034283-01"
+        }
+      ],
+      "dateCreated": "2024-09-28T14:00:55.663811+00:00",
+      "description": "This archive contains the source images, videos, and graphs datapoints included in the main article entitled \"Light-induced rolling of azobenzene polymer thin films for wrapping subcellular neuronal structures\". ",
+      "assetsSummary": {
+        "schemaKey": "AssetsSummary",
+        "numberOfBytes": 0,
+        "numberOfFiles": 0
+      },
+      "schemaVersion": "0.6.8",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/001198/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

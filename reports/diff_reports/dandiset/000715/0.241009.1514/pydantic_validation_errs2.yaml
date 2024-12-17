@@ -1,0 +1,122 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 835049434
+      numberOfFiles: 10
+      numberOfSubjects: 10
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+        name: Caenorhabditis elegans
+        schemaKey: SpeciesType
+      variableMeasured:
+      - PlaneSegmentation
+      - ProcessingModule
+    citation: 'Yemini, Eviatar; Venkatachalam, Vivek; Lin, Albert; Varol, Erdem; Sprague,
+      Daniel; Paninski, Liam; Samuel, Arivinthan; Hobert, Oliver (2024) NeuroPAL:
+      Atlas of C. elegans neuron locations and colors in NeuroPAL worm (Version 0.241009.1514)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000715/0.241009.1514'
+    contributor:
+    - email: eviatar.yemini@umassmed.edu
+      includeInCitation: true
+      name: Yemini, Eviatar
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:DataCollector
+      - dcite:Methodology
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Venkatachalam, Vivek
+      roleName:
+      - dcite:ProjectMember
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Lin, Albert
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Varol, Erdem
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - email: Daniel.sprague@ucsf.edu
+      includeInCitation: true
+      name: Sprague, Daniel
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    - includeInCitation: true
+      name: Paninski, Liam
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Samuel, Arivinthan
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Hobert, Oliver
+      roleName:
+      - dcite:Investigation
+      schemaKey: Person
+    dateCreated: '2023-11-20T22:09:13.916173+00:00'
+    datePublished: '2024-10-09T15:14:13.133706+00:00'
+    description: '10 original NeuroPAL datasets used to train the statistical atlas
+      in ''Statistical Atlas of C. elegans Neurons'' and ''NeuroPAL: A Multicolor
+      Atlas for Whole-Brain Neuronal Identification in C. elegans.
+
+
+      '
+    ethicsApproval: []
+    id: DANDI:000715/0.241009.1514
+    identifier: DANDI:000715
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000715/0.241009.1514/assets.yaml
+    name: 'NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm'
+    protocol: []
+    publishedBy:
+      endDate: '2024-10-09T15:14:13.133706+00:00'
+      id: urn:uuid:e54fe51c-1f4a-4fea-9056-06e49ad48646
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-10-09T15:14:13.133706+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:d892d560-3ffd-4fb2-829f-757c51d8e1f2
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000715/0.241009.1514
+    version: 0.241009.1514
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

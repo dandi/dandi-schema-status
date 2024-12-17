@@ -1,0 +1,33 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      2,
+      "Person",
+      "email"
+    ],
+    "msg": "value is not a valid email address: The email address contains unsafe characters: ZERO WIDTH SPACE.",
+    "input": "giocomo@stanford.edu\u200b",
+    "ctx": {
+      "reason": "The email address contains unsafe characters: ZERO WIDTH SPACE."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

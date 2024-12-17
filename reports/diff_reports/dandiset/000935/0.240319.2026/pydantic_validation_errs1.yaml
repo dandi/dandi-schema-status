@@ -1,0 +1,156 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.6/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 49105883680
+      numberOfFiles: 6
+      numberOfSubjects: 6
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+      - OpticalChannel
+      - ImagingPlane
+    citation: 'Prakash, Mansi; Murphy, Jeremy; Friedman, Nina; Pal, Akash; Bhagat,
+      Yuvraj; Shaner, Nathan C.; Lipscombe, Diane; Hochgeschwender, Ute; Moore, Christopher
+      I.; Crespo, Emmanuel L. (2024) Interluminescence:  Selective Control of Synaptically-Connected
+      Circuit Elements using bioluminescence (Version 0.240319.2026) [Data set]. DANDI
+      archive. https://dandiarchive.org/dandiset/000935/0.240319.2026'
+    contributor:
+    - awardNumber: 1 R01 NS 120832-21
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: true
+      name: Prakash, Mansi
+      roleName:
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Murphy, Jeremy
+      roleName:
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Friedman, Nina
+      schemaKey: Person
+    - includeInCitation: false
+      name: St Laurent, Robyn
+      schemaKey: Person
+    - includeInCitation: false
+      name: Bjorefeldt, Andreas
+      schemaKey: Person
+    - includeInCitation: true
+      name: Pal, Akash
+      schemaKey: Person
+    - includeInCitation: true
+      name: Bhagat, Yuvraj
+      schemaKey: Person
+    - includeInCitation: false
+      name: Kauer, Julie A.
+      schemaKey: Person
+    - includeInCitation: true
+      name: Shaner, Nathan C.
+      schemaKey: Person
+    - includeInCitation: true
+      name: Lipscombe, Diane
+      schemaKey: Person
+    - email: hochg1u@cmich.edu
+      includeInCitation: true
+      name: Hochgeschwender, Ute
+      roleName:
+      - dcite:ContactPerson
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - email: christopher_moore@brown.edu
+      includeInCitation: true
+      name: Moore, Christopher I.
+      roleName:
+      - dcite:ProjectLeader
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Crespo, Emmanuel L.
+      schemaKey: Person
+    dateCreated: '2024-03-06T16:20:51.867802+00:00'
+    datePublished: '2024-03-19T20:26:03.532850+00:00'
+    description: 'This is the repository for in vivo extracellular electrophysiology
+      testing a bioluminescent-optogenetic synaptic element. In this experiment (see
+      doi: 10.1038/s42003-021-02981-7), extracellular electrophysiology data and 1-photon
+      bioluminescent imaging data were recorded from six PV-Cre mice under isoflurane
+      anesthesia. There are two groups (Opsin(+) and Opsin(-), see session description
+      and doi: 10.1038/s42003-021-02981-7 for details) of 3 animals each. For all
+      animals a baseline of ~3 minutes of data was recorded, after which the bioluminescent
+      luciferin Coelenterazine was infused into a saline well over an open craniotomy
+      exposing barrel cortex. Time Intervals in the data set designate the start and
+      stop times of Coelenterazine infusion in seconds.'
+    ethicsApproval:
+    - contactPoint:
+        email: IACUC@brown.edu
+        schemaKey: ContactPoint
+        url: https://www.brown.edu/research/conducting-research-brown/research-compliance-irb-iacuc-coi-export-control-research-data-management-and-data-use-agreements/institutional-animal-care-and-use-committee-iacuc
+      identifier: 20-09-0003
+      schemaKey: EthicsApproval
+    id: DANDI:000935/0.240319.2026
+    identifier: DANDI:000935
+    keywords:
+    - Bioluminescence
+    - Luminopsins
+    - Parvalbumin
+    - gamma rhythms
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000935/0.240319.2026/assets.yaml
+    name: 'Interluminescence:  Selective Control of Synaptically-Connected Circuit
+      Elements using bioluminescence'
+    protocol:
+    - https://doi.org/10.1038/s42003-021-02981-7
+    publishedBy:
+      endDate: '2024-03-19T20:26:03.532850+00:00'
+      id: urn:uuid:0ff8ef39-27b9-44ef-8b11-8f880dc7a391
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-03-19T20:26:03.532850+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:c070c792-6f1d-4c57-8589-eb822eda6381
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.6
+    studyTarget:
+    - Test the efficacy of a bioluminescent-optogenetic synaptic construct in vivo
+    url: https://dandiarchive.org/dandiset/000935/0.240319.2026
+    version: 0.240319.2026
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

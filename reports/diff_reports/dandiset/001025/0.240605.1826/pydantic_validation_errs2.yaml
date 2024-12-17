@@ -1,0 +1,114 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 10690479132
+      numberOfFiles: 21
+      numberOfSubjects: 19
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+        name: Cricetulus griseus - Cricetulus aureus
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Gudvangen, Emily; Mangalanathan, Uma; Semenov, Iurii;
+      Pakhomov, Andrei (2024) The impact of voltage on CANCAN focusing of electroporation
+      using four-electrode arrays of varying sizes (Version 0.240605.1826) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/001025/0.240605.1826
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Gudvangen, Emily
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-0126-5660
+      includeInCitation: true
+      name: Mangalanathan, Uma
+      schemaKey: Person
+    - identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:Author
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: ' NIH 1R21EY034258'
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-15T20:33:08.663366+00:00'
+    datePublished: '2024-06-05T18:26:43.401312+00:00'
+    description: The study examines the effect of pulse voltage on CANCAN focusing
+      of electroporation using electrode arrays of different sizes. Adjustments in
+      the amplitude of nanosecond electroporation pulses influenced the intensity
+      of electroporation but did not alter its spatial characteristics across the
+      electrode array. The study was supported in part by NIH R21EY034258
+    ethicsApproval: []
+    id: DANDI:001025/0.240605.1826
+    identifier: DANDI:001025
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001025/0.240605.1826/assets.yaml
+    name: The impact of voltage on CANCAN focusing of electroporation using four-electrode
+      arrays of varying sizes
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-05T18:26:43.401312+00:00'
+      id: urn:uuid:1356c1de-6e1c-4328-8eb3-0e266982f693
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-05T18:26:43.401312+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:8e6f895c-1a80-49e3-a611-e3dbd90941e6
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: 10.1016/j.bioelechem.2023.108437
+      name: Next generation CANCAN focusing for remote stimulation by nanosecond electric
+        pulses
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://pubmed.ncbi.nlm.nih.gov/37030093/
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001025/0.240605.1826
+    version: 0.240605.1826
+    wasGeneratedBy:
+    - identifier: NIH 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

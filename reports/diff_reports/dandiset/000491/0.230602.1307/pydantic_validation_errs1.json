@@ -1,0 +1,195 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000491/0.230602.1307",
+      "url": "https://dandiarchive.org/dandiset/000491/0.230602.1307",
+      "name": "BrainFlowZZZ",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230602.1307",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Zhao, Yue; Boster, Kimberly; Kelley, Douglas; Raicevic, Nikola (2023) BrainFlowZZZ (Version 0.230602.1307) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/0.230602.1307",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000491",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Zhao, Yue",
+          "email": "yuezhao@rochester.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:DataManager",
+            "dcite:Maintainer"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Boster, Kimberly",
+          "roleName": [
+            "dcite:Researcher"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5178-128X",
+          "affiliation": [
+            {
+              "name": "University of Rochester",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/022kthw22"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kelley, Douglas",
+          "email": "d.h.kelley@rochester.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:ProjectLeader",
+            "dcite:ProjectManager"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9658-2954",
+          "affiliation": [
+            {
+              "name": "University of Rochester",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/022kthw22"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "United States Department of the Army",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/035w1gb98",
+          "awardNumber": "MURI W911NF1910280",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "U19NS128613 and R01AT012312",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "Raicevic, Nikola",
+          "email": "nraicevi@u.rochester.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "University of Rochester",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/022kthw22"
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-04-26T03:36:47.214653+00:00",
+      "description": "Dataset from the 2023 manuscript titled **_Sizes and Shapes of Perivascular Spaces Surrounding Murine Pial Arteries_** by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1.  \n\n## Overview\nThe **14 datasets** from **9 subjects** include the original 3D two photon microscopy data from three channels which show tracer in the vessel, PVSs, and microspheres. Additionally, each dataset also includes the final binary segmentation of the PVS and vessel used to generate the model and statistics in the manuscript. Additional details regarding the subjects, tracer injection, image acquisition, and segmentation can be found in the manuscript at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9949243/.\n\n## Content\nFor easier navigation, below is a mapping between the NWB file names and the datasets referenced in the manuscript.\n1. sub-21-07-19-b-act (Mouse 6, dataset K)\n2. sub-21-09-01-b-act (Mouse 8, dataset M)\n3. sub-21-09-20-b-act (Mouse 9, dataset N)\n4. sub-21-10-08-b-act (Mouse 7, dataset L)\n5. sub-BPN-M4 (Mouse 3, dataset E and F)\n6. sub-BPN-M6 (Mouse 4, dataset G and H)\n7. sub-BPN-M7 (Mouse 5, dataset I and J)\n8. sub-BPN-OLD-M2 (Mouse 1, dataset A and B)\n9. sub-BPN-OLD-M3 (Mouse 2, dataset C and D)\n\n## Data Reading Instructions\nThe .nwb files can be viewed using PyNWB or MatNWB. To install and set up, please visit <https://www.nwb.org/how-to-use/>. Below, we show how to open and view an .nwb file using MatNWB. \n### Loading the image data\n```matlab\nnwb = nwbRead(PATH_TO_NWB_FILE);\n\n% first check what color channels are present\n>> nwb.acquisition\nans = \n  3\u00d71 Set array with properties:\n    TwoPhotonSeriesChanA: [types.core.TwoPhotonSeries]\n    TwoPhotonSeriesChanB: [types.core.TwoPhotonSeries]\n    TwoPhotonSeriesChanC: [types.core.TwoPhotonSeries]\n```\nThe above code load the .nwb file and the output tells us that there are three channels present in the nwb file, which are ChanA, ChanB, and ChanC. Then, to load the actual data from a channel,\n```matlab\n% load the image data from ChanA\n>> chanAdata = nwb.acquisition.get('TwoPhotonSeriesChanA').data.load();\n\n% check its shape\n>> size(chanAdata)\nans =\n     1   512   512   181\n```\n### Loading the segmentation masks\nFor an overview of the mask for ChanA, for example,\n```matlab\n>> nwb.processing.get('ophys').nwbdatainterface.get('ImageSegmentation').planesegmentation.get('PlaneSegmentationChanA').image_mask.data\nans = \n  DataStub with properties:\n    filename: '.\\sub-BPN-M4_ses-20210524-m1_obj-1c8nyxo_ophys.nwb'\n        path: '/processing/ophys/ImageSegmentation/PlaneSegmentationChanA/image_mask'\n        dims: [512 512 181]\n       ndims: 3\n    dataType: 'logical'\n```\nTo load the actual mask data into array (may take several seconds to load),\n```matlab\n% load mask from ChanA\n>> mask = nwb.processing.get('ophys').nwbdatainterface.get('ImageSegmentation').planesegmentation.get('PlaneSegmentationChanA').image_mask.data.load();\n\n% check its shape\n>> size(mask)\nans =\n   512   512   181\n```",
+      "publishedBy": {
+        "id": "urn:uuid:2165d23e-389e-4efd-8ccf-c841c4648cd4",
+        "name": "DANDI publish",
+        "endDate": "2023-06-02T13:07:32.205531+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-06-02T13:07:32.205531+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:ed323eeb-c2bd-4cb1-8c6e-cbccda4c4e30",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 5324803662,
+        "numberOfFiles": 14,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "TwoPhotonSeries",
+          "ImagingPlane",
+          "OpticalChannel",
+          "ProcessingModule",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-06-02T13:07:32.205531+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "DHK and MN acknowledge support from the United States Army grant MURI W911NF1910280 and the National Institutes of Health grants U19NS128613 and R01AT012312.",
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000491/0.230602.1307/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

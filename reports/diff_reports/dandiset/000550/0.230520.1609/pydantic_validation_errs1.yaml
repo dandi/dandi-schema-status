@@ -1,0 +1,113 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 23579017779
+      numberOfFiles: 17
+      numberOfSubjects: 17
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
+        name: Bos taurus - Cattle
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Kim, Vitalii ; Semenov, Iurii; Pakhomov, Andrei
+      (2023) Pulse repetition rate (Version 0.230520.1609) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000550/0.230520.1609
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-0699-5582
+      includeInCitation: true
+      name: 'Kim, Vitalii '
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName: []
+      schemaKey: Person
+    - awardNumber: R21EY034258
+      contactPoint: []
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-05-19T19:34:37.088796+00:00'
+    datePublished: '2023-05-20T16:09:33.329203+00:00'
+    description: 'Effect of pulse repetition rate on electroporation by 5 600ns unipolar
+      or 600+600ns bipolar pulses (second phase''s amplitude was 50% in relation to
+      the first pulse''s amplitude), at 833kHz, 500kHz, 100kHz, 10kHz. The electrodes
+      were two parallel stainless-steel cylinders, 1.5 mm in diameter and 3 mm apart.
+      Supported by NIH 1R21EY034258
+
+      '
+    ethicsApproval: []
+    id: DANDI:000550/0.230520.1609
+    identifier: DANDI:000550
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000550/0.230520.1609/assets.yaml
+    name: Pulse repetition rate
+    protocol: []
+    publishedBy:
+      endDate: '2023-05-20T16:09:33.329203+00:00'
+      id: urn:uuid:4e0a5041-fbac-4606-bea9-b3556d5961cc
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-05-20T16:09:33.329203+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:ed6c3597-c251-4b9e-af00-5bab4d449a3e
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Action spectra and mechanisms of (in) efficiency of bipolar electric pulses
+        at electroporation
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.bioelechem.2022.108319
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000550/0.230520.1609
+    version: 0.230520.1609
+    wasGeneratedBy:
+    - identifier: R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+      used: []
+      wasAssociatedWith: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

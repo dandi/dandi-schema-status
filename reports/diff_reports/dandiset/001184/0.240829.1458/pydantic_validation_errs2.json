@@ -1,0 +1,162 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001184/0.240829.1458",
+      "url": "https://dandiarchive.org/dandiset/001184/0.240829.1458",
+      "name": "Brain-wide microstrokes affect the stability of memory circuits in the hippocampus",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240829.1458",
+      "citation": "Heiser, Hendrik; Wahl, Anna-Sophia (2024) Brain-wide microstrokes affect the stability of memory circuits in the hippocampus (Version 0.240829.1458) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001184/0.240829.1458",
+      "keywords": [
+        "two-photon imaging",
+        "hippocampus",
+        "ca1",
+        "virtual reality",
+        "spatial navigation",
+        "microlesions",
+        "stroke"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001184",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Heiser, Hendrik",
+          "email": "hendrik-heiser@gmx.de",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:Researcher",
+            "dcite:Validation"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-1725-5571",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Wahl, Anna-Sophia",
+          "email": "annasophia.wahl@med.uni-muenchen.de",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:FundingAcquisition",
+            "dcite:Investigation",
+            "dcite:ProjectLeader",
+            "dcite:Supervision",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9498-4263",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-08-29T09:28:28.816096+00:00",
+      "description": "Data for the publication \"Brain-wide microstrokes affect the stability of memory circuits in the hippocampus\".",
+      "publishedBy": {
+        "id": "urn:uuid:be5f99a8-cda1-4561-a3db-7e919ae463be",
+        "name": "DANDI publish",
+        "endDate": "2024-08-29T14:58:40.362743+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-08-29T14:58:40.362743+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:012021fb-ebbb-4b31-bd2d-de8bd842900d",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 130937573056,
+        "numberOfFiles": 309,
+        "numberOfSubjects": 21,
+        "variableMeasured": [
+          "Position",
+          "OpticalChannel",
+          "ImagingPlane",
+          "SpatialSeries",
+          "BehavioralEvents",
+          "BehavioralEpochs",
+          "BehavioralTimeSeries",
+          "PlaneSegmentation",
+          "TwoPhotonSeries",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-08-29T14:58:40.362743+00:00",
+      "schemaVersion": "0.6.8",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001184/0.240829.1458/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

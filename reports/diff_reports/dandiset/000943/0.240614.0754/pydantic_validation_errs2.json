@@ -1,0 +1,104 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000943/0.240614.0754",
+      "url": "https://dandiarchive.org/dandiset/000943/0.240614.0754",
+      "name": "Clark and Nolan (2024) Task-anchored grid cell firing is selectively associated with successful path integration-dependent behaviour",
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.240614.0754",
+      "citation": "Clark, Harry (2024) Clark and Nolan (2024) Task-anchored grid cell firing is selectively associated with successful path integration-dependent behaviour (Version 0.240614.0754) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000943/0.240614.0754",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000943",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Clark, Harry",
+          "email": "harrydclark91@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-03-28T13:15:33.968368+00:00",
+      "description": "This dataset contains electrophysiological recordings alongside the synchronised behavioural data for mice running in an open field and virtual linear track environments. Movable tetrodes were targeted to the medial entorhinal cortex. Further details can be found here (https://doi.org/10.7554/eLife.89356.2).",
+      "publishedBy": {
+        "id": "urn:uuid:19f6134a-aee2-4ad2-bcbf-072d46afdcbf",
+        "name": "DANDI publish",
+        "endDate": "2024-06-14T07:54:00.727327+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-06-14T07:54:00.727327+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:e6962b3c-1ce8-4f1e-b540-baed3433f69a",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 976205947390,
+        "numberOfFiles": 734,
+        "numberOfSubjects": 12,
+        "variableMeasured": [
+          "ElectrodeGroup",
+          "ElectricalSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-06-14T07:54:00.727327+00:00",
+      "schemaVersion": "0.6.7",
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000943/0.240614.0754/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

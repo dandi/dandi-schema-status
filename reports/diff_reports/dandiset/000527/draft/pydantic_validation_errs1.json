@@ -1,0 +1,121 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "5 R01 NS 123887-02"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000527/draft",
+      "url": "https://dandiarchive.org/dandiset/000527/draft",
+      "name": "Trigeminal temperature imaging",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Trigeminal temperature imaging (2023). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000527/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000527",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "5 R01 NS 123887-02"
+        }
+      ],
+      "dateCreated": "2023-05-03T13:05:43.624687+00:00",
+      "description": "Imaging of trigeminal ganglion responses to temperature stimuli after single-cell electroporation of trigeminal neurons",
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Danio rerio - Zebra fish",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 753201058,
+        "numberOfFiles": 5,
+        "numberOfSubjects": 5,
+        "variableMeasured": [
+          "TwoPhotonSeries",
+          "ImagingPlane",
+          "OpticalChannel"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000527/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

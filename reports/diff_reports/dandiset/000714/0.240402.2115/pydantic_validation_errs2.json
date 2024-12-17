@@ -1,0 +1,204 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000714/0.240402.2115",
+      "url": "https://dandiarchive.org/dandiset/000714/0.240402.2115",
+      "name": "Segmented and labeled NeuroPAL structural images",
+      "about": [
+        {
+          "name": "C. elegans whole-brain",
+          "schemaKey": "Anatomy"
+        }
+      ],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.240402.2115",
+      "citation": "Sprague, Daniel; Chaudhary, Shivesh; Lee, Sol Ah; Li, Yueyi; Patel, Dhaval S; Lu, Hang (2024) Segmented and labeled NeuroPAL structural images (Version 0.240402.2115) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000714/0.240402.2115",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000714",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Sprague, Daniel",
+          "email": "daniel.y.sprague@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Chaudhary, Shivesh",
+          "email": "shiveshc@gmail.com",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson",
+            "dcite:DataCollector",
+            "dcite:Conceptualization",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Validation",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, United States",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Lee, Sol Ah",
+          "roleName": [
+            "dcite:Investigation"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, United States",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Li, Yueyi",
+          "roleName": [
+            "dcite:Investigation"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, United States",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Patel, Dhaval S",
+          "roleName": [
+            "dcite:Methodology"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, United States",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Lu, Hang",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:ProjectAdministration",
+            "dcite:Visualization"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, United States",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-11-20T21:32:21.225581+00:00",
+      "description": "Segmented and labeled NeuroPAL datasets from \"Graphical-model framework for automated annotation of cell identities in dense cellular images\" by Shivesh Chaudhary, et al.",
+      "publishedBy": {
+        "id": "urn:uuid:9973ed8a-a633-4825-9bac-0db737722ec2",
+        "name": "DANDI publish",
+        "endDate": "2024-04-02T21:15:48.042377+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-04-02T21:15:48.042377+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:1200775c-ac7b-401a-a92e-7ff455373242",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 478075700,
+        "numberOfFiles": 9,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "ProcessingModule",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-04-02T21:15:48.042377+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://github.com/shiveshc/CRF_Cell_ID",
+          "name": "Conditional Random Field Graphical Model for Annotation of C. elegans whole-brain images",
+          "relation": "dcite:IsSupplementTo",
+          "schemaKey": "Resource",
+          "repository": "CRF_Cell_ID"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000714/0.240402.2115/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

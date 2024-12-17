@@ -1,0 +1,79 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 15171009654
+      numberOfFiles: 1
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+    citation: 'Lakhani, Alishah (2024) Data for: Whisker deprivation triggers a distinct
+      form of cortical homeostatic plasticity that is impaired in the Fmr1 KO (Version
+      0.240907.1930) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001171/0.240907.1930'
+    contributor:
+    - affiliation: []
+      email: lakhanialishah@gmail.com
+      includeInCitation: true
+      name: Lakhani, Alishah
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-08-12T12:23:20.214623+00:00'
+    datePublished: '2024-09-07T19:30:16.043395+00:00'
+    description: 'This dataset contains all the raw data files for the paper: Whisker
+      deprivation triggers a distinct form of cortical homeostatic plasticity that
+      is impaired in the Fmr1 KO'
+    ethicsApproval: []
+    id: DANDI:001171/0.240907.1930
+    identifier: DANDI:001171
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001171/0.240907.1930/assets.yaml
+    name: 'Data for: Whisker deprivation triggers a distinct form of cortical homeostatic
+      plasticity that is impaired in the Fmr1 KO'
+    protocol: []
+    publishedBy:
+      endDate: '2024-09-07T19:30:16.043395+00:00'
+      id: urn:uuid:19b9828d-9223-4828-8fa1-a2f4c1f24338
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-09-07T19:30:16.043395+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:09c0b85c-ee0d-4cc9-8e7b-99e715210985
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001171/0.240907.1930
+    version: 0.240907.1930
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

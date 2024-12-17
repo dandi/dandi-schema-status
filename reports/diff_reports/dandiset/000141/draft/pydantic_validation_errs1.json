@@ -1,0 +1,30 @@
+[
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "contributor",
+      0,
+      "Person",
+      "name"
+    ],
+    "msg": "String should match pattern '^([\\w\\s\\-\\.']+),\\s+([\\w\\s\\-\\.']+)$'",
+    "input": ", ",
+    "ctx": {
+      "pattern": "^([\\w\\s\\-\\.']+),\\s+([\\w\\s\\-\\.']+)$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  },
+  {
+    "type": "enum",
+    "loc": [
+      "license",
+      0
+    ],
+    "msg": "Input should be 'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'",
+    "input": "spdx:CC-BY-NC-4.0",
+    "ctx": {
+      "expected": "'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/enum"
+  }
+]

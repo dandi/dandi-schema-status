@@ -1,0 +1,119 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R21 EY 035437-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001134/draft",
+      "url": "https://dandiarchive.org/dandiset/001134/draft",
+      "name": "Photoacoustic stimulation on wild type Long Evans rat retina ex vivo recoded by multi electrode array",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "Photoacoustic stimulation on wild type Long Evans rat retina ex vivo recoded by multi electrode array (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001134/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001134",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R21 EY 035437-01"
+        }
+      ],
+      "dateCreated": "2024-08-06T03:51:29.183374+00:00",
+      "description": "Photoacoustic stimulation on extracted rat retina from wild-type Long Evans rat. The photoacoustic stimulation was delivered every five seconds with various durations (10 ms, 30 ms, 50 ms), starting at the 2nd second. The recording length is one minute. The signals were recorded with a 252-channel multi-electrode array.",
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Rattus norvegicus - Norway rat",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 3433948708,
+        "numberOfFiles": 20,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "schemaVersion": "0.6.8",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/001134/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

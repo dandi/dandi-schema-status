@@ -1,0 +1,163 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000129/0.241017.1444",
+      "url": "https://dandiarchive.org/dandiset/000129/0.241017.1444",
+      "name": "MC_RTT: macaque motor cortex spiking activity during self-paced reaching",
+      "about": [
+        {
+          "name": "Primary motor cortex",
+          "schemaKey": "Anatomy",
+          "identifier": "UBERON:0001384"
+        }
+      ],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements",
+          "contactPoint": {
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241017.1444",
+      "citation": "O'Doherty, Joseph (2024) MC_RTT: macaque motor cortex spiking activity during self-paced reaching (Version 0.241017.1444) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/0.241017.1444",
+      "keywords": [
+        "Neural Latents Benchmark",
+        "NLB"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000129",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Pei, Felix",
+          "email": "felp8484@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Maintainer"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "O'Doherty, Joseph",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8175-5699",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/043mz5j54"
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2021-08-21T19:27:11.638113+00:00",
+      "description": "This dataset contains sorted unit spiking times and behavioral data from a macaque performing a self-paced reaching task. In the experimental task, the subject reached between targets randomly selected from an 8x8 grid without gaps or pre-movement delay intervals. Neural activity was recorded from an electrode array implanted in the primary motor cortex. Finger position, cursor position, and target position were also recorded during the experiment. Provided as part of the Neural Latents Benchmark: https://neurallatents.github.io.",
+      "publishedBy": {
+        "id": "urn:uuid:96ab35ff-6d19-4b4d-baa2-c5e80bb5f949",
+        "name": "DANDI publish",
+        "endDate": "2024-10-17T14:44:59.848372+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-17T14:44:59.848372+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:e43a34c0-acca-46dc-b1a3-99d85a2a1c8b",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 50965512,
+        "numberOfFiles": 2,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "Units",
+          "ElectrodeGroup",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-17T14:44:59.848372+00:00",
+      "schemaVersion": "0.6.0",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.5281/zenodo.3854034",
+          "name": "Nonhuman primate reaching with multichannel sensorimotor cortex electrophysiology",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "10.5281/zenodo.3854034\t",
+          "repository": "Zenodo"
+        },
+        {
+          "url": "https://doi.org/10.1088/1741-2552/aa9e95",
+          "name": "Superior arm-movement decoding from cortex with a new, unsupervised-learning algorithm",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "10.1088/1741-2552/aa9e95",
+          "repository": "Journal of Neural Engineering"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000129/0.241017.1444/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

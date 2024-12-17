@@ -1,0 +1,21 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation:
+    - includeInCitation: false
+      name: Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research
+        UCSF School of Medicine
+      schemaKey: Affiliation
+    includeInCitation: true
+    name: Zhou, Li
+    roleName:
+    - dcite:Author
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 0
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

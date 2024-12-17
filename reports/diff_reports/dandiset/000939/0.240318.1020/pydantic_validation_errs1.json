@@ -1,0 +1,191 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000939/0.240318.1020",
+      "url": "https://dandiarchive.org/dandiset/000939/0.240318.1020",
+      "name": "Large-scale recordings of head-direction cells in mouse postsubiculum",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240318.1020",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.6/context.json",
+      "citation": "Duszkiewicz, Adrian; Scromne Carrasco, Sofia; Peyrache, Adrien (2024) Large-scale recordings of head-direction cells in mouse postsubiculum (Version 0.240318.1020) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000939/0.240318.1020",
+      "keywords": [
+        "head-direction",
+        "postsubiculum",
+        "electrophysiology",
+        "freely-moving",
+        "mouse",
+        "probe",
+        "extracellular"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000939",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Duszkiewicz, Adrian",
+          "email": "a.j.duszkiewicz@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Scromne Carrasco, Sofia",
+          "email": "sofia.skromnecarrasco@mail.mcgill.ca",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Peyrache, Adrien",
+          "email": "adrien.peyrache@mcgill.ca",
+          "roleName": [],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Wellcome Trust",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/029chgv08",
+          "includeInCitation": false
+        },
+        {
+          "name": "McGill University",
+          "roleName": [],
+          "schemaKey": "Organization",
+          "includeInCitation": false
+        },
+        {
+          "name": "University of Edinburgh",
+          "schemaKey": "Organization",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-03-14T00:26:27.286667+00:00",
+      "description": "64-channel linear probe recordings from mouse postsubiculum (dorsal presubiculum) - a region in which most excitatory cells are narrowly tuned to the animal's head-direction.  Dataset (upload in progress) includes one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. \n\nEach NWB file contains: timestamps of detected units, mean waveforms, LFP,  animal position and head-direction,  sleep scoring (REM/NREM), accelerometer data. \n\nData used in Duszkiewicz et al, 2024 (DOI: 10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. \n\nFull dataset in Matlab format (including ADN recordings) and code to reproduce figures in the article can be found at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n",
+      "publishedBy": {
+        "id": "urn:uuid:448fdb98-b8e2-4881-9dfd-1051bdaa03bb",
+        "name": "DANDI publish",
+        "endDate": "2024-03-18T10:20:55.241645+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-03-18T10:20:55.241645+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:8c045969-74e2-4b76-a54d-db0a5e3dba9f",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Functional characterization of cell populations in mouse postsubiculum "
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 36885597443,
+        "numberOfFiles": 20,
+        "numberOfSubjects": 19,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "Position",
+          "CompassDirection",
+          "ProcessingModule",
+          "SpatialSeries",
+          "Units",
+          "ElectrodeGroup",
+          "LFP"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "signal filtering technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-03-18T10:20:55.241645+00:00",
+      "schemaVersion": "0.6.6",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "MNI- 7839",
+          "contactPoint": {
+            "url": "https://www.mcgill.ca/neuro/research/animal-care-committee",
+            "email": "acc.mni@mcgill.ca",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.240318.1020/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

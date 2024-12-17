@@ -1,0 +1,119 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 3173065152
+      numberOfFiles: 18
+      numberOfSubjects: 18
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+        name: Cricetulus griseus - Cricetulus aureus
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
+      Time kinetics of the membrane potential at the cathode- and anode-facing poles
+      of a cell induced by a train of 5 pulses at 833 kHz (Version 0.230421.1844)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000448/0.230421.1844
+    contributor:
+    - affiliation: []
+      email: gsilkuni@odu.edu
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-0699-5582
+      includeInCitation: true
+      name: Kim, Vitalii
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName: []
+      schemaKey: Person
+    - awardNumber: 1R21EY034258
+      contactPoint: []
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-02-17T18:25:05.767450+00:00'
+    datePublished: '2023-04-21T18:44:20.183082+00:00'
+    description: Time-lapse recordings for the investigation of the relationship between
+      the electroporation efficiency of nsEP and changes in the transmembrane potential
+      (TMP). A strobe imaging synchronized with nsEP exposure was used.  This allowed
+      studying the nanosecond kinetics of TMP charging and relaxation, which is the
+      primary effect of nsEP that rapidly charges the plasma membrane. The methodology
+      involved pulsed laser fluorescence microscopy with voltage-sensitive FluoVolt
+      dye-loaded cells that respond to TMP changes within nanoseconds. FluoVolt has
+      a high sensitivity of about 10 % deltaF/F per 100 mV. During the imaging, a
+      single short pulse laser flash is delivered at a precise time interval (addition
+      of 25ns in each frame) before, during, or after nsEP exposure. The camera shutter
+      opens in advance of and closes after the laser flash, capturing one TMP image
+      per nsEP exposure. Supported by NIH 1R21EY034258
+    ethicsApproval: []
+    id: DANDI:000448/0.230421.1844
+    identifier: DANDI:000448
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000448/0.230421.1844/assets.yaml
+    name: Time kinetics of the membrane potential at the cathode- and anode-facing
+      poles of a cell induced by a train of 5 pulses at 833 kHz
+    protocol: []
+    publishedBy:
+      endDate: '2023-04-21T18:44:20.183082+00:00'
+      id: urn:uuid:f979aef8-6ace-46b7-83c7-b08b7be41619
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-04-21T18:44:20.183082+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:7a642e20-aaed-4620-96a3-a85c533fb3ae
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Action spectra and mechanisms of (in) efficiency of bipolar electric pulses
+        at electroporation
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.bioelechem.2022.108319
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000448/0.230421.1844
+    version: 0.230421.1844
+    wasGeneratedBy:
+    - identifier: R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+      used: []
+      wasAssociatedWith: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "contributor",
+      0,
+      "Person",
+      "affiliation",
+      0,
+      "includeInCitation"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": false,
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "contributor",
+      1,
+      "Person",
+      "affiliation",
+      0,
+      "includeInCitation"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": false,
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "too_short",
+    "loc": [
+      "license"
+    ],
+    "msg": "List should have at least 1 item after validation, not 0",
+    "input": [],
+    "ctx": {
+      "field_type": "List",
+      "min_length": 1,
+      "actual_length": 0
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/too_short"
+  }
+]

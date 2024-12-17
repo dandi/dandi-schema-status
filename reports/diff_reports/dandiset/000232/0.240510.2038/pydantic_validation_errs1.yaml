@@ -1,0 +1,193 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: signal filtering technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 23585285354
+      numberOfFiles: 179
+      numberOfSubjects: 18
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - Units
+      - LFP
+      - ProcessingModule
+      - ElectrodeGroup
+      - BehavioralTimeSeries
+    citation: Chang, Yi-Ting; OConnor, Daniel H (2024) Rule-based modulation of a
+      sensorimotor transformation across cortical areas (Version 0.240510.2038) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/000232/0.240510.2038
+    contributor:
+    - affiliation: []
+      email: ychang73@jhmi.edu
+      identifier: 0000-0001-5327-250X
+      includeInCitation: true
+      name: Chang, Yi-Ting
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: dan.oconnor@jhmi.edu
+      identifier: 0000-0002-9193-6714
+      includeInCitation: true
+      name: OConnor, Daniel H
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: luiz_tauffer@hotmail.com
+      includeInCitation: false
+      name: Tauffer, Luiz
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - affiliation: []
+      email: ben.dichter@gmail.com
+      identifier: 0000-0001-5725-6910
+      includeInCitation: false
+      name: Dichter, Ben
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - awardNumber: R01NS089652, 1R01NS104834-01
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institute of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nih.gov/
+    - awardNumber: S-2021-GR-045
+      contactPoint: []
+      identifier: https://ror.org/00kztt736
+      includeInCitation: false
+      name: The Kavli Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.kavlifoundation.org/
+    - contactPoint: []
+      includeInCitation: false
+      name: Ministry of Education of Taiwan
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://english.moe.gov.tw/mp-1.html
+    dateCreated: '2022-04-11T15:37:16.661978+00:00'
+    datePublished: '2024-05-10T20:38:21.534058+00:00'
+    description: 'Flexible responses to sensory stimuli based on changing rules are
+      critical for adapting to a dynamic environment. However, it remains unclear
+      how the brain encodes and uses rule information to guide behavior. Here, we
+      made single-unit recordings while head-fixed mice performed a cross-modal sensory
+      selection task where they switched between two rules: licking in response to
+      tactile stimuli while rejecting visual stimuli, or vice versa. Along a cortical
+      sensorimotor processing stream including the primary (S1) and secondary (S2)
+      somatosensory areas, and the medial (MM) and anterolateral (ALM) motor areas,
+      single-neuron activity distinguished between the two rules both prior to and
+      in response to the tactile stimulus. We hypothesized that neural populations
+      in these areas would show rule-dependent preparatory states, which would shape
+      the subsequent sensory processing and behavior. This hypothesis was supported
+      for the motor cortical areas (MM and ALM) by findings that (1) the current task
+      rule could be decoded from pre-stimulus population activity; (2) neural subspaces
+      containing the population activity differed between the two rules; and (3) optogenetic
+      disruption of pre-stimulus states impaired task performance. Our findings indicate
+      that flexible action selection in response to sensory input can occur via configuration
+      of preparatory states in the motor cortex.'
+    ethicsApproval: []
+    id: DANDI:000232/0.240510.2038
+    identifier: DANDI:000232
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000232/0.240510.2038/assets.yaml
+    name: Rule-based modulation of a sensorimotor transformation across cortical areas
+    protocol: []
+    publishedBy:
+      endDate: '2024-05-10T20:38:21.534058+00:00'
+      id: urn:uuid:529780f0-9c17-4c42-bb25-1270fad99008
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-10T20:38:21.534058+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:0d89dcbb-dd6e-45d7-9237-3fed7d490cf3
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: 10.5281/zenodo.11176244
+      name: 'Processed data for: Rule-based modulation of a sensorimotor transformation
+        across cortical areas'
+      relation: dcite:IsSupplementTo
+      repository: Zenodo
+      resourceType: dcite:Dataset
+      schemaKey: Resource
+      url: https://zenodo.org/records/11176244
+    - identifier: 10.1101/2023.08.21.554194
+      name: 'Preprint for: Rule-based modulation of a sensorimotor transformation
+        across cortical areas'
+      relation: dcite:IsSourceOf
+      repository: BioRxiv
+      resourceType: dcite:Preprint
+      schemaKey: Resource
+      url: https://www.biorxiv.org/content/10.1101/2023.08.21.554194v2
+    - identifier: '728394894'
+      name: 'Code for: Rule-based modulation of a sensorimotor transformation across
+        cortical areas'
+      relation: dcite:IsSupplementTo
+      repository: GitHub
+      resourceType: dcite:Software
+      schemaKey: Resource
+      url: https://github.com/YitingChang/cross_modal_task.git
+    - identifier: 12:RP92620
+      name: 'Paper for: Rule-based modulation of a sensorimotor transformation across
+        cortical areas'
+      relation: dcite:IsSourceOf
+      repository: eLife
+      resourceType: dcite:JournalArticle
+      schemaKey: Resource
+      url: https://elifesciences.org/reviewed-preprints/92620v1
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.2
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000232/0.240510.2038
+    version: 0.240510.2038
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

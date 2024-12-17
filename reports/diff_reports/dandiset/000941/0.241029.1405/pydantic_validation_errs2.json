@@ -1,0 +1,188 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000941/0.241029.1405",
+      "url": "https://dandiarchive.org/dandiset/000941/0.241029.1405",
+      "name": "FALCON Benchmark M1-A: primary motor cortex recordings in primate during reach-to-grasp task",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241029.1405",
+      "citation": "Rouse, Adam G; Schieber, Marc H (2024) FALCON Benchmark M1-A: primary motor cortex recordings in primate during reach-to-grasp task (Version 0.241029.1405) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000941/0.241029.1405",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000941",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Rouse, Adam G",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3785-1442",
+          "includeInCitation": true
+        },
+        {
+          "name": "Schieber, Marc H",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-4315-8161",
+          "includeInCitation": true
+        },
+        {
+          "name": "Karpowicz, Brianna M",
+          "email": "brianna.karpowicz@emory.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-6519-4641",
+          "includeInCitation": false
+        },
+        {
+          "name": "NIH NINDS",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "R01NS079664 (MHS), R01NS102343 (MHS), K99/R00NS101127 (AGR)",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-03-18T19:39:51.187866+00:00",
+      "description": "This dataset contains multiunit spiking times and behavioral data from a macaque performing a reach-to-grasp task. The experimental task was a center-out reaching task with four different objects in eight possible positions. Neural activity was recorded from electrode arrays implanted in primary motor cortex (M1). Electromyographical (EMG) activity was simultaneously recorded from upper limb muscles. Provided as part of the FALCON Benchmark: https://snel-repo.github.io/falcon/ \n\nThe datafile contains the following data in the acquisition fields: `preprocessed_emg` containing iEMG recordings from 16 muscles and `eval_mask` indicating within-trial periods used for evaluating performance in the FALCON Benchmark. Each datafile also includes spike times in the `units` field, and trial metadata for each reach and grasp (`gocue_time`, `move_onset_time`, `contact_time`, `reward_time`, `result`, `number`, `tgt_loc`, `tgt_obj`, `obj_id`, `condition_id`) in the `trials` field.\n\nAs part of the FALCON challenge, dataset files are released in three ways. The `held-in-calib` data includes many trials of data intended for calibration of decoders in the FALCON challenge. The `held-in-minival` data is a small subset of the `held-in-calib` data intended for FALCON models to validate submission format. Lastly, `held-out-calib` data are separate sessions of data from `held-in-calib`, but have much fewer trials, intended to be used for few-shot recalibration. Please bear in mind these factors if making use of this dataset for purposes outside of the FALCON Benchmark. Each dataset split is considered one \"subject\" by the DANDI repository; only data from one monkey is included.\n\nData from an additional monkey is available here: https://dandiarchive.org/dandiset/001209",
+      "publishedBy": {
+        "id": "urn:uuid:4cd07601-3149-49c9-9970-27da1377f28d",
+        "name": "DANDI publish",
+        "endDate": "2024-10-29T14:05:33.599815+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-29T14:05:33.599815+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:883845ce-10d3-4a55-b7cf-535691346abe",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 311792278,
+        "numberOfFiles": 11,
+        "numberOfSubjects": 3,
+        "variableMeasured": [
+          "Units",
+          "ElectrodeGroup",
+          "BehavioralTimeSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-29T14:05:33.599815+00:00",
+      "schemaVersion": "0.6.6",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "University of Rochester IACUC",
+          "contactPoint": {
+            "email": "arouse@kumc.edu",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.1152/jn.00686.2015",
+          "name": "Spatiotemporal distribution of location and object effects in reach-to-grasp kinematics",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "",
+          "repository": "Journal of Neurophysiology"
+        },
+        {
+          "url": "https://doi.org/10.1523/JNEUROSCI.1716-16.2016",
+          "name": "Spatiotemporal Distribution of Location and Object Effects in Primary Motor Cortex Neurons during Reach-to-Grasp",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "repository": "Journal of Neuroscience"
+        },
+        {
+          "url": "https://doi.org/10.1152/jn.00008.2016",
+          "name": "Spatiotemporal distribution of location and object effects in the electromyographic activity of upper extremity muscles during reach-to-grasp",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "repository": "Journal of Neurophysiology"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.celrep.2018.11.057",
+          "name": "Condition-Dependent Neural Dimensions Progressively Shift during Reach to Grasp",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "repository": "Cell Reports"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000941/0.241029.1405/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

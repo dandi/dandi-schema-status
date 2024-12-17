@@ -1,0 +1,101 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 51968333
+      numberOfFiles: 17
+      numberOfSubjects: 34
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: 'Silkuniene, Giedre; Kim, Vitalii; Pakhomov, Andrei (2024) High-frequency
+      (2 kHz) sine wave  stimulation of individual hippocampal neurons: the effect
+      of electric field (Version 0.240520.1924) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001030/0.240520.1924'
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataCurator
+      schemaKey: Person
+    - identifier: 0000-0003-0699-5582
+      includeInCitation: true
+      name: Kim, Vitalii
+      roleName:
+      - dcite:DataCollector
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: 5R21EY034803
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-17T19:30:17.183063+00:00'
+    datePublished: '2024-05-20T19:24:52.387612+00:00'
+    description: 2 kHz stimulation of hippocampal neurons under different amplitudes
+      (measured as one polarity, V; peak-to-peak would be two-fold larger). Sine wave
+      amplitude was gradually increased during the initial 0.25 s, then stayed constant
+      at the voltage indicated in session descriptions. Sine wave stimulation begins
+      at 25 ms and lasts 2 s. For the employed electrode configuration, 1V translates
+      into 36 V/cm. Neuron action potentials were visualized using the voltage-sensitive
+      fluorescent dye, FluoVolt. The study was supported in part by NIH 15R21EY034803.
+    ethicsApproval: []
+    id: DANDI:001030/0.240520.1924
+    identifier: DANDI:001030
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001030/0.240520.1924/assets.yaml
+    name: 'High-frequency (2 kHz) sine wave  stimulation of individual hippocampal
+      neurons: the effect of electric field'
+    protocol: []
+    publishedBy:
+      endDate: '2024-05-20T19:24:52.387612+00:00'
+      id: urn:uuid:3eb36a19-4554-4722-9bdb-8e1cc14c7374
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-20T19:24:52.387612+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:8b54c9a2-4010-4f66-82bb-8355b6959c4a
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001030/0.240520.1924
+    version: 0.240520.1924
+    wasGeneratedBy:
+    - identifier: 5R21EY034803
+      name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,115 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: current clamp technique
+        schemaKey: MeasurementTechniqueType
+      - name: voltage clamp technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 11539847907
+      numberOfFiles: 294
+      numberOfSubjects: 114
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+        name: Macaca mulatta - Rhesus monkey
+        schemaKey: SpeciesType
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
+        name: Macaca nemestrina
+        schemaKey: SpeciesType
+      variableMeasured:
+      - CurrentClampSeries
+      - CurrentClampStimulusSeries
+      - VoltageClampSeries
+      - VoltageClampStimulusSeries
+    citation: Sawchuk, Scott; Kalmbach, Brian (2024) Areal specializations in the
+      morpho-electric and transcriptomic properties of layer 5 extratelencephalic-projecting
+      neurons in the primate neocortex (Version 0.241028.1559) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/001065/0.241028.1559
+    contributor:
+    - affiliation: []
+      email: scott.sawchuk@alleninstitute.org
+      includeInCitation: true
+      name: Sawchuk, Scott
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      - dcite:Maintainer
+      - dcite:ProjectMember
+      - dcite:Researcher
+      schemaKey: Person
+    - email: briank@alleninstitute.org
+      includeInCitation: true
+      name: Kalmbach, Brian
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:Conceptualization
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      - dcite:FundingAcquisition
+      - dcite:Investigation
+      - dcite:Maintainer
+      - dcite:Methodology
+      - dcite:ProjectLeader
+      - dcite:Producer
+      schemaKey: Person
+    dateCreated: '2024-06-18T21:29:26.250578+00:00'
+    datePublished: '2024-10-28T15:59:27.775924+00:00'
+    description: 'Electrophysiology dataset associated with journal article titled
+      areal specializations in the morpho-electric and transcriptomic properties of
+      layer 5 extratelencephalic-projecting neurons in the primate neocortex. NWB
+      files contains current clamp data collected for analysis of deep layer 5 ET
+      neurons in the primate temporal and motor cortical regions. '
+    ethicsApproval: []
+    id: DANDI:001065/0.241028.1559
+    identifier: DANDI:001065
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001065/0.241028.1559/assets.yaml
+    name: Areal specializations in the morpho-electric and transcriptomic properties
+      of layer 5 extratelencephalic-projecting neurons in the primate neocortex
+    protocol: []
+    publishedBy:
+      endDate: '2024-10-28T15:59:27.775924+00:00'
+      id: urn:uuid:8ada89c9-f092-4c5f-b413-12adfcd54ea2
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-10-28T15:59:27.775924+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:b40bcc9a-6f64-443d-b225-50ddfaa1d45c
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001065/0.241028.1559
+    version: 0.241028.1559
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

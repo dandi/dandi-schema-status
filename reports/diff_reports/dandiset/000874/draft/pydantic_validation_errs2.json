@@ -1,0 +1,50 @@
+[
+  {
+    "type": "url_scheme",
+    "loc": [
+      "about",
+      1,
+      "Disorder",
+      "identifier",
+      "url['http','https']"
+    ],
+    "msg": "URL scheme should be 'http' or 'https'",
+    "input": "SCTID: 51178009",
+    "ctx": {
+      "expected_schemes": "'http' or 'https'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_scheme"
+  },
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "about",
+      1,
+      "Disorder",
+      "identifier",
+      "constrained-str"
+    ],
+    "msg": "String should match pattern '^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$'",
+    "input": "SCTID: 51178009",
+    "ctx": {
+      "pattern": "^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

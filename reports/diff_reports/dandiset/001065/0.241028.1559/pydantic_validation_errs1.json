@@ -1,0 +1,148 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001065/0.241028.1559",
+      "url": "https://dandiarchive.org/dandiset/001065/0.241028.1559",
+      "name": "Areal specializations in the morpho-electric and transcriptomic properties of layer 5 extratelencephalic-projecting neurons in the primate neocortex",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241028.1559",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json",
+      "citation": "Sawchuk, Scott; Kalmbach, Brian (2024) Areal specializations in the morpho-electric and transcriptomic properties of layer 5 extratelencephalic-projecting neurons in the primate neocortex (Version 0.241028.1559) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001065/0.241028.1559",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001065",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Sawchuk, Scott",
+          "email": "scott.sawchuk@alleninstitute.org",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:Maintainer",
+            "dcite:ProjectMember",
+            "dcite:Researcher"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kalmbach, Brian",
+          "email": "briank@alleninstitute.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson",
+            "dcite:DataCollector",
+            "dcite:Conceptualization",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:FundingAcquisition",
+            "dcite:Investigation",
+            "dcite:Maintainer",
+            "dcite:Methodology",
+            "dcite:ProjectLeader",
+            "dcite:Producer"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-06-18T21:29:26.250578+00:00",
+      "description": "Electrophysiology dataset associated with journal article titled areal specializations in the morpho-electric and transcriptomic properties of layer 5 extratelencephalic-projecting neurons in the primate neocortex. NWB files contains current clamp data collected for analysis of deep layer 5 ET neurons in the primate temporal and motor cortical regions. ",
+      "publishedBy": {
+        "id": "urn:uuid:8ada89c9-f092-4c5f-b413-12adfcd54ea2",
+        "name": "DANDI publish",
+        "endDate": "2024-10-28T15:59:27.775924+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-28T15:59:27.775924+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:b40bcc9a-6f64-443d-b225-50ddfaa1d45c",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          },
+          {
+            "name": "Macaca nemestrina",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9545"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 11539847907,
+        "numberOfFiles": 294,
+        "numberOfSubjects": 114,
+        "variableMeasured": [
+          "CurrentClampSeries",
+          "CurrentClampStimulusSeries",
+          "VoltageClampSeries",
+          "VoltageClampStimulusSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "current clamp technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "voltage clamp technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-28T15:59:27.775924+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001065/0.241028.1559/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

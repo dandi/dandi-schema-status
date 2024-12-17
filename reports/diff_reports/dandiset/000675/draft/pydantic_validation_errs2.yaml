@@ -1,0 +1,122 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 U01 NS 126046-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1228959386
+      numberOfFiles: 3
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+    citation: U01 Electrophysiology Data (2023). (Version draft) [Data set]. DANDI
+      archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+    contributor:
+    - awardNumber: 1 U01 NS 126046-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-09-29T22:15:18.826512+00:00'
+    datePublished: '2023-09-29T23:47:03.212126+00:00'
+    description: 'Recording with polymer MEAs from the rat brain. '
+    doi: 10.80507/dandi.123456/0.123456.1234
+    id: DANDI:000675/draft
+    identifier: DANDI:000675
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000675/versions/draft/assets/
+    name: U01 Electrophysiology Data
+    publishedBy:
+      endDate: '2023-09-29T23:47:03.212126+00:00'
+      id: urn:uuid:7c6161ee-8958-42a9-83c8-5bb682096f9f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-09-29T23:47:03.212126+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:5d809ffb-942a-4494-b3cb-20bbbc7fef49
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000675/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input: 10.80507/dandi.123456/0.123456.1234
+  loc:
+  - doi
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input:
+    endDate: '2023-09-29T23:47:03.212126+00:00'
+    id: urn:uuid:7c6161ee-8958-42a9-83c8-5bb682096f9f
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2023-09-29T23:47:03.212126+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:5d809ffb-942a-4494-b3cb-20bbbc7fef49
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input: '2023-09-29T23:47:03.212126+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden

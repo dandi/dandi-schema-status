@@ -1,0 +1,472 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: S.R.D. is supported by NIH grants RF1AG073625 and R01NS114020,
+      and the Brain Research Foundation. S.R.D., B.L.S. and S.W.L are supported by
+      NIH grant U19NS113201 and and the Simons Collaboration on the Global Brain.
+      J.E.M. is supported by a Career Award at the Scientific Interface (CASI) from
+      the Burroughs Wellcome Fund. W.F.G. is supported by NIH grant F31NS113385. M.J.
+      is supported by NIH grant F31NS122155. C.W. is a Fellow of the Jane Coffin Childs
+      Memorial Fund for Medical Research. S.W.L is supported by the Alfred P. Sloan
+      Foundation. We thank N. Bhagat, J. Araki and J. Wallace for administrative support;
+      the Harvard Neurobiology Imaging Core for imaging support, which is supported
+      as part of NINDS grant NS072030; the HMS Research Instrumentation Core, which
+      is supported by the Bertarelli Program in Translational Neuroscience and Neuroengineering,
+      and by NEI grant EY012196; S. Gershman, J. Assad, S. Shea and members of the
+      Datta laboratory for useful comments on the paper; and S Knemeyer for mouse
+      drawings. Portions of this research were conducted on the O2 High Performance
+      Compute Cluster at Harvard Medical School. Brain diagrams were created with
+      BioRender.com. We apologize to those whose work we were unable to cite due to
+      length limits.
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: optogenetic approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 14753252327642
+      numberOfFiles: 4425
+      numberOfSubjects: 69
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ImagingPlane
+      - OpticalChannel
+      - OptogeneticSeries
+      - ProcessingModule
+      - Position
+      - SpatialSeries
+      - CompassDirection
+    citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
+      Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David; Koveal, Dorothy;
+      Kula, Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero
+      ; Uchida, Naoshige ; Linderman, Scott W.; Sabatini, Bernardo; Datta, Sandeep
+      Robert  (2024) Spontaneous behaviour is structured by reinforcement without
+      explicit reward (Version 0.240502.0456) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000559/0.240502.0456
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Markowitz, Jeffrey E.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0002-1659-8639
+      includeInCitation: true
+      name: Gillis, Winthrop
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0001-5537-6476
+      includeInCitation: true
+      name: Jay, Maya
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Wood, Jeffrey
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0002-6924-4981
+      includeInCitation: true
+      name: Harris, Ryley W.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Cieszkowski, Robert
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Scott, Rebecca
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Brann, David
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0003-2907-6925
+      includeInCitation: true
+      name: Koveal, Dorothy
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Kula, Tomasz
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Weinreb, Caleb
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0001-8606-6518
+      includeInCitation: true
+      name: 'Osman, Mohammed Abdal Monium '
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard University
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: 'Pinto, Sandra Romero '
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard University
+        schemaKey: Affiliation
+      identifier: 0000-0002-5755-9409
+      includeInCitation: true
+      name: 'Uchida, Naoshige '
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/00f54p054
+        name: Stanford University
+        schemaKey: Affiliation
+      identifier: 0000-0002-3878-9073
+      includeInCitation: true
+      name: Linderman, Scott W.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      - identifier: https://ror.org/006w34k90
+        name: Howard Hughes Medical Institute
+        schemaKey: Affiliation
+      identifier: 0000-0003-0095-9177
+      includeInCitation: true
+      name: Sabatini, Bernardo
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      email: srdatta@hms.harvard.edu
+      identifier: 0000-0002-8068-3862
+      includeInCitation: true
+      name: 'Datta, Sandeep Robert '
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: RF1AG073625
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/0492gsr48
+      includeInCitation: false
+      name: Brain Research Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/01cmst727
+      includeInCitation: false
+      name: Simons Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/01d35cw23
+      includeInCitation: false
+      name: Burroughs Wellcome Fund
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/04yhme281
+      includeInCitation: false
+      name: Jane Coffin Childs Memorial Fund for Medical Research
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/052csg198
+      includeInCitation: false
+      name: Alfred P. Sloan Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - affiliation: []
+      includeInCitation: false
+      name: Bhagat, N.
+      roleName:
+      - dcite:ProjectAdministration
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: false
+      name: Araki, J.
+      roleName:
+      - dcite:ProjectAdministration
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: false
+      name: Wallace, J.
+      roleName:
+      - dcite:ProjectAdministration
+      schemaKey: Person
+    - contactPoint: []
+      includeInCitation: false
+      name: Harvard Neurobiology Imaging Core
+      roleName:
+      - dcite:Resources
+      schemaKey: Organization
+    - awardNumber: NS072030
+      contactPoint: []
+      identifier: https://ror.org/01s5ya894
+      includeInCitation: false
+      name: National Institute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      includeInCitation: false
+      name: HMS Research Instrumentation Core
+      roleName:
+      - dcite:Resources
+      schemaKey: Organization
+    - contactPoint: []
+      includeInCitation: false
+      name: Bertarelli Program in Translational Neuroscience and Neuroengineering
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: EY012196
+      contactPoint: []
+      identifier: https://ror.org/03wkg3b53
+      includeInCitation: false
+      name: National Eye Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - affiliation: []
+      includeInCitation: false
+      name: Gershman, S.
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: false
+      name: Assad, J.
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: false
+      name: Shea, S.
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - contactPoint: []
+      includeInCitation: false
+      name: O2 High Performance Compute Cluster at Harvard Medical School
+      roleName:
+      - dcite:Resources
+      schemaKey: Organization
+    - affiliation: []
+      email: paul.adkisson@catalystneuro.com
+      identifier: 0009-0005-8943-5450
+      includeInCitation: false
+      name: Adkisson, Paul
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    - affiliation: []
+      email: cody.baker@catalystneuro.com
+      identifier: 0000-0002-0829-4790
+      includeInCitation: false
+      name: Baker, Cody
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    - awardNumber: R01NS114020
+      contactPoint: []
+      identifier: https://ror.org/03f394x19
+      includeInCitation: false
+      name: National Institute of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: U19NS113201
+      contactPoint: []
+      identifier: https://ror.org/03f394x19
+      includeInCitation: false
+      name: National Institute of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: F31NS113385
+      contactPoint: []
+      identifier: https://ror.org/03f394x19
+      includeInCitation: false
+      name: National Institute of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: F31NS122155
+      contactPoint: []
+      identifier: https://ror.org/03f394x19
+      includeInCitation: false
+      name: National Institute of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-06-09T17:30:08.811501+00:00'
+    datePublished: '2024-05-02T04:56:05.784047+00:00'
+    description: Spontaneous animal behaviour is built from action modules that are
+      concatenated by the brain into sequences. However, the neural mechanisms that
+      guide the composition of naturalistic, self-motivated behaviour remain unknown.
+      Here we show that dopamine systematically fluctuates in the dorsolateral striatum
+      (DLS) as mice spontaneously express sub-second behavioural modules, despite
+      the absence of task structure, sensory cues or exogenous reward. Photometric
+      recordings and calibrated closed-loop optogenetic manipulations during open
+      field behaviour demonstrate that DLS dopamine fluctuations increase sequence
+      variation over seconds, reinforce the use of associated behavioural modules
+      over minutes, and modulate the vigour with which modules are expressed, without
+      directly influencing movement initiation or moment-to-moment kinematics. Although
+      the reinforcing effects of optogenetic DLS dopamine manipulations vary across
+      behavioural modules and individual mice, these differences are well predicted
+      by observed variation in the relationships between endogenous dopamine and module
+      use. Consistent with the possibility that DLS dopamine fluctuations act as a
+      teaching signal, mice build sequences during exploration as if to maximize dopamine.
+      Together, these findings suggest a model in which the same circuits and computations
+      that govern action choices in structured tasks have a key role in sculpting
+      the content of unconstrained, high-dimensional, spontaneous behavior.
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: 04930
+      schemaKey: EthicsApproval
+    id: DANDI:000559/0.240502.0456
+    identifier: DANDI:000559
+    keywords:
+    - Basal Ganglia
+    - Neural circuits
+    - Reward
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000559/0.240502.0456/assets.yaml
+    name: Spontaneous behaviour is structured by reinforcement without explicit reward
+    protocol: []
+    publishedBy:
+      endDate: '2024-05-02T04:56:05.784047+00:00'
+      id: urn:uuid:a46bd2a9-52f4-4267-a198-5d759f48b59f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-02T04:56:05.784047+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:755ab796-d8ac-4818-8c90-e902e012b192
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1038/s41586-022-05611-2
+      name: Spontaneous behaviour is structured by reinforcement without explicit
+        reward
+      relation: dcite:IsDescribedBy
+      repository: Nature
+      schemaKey: Resource
+      url: https://www.nature.com/articles/s41586-022-05611-2
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000559/0.240502.0456
+    version: 0.240502.0456
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

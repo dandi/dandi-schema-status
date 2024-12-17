@@ -1,0 +1,117 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 3667103151
+      numberOfFiles: 10
+      numberOfSubjects: 10
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+        name: Cricetulus griseus - Cricetulus aureus
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Gudvangen, Emily; Mangalanathan, Uma; Semenov, Iurii;
+      Pakhomov, Andrei (2024) CANCAN focusing of electroporation in a quadrupole array
+      by different pulsing protocols (Version 0.240605.1859) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/001027/0.240605.1859
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Gudvangen, Emily
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-0126-5660
+      includeInCitation: true
+      name: Mangalanathan, Uma
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:Author
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: 1R21EY034258
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-16T19:08:50.147843+00:00'
+    datePublished: '2024-06-05T18:59:05.116225+00:00'
+    description: Protocols were applied once, starting from each of the electrodes,
+      to a total of four protocols delivered. The 1st pulse amplitude in all protocols
+      was 4 kV. Electroporation of the cells was evaluated using 1 uM YoPro-1 cell
+      impermeable fluorescent dye. The study was supported in part by R21EY034258
+      from the National Eye Institute to A.G.P
+    ethicsApproval: []
+    id: DANDI:001027/0.240605.1859
+    identifier: DANDI:001027
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001027/0.240605.1859/assets.yaml
+    name: CANCAN focusing of electroporation in a quadrupole array by different pulsing
+      protocols
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-05T18:59:05.116225+00:00'
+      id: urn:uuid:bbeefa99-e45e-4902-91ef-3a9ff16ed3b6
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-05T18:59:05.116225+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:74b7b32a-6284-441e-af2a-87724a642672
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: doi.org/10.1016/j.bioelechem.2023.108437
+      name: Next generation CANCAN focusing for remote stimulation by nanosecond electric
+        pulses
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.bioelechem.2023.108437
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001027/0.240605.1859
+    version: 0.240605.1859
+    wasGeneratedBy:
+    - identifier: 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

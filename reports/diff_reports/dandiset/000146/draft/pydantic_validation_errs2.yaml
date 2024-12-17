@@ -1,0 +1,39 @@
+- ctx:
+    pattern: ^([\w\s\-\.']+),\s+([\w\s\-\.']+)$
+  input: ', '
+  loc:
+  - contributor
+  - 0
+  - Person
+  - name
+  msg: String should match pattern '^([\w\s\-\.']+),\s+([\w\s\-\.']+)$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+- input:
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+    citation: ',  (2021) NYB (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000146/draft'
+    contributor:
+    - affiliation: []
+      email: bezawitms@yahoo.com
+      includeInCitation: true
+      name: ', '
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2021-10-12T14:59:33.500637+00:00'
+    description: Rodent Data Analysis
+    id: DANDI:000146/draft
+    identifier: DANDI:000146
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000146/versions/draft/assets/
+    name: NYB
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000146/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,46 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation: []
+    awardNumber: 1 R01 NS 112312-01
+    includeInCitation: false
+    name: li, nuo
+    roleName:
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 0
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input: 10.80507/dandi.123456/0.123456.1234
+  loc:
+  - doi
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input:
+    endDate: '2023-08-26T01:40:07.645776+00:00'
+    id: urn:uuid:2350a5de-7b47-40b2-bfec-eaff4f995f9f
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2023-08-26T01:40:07.645776+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:cfead488-7e3e-4fdd-a9d7-ff7ab38f76e9
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input: '2023-08-26T01:40:07.645776+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden

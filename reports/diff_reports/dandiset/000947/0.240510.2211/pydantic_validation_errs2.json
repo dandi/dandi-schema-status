@@ -1,0 +1,244 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000947/0.240510.2211",
+      "url": "https://dandiarchive.org/dandiset/000947/0.240510.2211",
+      "name": "Reach-related Single Unit Activity in the Parkinsonian Macaque",
+      "about": [
+        {
+          "name": "medial globus pallidus",
+          "schemaKey": "Anatomy",
+          "identifier": "http://purl.obolibrary.org/obo/UBERON_0002477"
+        },
+        {
+          "name": "primary motor cortex",
+          "schemaKey": "Anatomy",
+          "identifier": "http://purl.obolibrary.org/obo/UBERON_0001384"
+        },
+        {
+          "name": "ventral lateral nucleus of thalamus",
+          "schemaKey": "Anatomy",
+          "identifier": "http://purl.obolibrary.org/obo/UBERON_0001925"
+        }
+      ],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240510.2211",
+      "citation": "Kase, Daisuke; Han, Yan; Zimnik, Andrew; Cox, Karin; Turner, Robert (2024) Reach-related Single Unit Activity in the Parkinsonian Macaque (Version 0.240510.2211) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000947/0.240510.2211",
+      "keywords": [
+        "extracellular electrophysiology",
+        "single-unit activity",
+        "globus pallidus-internus",
+        "macaque",
+        "reaching",
+        "Parkinson's disease",
+        "ventrolateral thalamus",
+        "primary motor cortex"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000947",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Kase, Daisuke",
+          "email": "daisuke.kase@pitt.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3837-162X",
+          "includeInCitation": true
+        },
+        {
+          "name": "Han, Yan",
+          "roleName": [
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Zimnik, Andrew",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Cox, Karin",
+          "email": "kmc51@pitt.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-5418-0508",
+          "includeInCitation": true
+        },
+        {
+          "name": "Turner, Robert",
+          "email": "rturner@pitt.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-6074-4365",
+          "includeInCitation": true
+        },
+        {
+          "name": "Aligning Science Across Parkinson's (ASAP)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/03zj4c476",
+          "awardNumber": "ASAP-020519",
+          "includeInCitation": false
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "1 R01 NS 117058-01",
+          "includeInCitation": false
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "1 R01 NS 070865-01A1",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-03-30T12:27:06.991378+00:00",
+      "description": "This dataset contains recordings of single-unit activity from from multiple brain areas,  including globus pallidus-internus (GPi), ventrolateral nucleus of the thalamus (VLa and VLp) and the arm-related regions of primary motor cortex, including sulcus (M1-S) and gyrus (M1-G) subregions, in monkeys performing a choice reaction time reaching task. Small numbers of recordings were also obtained from supplementary motor area (SMA), external globus pallidus (GPe), the thalamic reticular nucleus (RTN), striatum (STR) and the region between RTN and VL thalamus (R-V). It contains data from two monkeys before and after the administration of MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine), which induces Parkinsonism. The neuronal activity was recorded using 16-contact linear probes (0.5\u20131.0 M\u03a9, V-probe, Plexon) or glass-insulated tungsten microelectrodes (0.5\u20131.5 M\u03a9, Alpha Omega). The neuronal data were amplified (4\u00d7, 2 Hz\u20137.5 kHz) and digitized at 24.414 kHz (approx., 16-bit resolution; Tucker Davis Technologies). The neuronal data were high-pass filtered (Fpass: 200 Hz, Matlab FIRPM) and thresholded, and candidate action potentials were sorted into clusters in principal components space (Off-line Sorter, Plexon or custom algorithm, TomSort, https://zenodo.org/doi/10.5281/zenodo.11176978).\n\nThe recordings for subject Isis before the administration of MPTP (pre-MPTP) were collected by Daisuke Kase.\nThe recordings for subject Isis after the administration of MPTP (post-MPTP) were collected by Yan Han (\u97e9\u598d).\nThe recordings for subject Gaia (pre-MPTP,  post-MPTP) from 2015 were collected by Andrew J. Zimnik.\nThe recordings for subject Gaia (post-MPTP) from 2016-2017 were also collected by Daisuke Kase.",
+      "publishedBy": {
+        "id": "urn:uuid:59c6a3e1-d124-42ac-9435-a9bd5b7745c7",
+        "name": "DANDI publish",
+        "endDate": "2024-05-10T22:11:16.460019+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-05-10T22:11:16.460019+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:bd0f4acc-ec2f-4068-8d59-01284df29219",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1048819909625,
+        "numberOfFiles": 378,
+        "numberOfSubjects": 2,
+        "variableMeasured": [
+          "Units",
+          "ElectrodeGroup",
+          "ProcessingModule",
+          "ElectricalSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-05-10T22:11:16.460019+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000829",
+          "name": "Neural activity during a simple reaching task in macaques is counter to gating and rebound in basal ganglia-thalamic communication",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "https://doi.org/10.1371/journal.pbio.3000829",
+          "repository": "PLOS Biology",
+          "resourceType": "dcite:JournalArticle"
+        },
+        {
+          "url": "https://github.com/dandi/example-notebooks/blob/master/000947/TurnerLab/public_demo/000947_demo.ipynb",
+          "name": "Reach-related Single Unit Activity in the Parkinsonian Macaque",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "",
+          "repository": "example-notebooks",
+          "resourceType": "dcite:ComputationalNotebook"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556120v2",
+          "name": "Detecting rhythmic spiking through the power spectra of point process model residuals",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "https://doi.org/10.1101/2023.09.08.556120",
+          "repository": "bioRxiv",
+          "resourceType": "dcite:Preprint"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000947/0.240510.2211/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

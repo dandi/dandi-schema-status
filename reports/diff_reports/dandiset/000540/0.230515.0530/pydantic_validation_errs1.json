@@ -1,0 +1,171 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000540/0.230515.0530",
+      "url": "https://dandiarchive.org/dandiset/000540/0.230515.0530",
+      "name": "Dataset for: A change in behavioral state switches the pattern of motor output that underlies rhythmic head and orofacial movements",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230515.0530",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Liao, Song-Mao; Kleinfeld, David; Rinehart, Duane; University of California San Diego (2023) Dataset for: A change in behavioral state switches the pattern of motor output that underlies rhythmic head and orofacial movements (Version 0.230515.0530) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000540/0.230515.0530",
+      "keywords": [
+        "breathing",
+        "coupled oscillators",
+        "electromyogram",
+        "foraging",
+        "muscles",
+        "nose",
+        "preBotzinger complex",
+        "rearing",
+        "vibrissae",
+        "whiskers",
+        "neck"
+      ],
+      "protocol": [
+        "https://doi.org/10.1016/j.cub.2023.04.008"
+      ],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000540",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Liao, Song-Mao",
+          "email": "soliao@ucsd.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "awardNumber": "GSSA",
+          "includeInCitation": true
+        },
+        {
+          "url": "https://neurophysics.ucsd.edu/",
+          "name": "Kleinfeld, David",
+          "email": "dk@physics.ucsd.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Rinehart, Duane",
+          "email": "drinehart@physics.ucsd.edu",
+          "roleName": [
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://ucsd.edu/",
+          "name": "University of California San Diego",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/0168r3w48",
+          "awardNumber": "R01 NS058668; U01 NS090595; U19 NS107466",
+          "contactPoint": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-05-11T21:01:04.628860+00:00",
+      "description": "Recorded multi-modal data (videography, respiration, electromyogram, wearable sensor signals, and human annotation) from rats performing naturalistic foraging and rearing behaviors in an open arena. Dataset for S.-M. Liao and D. Kleinfeld, Current Biology (2023). A change in behavioral state switches the pattern of motor output that underlies rhythmic head and orofacial movements. Dataset uploaded by the Kleinfeld Laboratory at University of California San Diego. Code can be found on https://rhythm-n-rodents.github.io/software/.",
+      "publishedBy": {
+        "id": "urn:uuid:082cafd7-9984-4b87-905d-b5508b052afa",
+        "name": "DANDI publish",
+        "endDate": "2023-05-15T05:30:11.452626+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-05-15T05:30:11.452626+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:478e72a2-d5b7-4975-8aa5-59986b537cfd",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Rattus norvegicus - Norway rat",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1003937347960,
+        "numberOfFiles": 990,
+        "numberOfSubjects": 33,
+        "variableMeasured": [
+          "BehavioralTimeSeries",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-05-15T05:30:11.452626+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "",
+      "relatedResource": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0960982223004566",
+          "name": "A change in behavioral state switches the pattern of motor output that underlies rhythmic head and orofacial movements",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource",
+          "identifier": "Paper",
+          "repository": "Current Biology"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000540/0.230515.0530/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

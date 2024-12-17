@@ -1,0 +1,93 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 46250221065
+      numberOfFiles: 21
+      numberOfSubjects: 21
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+        name: Caenorhabditis elegans
+        schemaKey: SpeciesType
+      variableMeasured:
+      - PlaneSegmentation
+      - ProcessingModule
+    citation: Sprague, Daniel; Dunn, Raymond (2024) C. elegans whole-brain neuroPAL
+      and immobilized calcium imaging (Version 0.240611.1955) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000565/0.240611.1955
+    contributor:
+    - affiliation: []
+      email: daniel.y.sprague@gmail.com
+      includeInCitation: true
+      name: Sprague, Daniel
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: Raymond.dunn@ucsf.edu
+      includeInCitation: true
+      name: Dunn, Raymond
+      roleName:
+      - dcite:DataCollector
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      - dcite:Investigation
+      - dcite:Methodology
+      - dcite:Researcher
+      - dcite:Software
+      schemaKey: Person
+    dateCreated: '2023-06-17T01:48:24.158039+00:00'
+    datePublished: '2024-06-11T19:55:52.524463+00:00'
+    description: All of the datasets here contain neuroPAL whole-brain structural
+      images. A subset of these files also contain unstimulated calcium imaging data
+      from the worm immobilized in a micro fluidic chip. Each dataset has ~30-50%
+      of neuron centers labeled with cell IDs.
+    ethicsApproval: []
+    id: DANDI:000565/0.240611.1955
+    identifier: DANDI:000565
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000565/0.240611.1955/assets.yaml
+    name: C. elegans whole-brain neuroPAL and immobilized calcium imaging
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-11T19:55:52.524463+00:00'
+      id: urn:uuid:62bdc825-9633-4221-a779-3bfde236954e
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-11T19:55:52.524463+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:85ed7cb0-cd76-446a-958c-bfeba76a45c9
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000565/0.240611.1955
+    version: 0.240611.1955
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

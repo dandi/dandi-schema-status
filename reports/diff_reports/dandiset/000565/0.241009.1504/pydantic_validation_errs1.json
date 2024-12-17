@@ -1,0 +1,131 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000565/0.241009.1504",
+      "url": "https://dandiarchive.org/dandiset/000565/0.241009.1504",
+      "name": "C. elegans whole-brain neuroPAL and immobilized calcium imaging",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241009.1504",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Dunn, Raymond; Sprague, Daniel; Kato, Saul (2024) C. elegans whole-brain neuroPAL and immobilized calcium imaging (Version 0.241009.1504) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000565/0.241009.1504",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000565",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Dunn, Raymond",
+          "email": "Raymond.dunn@ucsf.edu",
+          "roleName": [
+            "dcite:DataCollector",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Researcher",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Sprague, Daniel",
+          "email": "daniel.y.sprague@gmail.com",
+          "roleName": [],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kato, Saul",
+          "email": "saul.kato@ucsf.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-06-17T01:48:24.158039+00:00",
+      "description": "All of the datasets here contain neuroPAL whole-brain structural images. A subset of these files also contain unstimulated calcium imaging data from the worm immobilized in a micro fluidic chip. Each dataset has ~30-50% of neuron centers labeled with cell IDs.",
+      "publishedBy": {
+        "id": "urn:uuid:8c8d4f78-ed86-4188-9b5c-55c11b78de38",
+        "name": "DANDI publish",
+        "endDate": "2024-10-09T15:04:38.614836+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-09T15:04:38.614836+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:a9eb9d64-d4df-4bf7-a7f3-f084f4157f4a",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 46250221065,
+        "numberOfFiles": 21,
+        "numberOfSubjects": 21,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-09T15:04:38.614836+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000565/0.241009.1504/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

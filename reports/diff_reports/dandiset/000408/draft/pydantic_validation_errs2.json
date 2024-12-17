@@ -1,0 +1,40 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      2,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "Orazem, Mark",
+      "roleName": [
+        "dcite:ContactPerson"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0003-3668-7767",
+      "includeInCitation": true
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

@@ -1,0 +1,182 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 13745152235
+      numberOfFiles: 60
+      numberOfSubjects: 43
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - BehavioralTimeSeries
+      - ProcessingModule
+    citation: Severson, Kyle; Xu, Duo; Van de Loo, Margaret; Bai, Ling; Ginty, David
+      D; O'Connor, Daniel H (2023) Active Touch and Self-Motion Encoding by Merkel
+      Cell-Associated Afferents (Version 0.230607.1747) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000226/0.230607.1747
+    contributor:
+    - affiliation: []
+      email: ksseverson57@gmail.com
+      identifier: 0000-0002-7910-6304
+      includeInCitation: true
+      name: Severson, Kyle
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: dxu14@jhmi.edu
+      identifier: 0000-0002-8259-8688
+      includeInCitation: true
+      name: Xu, Duo
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Van de Loo, Margaret
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-9227-0715
+      includeInCitation: true
+      name: Bai, Ling
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: david_ginty@hms.harvard.edu
+      includeInCitation: true
+      name: Ginty, David D
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: dan.oconnor@jhmi.edu
+      identifier: 0000-0002-9193-6714
+      includeInCitation: true
+      name: O'Connor, Daniel H
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: ben.dichter@gmail.com
+      identifier: 0000-0001-5725-6910
+      includeInCitation: false
+      name: Dichter, Ben
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - affiliation: []
+      email: luiz_tauffer@hotmail.com
+      includeInCitation: false
+      name: Tauffer, Luiz
+      roleName:
+      - dcite:Other
+      schemaKey: Person
+    - contactPoint: []
+      identifier: https://ror.org/00her7k05
+      includeInCitation: false
+      name: Whitehall Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.whitehall.org/
+    - contactPoint: []
+      identifier: https://ror.org/01q222b25
+      includeInCitation: false
+      name: Esther A. & Joseph Klingenstein Fund
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.klingfund.org/
+    - awardNumber: R01NS34814, P30NS050274, R01NS089652
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nih.gov/
+    dateCreated: '2022-03-21T12:35:09.864743+00:00'
+    datePublished: '2023-06-07T17:47:54.403950+00:00'
+    description: Touch perception depends on integrating signals from multiple types
+      of peripheral mechanoreceptors. Merkel-cell associated afferents are thought
+      to play a major role in form perception by encoding surface features of touched
+      objects. However, activity of Merkel afferents during active touch has not been
+      directly measured. Here, we show that Merkel and unidentified slowly adapting
+      afferents in the whisker system of behaving mice respond to both self-motion
+      and active touch. Touch responses were dominated by sensitivity to bending moment
+      (torque) at the base of the whisker and its rate of change and largely explained
+      by a simple mechanical model. Self-motion responses encoded whisker position
+      within a whisk cycle (phase), not absolute whisker angle, and arose from stresses
+      reflecting whisker inertia and activity of specific muscles. Thus, Merkel afferents
+      send to the brain multiplexed information about whisker position and surface
+      features, suggesting that proprioception and touch converge at the earliest
+      neural level.
+    ethicsApproval: []
+    id: DANDI:000226/0.230607.1747
+    identifier: DANDI:000226
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000226/0.230607.1747/assets.yaml
+    name: Active Touch and Self-Motion Encoding by Merkel Cell-Associated Afferents
+    protocol: []
+    publishedBy:
+      endDate: '2023-06-07T17:47:54.403950+00:00'
+      id: urn:uuid:a76eb3d9-b8a1-4a3c-84c0-f3caa657f1fc
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-06-07T17:47:54.403950+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:a164392b-91df-4f73-b321-c859b46e5062
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1016/j.neuron.2017.03.045
+      name: Active Touch and Self-Motion Encoding by Merkel Cell-Associated Afferents
+      relation: dcite:IsDescribedBy
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.neuron.2017.03.045
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.2
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000226/0.230607.1747
+    version: 0.230607.1747
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,126 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001031/0.240520.1924",
+      "url": "https://dandiarchive.org/dandiset/001031/0.240520.1924",
+      "name": "High-frequency (100 kHz) rectangular bipolar pulses stimulation of individual hippocampal neurons: the effect of electric field",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240520.1924",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json",
+      "citation": "Silkuniene, Giedre; Kim, Vitalii; Pakhomov, Andrei (2024) High-frequency (100 kHz) rectangular bipolar pulses stimulation of individual hippocampal neurons: the effect of electric field (Version 0.240520.1924) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001031/0.240520.1924",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001031",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kim, Vitalii",
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0699-5582",
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [
+            "dcite:ProjectLeader"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "5R21EY034803",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-05-18T20:33:31.336567+00:00",
+      "description": "This dataset includes recordings of hippocampal neurons stimulated at 100 kHz under various amplitudes (measured as one polarity, V; the peak-to-peak value would be double this amount). Rectangular bipolar pulses were applied continuously for 2 seconds, beginning at 25 ms, with a 50% duty cycle. The pulse amplitude was constant at the indicated voltage. For the electrode configuration used, 1V corresponds to 36 V/cm. Neuron action potentials were visualized using the voltage-sensitive fluorescent dye, FluoVolt. This study was partially supported by NIH grant 15R21EY034803.",
+      "publishedBy": {
+        "id": "urn:uuid:3213d9be-59fc-4ec8-863e-d9a4fdab63d8",
+        "name": "DANDI publish",
+        "endDate": "2024-05-20T19:24:37.666319+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-05-20T19:24:37.666319+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:4df2f1a7-edba-42ad-afa9-2cf66a1e3598",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 4305334,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 20,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2024-05-20T19:24:37.666319+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation",
+          "schemaKey": "Project",
+          "identifier": "5R21EY034803"
+        }
+      ],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001031/0.240520.1924/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

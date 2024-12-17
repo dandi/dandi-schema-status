@@ -1,0 +1,108 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: ''
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 199844377549
+      numberOfFiles: 238
+      numberOfSubjects: 10
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9825
+        name: Sus scrofa domesticus - Domestic pig
+        schemaKey: SpeciesType
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ElectrodeGroup
+    citation: Tchoe, Youngbin (2024) An electroencephalogram microdisplay to visualize
+      neuronal activity on the brain surface (Version 0.240317.0101) [Data set]. DANDI
+      archive. https://dandiarchive.org/dandiset/000932/0.240317.0101
+    contributor:
+    - affiliation: []
+      email: ybtchoe@gmail.com
+      includeInCitation: true
+      name: Tchoe, Youngbin
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-03-05T15:48:35.030063+00:00'
+    datePublished: '2024-03-17T01:01:00.291537+00:00'
+    description: These datasets contain electrocorticography recordings from the brains
+      of pigs and rats, utilizing a 1024-channel intracranial electroencephalography
+      (iEEG) microdisplay. These recordings were obtained from animals that participated
+      in the study documented in the paper titled 'An electroencephalogram microdisplay
+      to visualize neuronal activity on the brain surface'. The data includes noise
+      that can be filtered out. For detailed instructions on this process, please
+      consult the accompanying journal article.
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: UCSD Institutional Animal Care and Use Committee protocol S16020
+      schemaKey: EthicsApproval
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: UCSD Institutional Animal Care and Use Committee protocol S19030
+      schemaKey: EthicsApproval
+    id: DANDI:000932/0.240317.0101
+    identifier: DANDI:000932
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000932/0.240317.0101/assets.yaml
+    name: An electroencephalogram microdisplay to visualize neuronal activity on the
+      brain surface
+    protocol: []
+    publishedBy:
+      endDate: '2024-03-17T01:01:00.291537+00:00'
+      id: urn:uuid:92c7635b-1643-44da-9662-5ef8311c181f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-03-17T01:01:00.291537+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:cc5b3dac-14d3-4471-b94e-5f4bdb6b456c
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.6
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000932/0.240317.0101
+    version: 0.240317.0101
+    wasGeneratedBy:
+    - identifier: NIBIB DP2-EB029757
+      name: Bringing Light to Functional Mapping in Resective Neurosurgery
+      schemaKey: Project
+    - identifier: 1R01NS123655-01
+      name: Integration of High Definition Display Technologies with Platinum Nanorod
+        Microelectrodes for Large Scale in-vivo Recording and Stimulation
+      schemaKey: Project
+    - identifier: UG3NS123723
+      name: Thin, High-Density, High-Performance, Depth and Surface Microelectrodes
+        for Diagnosis and Treatment of Epilepsy
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

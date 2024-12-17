@@ -1,0 +1,197 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: 'We thank Chaim Katz and Kramay Patel for helping set up the
+      recording system; Nand Chandravadia and Victoria Barkely for data transferring
+      and organization; Chrystal Reed, Jeffrey Chung, and the clinical teams at both
+      Cedars-Sinai Medical Center and Toronto Western Hospital; Mengmi Zhang, Jan
+      Kaminski and other members from the Rutishauser and Kreiman lab for discussion.
+      We are especially indebted to the patient volunteers who participated in this
+      study. '
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 50310106
+      numberOfFiles: 19
+      numberOfSubjects: 19
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - Units
+    citation: 'Zheng, Jie; Schjetnan, Andrea; Yebra, Mar; Gomes, Bernard; Mosher,
+      Clayton; Kalia, Suneil; Valiante, Taufik; Mamelak, Adam; Kreiman, Gabriel; Rutishauser,
+      Ueli (2023) Data for: Neurons detect cognitive boundaries to structure episodic
+      memories in humans (Zheng et al., 2022, Nat Neuro in press) (Version 0.230530.1822)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000207/0.230530.1822'
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/03vek6s52
+        name: Harvard Medical School
+        schemaKey: Affiliation
+      email: jie.zheng@childrens.harvard.edu
+      identifier: 0000-0002-9086-3760
+      includeInCitation: true
+      name: Zheng, Jie
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Schjetnan, Andrea
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Yebra, Mar
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Gomes, Bernard
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Mosher, Clayton
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Kalia, Suneil
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Valiante, Taufik
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Mamelak, Adam
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: gabriel.kreiman@childrens.harvard.edu
+      identifier: 0000-0003-3505-8475
+      includeInCitation: true
+      name: Kreiman, Gabriel
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/02pammg90
+        name: Cedars-Sinai
+        schemaKey: Affiliation
+      - identifier: https://ror.org/05dxps055
+        name: Caltech
+        schemaKey: Affiliation
+      email: urut@caltech.edu
+      identifier: 0000-0002-9207-7069
+      includeInCitation: true
+      name: Rutishauser, Ueli
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      schemaKey: Person
+      url: https://www.rutishauserlab.org
+    - awardNumber: 'U01NS103792, U01NS117839 '
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2021-12-21T01:33:38.414453+00:00'
+    datePublished: '2023-05-30T18:22:25.704056+00:00'
+    description: "This dataset contains human single-neuron data recorded from the
+      medial temporal lobe (MTL) during a set of experiments to explore the role of
+      neurons that respond to cognitive boundaries. This dataset accompanies the paper
+      cited below. Example code on how to plot this data can be found at https://github.com/rutishauserlab/cogboundary-zheng
+      .\n\nReference (to be updated upon publication):  Cognitive boundary signals
+      in the human medial temporal lobe shape episodic memory representation. Jie
+      Zheng, Andrea G\xF3mez Palacio Schjetnan, Mar Yebra, Clayton Mosher, Suneil
+      Kalia, Taufik A. Valiante, Adam N. Mamelak, Gabriel Kreiman, Ueli Rutishauser.
+      bioRxiv 2021.01.16.426538.  [Nat Neuro, in press, 2022]"
+    ethicsApproval: []
+    id: DANDI:000207/0.230530.1822
+    identifier: DANDI:000207
+    keywords:
+    - human single neuron
+    - hippocampus
+    - episodic memory
+    - event segmentation
+    - amygdala
+    - parahippocampal gyrus
+    - cognitive boundaries
+    - continuous experience
+    - ROH consortium
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000207/0.230530.1822/assets.yaml
+    name: 'Data for: Neurons detect cognitive boundaries to structure episodic memories
+      in humans (Zheng et al., 2022, Nat Neuro in press)'
+    protocol: []
+    publishedBy:
+      endDate: '2023-05-30T18:22:25.704056+00:00'
+      id: urn:uuid:ab940638-ab36-430f-8b7c-fbd7c1fa0ded
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-05-30T18:22:25.704056+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:20ad8219-4283-49c2-b48d-9bcbe8b7aa85
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: Analysis code
+      name: Code that reads and plots data deposited here
+      relation: dcite:Describes
+      repository: github
+      schemaKey: Resource
+      url: https://github.com/rutishauserlab/cogboundary-zheng
+    - identifier: https://doi.org/10.1038/s41593-022-01020-w
+      name: Neurons detect cognitive boundaries to structure episodic memories in
+        humans
+      relation: dcite:IsDescribedBy
+      repository: Nature Neuro
+      schemaKey: Resource
+      url: https://www.nature.com/articles/s41593-022-01020-w
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000207/0.230530.1822
+    version: 0.230530.1822
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

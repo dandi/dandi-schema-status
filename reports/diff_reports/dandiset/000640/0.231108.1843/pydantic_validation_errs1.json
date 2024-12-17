@@ -1,0 +1,139 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000640/0.231108.1843",
+      "url": "https://dandiarchive.org/dandiset/000640/0.231108.1843",
+      "name": "32-CH Local Field Potential Data During Probabilistic Reversal Learning Task",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.231108.1843",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Koloski, Miranda ; Ramanathan, Dhakshin (2023) 32-CH Local Field Potential Data During Probabilistic Reversal Learning Task (Version 0.231108.1843) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000640/0.231108.1843",
+      "keywords": [
+        "electrophysiology",
+        "rodent behavior",
+        "reversal learning",
+        "traumatic brain injury"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000640",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Koloski, Miranda ",
+          "email": "mfrancoeur@health.ucsd.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "University of California San Diego",
+              "schemaKey": "Affiliation"
+            },
+            {
+              "name": "VA Hospital San Diego",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "awardNumber": "Career Development Award IK2BX006125 ",
+          "includeInCitation": true
+        },
+        {
+          "name": "Ramanathan, Dhakshin",
+          "email": "dramanathan@health.ucsd.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "awardNumber": "National Institutes for Health R01-NS110905",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-09-22T00:16:23.478717+00:00",
+      "description": "Male Long Evans Rats 7-12 months of age. 24 total animals. 256 sessions.  13 animals received a frontal traumatic brain injury (controlled cortical impact). 11 animals received Sham (no craniotomy no TBI) conditions. One week later, rats underwent a second surgery to implant 32 electrodes (Francoeur et al., Front. Psychiatry, 2021). Rats were trained to perform a self-paced probabilistic reversal learning task in a custom operant box with five noseports, stepper-motors to deliver water reward, houselight, and auditory tones. Local field potential (LFP) streams recorded simultaneously from 32 Brain Regions - recorded using a 32-Channel RHD headstage coupled to a RHD USB interface board (Intan Technologies). Open Ephys software at 1KHz band-pass filter set at 0.3-999Hz during acquisition. Lab-streaming-layer (LSL) was used to integrate physiology data with behavior. Physiology can be time-locked to trial onset (rat responds to start trial), response (rat choice between noseports), reward (time of reward delivery)",
+      "publishedBy": {
+        "id": "urn:uuid:7395d57d-6c22-4f3a-9c88-f176ca4fb343",
+        "name": "DANDI publish",
+        "endDate": "2023-11-08T18:43:57.671117+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-11-08T18:43:57.671117+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:dc550bc3-3938-4ba8-a365-bbefe8ff7931",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Identify electrophysiological markers associated with behavioral inhibition and decision making in a reversal learning task and study how these markers are impaired after traumatic brain injury"
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Rattus norvegicus - Norway rat",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 30511569704,
+        "numberOfFiles": 339,
+        "numberOfSubjects": 24,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2023-11-08T18:43:57.671117+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "Protocol Number A17-014; A21-012 San Diego VA Medical Center Institutional Animal Care and Use Committee",
+          "contactPoint": {
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "acknowledgement": "This research was funded by the National Institutes for Health (R01-NS110905 to DR), VA Office of Research and Development (Career Development Award to DR, Career Development Award IK2BX006125 to MK), VA Excellence for Stress and Mental Health.",
+      "relatedResource": [
+        {
+          "relation": "dcite:HasPart",
+          "schemaKey": "Resource",
+          "identifier": "Behavioral Data Only",
+          "repository": "ODC-TBI"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000640/0.231108.1843/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,48 @@
+- input:
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 589064856
+      numberOfFiles: 2
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species: []
+      variableMeasured:
+      - PlaneSegmentation
+      - ProcessingModule
+      - TwoPhotonSeries
+    citation: Roat, Chris (2021) croat-test (Version draft) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000144/draft
+    contributor:
+    - affiliation: []
+      email: chris.roat@gmail.com
+      includeInCitation: true
+      name: Roat, Chris
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2021-10-08T19:19:23.708807+00:00'
+    description: Testing
+    id: DANDI:000144/draft
+    identifier: DANDI:000144
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000144/versions/draft/assets/
+    name: croat-test
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000144/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

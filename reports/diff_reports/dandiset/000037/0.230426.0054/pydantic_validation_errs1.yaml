@@ -1,0 +1,294 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 2484974036475
+      numberOfFiles: 150
+      numberOfSubjects: 13
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - SpatialSeries
+      - PlaneSegmentation
+      - OpticalChannel
+      - BehavioralTimeSeries
+      - ImagingPlane
+      - PupilTracking
+      - TwoPhotonSeries
+    citation: "Gillon, Colleen J.; Lecoq, J\xE9r\xF4me A.; Pina, Jason E.; Zylberberg,
+      Joel; Richards, Blake A. (2023) Allen Institute Openscope - Responses to inconsistent
+      stimuli in somata and distal apical dendrites in primary visual cortex (Version
+      0.230426.0054) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/0.230426.0054"
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/03dbr7087
+        name: University of Toronto
+        schemaKey: Affiliation
+      email: colleen.gillon@mail.utoronto.ca
+      identifier: 0000-0002-2253-7816
+      includeInCitation: true
+      name: Gillon, Colleen J.
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:DataCurator
+      - dcite:FormalAnalysis
+      schemaKey: Person
+      url: https://colleenjg.github.io/
+    - affiliation:
+      - identifier: https://ror.org/03cpe7c52
+        name: Allen Institute
+        schemaKey: Affiliation
+      email: jeromel@alleninstitute.org
+      identifier: 0000-0002-0131-0938
+      includeInCitation: true
+      name: "Lecoq, J\xE9r\xF4me A."
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:DataCurator
+      - dcite:FundingAcquisition
+      - dcite:Resources
+      - dcite:Supervision
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05fq50484
+        name: York University
+        schemaKey: Affiliation
+      identifier: 0000-0003-1385-8762
+      includeInCitation: true
+      name: Pina, Jason E.
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05fq50484
+        name: York University
+        schemaKey: Affiliation
+      email: joelzy@yorku.ca
+      identifier: 0000-0002-8208-5698
+      includeInCitation: true
+      name: Zylberberg, Joel
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FormalAnalysis
+      - dcite:Supervision
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/01pxwe438
+        name: McGill University
+        schemaKey: Affiliation
+      - identifier: https://ror.org/05c22rx21
+        name: Mila - Quebec Artificial Intelligence Institute
+        schemaKey: Affiliation
+      email: blake.richards@mcgill.ca
+      identifier: 0000-0001-9662-2151
+      includeInCitation: true
+      name: Richards, Blake A.
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FormalAnalysis
+      - dcite:Supervision
+      schemaKey: Person
+    - contactPoint: []
+      identifier: https://ror.org/03cpe7c52
+      includeInCitation: false
+      name: Allen Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://alleninstitute.org/
+    - contactPoint: []
+      includeInCitation: false
+      name: Falconwood Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/01h531d29
+      includeInCitation: false
+      name: Natural Sciences and Engineering Research Council
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nserc-crsng.gc.ca/index_eng.asp
+    - contactPoint: []
+      identifier: https://ror.org/01sdtdd95
+      includeInCitation: false
+      name: Canadian Institute for Advanced Research
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.cifar.ca/
+    - contactPoint: []
+      identifier: https://ror.org/052csg198
+      includeInCitation: false
+      name: Alfred P. Sloan Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.sloan.org/
+    - contactPoint: []
+      identifier: https://ror.org/0517h6h17
+      includeInCitation: false
+      name: Canada Research Chairs
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.chairs-chaires.gc.ca/home-accueil-eng.aspx
+    - contactPoint: []
+      identifier: https://ror.org/015pzp858
+      includeInCitation: false
+      name: Government of Ontario
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.ontario.ca/page/government
+    dateCreated: '2020-08-25T20:45:51.826000+00:00'
+    datePublished: '2023-04-26T00:54:54.454857+00:00'
+    description: 'This dataset was collected for the Credit Assignment project, as
+      part of the Allen Institute for Brain Science''s OpenScope project. The most
+      up-to-date links to the publications associated with this dataset (a dataset
+      descriptor paper and an analysis paper) can be found by going to the metadata
+      Github repository, linked below.
+
+
+      Briefly, mice were habituated to head-fixation on a running disc over a period
+      of 11 days. Over the last 6 days, mice were presented with repeating stimulus
+      sequences, with consistent features. These sessions are not included in the
+      dataset, as imaging was not performed. Following habituation, sequences with
+      inconsistent features were introduced over three sessions, while two-photon
+      calcium imaging was performed in pyramidal neurons of primary visual cortex
+      (VisP). Specifically, recordings for each mouse were made in one of four planes:
+      L2/3 somata, L5 somata, L2/3 distal apical dendrites or L5 distal apical dendrites.
+      As mice gained experience with the inconsistent sequences, responses to these
+      events were found to evolve in opposite ways in the dendritic and somatic compartments.
+
+
+      The dataset includes 50 sessions total, recorded in 13 subjects, with at least
+      3 sessions per subject. Each session file includes: **(1)** ROI dF/F traces,
+      **(2)** ROI masks, **(3)** ROI tracking information (where applicable), **(4)**
+      running velocity traces, **(5)** pupil diameter traces, **(6)** pupil centroid
+      position traces in x and y, **(7)** stimulus parameters. Note that gaze was
+      not computed for this dataset. What is provided is the position of the pupil
+      centroid in the pupil recording videos. In addition, a second, slightly larger
+      version of each file was created, also including: **(8)** stimulus frame images
+      (identifiable by `+image` in the file name). Lastly, a third, much larger version
+      of each file was created, also including: **(9)** the motion corrected imaging
+      stack (identifiable by `_obj-raw` in the file name).
+
+
+      Certain sessions in this dataset were excluded from our analyses for quality
+      control reasons. They are provided here, as the reasons we excluded them from
+      our analyses may not pose a problem for all use cases. The metadata Github repository,
+      linked below, provides detailed information about each session. '
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: Allen Institute Institutional Animal Care and Use Committee (IACUC),
+        protocol 1801
+      schemaKey: EthicsApproval
+    id: DANDI:000037/0.230426.0054
+    identifier: DANDI:000037
+    keywords:
+    - learning
+    - neocortex
+    - pyramidal neurons
+    - distal apical dendrites
+    - somata
+    - L2/3
+    - L5
+    - two-photon calcium imaging
+    - mouse VisP
+    - prediction
+    - credit assignment
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000037/0.230426.0054/assets.yaml
+    name: Allen Institute Openscope - Responses to inconsistent stimuli in somata
+      and distal apical dendrites in primary visual cortex
+    protocol:
+    - https://doi.org/10.1038/s41593-019-0550-9
+    publishedBy:
+      endDate: '2023-04-26T00:54:54.454857+00:00'
+      id: urn:uuid:e87b238b-9530-4e06-9a7f-106b9f4c719b
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-04-26T00:54:54.454857+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:70e471a5-6a48-4b1a-a0dc-aa35485bfcf0
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: credit_assignement
+      name: Metadata
+      relation: dcite:HasMetadata
+      repository: GitHub
+      schemaKey: Resource
+      url: https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement
+    - identifier: OpenScope_CA_Analysis
+      name: Analysis code
+      relation: dcite:IsSupplementedBy
+      repository: GitHub
+      schemaKey: Resource
+      url: https://github.com/colleenjg/OpenScope_CA_Analysis
+    - identifier: cred_assign_stimuli
+      name: Stimulus code
+      relation: dcite:IsSupplementedBy
+      repository: GitHub
+      schemaKey: Resource
+      url: https://github.com/colleenjg/cred_assign_stimuli
+    - identifier: 10.1101/2021.01.15.426915
+      name: bioRxiv paper
+      relation: dcite:IsDescribedBy
+      repository: bioRxiv
+      schemaKey: Resource
+      url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget:
+    - How do unexpected events shape activity in the neocortical microcircuit, across
+      experience?
+    url: https://dandiarchive.org/dandiset/000037/0.230426.0054
+    version: 0.230426.0054
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

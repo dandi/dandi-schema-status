@@ -1,0 +1,171 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      0,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "Millman, Dan",
+      "roleName": [
+        "dcite:ContactPerson",
+        "dcite:Author"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0002-6255-6085",
+      "includeInCitation": true
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000039/0.230223.1216",
+      "url": "https://dandiarchive.org/dandiset/000039/0.230223.1216",
+      "name": "Allen Institute \u2013 Contrast tuning in mouse visual cortex with calcium imaging",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230223.1216",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json",
+      "citation": "Millman, Dan; Vries, Saskia de (2023) Allen Institute \u2013 Contrast tuning in mouse visual cortex with calcium imaging (Version 0.230223.1216) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000039/0.230223.1216",
+      "keywords": [
+        "vision",
+        "visual cortex",
+        "inhibition",
+        "inhibitory circuits",
+        "circuit dynamics",
+        "gain control"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000039",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Millman, Dan",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-6255-6085",
+          "includeInCitation": true
+        },
+        {
+          "name": "Vries, Saskia de",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3704-3499",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2020-09-12T16:39:16.192000+00:00",
+      "description": "A two photon calcium imaging dataset from Allen Institute measuring responses to full-field drifting gratings (approx. 120x90 degrees of visual space) of 8 directions and 6 contrasts (5%, 10%, 20%, 40%, 60%, 80%). Mouse Cre lines expressing GCaMP6f were imaged to record responses of   pyramidal neurons across cortical layers (Cux2: layer 2/3; Rorb: layer 4; Rbp4: layer 5; Ntsr1: layer 6) as well as inhibitory interneurons (Vip and Sst). All experimental sessions took place on the same data collection pipeline as the Allen Brain Observatory (see http://observatory.brain-map.org/visualcoding) and have the same visual stimulus monitor calibration and positioning, two photon imaging systems and image processing pipeline, and running wheel to track locomotion.\n\n Data are subject to Allen Institute Terms of Use policy, available at: http://www.alleninstitute.org/legal/terms-use/",
+      "publishedBy": {
+        "id": "urn:uuid:4163eba3-27b2-4b92-a73f-8512285173e6",
+        "name": "DANDI publish",
+        "endDate": "2023-02-23T12:16:32.676105+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-02-23T12:16:32.676105+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:646512a5-4d84-4717-9803-0e12ecd7d3e5",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 22607247880,
+        "numberOfFiles": 100,
+        "numberOfSubjects": 32,
+        "variableMeasured": [
+          "Units",
+          "PlaneSegmentation",
+          "TwoPhotonSeries",
+          "BehavioralTimeSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-02-23T12:16:32.676105+00:00",
+      "schemaVersion": "0.4.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://elifesciences.org/articles/55130",
+          "name": "VIP interneurons in mouse primary visual cortex selectively enhance responses to weak but specific stimuli",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000039/0.230223.1216/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

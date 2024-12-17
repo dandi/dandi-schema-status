@@ -1,0 +1,170 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000483/0.230421.2321",
+      "url": "https://dandiarchive.org/dandiset/000483/0.230421.2321",
+      "name": "Dataset for \"Coregistration of heading to visual cues in retrosplenial cortex\"",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230421.2321",
+      "citation": "Sit, Kevin; Goard, Michael (2023) Dataset for \"Coregistration of heading to visual cues in retrosplenial cortex\" (Version 0.230421.2321) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000483/0.230421.2321",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000483",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Sit, Kevin",
+          "email": "sit@ucsb.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0210-9010",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Goard, Michael",
+          "email": "michael.goard@lifesci.ucsb.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-5366-8501",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": " National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "1RF1NS121919",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-04-20T14:24:50.438334+00:00",
+      "description": "These are all the accompanying data for the following publication:\nSit, K.K., Goard, M.J. Coregistration of heading to visual cues in retrosplenial cortex. Nat Commun 14, 1992 (2023). https://doi.org/10.1038/s41467-023-37704-5",
+      "publishedBy": {
+        "id": "urn:uuid:791ac8cd-dfa4-4bd7-9e95-48988add9c9f",
+        "name": "DANDI publish",
+        "endDate": "2023-04-21T23:21:51.134745+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-04-21T23:21:51.134745+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:35134668-94f2-4a26-9766-a4503352a0e8",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 695653683544,
+        "numberOfFiles": 128,
+        "numberOfSubjects": 20,
+        "variableMeasured": [
+          "CompassDirection",
+          "OpticalChannel",
+          "PlaneSegmentation",
+          "SpatialSeries",
+          "ImagingPlane",
+          "Position",
+          "ProcessingModule",
+          "TwoPhotonSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-04-21T23:21:51.134745+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://github.com/ucsb-goard-lab/Neurotar-HD-Experiments",
+          "name": "Analysis Code",
+          "relation": "dcite:IsSupplementedBy",
+          "schemaKey": "Resource",
+          "identifier": "Github Code",
+          "repository": "Neurotar-HD-Experiments"
+        },
+        {
+          "url": "https://doi.org/10.25349/D91G8Q",
+          "name": "Processed objects",
+          "relation": "dcite:IsSourceOf",
+          "schemaKey": "Resource",
+          "identifier": "DANDI",
+          "repository": "Processed data for: Co-registration of heading to visual cues in retrosplenial cortex"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000483/0.230421.2321/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

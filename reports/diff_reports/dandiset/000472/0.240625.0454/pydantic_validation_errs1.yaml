@@ -1,0 +1,105 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 18442605394
+      numberOfFiles: 10
+      numberOfSubjects: 10
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+        name: Caenorhabditis elegans
+        schemaKey: SpeciesType
+      variableMeasured:
+      - PlaneSegmentation
+      - ProcessingModule
+    citation: Sprague, Daniel; Borchardt, Jackson; Dunn, Raymond (2024) NeuroPAL volumetric
+      images (Version 0.240625.0454) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000472/0.240625.0454
+    contributor:
+    - affiliation: []
+      email: daniel.y.sprague@gmail.com
+      includeInCitation: true
+      name: Sprague, Daniel
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Borchardt, Jackson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Dunn, Raymond
+      schemaKey: Person
+    - includeInCitation: false
+      name: Bubnis, Greg
+      schemaKey: Person
+    - includeInCitation: false
+      name: Kato, Saul
+      schemaKey: Person
+    dateCreated: '2023-04-06T19:58:28.232167+00:00'
+    datePublished: '2024-06-25T04:54:01.046779+00:00'
+    description: "Partially labeled NeuroPAL volumetric images produced by the Kato
+      lab at UCSF as part of an effort to add to the corpus of existing labeled data
+      to facilitate the development of automatic cell identification algorithms. We
+      hope that making these datasets more easily accessible in a centralized location
+      like DANDI will significantly speed up development by allowing new researchers
+      to start working on algorithms without the need to build up their own full dataset
+      of training data beforehand. \n\nAs part of this effort, we also propose a novel
+      extension to the NWB data format to allow for multichannel volumetric data.\n\nContents:\n\nSubject
+      (C. elegans subject) - contains relevant metadata about the experimental subject\n\nAcquisition,
+      \"NeuroPALImageRaw\" (MultiChannelVolume) - contains the raw image and associated
+      metadata with dimensions (X, Y, Z, C)\n\nProcessing,  \"NeuroPAL\", \"VolumeSegmentation\"
+      (VolumeSegmentation) - contains a list of neuron centers and associated IDs
+      (X, Y, Z, weight, ID)\n\nProcessing, \"NeuroPAL\", \"ImagingVolume\" (ImagingVolume)
+      - contains the metadata associated with the imaging acquisition\n\nProcessing,
+      \"NeuroPAL\", \"OpticalChannelRefs\" (OpticalChannelReferences) - contains the
+      order of the optical channels in the image\n\nProcessing, \"ProcessedImage\",
+      \"Hist_match_med_filt\" - contains the processed NeuroPAL image with dimensions
+      (X,Y,Z,C)"
+    ethicsApproval: []
+    id: DANDI:000472/0.240625.0454
+    identifier: DANDI:000472
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000472/0.240625.0454/assets.yaml
+    name: NeuroPAL volumetric images
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-25T04:54:01.046779+00:00'
+      id: urn:uuid:5d533231-1f90-49cc-9f4d-c09c8cd1aed7
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-25T04:54:01.046779+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:247261ec-7987-4f3b-ae27-f3abdf6090ae
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000472/0.240625.0454
+    version: 0.240625.0454
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,443 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    includeInCitation: true
+    name: 'Tye, Kay M. '
+    roleName:
+    - dcite:Conceptualization
+    - dcite:ContactPerson
+    - dcite:Supervision
+    - dcite:Author
+    schemaKey: Person
+  loc:
+  - contributor
+  - 52
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 574784621711
+      numberOfFiles: 85
+      numberOfSubjects: 36
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ProcessingModule
+      - ElectricalSeries
+      - Units
+    citation: Keyes, Laurel R.; Li, Hao; Namburi, Praneeth; Borio, Matilde; Lemieux,
+      Mackenzie E. ; Beyeler, Anna; Calhoon, Gwendolyn G.; Hitora-Imamura, Natsuko;
+      Coley, Austin A.; Libster, Avraham; Bal, Annesh; Jin, Xin; Wang, Huan; Jia,
+      Caroline; Choudhury, Sourav R.; Shi, Xi; Felix-Ortiz, Ada C.; de la Fuente,
+      Veronica; Barth, Vanessa P.; King, Hunter O. ; Izadmehr, Ehsan M. ; Revanna,
+      Jasmin S.; Batra, Kanha; Fischer, Kyle B.; Padilla-Coreano, Nancy; Siciliano,
+      Cody A. ; McCullough, Kenneth M. ; Wichmann, Romy; Ressler, Kerry J. ; Fiete,
+      Ila R. ; Zhang, Feng; Li, Yulong; Tye, Kay M.  (2024) Data supporting Neurotensin
+      orchestrates valence  assignment in the amygdala (Version 0.240524.2012) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/000689/0.240524.2012
+    contributor:
+    - affiliation: []
+      email: lkeyes@salk.edu
+      identifier: 0000-0001-5433-9948
+      includeInCitation: true
+      name: Keyes, Laurel R.
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: false
+      name: Picker Institute Innovation Fund (PIIF)
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Picower Neurological Disorder Research Fund (PNDRF)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Junior Faculty Development Program (JFDP)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: McKnight Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Clayton Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Kavli Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Dolby Family Fund
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: R01-MH102441
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - awardNumber: 'R37-MH102441 '
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - awardNumber: DP2-DK102256
+      includeInCitation: false
+      name: "The NIH Director\u2019s New Innovator Award (NIDDK)"
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - awardNumber: 'DP1-AT009925 '
+      includeInCitation: false
+      name: The NIH Director's Pioneer Award (NCCIH)
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - includeInCitation: false
+      name: NIH Pathway to Independence Award (K99 DA055111)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Singleton, Leventhal and Whitaker fellowships
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: The Swiss National Science Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: NARSAD
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Grant-in-Aid for Scientific Research  on Innovative Areas (15K21744 and
+        17H06043) from MEXT and the Uehara Memorial Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: NARSAD Young Investigator Award (Brain and Behavior Research Foundation)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: F32 MH115446-01
+      includeInCitation: false
+      name: Brain Initiative F32 from National Institute of Mental Health
+      roleName:
+      - dcite:Sponsor
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Fulbright fellowship
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - email: haoli@northwestern.edu
+      identifier: 0000-0001-8710-1290
+      includeInCitation: true
+      name: Li, Hao
+      roleName:
+      - dcite:Author
+      - dcite:ProjectLeader
+      - dcite:Researcher
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Namburi, Praneeth
+      roleName:
+      - dcite:FormalAnalysis
+      - dcite:DataCollector
+      - dcite:Software
+      - dcite:Author
+      schemaKey: Person
+    - includeInCitation: false
+      name: 'Olson, Jacob M. '
+      roleName:
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: Borio, Matilde
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'Lemieux, Mackenzie E. '
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Beyeler, Anna
+      roleName:
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: Calhoon, Gwendolyn G.
+      roleName:
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: Hitora-Imamura, Natsuko
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Coley, Austin A.
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Libster, Avraham
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Bal, Annesh
+      roleName:
+      - dcite:DataCollector
+      - dcite:Software
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: Jin, Xin
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: Wang, Huan
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: Jia, Caroline
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Choudhury, Sourav R.
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: Shi, Xi
+      roleName:
+      - dcite:DataCollector
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: Felix-Ortiz, Ada C.
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: de la Fuente, Veronica
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Barth, Vanessa P.
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'King, Hunter O. '
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'Izadmehr, Ehsan M. '
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Revanna, Jasmin S.
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Batra, Kanha
+      roleName:
+      - dcite:Software
+      schemaKey: Person
+    - includeInCitation: true
+      name: Fischer, Kyle B.
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: Padilla-Coreano, Nancy
+      roleName:
+      - dcite:Software
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'Siciliano, Cody A. '
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'McCullough, Kenneth M. '
+      roleName:
+      - dcite:DataCollector
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: Wichmann, Romy
+      roleName:
+      - dcite:DataCollector
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'Ressler, Kerry J. '
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'Fiete, Ila R. '
+      roleName:
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: Zhang, Feng
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: Li, Yulong
+      roleName:
+      - dcite:Methodology
+      schemaKey: Person
+    - includeInCitation: true
+      name: 'Tye, Kay M. '
+      roleName:
+      - dcite:Conceptualization
+      - dcite:ContactPerson
+      - dcite:Supervision
+      - dcite:Author
+      schemaKey: Person
+    - includeInCitation: false
+      name: The Alfred P. Sload Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: The Klingenstein Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: The New York Stem Cell Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: The JPB Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-10-23T20:27:48.564158+00:00'
+    datePublished: '2024-05-24T20:12:38.801253+00:00'
+    description: "This dandiset contains the data used in the paper, Li, H., Namburi,
+      P., Olson, J.M. et al. Neurotensin orchestrates valence assignment in the amygdala.
+      Nature 608, 586\u2013592 (2022). https://doi.org/10.1038/s41586-022-04964-y.
+      \ It includes in vivo electrophysiology recordings of experiments for valence
+      assignment in the amygdala, corresponding behavioral videos during Pavlovian
+      discrimination tasks, and histology.  A second cohort includes fiber photometry
+      data."
+    ethicsApproval:
+    - contactPoint:
+        email: rwichmann@salk.edu
+        schemaKey: ContactPoint
+      identifier: 18-00060
+      schemaKey: EthicsApproval
+    id: DANDI:000689/0.240524.2012
+    identifier: DANDI:000689
+    keywords:
+    - in vivo electrophysiology
+    - mouse
+    - ' Pavlovian discrimination'
+    - deeplabcut
+    - basolateral amygdala (BLA)
+    - paraventricular nucleus of the thalamus (PVT)
+    - neutotensin
+    - valence assignment
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000689/0.240524.2012/assets.yaml
+    name: Data supporting Neurotensin orchestrates valence  assignment in the amygdala
+    protocol:
+    - https://doi.org/10.1038/s41586-022-04964-y
+    publishedBy:
+      endDate: '2024-05-24T20:12:38.801253+00:00'
+      id: urn:uuid:14ae07da-b3b6-40aa-8bb8-8f0c32e8b324
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-24T20:12:38.801253+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:7c160f86-bddc-421c-b174-10b89a56d8b9
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget:
+    - how is valence-specific information routed to the BLA neurons with the appropriate  downstream
+      projections?
+    - how to reconcile the sub-second timescales of synaptic plasticity with the longer
+      timescales separating the predictive cues from their outcomes
+    url: https://dandiarchive.org/dandiset/000689/0.240524.2012
+    version: 0.240524.2012
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

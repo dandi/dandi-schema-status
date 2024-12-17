@@ -1,0 +1,157 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000631/0.231012.1508",
+      "url": "https://dandiarchive.org/dandiset/000631/0.231012.1508",
+      "name": "Effect of the electric field vector change on the electroporation efficiency of paired-pulse trains compared to single-pulse trains",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.231012.1508",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023) Effect of the electric field vector change on the electroporation efficiency of paired-pulse trains compared to single-pulse trains (Version 0.231012.1508) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000631/0.231012.1508",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000631",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kim, Vitalii",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0699-5582",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Semenov, Iurii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0302-1355",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "NIH 1R21EY034258",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-09-14T18:38:55.144430+00:00",
+      "description": "In the study, the impact of varying the electric field vector on the effectiveness of electroporation was examined, utilizing both paired-pulse trains, consisting of 5 pulses at 600 + 600 ns, and single-pulse trains with 5 pulses at 600 ns. These were applied to a BPAE cell monolayer at frequencies of either 1 Hz or 833 kHz. The focus was on assessing the alterations in electroporation efficiency, gauged through the changes in YoPro-1 emission when compared to the baseline established by a single-pulse train in the identical region of interest, which was set at 100%. The evaluation criteria included the angle at which the electric field vector direction alternated between two pulses within a pair. Introduction of pulses in pairs amplified the electroporation efficiency at smaller angles but resulted in an inhibition at larger angles, indicating a frequency-dependent relationship. The images captured during the experiments provided a comprehensive visualization of this effect, highlighting the nuanced impact of electric field vector modifications on electroporation efficiency. Supported by NIH 1R21EY034258",
+      "publishedBy": {
+        "id": "urn:uuid:7b568e6a-4d38-4a19-b01b-c72c0b455160",
+        "name": "DANDI publish",
+        "endDate": "2023-10-12T15:08:58.645902+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-10-12T15:08:58.645902+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:9076b991-3729-4ad6-8b10-8c013d5554ef",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Bos taurus - Cattle",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9913"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 18379955860,
+        "numberOfFiles": 15,
+        "numberOfSubjects": 15,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2023-10-12T15:08:58.645902+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "used": [],
+          "endDate": "2023-07-31T00:00:00-04:00",
+          "schemaKey": "Project",
+          "startDate": "2022-08-01T00:00:00-04:00",
+          "identifier": "NIH 1R21EY034258",
+          "wasAssociatedWith": [
+            {
+              "roleName": [],
+              "schemaKey": "Organization",
+              "contactPoint": [],
+              "includeInCitation": false
+            }
+          ]
+        }
+      ],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.3390/ijms241310921",
+          "name": "Control of the Electroporation Efficiency of Nanosecond Pulses by Swinging the Electric Field Vector Direction",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000631/0.231012.1508/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

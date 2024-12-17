@@ -1,0 +1,125 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 695653683544
+      numberOfFiles: 128
+      numberOfSubjects: 20
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - CompassDirection
+      - OpticalChannel
+      - PlaneSegmentation
+      - SpatialSeries
+      - ImagingPlane
+      - Position
+      - ProcessingModule
+      - TwoPhotonSeries
+    citation: Sit, Kevin; Goard, Michael (2023) Dataset for "Coregistration of heading
+      to visual cues in retrosplenial cortex" (Version 0.230421.2321) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000483/0.230421.2321
+    contributor:
+    - affiliation: []
+      email: sit@ucsb.edu
+      identifier: 0000-0003-0210-9010
+      includeInCitation: true
+      name: Sit, Kevin
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: michael.goard@lifesci.ucsb.edu
+      identifier: 0000-0002-5366-8501
+      includeInCitation: true
+      name: Goard, Michael
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: 1RF1NS121919
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: ' National Institutes of Health'
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-04-20T14:24:50.438334+00:00'
+    datePublished: '2023-04-21T23:21:51.134745+00:00'
+    description: 'These are all the accompanying data for the following publication:
+
+      Sit, K.K., Goard, M.J. Coregistration of heading to visual cues in retrosplenial
+      cortex. Nat Commun 14, 1992 (2023). https://doi.org/10.1038/s41467-023-37704-5'
+    ethicsApproval: []
+    id: DANDI:000483/0.230421.2321
+    identifier: DANDI:000483
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000483/0.230421.2321/assets.yaml
+    name: Dataset for "Coregistration of heading to visual cues in retrosplenial cortex"
+    protocol: []
+    publishedBy:
+      endDate: '2023-04-21T23:21:51.134745+00:00'
+      id: urn:uuid:791ac8cd-dfa4-4bd7-9e95-48988add9c9f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-04-21T23:21:51.134745+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:35134668-94f2-4a26-9766-a4503352a0e8
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: Github Code
+      name: Analysis Code
+      relation: dcite:IsSupplementedBy
+      repository: Neurotar-HD-Experiments
+      schemaKey: Resource
+      url: https://github.com/ucsb-goard-lab/Neurotar-HD-Experiments
+    - identifier: DANDI
+      name: Processed objects
+      relation: dcite:IsSourceOf
+      repository: 'Processed data for: Co-registration of heading to visual cues in
+        retrosplenial cortex'
+      schemaKey: Resource
+      url: https://doi.org/10.25349/D91G8Q
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000483/0.230421.2321
+    version: 0.230421.2321
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

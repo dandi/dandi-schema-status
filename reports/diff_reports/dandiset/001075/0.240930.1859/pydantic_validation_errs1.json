@@ -1,0 +1,231 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001075/0.240930.1859",
+      "url": "https://dandiarchive.org/dandiset/001075/0.240930.1859",
+      "name": "Neural signal propagation atlas of Caenorhabditis elegans",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240930.1859",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json",
+      "citation": "Randi, Francesco; Sharma, Anuj; Dvali, Sophie; Leifer, Andrew M. (2024) Neural signal propagation atlas of Caenorhabditis elegans (Version 0.240930.1859) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001075/0.240930.1859",
+      "keywords": [
+        "C elegans",
+        "optogenetics",
+        "functional connectivity"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001075",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Baker, Cody",
+          "email": "cody.c.baker.phd@gmail.com",
+          "roleName": [
+            "dcite:DataCurator"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0829-4790",
+          "affiliation": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "Randi, Francesco",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-6200-7254",
+          "includeInCitation": true
+        },
+        {
+          "name": "Sharma, Anuj",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5061-9731",
+          "includeInCitation": true
+        },
+        {
+          "name": "Dvali, Sophie",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8565-7148",
+          "includeInCitation": true
+        },
+        {
+          "url": "https://phy.princeton.edu/people/andrew-leifer",
+          "name": "Leifer, Andrew M.",
+          "email": "leifer@princeton.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author",
+            "dcite:Conceptualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-5362-5093",
+          "includeInCitation": true
+        },
+        {
+          "url": "http://www.ninds.nih.gov/",
+          "name": "Institutes of Health National Institute of Neurological Disorders and Stroke",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01s5ya894",
+          "awardNumber": "DP2-NS116768",
+          "includeInCitation": false
+        },
+        {
+          "url": "https://www.simonsfoundation.org",
+          "name": "Simons Foundation",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cmst727",
+          "awardNumber": "SCGB 543003",
+          "includeInCitation": false
+        },
+        {
+          "url": "http://www.theswartzfoundation.org/",
+          "name": "Swartz Foundation",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/04eqn7j88",
+          "includeInCitation": false
+        },
+        {
+          "url": "https://www.nsf.gov",
+          "name": "National Science Foundation",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/021nxhr62",
+          "awardNumber": "PHY-1734030",
+          "includeInCitation": false
+        },
+        {
+          "url": "https://orip.nih.gov",
+          "name": "NIH Office of Research Infrastructure Programs",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01jdyfj45",
+          "awardNumber": "P40 OD010440",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-06-27T18:17:12.716594+00:00",
+      "description": "The dataset used in the paper \"Randi, F., Sharma, A.K., Dvali, S. et al. Neural signal propagation atlas of Caenorhabditis elegans. Nature 623, 406\u2013414 (2023).\"\n\nEstablishing how neural function emerges from network properties is a fundamental problem in neuroscience. Here, to better understand the relationship between the structure and the function of a nervous system, we systematically measure signal propagation in 23,433 pairs of neurons across the head of the nematode Caenorhabditis elegans by direct optogenetic activation and simultaneous whole-brain calcium imaging. We measure the sign (excitatory or inhibitory), strength, temporal properties and causal direction of signal propagation between these neurons to create a functional atlas. We find that signal propagation differs from model predictions that are based on anatomy. Using mutants, we show that extrasynaptic signalling not visible from anatomy contributes to this difference. We identify many instances of dense-core-vesicle-dependent signalling, including on timescales of less than a second, that evoke acute calcium transients\u2014often where no direct wired connection exists but where relevant neuropeptides and receptors are expressed. We propose that, in such cases, extrasynaptically released neuropeptides serve a similar function to that of classical neurotransmitters. Finally, our measured signal propagation atlas better predicts the neural dynamics of spontaneous activity than do models based on anatomy. We conclude that both synaptic and extrasynaptic signalling drive neural dynamics on short timescales, and that measurements of evoked signal propagation are crucial for interpreting neural function.\n\nRead the paper at: https://www.nature.com/articles/s41586-023-06683-4",
+      "publishedBy": {
+        "id": "urn:uuid:b5f84b1a-bb1a-45c4-a58e-2ea7c9dd49ba",
+        "name": "DANDI publish",
+        "endDate": "2024-09-30T18:59:40.254799+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-09-30T18:59:40.254799+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:641ddb4a-5d6f-4460-aed4-cb3db6215332",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 4074234123623,
+        "numberOfFiles": 223,
+        "numberOfSubjects": 113,
+        "variableMeasured": [
+          "OpticalChannel",
+          "ProcessingModule",
+          "PlaneSegmentation",
+          "ImagingPlane"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-09-30T18:59:40.254799+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://github.com/catalystneuro/leifer_lab_to_nwb",
+          "name": "Leifer Lab to NWB",
+          "relation": "dcite:IsCompiledBy",
+          "schemaKey": "Resource",
+          "repository": "leifer_lab_to_nwb",
+          "resourceType": "dcite:Software"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-023-06683-4",
+          "name": "Neural signal propagation atlas of Caenorhabditis elegans",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "10.1038/s41586-023-06683-4",
+          "resourceType": "dcite:JournalArticle"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001075/0.240930.1859/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

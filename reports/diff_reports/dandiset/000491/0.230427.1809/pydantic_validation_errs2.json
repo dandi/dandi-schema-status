@@ -1,0 +1,174 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000491/0.230427.1809",
+      "url": "https://dandiarchive.org/dandiset/000491/0.230427.1809",
+      "name": "BrainWaveZZZ",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230427.1809",
+      "citation": "Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainWaveZZZ (Version 0.230427.1809) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/0.230427.1809",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000491",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Zhao, Yue",
+          "email": "yuezhao@rochester.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:DataManager",
+            "dcite:Maintainer"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Boster, Kimberly",
+          "roleName": [
+            "dcite:Researcher"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "University of Rochester",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/022kthw22"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kelley, Douglas",
+          "email": "d.h.kelley@rochester.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:ProjectLeader",
+            "dcite:ProjectManager"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "University of Rochester",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/022kthw22"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "United States Department of the Army",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/035w1gb98",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-04-26T03:36:47.214653+00:00",
+      "description": "Dataset from the 2023 manuscript titled Sizes and Shapes of Perivascular Spaces Surrounding Murine Pial Arteries by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1\n\nFor easier navigation, below is a mapping between the NWB file names and the datasets referenced in the manuscript.\n\nsub-21-07-19-b-act (Mouse 6, dataset K)\n\nsub-21-09-01-b-act (Mouse 8, dataset M)\n\nsub-21-09-20-b-act (Mouse 9, dataset N)\n\nsub-21-10-08-b-act (Mouse 7, dataset L)\n\nsub-BPN-M4 (Mouse 3, dataset E and F)\n\nsub-BPN-M6 (Mouse 4, dataset G and H)\n\nsub-BPN-M7 (Mouse 5, dataset I and J)\n\nsub-BPN-OLD-M2 (Mouse 1, dataset A and B)\n\nsub-BPN-OLD-M3 (Mouse 2, dataset C and D)\n",
+      "publishedBy": {
+        "id": "urn:uuid:f36fe80d-3f3b-4489-9c59-c9f0e117f095",
+        "name": "DANDI publish",
+        "endDate": "2023-04-27T18:09:26.577483+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-04-27T18:09:26.577483+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:45511828-88fe-436c-92f7-9b5f9ac02618",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 5023426834,
+        "numberOfFiles": 14,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "ProcessingModule",
+          "TwoPhotonSeries",
+          "ImagingPlane",
+          "OpticalChannel",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-04-27T18:09:26.577483+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "DHK and MN acknowledge support from the United States Army grant MURI W911NF1910280 and the National Institutes of Health grants U19NS128613 and R01AT012312.",
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000491/0.230427.1809/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

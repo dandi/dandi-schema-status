@@ -1,0 +1,191 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000147/0.221122.2256",
+      "url": "https://dandiarchive.org/dandiset/000147/0.221122.2256",
+      "name": "PPC_Finger: human posterior parietal cortex recordings during attempted finger movements",
+      "about": [
+        {
+          "name": "posterior parietal cortex",
+          "schemaKey": "Anatomy",
+          "identifier": "UBERON:0034889"
+        },
+        {
+          "name": "tetraplegia",
+          "dxdate": [],
+          "schemaKey": "Disorder",
+          "identifier": "SNOMEDCT:11538006"
+        }
+      ],
+      "access": [],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.221122.2256",
+      "citation": "Guan, Charles; Aflalo, Tyson; Zhang, Carey; Andersen, Richard (2022) PPC_Finger: human posterior parietal cortex recordings during attempted finger movements (Version 0.221122.2256) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000147/0.221122.2256",
+      "keywords": [
+        "PPC",
+        "human",
+        "finger"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000147",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Guan, Charles",
+          "email": "cguan@caltech.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-8040-8844",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Aflalo, Tyson",
+          "email": "taflalo@caltech.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0101-2455",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Zhang, Carey",
+          "email": "carey.zhang@gmail.com",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9867-4510",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://www.vis.caltech.edu/",
+          "name": "Andersen, Richard",
+          "email": "richard.andersen@vis.caltech.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-7947-0472",
+          "affiliation": [
+            {
+              "name": "California Institute of Technology",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/05dxps055"
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2021-10-13T22:14:45.568140+00:00",
+      "description": "This dataset contains neural activity and trial information from a tetraplegic human participant performing a brain-computer interface (BCI) finger press task. Neural activity was recorded from a 96-channel Utah array (Blackrock) implanted in the left posterior parietal cortex (PPC) at the junction of the postcentral and intraparietal sulci (PC-IP). On each trial, a finger cue, at a pseudorandom location on a screen, was selected. The participant immediately looked at the cue and pressed the cued finger until decoder feedback was shown (1.5 seconds after the cue).\n\nThis dataset includes sorted unit spiking times, finger cue, in-session classified finger, cue location, and trial timing.",
+      "publishedBy": {
+        "id": "urn:uuid:0139b708-461d-4753-afb8-920c59580bcf",
+        "name": "DANDI publish",
+        "endDate": "2022-11-22T22:56:33.022261+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2022-11-22T22:56:33.022261+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:cd4e54e6-ae6b-412e-8d10-fbb55ffa5a00",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Homo sapiens - Human",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 77665528,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "Units",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2022-11-22T22:56:33.022261+00:00",
+      "schemaVersion": "0.6.0",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.7554/eLife.74478",
+          "name": "Stability of motor representations after paralysis",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "https://doi.org/10.7554/eLife.74478",
+          "repository": "eLife"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000147/0.221122.2256/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

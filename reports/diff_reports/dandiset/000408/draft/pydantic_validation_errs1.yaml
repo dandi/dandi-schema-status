@@ -1,0 +1,29 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    identifier: 0000-0003-3668-7767
+    includeInCitation: true
+    name: Orazem, Mark
+    roleName:
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 2
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

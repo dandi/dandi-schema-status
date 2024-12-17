@@ -1,0 +1,130 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    identifier: 0000-0002-6255-6085
+    includeInCitation: true
+    name: Millman, Dan
+    roleName:
+    - dcite:ContactPerson
+    - dcite:Author
+    schemaKey: Person
+  loc:
+  - contributor
+  - 0
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    about: []
+    access:
+    - status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 22607247880
+      numberOfFiles: 100
+      numberOfSubjects: 32
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - PlaneSegmentation
+      - TwoPhotonSeries
+      - BehavioralTimeSeries
+    citation: "Millman, Dan; Vries, Saskia de (2023) Allen Institute \u2013 Contrast
+      tuning in mouse visual cortex with calcium imaging (Version 0.230223.1216) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/000039/0.230223.1216"
+    contributor:
+    - identifier: 0000-0002-6255-6085
+      includeInCitation: true
+      name: Millman, Dan
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0002-3704-3499
+      includeInCitation: true
+      name: Vries, Saskia de
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    dateCreated: '2020-09-12T16:39:16.192000+00:00'
+    datePublished: '2023-02-23T12:16:32.676105+00:00'
+    description: "A two photon calcium imaging dataset from Allen Institute measuring
+      responses to full-field drifting gratings (approx. 120x90 degrees of visual
+      space) of 8 directions and 6 contrasts (5%, 10%, 20%, 40%, 60%, 80%). Mouse
+      Cre lines expressing GCaMP6f were imaged to record responses of   pyramidal
+      neurons across cortical layers (Cux2: layer 2/3; Rorb: layer 4; Rbp4: layer
+      5; Ntsr1: layer 6) as well as inhibitory interneurons (Vip and Sst). All experimental
+      sessions took place on the same data collection pipeline as the Allen Brain
+      Observatory (see http://observatory.brain-map.org/visualcoding) and have the
+      same visual stimulus monitor calibration and positioning, two photon imaging
+      systems and image processing pipeline, and running wheel to track locomotion.\n\n
+      Data are subject to Allen Institute Terms of Use policy, available at: http://www.alleninstitute.org/legal/terms-use/"
+    ethicsApproval: []
+    id: DANDI:000039/0.230223.1216
+    identifier: DANDI:000039
+    keywords:
+    - vision
+    - visual cortex
+    - inhibition
+    - inhibitory circuits
+    - circuit dynamics
+    - gain control
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000039/0.230223.1216/assets.yaml
+    name: "Allen Institute \u2013 Contrast tuning in mouse visual cortex with calcium
+      imaging"
+    protocol: []
+    publishedBy:
+      endDate: '2023-02-23T12:16:32.676105+00:00'
+      id: urn:uuid:4163eba3-27b2-4b92-a73f-8512285173e6
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-02-23T12:16:32.676105+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:646512a5-4d84-4717-9803-0e12ecd7d3e5
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: VIP interneurons in mouse primary visual cortex selectively enhance responses
+        to weak but specific stimuli
+      relation: dcite:IsDescribedBy
+      schemaKey: Resource
+      url: https://elifesciences.org/articles/55130
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.4.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000039/0.230223.1216
+    version: 0.230223.1216
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

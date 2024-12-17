@@ -1,0 +1,265 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000579/0.230728.1727",
+      "url": "https://dandiarchive.org/dandiset/000579/0.230728.1727",
+      "name": "Two-photon calcium imaging of mouse posterior cortical areas during dynamic navigation decisions (Tseng et al., 2022, Neuron)",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230728.1727",
+      "citation": "Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon calcium imaging of mouse posterior cortical areas during dynamic navigation decisions (Tseng et al., 2022, Neuron) (Version 0.230728.1727) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000579/0.230728.1727",
+      "keywords": [
+        "mouse",
+        "cortex",
+        "decision-making",
+        "navigation",
+        "virtual reality",
+        "two-photon imaging",
+        "posterior cortex",
+        "posterior parietal cortex",
+        "retrosplenial cortex",
+        "visual cortex",
+        "rule-switching",
+        "flexible decisions",
+        "retrograde labeling"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000579",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Tseng, Shih-Yi",
+          "email": "shihyitseng41@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:Conceptualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-5029-433X",
+          "affiliation": [
+            {
+              "name": "Harvard Medical School",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Chettih, Selmaan",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-2045-3747",
+          "affiliation": [
+            {
+              "name": "Harvard Medical School",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Harvey, Christopher",
+          "email": "Christopher_Harvey@hms.harvard.edu ",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:FundingAcquisition",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9850-2268",
+          "affiliation": [
+            {
+              "name": "Harvard Medical School",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://www.nih.gov/",
+          "name": "National Institutes of Health Director\u2019s Pioneer Award",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "DP1 MH125776",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "https://www.ninds.nih.gov/",
+          "name": "National Institute of Neurological Disorders and Stroke",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01s5ya894",
+          "awardNumber": "R01 NS089521",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "https://www.nimh.nih.gov/",
+          "name": "National Institute of Mental Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/04xeg9z08",
+          "awardNumber": "R01 MH107620",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "https://braininitiative.nih.gov/",
+          "name": "National Institutes of Health BRAIN Initiative",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "R01 NS108410",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-07-10T21:58:09.569708+00:00",
+      "description": "This is the dataset for Tseng et al, \"Shared and specialized coding across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022). The dataset contains calcium activity of >200,000 neurons recorded from 6 different cortical areas in mouse posterior cortex L2/3 and L5 using two-photon imaging, including V1 and secondary visual areas, retrosplenial cortex (RSC) and posterior parietal cortex (PPC), while the mice were performing a flexible decision-making task based on rule-switching during virtual navigation. There are total 300 behavior + imaging sessions collected from 8 mice. The neurons in each experiment have been registered into the Allen Institute Mouse Common Coordinate Framework (CCF) based on widefield retinotopy. In addition, these neurons contain fluorescent labels of retroAAV injected in one of the two sets of projection targets: an anterior part of anterior cingulate cortex/secondary motor cortex (ACC/M2) and striatum, or a posterior part of ACC/M2 and orbitofrontal cortex (OFC).   \n\nPlease see the related paper for more details: https://doi.org/10.1016/j.neuron.2022.05.012\n\nAdditional resources:\n\n- Jupyter notebook for a tutorial to read and extract information from these NWB files: https://github.com/sytseng/Notebook_for_Dandiset_000579\n\n- NWB extension code for custom lab meta data (required for reading NWB files): https://github.com/sytseng/ndx-harvey-swac \n\n- Code and tutorials for fitting GLM to neural activity in Tensorflow 2: https://github.com/sytseng/GLM_Tensorflow_2",
+      "publishedBy": {
+        "id": "urn:uuid:6d49336c-a6e7-45b6-889c-c94d6b8ab132",
+        "name": "DANDI publish",
+        "endDate": "2023-07-28T17:27:02.559597+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-07-28T17:27:02.559597+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:4341c65d-6985-45bc-9233-3de397efabba",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 245591965505,
+        "numberOfFiles": 308,
+        "numberOfSubjects": 8,
+        "variableMeasured": [
+          "ImagingPlane",
+          "ProcessingModule",
+          "OpticalChannel",
+          "Position",
+          "SpatialSeries",
+          "BehavioralTimeSeries",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-07-28T17:27:02.559597+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "We thank Ryan Ly for his generous help in generating and validating the dataset. ",
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.1016/j.neuron.2022.05.012",
+          "name": "Shared and specialized coding across posterior cortical areas for dynamic navigation decisions",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource",
+          "identifier": "Original paper"
+        },
+        {
+          "url": "https://github.com/sytseng/Notebook_for_Dandiset_000579",
+          "name": "Github repository for NWB file reading tutorial notebook",
+          "relation": "dcite:IsDocumentedBy",
+          "schemaKey": "Resource",
+          "identifier": "Data loading tutorial",
+          "repository": "Notebook_for_Dandiset_000579"
+        },
+        {
+          "url": "https://github.com/sytseng/ndx-harvey-swac",
+          "name": "Github repository for NWB extension code for custom lab meta data",
+          "relation": "dcite:IsSupplementedBy",
+          "schemaKey": "Resource",
+          "identifier": "NWB extension for lab meta data",
+          "repository": "ndx-harvey-swac"
+        },
+        {
+          "url": "https://github.com/sytseng/GLM_Tensorflow_2",
+          "name": "Code and tutorials for fitting neural activity with GLM in Tensorflow 2",
+          "relation": "dcite:IsContinuedBy",
+          "schemaKey": "Resource",
+          "identifier": "GLM code in Tensorflow 2",
+          "repository": "GLM_Tensorflow_2"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000579/0.230728.1727/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

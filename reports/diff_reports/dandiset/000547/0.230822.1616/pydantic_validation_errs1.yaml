@@ -1,0 +1,192 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: This work was supported by the U.S. Army under award no. MURI
+      W911NF1910280, by the U.S. National Center for Complementary and Integrative
+      Health under award no. R01AT012312, and by the BRAIN Initiative of the U.S.
+      National Institutes of Health under award no. U19NS128613.
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 17585558608
+      numberOfFiles: 70
+      numberOfSubjects: 9
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - OpticalChannel
+      - ImagingPlane
+      - ProcessingModule
+      - TwoPhotonSeries
+    citation: "Zhao, Yue; Gan, Yiming; Kelley, Douglas; Holstein-R\xF8nsbo, Stephanie;
+      Boster, Kimberly; Thomas, John; Nedergaard, Maiken (2023) Perivascular Pumping
+      of Cerebrospinal Fluid in the Brain with a Valve Mechanism (Version 0.230822.1616)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000547/0.230822.1616"
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: yuezhao@rochester.edu
+      includeInCitation: true
+      name: Zhao, Yue
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataManager
+      - dcite:Maintainer
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: ygan12@ur.rochester.edu
+      identifier: 0000-0002-2463-6316
+      includeInCitation: true
+      name: Gan, Yiming
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:ProjectManager
+      - dcite:Researcher
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: d.h.kelley@rochester.edu
+      identifier: 0000-0001-9658-2954
+      includeInCitation: true
+      name: Kelley, Douglas
+      roleName:
+      - dcite:Author
+      - dcite:ProjectLeader
+      - dcite:Researcher
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/035b05819
+        name: University of Copenhagen
+        schemaKey: Affiliation
+      email: stephanie.rathlou@sund.ku.dk
+      includeInCitation: true
+      name: "Holstein-R\xF8nsbo, Stephanie"
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: kboster@ur.rochester.edu
+      identifier: 0000-0001-5178-128X
+      includeInCitation: true
+      name: Boster, Kimberly
+      roleName:
+      - dcite:Author
+      - dcite:Researcher
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: thomas@me.rochester.edu
+      includeInCitation: true
+      name: Thomas, John
+      roleName:
+      - dcite:Author
+      - dcite:Researcher
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: nedergaard@sund.ku.dk
+      includeInCitation: true
+      name: Nedergaard, Maiken
+      roleName:
+      - dcite:Author
+      - dcite:Researcher
+      schemaKey: Person
+    - awardNumber: MURI W911NF1910280
+      contactPoint: []
+      identifier: https://ror.org/00afsp483
+      includeInCitation: false
+      name: United States Army
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: R01AT012312
+      contactPoint: []
+      identifier: https://ror.org/00190t495
+      includeInCitation: false
+      name: National Center for Complementary and Integrative Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: U19NS128613
+      contactPoint: []
+      identifier: https://ror.org/05h1kgg64
+      includeInCitation: false
+      name: National Institute of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-05-17T14:28:04.954369+00:00'
+    datePublished: '2023-08-22T16:16:47.492355+00:00'
+    description: This dataset contains the 2-photon recordings of the penetrating
+      arteries of mice, included in the project "Perivascular Pumping of Cerebrospinal
+      Fluid in the Brain with a Valve Mechanism".
+    ethicsApproval: []
+    id: DANDI:000547/0.230822.1616
+    identifier: DANDI:000547
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000547/0.230822.1616/assets.yaml
+    name: Perivascular Pumping of Cerebrospinal Fluid in the Brain with a Valve Mechanism
+    protocol: []
+    publishedBy:
+      endDate: '2023-08-22T16:16:47.492355+00:00'
+      id: urn:uuid:fb244a41-51f9-4f4e-ae07-c1b6f4e3ed56
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-08-22T16:16:47.492355+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:24917d22-6aad-4e7f-a16e-69e02b1e5970
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000547/0.230822.1616
+    version: 0.230822.1616
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,156 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: DHK and MN acknowledge support from the United States Army grant
+      MURI W911NF1910280 and the National Institutes of Health grants U19NS128613
+      and R01AT012312.
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 5023426834
+      numberOfFiles: 14
+      numberOfSubjects: 9
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - TwoPhotonSeries
+      - ImagingPlane
+      - OpticalChannel
+      - PlaneSegmentation
+    citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainWaveZZZ (Version
+      0.230427.1809) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/0.230427.1809
+    contributor:
+    - affiliation: []
+      email: yuezhao@rochester.edu
+      includeInCitation: true
+      name: Zhao, Yue
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataManager
+      - dcite:Maintainer
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Boster, Kimberly
+      roleName:
+      - dcite:Researcher
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/022kthw22
+        name: University of Rochester
+        schemaKey: Affiliation
+      email: d.h.kelley@rochester.edu
+      includeInCitation: true
+      name: Kelley, Douglas
+      roleName:
+      - dcite:ContactPerson
+      - dcite:ProjectLeader
+      - dcite:ProjectManager
+      schemaKey: Person
+    - contactPoint: []
+      identifier: https://ror.org/035w1gb98
+      includeInCitation: false
+      name: United States Department of the Army
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-04-26T03:36:47.214653+00:00'
+    datePublished: '2023-04-27T18:09:26.577483+00:00'
+    description: 'Dataset from the 2023 manuscript titled Sizes and Shapes of Perivascular
+      Spaces Surrounding Murine Pial Arteries by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1
+
+
+      For easier navigation, below is a mapping between the NWB file names and the
+      datasets referenced in the manuscript.
+
+
+      sub-21-07-19-b-act (Mouse 6, dataset K)
+
+
+      sub-21-09-01-b-act (Mouse 8, dataset M)
+
+
+      sub-21-09-20-b-act (Mouse 9, dataset N)
+
+
+      sub-21-10-08-b-act (Mouse 7, dataset L)
+
+
+      sub-BPN-M4 (Mouse 3, dataset E and F)
+
+
+      sub-BPN-M6 (Mouse 4, dataset G and H)
+
+
+      sub-BPN-M7 (Mouse 5, dataset I and J)
+
+
+      sub-BPN-OLD-M2 (Mouse 1, dataset A and B)
+
+
+      sub-BPN-OLD-M3 (Mouse 2, dataset C and D)
+
+      '
+    ethicsApproval: []
+    id: DANDI:000491/0.230427.1809
+    identifier: DANDI:000491
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000491/0.230427.1809/assets.yaml
+    name: BrainWaveZZZ
+    protocol: []
+    publishedBy:
+      endDate: '2023-04-27T18:09:26.577483+00:00'
+      id: urn:uuid:f36fe80d-3f3b-4489-9c59-c9f0e117f095
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-04-27T18:09:26.577483+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:45511828-88fe-436c-92f7-9b5f9ac02618
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000491/0.230427.1809
+    version: 0.230427.1809
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

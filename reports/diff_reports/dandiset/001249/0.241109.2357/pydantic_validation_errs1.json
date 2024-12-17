@@ -1,0 +1,88 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001249/0.241109.2357",
+      "url": "https://dandiarchive.org/dandiset/001249/0.241109.2357",
+      "name": "Ishii et al 2023",
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241109.2357",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json",
+      "citation": "Ishii, Kentaro (2024) Ishii et al 2023 (Version 0.241109.2357) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001249/0.241109.2357",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001249",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Ishii, Kentaro",
+          "email": "ken1223@uw.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-11-05T23:18:49.415406+00:00",
+      "description": "FosTRAP dataset used in Ishii et al 2023, https://doi.org/10.7554/eLife.91765.1",
+      "publishedBy": {
+        "id": "urn:uuid:346a6139-405b-4531-95ee-f05568badcc9",
+        "name": "DANDI publish",
+        "endDate": "2024-11-09T23:57:05.553053+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-11-09T23:57:05.553053+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:caa51057-e96e-4333-a2f5-3cbc20d44858",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1382476285228,
+        "numberOfFiles": 14,
+        "numberOfSubjects": 14,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2024-11-09T23:57:05.553053+00:00",
+      "schemaVersion": "0.6.8",
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001249/0.241109.2357/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,208 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about:
+    - name: Sprague-Dawley
+      schemaKey: GenericType
+    - name: bilateral subiculum (SUB)
+      schemaKey: Anatomy
+    - name: dentate gyrus (DG)
+      schemaKey: Anatomy
+    - name: CA1 subfield of the hippocampus (CA1)
+      schemaKey: Anatomy
+    - name: CA3 subfield of the hippocampus (CA3)
+      schemaKey: Anatomy
+    - name: amygdala (AMD)
+      schemaKey: Anatomy
+    - name: anterior nucleus of the thalamus (ANT)
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: ''
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 17935587444
+      numberOfFiles: 162
+      numberOfSubjects: 15
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ElectrodeGroup
+    citation: Haoqi, Ni; Yufang, Yang; Fang, Zhang; Yuting, Sun; Yongte, Zheng; Junming,
+      Zhu; Kedi, Xu (2024) Dataset of long-term multi-site LFP activity with spontaneous
+      chronic seizures recorded in temporal lobe epilepsy rats (Version 0.240905.0159)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001044/0.240905.0159
+    contributor:
+    - email: nihq@zju.edu.cn
+      identifier: 0009-0003-1749-4043
+      includeInCitation: true
+      name: Haoqi, Ni
+      roleName:
+      - dcite:Author
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - includeInCitation: true
+      name: Yufang, Yang
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - identifier: 0000-0003-2585-4611
+      includeInCitation: true
+      name: Fang, Zhang
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - email: sunyt@zju.edu.cn
+      includeInCitation: true
+      name: Yuting, Sun
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - identifier: 0000-0002-2576-6796
+      includeInCitation: true
+      name: Yongte, Zheng
+      roleName:
+      - dcite:DataCollector
+      - dcite:Researcher
+      schemaKey: Person
+    - includeInCitation: true
+      name: Junming, Zhu
+      roleName:
+      - dcite:Supervision
+      - dcite:Validation
+      schemaKey: Person
+    - email: xukd@zju.edu.cn
+      identifier: 0000-0002-9059-3860
+      includeInCitation: true
+      name: Kedi, Xu
+      roleName:
+      - dcite:ContactPerson
+      - dcite:ProjectAdministration
+      - dcite:Supervision
+      schemaKey: Person
+    - awardNumber: 2021ZD0200405
+      includeInCitation: false
+      name: "STI 2030\u2014Major Projects"
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: '82272112'
+      includeInCitation: false
+      name: National Natural Science Foundation of China
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: LR23H180002
+      includeInCitation: false
+      name: Outstanding Youth Program of Zhejiang Natural Science Foundation
+      schemaKey: Organization
+    - awardNumber: 2021KYY600403-0001
+      includeInCitation: false
+      name: the Fundamental Research Funds for the Central Universities
+      schemaKey: Organization
+    - awardNumber: SN-ZJU-SIAS-002
+      includeInCitation: false
+      name: the Starry Night Science Fund of Zhejiang University Shanghai Institute
+        for Advanced Study
+      schemaKey: Organization
+    dateCreated: '2024-06-02T08:46:00.097734+00:00'
+    datePublished: '2024-09-05T01:59:50.643613+00:00'
+    description: We provided a long-term brain electrophysiological dataset of 15
+      pilocarpine-treated temporal lobe epilepsy (TLE) rats during the development
+      of epilepsy. The dataset was constituted by multi-site local field potential
+      (LFP) signal recorded from 12 sites in the circuit of Papez in TLE, including
+      spontaneous seizures and interictal fragments in the chronic period. The LFP
+      data were saved in MATLAB, stored as the Neurodata Without Borders (NWB) standard,
+      and published on the DANDI Archive. The dataset can be used to evaluate the
+      alterations of seizure onset zone (SOZ), seizure onset pattern (SOP), and functional
+      network connectivity during the development of epilepsy. We have technically
+      validated the dataset through histology and specific signal analysis. In addition,
+      we provided MATLAB codes for basic analyses of this dataset, including power
+      spectral analysis, SOP identification, and interictal spike detection. The dataset
+      is available to reveal how brain electrophysiological and epileptic network
+      properties of chronic TLE rats change from early to late stages, and help inform
+      the design of adaptive neuromodulation for epilepsy.
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: ZJU20190116
+      schemaKey: EthicsApproval
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: Zhejiang University 15896
+      schemaKey: EthicsApproval
+    id: DANDI:001044/0.240905.0159
+    identifier: DANDI:001044
+    keywords:
+    - neurophysiology
+    - neurosurgery
+    - local field potential
+    - spontaneous seizure
+    - multi-site
+    - NWB
+    - temporal lobe epilepsy
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001044/0.240905.0159/assets.yaml
+    name: Dataset of long-term multi-site LFP activity with spontaneous chronic seizures
+      recorded in temporal lobe epilepsy rats.
+    protocol: []
+    publishedBy:
+      endDate: '2024-09-05T01:59:50.643613+00:00'
+      id: urn:uuid:8899374f-d429-4aa7-8246-3ce695a94cf2
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-09-05T01:59:50.643613+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:f16088b3-c733-471d-a3aa-93cecec3c7bb
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Progressive alterations in electrophysiological and epileptic network
+        properties during the development of temporal lobe epilepsy in rats
+      relation: dcite:Cites
+      resourceType: dcite:JournalArticle
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.yebeh.2023.109120
+    - name: The codes used for the NWB file conversion, the technical validation and
+        epilepsy feature extraction.
+      relation: dcite:IsCitedBy
+      repository: epilepsy-analysis
+      schemaKey: Resource
+      url: https://github.com/SancTUARYY/epilepsy-analysis
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget:
+    - Brain electrophysiological changes in TLE rats with spontaneous chronic seizures
+    url: https://dandiarchive.org/dandiset/001044/0.240905.0159
+    version: 0.240905.0159
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

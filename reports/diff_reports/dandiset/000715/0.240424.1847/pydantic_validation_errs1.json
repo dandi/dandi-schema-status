@@ -1,0 +1,121 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000715/0.240424.1847",
+      "url": "https://dandiarchive.org/dandiset/000715/0.240424.1847",
+      "name": "NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.240424.1847",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Yemini, Eviatar; Sprague, Daniel (2024) NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm (Version 0.240424.1847) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000715/0.240424.1847",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000715",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Yemini, Eviatar",
+          "email": "evictor.yemini@umassmed.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:DataCollector",
+            "dcite:Methodology"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Sprague, Daniel",
+          "email": "Daniel.sprague@ucsf.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCurator",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-11-20T22:09:13.916173+00:00",
+      "description": "10 original NeuroPAL datasets used to train the statistical atlas in 'Statistical Atlas of C. elegans Neurons' and 'NeuroPAL: A Multicolor Atlas for Whole-Brain Neuronal Identification in C. elegans.\n\n",
+      "publishedBy": {
+        "id": "urn:uuid:30669eec-903a-4708-bc66-c9ef9d57ea67",
+        "name": "DANDI publish",
+        "endDate": "2024-04-24T18:47:37.830904+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-04-24T18:47:37.830904+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:17d1ea72-f1cc-4b39-96ce-3b234de6f8e2",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 835049434,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 10,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-04-24T18:47:37.830904+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000715/0.240424.1847/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

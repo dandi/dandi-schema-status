@@ -1,0 +1,217 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000625/0.231114.0019",
+      "url": "https://dandiarchive.org/dandiset/000625/0.231114.0019",
+      "name": "Molecularly Identified CA1 Interneuron Dynamics",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.231114.0019",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Geiller, Tristan (2023) Molecularly Identified CA1 Interneuron Dynamics (Version 0.231114.0019) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000625/0.231114.0019",
+      "keywords": [
+        "2-photon calcium imaging",
+        "interneuron",
+        "hippocampus",
+        "ca1",
+        "mouse",
+        "head-fixed",
+        "treadmill",
+        "Losonczy Lab",
+        "Columbia University"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000625",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Zakka, George",
+          "email": "gz2333@columbia.edu",
+          "roleName": [
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:Maintainer",
+            "dcite:ProjectMember",
+            "dcite:Researcher",
+            "dcite:Software",
+            "dcite:Resources",
+            "dcite:Supervision",
+            "dcite:Affiliation"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "Columbia University",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/00hj8s172"
+            }
+          ],
+          "includeInCitation": false
+        },
+        {
+          "url": "http://www.columbia.edu/~tcg2117/",
+          "name": "Geiller, Tristan",
+          "email": "tristan.geiller@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author",
+            "dcite:DataCollector"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "Columbia University",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/00hj8s172"
+            }
+          ],
+          "awardNumber": "",
+          "includeInCitation": true
+        },
+        {
+          "url": "https://www.nimh.nih.gov/index.shtml",
+          "name": "National Institute of Mental Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/04xeg9z08",
+          "awardNumber": "1R01MH100631",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "http://www.ninds.nih.gov/",
+          "name": "National Institute of Neurological Disorders and Stroke",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01s5ya894",
+          "awardNumber": "1U19NS104590",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "http://www.ninds.nih.gov/",
+          "name": "National Institute of Neurological Disorders and Stroke",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01s5ya894",
+          "awardNumber": "1R01NS094668",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-09-06T16:30:08.447291+00:00",
+      "description": "This dataset was collected to examine the dynamics of mouse interneurons whose subtypes were molecularly identified. 231 ROIs were observed over 3 separate imaging sessions. For each session you will find the following:\n- Raw images (individual cropped ROIs)\n- DfOverF traces\n- Fluorescence traces\n- Subtype of each ROI (some are undetermined)\n- Timing of water rewards\n- Time-stamped position of subject\n\n\nData was collected by Tristan Geiller at the Losonczy Lab using two photon calcium imaging and head-fixed mice running on a voluntary treadmill.",
+      "publishedBy": {
+        "id": "urn:uuid:a5729532-26e9-4342-b388-60698b8fedf4",
+        "name": "DANDI publish",
+        "endDate": "2023-11-14T00:19:40.618448+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-11-14T00:19:40.618448+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:a375020a-655f-45f7-8b07-a7a6e4ebeeac",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 74904128,
+        "numberOfFiles": 3,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "BehavioralEpochs",
+          "ProcessingModule",
+          "SpatialSeries",
+          "TwoPhotonSeries",
+          "Position",
+          "ImagingPlane",
+          "OpticalChannel",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-11-14T00:19:40.618448+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.1016/j.neuron.2020.09.013",
+          "name": "Large-Scale 3D Two-Photon Imaging of Molecularly Identified CA1 Interneuron Dynamics in Behaving Mice",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000625/0.231114.0019/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

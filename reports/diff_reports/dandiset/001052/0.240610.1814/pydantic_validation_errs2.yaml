@@ -1,0 +1,90 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: NS123424-01
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 19510736
+      numberOfFiles: 12
+      numberOfSubjects: 12
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+    citation: Cowen, Stephen; BRAIN Initiative (2024) Acute Random and FixedBurst
+      stim in MFB and mPFC using Neuropixels in NAc (Version 0.240610.1814) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/001052/0.240610.1814
+    contributor:
+    - affiliation: []
+      email: scowen@email.arizona.edu
+      includeInCitation: true
+      name: Cowen, Stephen
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: NS123424-01
+      identifier: https://ror.org/05h1kgg64
+      includeInCitation: true
+      name: BRAIN Initiative
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-06-10T16:59:44.419010+00:00'
+    datePublished: '2024-06-10T18:14:34.321177+00:00'
+    description: "Anesthetized rats - recording effects of stim on NAc ensemble activity
+      \nFunded by BRAIN Initiative NS123424-01"
+    ethicsApproval:
+    - contactPoint:
+        email: scowen@arizona.edu
+        schemaKey: ContactPoint
+      identifier: 12-399
+      schemaKey: EthicsApproval
+    id: DANDI:001052/0.240610.1814
+    identifier: DANDI:001052
+    keywords:
+    - nucleus accumbens, ensemble
+    license:
+    - spdx:CC0-1.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001052/0.240610.1814/assets.yaml
+    name: Acute Random and FixedBurst stim in MFB and mPFC using Neuropixels in NAc
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-10T18:14:34.321177+00:00'
+      id: urn:uuid:127e8fe5-98fe-485c-8881-160bf33d5c3a
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-10T18:14:34.321177+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:4e196076-b1a3-40b7-818f-7e6e816afb05
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001052/0.240610.1814
+    version: 0.240610.1814
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

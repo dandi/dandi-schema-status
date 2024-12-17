@@ -1,0 +1,149 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000541/0.241009.1457",
+      "url": "https://dandiarchive.org/dandiset/000541/0.241009.1457",
+      "name": "NeuroPAL Microfluidic Chip Images and GCaMP activity",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241009.1457",
+      "citation": "Yemini, Ev; Nejatbakhsh, Amin; Venkatachalam, Vivek; Lin, Albert; Sprague, Daniel; Samuel, Aravinthan; Hobert, Oliver (2024) NeuroPAL Microfluidic Chip Images and GCaMP activity (Version 0.241009.1457) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000541/0.241009.1457",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000541",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Yemini, Ev",
+          "email": "eviatar.yemini@umassmed.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Nejatbakhsh, Amin",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Venkatachalam, Vivek",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Lin, Albert",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Varol, Erdem",
+          "schemaKey": "Person",
+          "includeInCitation": false
+        },
+        {
+          "name": "Sprague, Daniel",
+          "email": "daniel.y.sprague@gmail.com",
+          "roleName": [],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Samuel, Aravinthan",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Paninski, Liam",
+          "schemaKey": "Person",
+          "includeInCitation": false
+        },
+        {
+          "name": "Hobert, Oliver",
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-05-12T00:36:15.913485+00:00",
+      "description": "NeuroPAL Microfluidic chip images and GCaMP activity from \"NeuroPAL: A Multicolor Atlas for Whole-Brain Neuronal Identification in C. elegans\" and \"Extracting neural signals from semi-immobilized animals with deformable non-negative matrix factorization.\" ",
+      "publishedBy": {
+        "id": "urn:uuid:8137bff3-84cb-4307-8d6d-b230accf1a49",
+        "name": "DANDI publish",
+        "endDate": "2024-10-09T14:57:38.369511+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-09T14:57:38.369511+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:e86b5af1-26af-4276-bd86-f71a6e30f6a4",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 30525162874,
+        "numberOfFiles": 21,
+        "numberOfSubjects": 21,
+        "variableMeasured": [
+          "ProcessingModule",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-09T14:57:38.369511+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000541/0.241009.1457/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

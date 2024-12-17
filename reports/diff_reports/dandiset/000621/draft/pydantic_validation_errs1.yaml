@@ -1,0 +1,62 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R21 EY 034283-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+      schemaKey: AssetsSummary
+    citation: Development of wirelessly actuated azobenzene polymer thin films (2023).
+      (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000621/draft
+    contributor:
+    - awardNumber: 1 R21 EY 034283-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-08-14T15:14:44.933259+00:00'
+    description: This dataset is related to the development of the device made of
+      an azobenzene polymer (poly(disperse red 1 methacrylate) (pDR1M)) that folds
+      with ultra-low radius of curvature when actuated wirelessly with light
+    id: DANDI:000621/draft
+    identifier: DANDI:000621
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000621/versions/draft/assets/
+    name: Development of wirelessly actuated azobenzene polymer thin films
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000621/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

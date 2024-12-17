@@ -1,0 +1,92 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 129066795249
+      numberOfFiles: 36
+      numberOfSubjects: 4
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+    citation: Tchoe, Youngbin (2023) Human brain mapping with multithousand-channel
+      PtNRGrids resolves spatiotemporal dynamics (Version 0.230530.2349) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000465/0.230530.2349
+    contributor:
+    - affiliation: []
+      email: ybtchoe@gmail.com
+      includeInCitation: true
+      name: Tchoe, Youngbin
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2023-03-24T01:50:09.368401+00:00'
+    datePublished: '2023-05-30T23:49:47.503996+00:00'
+    description: "This dataset contains recordings from PtNRGrids, which are devices
+      designed to record electrocorticography (ECoG) activities from the brain surface
+      at high-spatial resolution. PtNRGrids used here were a square-shaped array with
+      1024 channels and a 150-\xB5m pitch, which was implanted to record neural activity
+      from the entire right primary somatosensory barrel cortex. The sensory response
+      on the brain was evoked by delivering air puffs through a microcapillary tube
+      to individually stimulate individual whiskers on the contralateral side. This
+      dataset demonstrates the high-spatial resolution recording capability of PtNRGrids
+      isolate functional cortical columns in sub-mm resolution from the surface of
+      the brain.\n\n[Publication corresponding to this dataset] Tchoe, Youngbin, et
+      al. \"Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal
+      dynamics.\" Science translational medicine 14.628 (2022): eabj1441.\n[Electrode
+      mapping information & Basic analysis codes] Github: https://ytchoe.github.io/"
+    ethicsApproval: []
+    id: DANDI:000465/0.230530.2349
+    identifier: DANDI:000465
+    keywords:
+    - micro-ECoG, barrel cortex, high gamma activity
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000465/0.230530.2349/assets.yaml
+    name: Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal
+      dynamics
+    protocol: []
+    publishedBy:
+      endDate: '2023-05-30T23:49:47.503996+00:00'
+      id: urn:uuid:9d7498b5-0a49-44ce-8ad3-e8849bd61a37
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-05-30T23:49:47.503996+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:3828bba8-a456-4a82-9430-c4245baff79c
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000465/0.230530.2349
+    version: 0.230530.2349
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

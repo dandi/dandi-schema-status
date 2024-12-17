@@ -1,0 +1,157 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 11769901909
+      numberOfFiles: 754
+      numberOfSubjects: 33
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - BehavioralTimeSeries
+      - ProcessingModule
+      - Units
+    citation: Xu, Duo; Chen, Yuxi; Dong, Mingyuan; Delgado, Angel M; Hughes, Natasha
+      C; Zhang, Linghua; O'Connor, Daniel H (2023) Cortical processing of flexible
+      and context-dependent sensorimotor sequences (Version 0.230607.1752) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000239/0.230607.1752
+    contributor:
+    - affiliation: []
+      email: dxu14@jhmi.edu
+      identifier: 0000-0002-8259-8688
+      includeInCitation: true
+      name: Xu, Duo
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-7826-4212
+      includeInCitation: true
+      name: Chen, Yuxi
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0001-9120-1315
+      includeInCitation: true
+      name: Dong, Mingyuan
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Delgado, Angel M
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-2031-3306
+      includeInCitation: true
+      name: Hughes, Natasha C
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-2368-5335
+      includeInCitation: true
+      name: Zhang, Linghua
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: dan.oconnor@jhmi.edu
+      identifier: 0000-0002-9193-6714
+      includeInCitation: true
+      name: O'Connor, Daniel H
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: ' R01NS089652, 1R01NS104834-01, P30NS050274'
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nih.gov/
+    dateCreated: '2022-04-21T13:39:44.869169+00:00'
+    datePublished: '2023-06-07T17:52:00.221598+00:00'
+    description: "The brain generates complex sequences of movements that can be flexibly
+      configured based on behavioural context or real-time sensory feedback, but how
+      this occurs is not fully understood. Here we developed a \u2018sequence licking\u2019
+      task in which mice directed their tongue to a target that moved through a series
+      of locations. Mice could rapidly branch the sequence online based on tactile
+      feedback. Closed-loop optogenetics and electrophysiology revealed that the tongue
+      and jaw regions of the primary somatosensory (S1TJ) and motor (M1TJ) cortices
+      encoded and controlled tongue kinematics at the level of individual licks. By
+      contrast, the tongue \u2018premotor\u2019 (anterolateral motor) cortex encoded
+      latent variables including intended lick angle, sequence identity and progress
+      towards the reward that marked successful sequence execution. Movement-nonspecific
+      sequence branching signals occurred in the anterolateral motor cortex and M1TJ.
+      Our results reveal a set of key cortical areas for flexible and context-informed
+      sequence generation."
+    ethicsApproval: []
+    id: DANDI:000239/0.230607.1752
+    identifier: DANDI:000239
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000239/0.230607.1752/assets.yaml
+    name: Cortical processing of flexible and context-dependent sensorimotor sequences
+    protocol: []
+    publishedBy:
+      endDate: '2023-06-07T17:52:00.221598+00:00'
+      id: urn:uuid:9c55780b-aee9-472e-b459-5c5f851d7394
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-06-07T17:52:00.221598+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:70532ba7-0a86-4561-a7fd-c8db7cca55ac
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: 10.1038/s41586-022-04478-7
+      name: Cortical processing of flexible and context-dependent sensorimotor sequences
+      relation: dcite:IsDescribedBy
+      schemaKey: Resource
+      url: https://doi.org/10.1038/s41586-022-04478-7
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.2
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000239/0.230607.1752
+    version: 0.230607.1752
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

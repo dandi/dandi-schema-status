@@ -1,0 +1,131 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001069/0.240621.2139",
+      "url": "https://dandiarchive.org/dandiset/001069/0.240621.2139",
+      "name": "SN recording during Temporal lobe seizures",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240621.2139",
+      "citation": "Devergnas, Annaelle (2024) SN recording during Temporal lobe seizures (Version 0.240621.2139) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001069/0.240621.2139",
+      "keywords": [
+        "basal ganglia, SNr, SN, TLE, temporal lobe seizure, Non-human primate, seizure onset, penicillin"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001069",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Devergnas, Annaelle",
+          "email": "adeverg@emory.edu",
+          "roleName": [
+            "dcite:DataCollector",
+            "dcite:Author",
+            "dcite:ProjectLeader",
+            "dcite:Conceptualization",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "Emory Primate Center",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "awardNumber": "",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-06-21T16:58:13.699396+00:00",
+      "description": "This data set contains the electrophysiological recordings from 2 NHPs during temporal lobe seizures induced by penicillin injection into the hippocampus. ",
+      "publishedBy": {
+        "id": "urn:uuid:6b0e30f9-a61a-4a64-a479-2f04ad96ef5f",
+        "name": "DANDI publish",
+        "endDate": "2024-06-21T21:39:45.609593+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-06-21T21:39:45.609593+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:acdf5f31-bd0a-40e8-b00c-84e95600791b",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1360390639,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 2,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-06-21T21:39:45.609593+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "PROTO201700590",
+          "contactPoint": {
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001069/0.240621.2139/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

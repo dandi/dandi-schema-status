@@ -1,0 +1,62 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R34 NS 128868-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+      schemaKey: AssetsSummary
+    citation: Neural basis of facial individual recognition in paper wasps (2023).
+      (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000578/draft
+    contributor:
+    - awardNumber: 1 R34 NS 128868-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-07-07T16:52:22.908407+00:00'
+    description: Raw electrophysiological dataset using 64-channel silicon probes
+      used to physiologically identify wasp frontal view selectivity in the nervous
+      system. Affiliated meta data include stimulus set, presentation order, recording
+      tract, etc.
+    id: DANDI:000578/draft
+    identifier: DANDI:000578
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000578/versions/draft/assets/
+    name: Neural basis of facial individual recognition in paper wasps
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000578/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

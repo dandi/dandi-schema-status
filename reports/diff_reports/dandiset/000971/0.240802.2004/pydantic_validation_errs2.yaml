@@ -1,0 +1,237 @@
+- input:
+    about:
+    - identifier: UBERON:0005382
+      name: Dorsal Striatum
+      schemaKey: Anatomy
+    - identifier: http://snomed.info/id/11061003
+      name: Psychoactive substance use disorder
+      schemaKey: Disorder
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: We thank members of the Lerner Laboratory for helpful discussions
+      and critical feedback on the manuscript. We thank Gates Palissery, Louis Van
+      Camp, Hayden Sikora, and Meghana Holla for assistance with surgeries, histology,
+      and data collection and entry. This work was supported by an NIH K99/R00 Award
+      (R00MH109569), a NARSAD Young Investigator Award from the Brain & Behavior Research
+      Foundation to T.N.L., and an NIH Diversity Supplement (R00MH109569-04S1) to
+      support C.V.C. Graphical abstract created with https://biorender.com/.
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: optogenetic approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 23491138657
+      numberOfFiles: 4139
+      numberOfSubjects: 313
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - BehavioralEpochs
+      - OptogeneticSeries
+    citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid,
+      Michael D.; Bianco, Joseph M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024)
+      Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+      (Version 0.240802.2004) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000971/0.240802.2004
+    contributor:
+    - email: jillian.seiler@northwestern.edu
+      identifier: 0000-0003-4430-4797
+      includeInCitation: true
+      name: Seiler, Jillian L.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0002-8024-7841
+      includeInCitation: true
+      name: Cosme, Caitlin V.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - email: venus.sherathiya@northwestern.edu
+      identifier: 0000-0003-0143-9771
+      includeInCitation: true
+      name: Sherathiya, Venus N.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - includeInCitation: true
+      name: Schaid, Michael D.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0002-8598-0604
+      includeInCitation: true
+      name: Bianco, Joseph M.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - includeInCitation: true
+      name: Bridgemohan, Abigael S.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - email: talia.lerner@northwestern.edu
+      identifier: 0000-0002-3875-0654
+      includeInCitation: true
+      name: Lerner, Talia N.
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: R00MH109569
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nih.gov/
+    - awardNumber: R00MH109569-04S1
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nih.gov/
+    - identifier: https://ror.org/03a63f080
+      includeInCitation: false
+      name: Brain and Behavior Research Foundation
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: R00MH109569-04S1
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - includeInCitation: false
+      name: Palissery, Gates
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: false
+      name: Van Camp, Louis
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: false
+      name: Sikora, Hayden
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - includeInCitation: false
+      name: Holla, Meghana
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - affiliation: []
+      email: paul.wesley.adkisson@gmail.com
+      identifier: 0009-0005-8943-5450
+      includeInCitation: false
+      name: Adkisson, Paul
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    dateCreated: '2024-04-27T01:45:05.960750+00:00'
+    datePublished: '2024-08-02T20:04:03.933450+00:00'
+    description: "Compulsive behavior is a defining feature of disorders such as substance
+      use disorders. Current evidence\nsuggests that corticostriatal circuits control
+      the expression of established compulsions, but little is known\nabout the mechanisms
+      regulating the development of compulsions. We hypothesized that dopamine, a
+      critical modulator of striatal synaptic plasticity, could control alterations
+      in corticostriatal circuits leading to the\ndevelopment of compulsions (defined
+      here as continued reward seeking in the face of punishment). We used\ndual-site
+      fiber photometry to measure dopamine axon activity in the dorsomedial striatum
+      (DMS) and the\ndorsolateral striatum (DLS) as compulsions emerged. Individual
+      variability in the speed with which compulsions emerged was predicted by DMS
+      dopamine axon activity. Amplifying this dopamine signal accelerated\nanimals\u2019
+      transitions to compulsion, whereas inhibition delayed it. In contrast, amplifying
+      DLS dopamine\nsignaling had no effect on the emergence of compulsions. These
+      results establish DMS dopamine signaling\nas a key controller of the development
+      of compulsive reward seeking."
+    ethicsApproval: []
+    id: DANDI:000971/0.240802.2004
+    identifier: DANDI:000971
+    keywords:
+    - dorsal striatum
+    - dopamine
+    - substantia nigra
+    - reward learning
+    - habit formation
+    - compulsive behavior
+    - punishment-resistant reward seeking
+    - fiber photometry
+    - optogenetics
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000971/0.240802.2004/assets.yaml
+    name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+    protocol: []
+    publishedBy:
+      endDate: '2024-08-02T20:04:03.933450+00:00'
+      id: urn:uuid:d821cbe6-624d-43fc-8de5-24d8eeb9c528
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-08-02T20:04:03.933450+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:804d5879-b510-4156-aacc-4ba6536a5efd
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1016/j.cub.2022.01.055
+      name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+      relation: dcite:IsDescribedBy
+      repository: Current Biology
+      resourceType: dcite:JournalArticle
+      schemaKey: Resource
+      url: https://www.cell.com/current-biology/fulltext/S0960-9822(22)00117-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982222001178%3Fshowall%3Dtrue
+    - identifier: 10.5281/zenodo.11266654
+      name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+        -- Western Blot Supplement
+      relation: dcite:IsSupplementedBy
+      repository: Zenodo
+      resourceType: dcite:Dataset
+      schemaKey: Resource
+      url: https://zenodo.org/uploads/11266654
+    - name: lerner-lab-to-nwb
+      relation: dcite:IsCompiledBy
+      resourceType: dcite:Software
+      schemaKey: Resource
+      url: https://github.com/catalystneuro/lerner-lab-to-nwb
+    - name: Example Notebooks
+      relation: dcite:IsSupplementedBy
+      resourceType: dcite:ComputationalNotebook
+      schemaKey: Resource
+      url: https://github.com/dandi/example-notebooks
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000971/0.240802.2004
+    version: 0.240802.2004
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

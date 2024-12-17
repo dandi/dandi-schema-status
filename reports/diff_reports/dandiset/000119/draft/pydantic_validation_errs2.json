@@ -1,0 +1,44 @@
+[
+  {
+    "type": "union_tag_not_found",
+    "loc": [
+      "about",
+      0
+    ],
+    "msg": "Unable to extract tag using discriminator 'schemaKey'",
+    "input": {},
+    "ctx": {
+      "discriminator": "'schemaKey'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+  },
+  {
+    "type": "union_tag_not_found",
+    "loc": [
+      "about",
+      1
+    ],
+    "msg": "Unable to extract tag using discriminator 'schemaKey'",
+    "input": {
+      "name": "amygdala"
+    },
+    "ctx": {
+      "discriminator": "'schemaKey'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+  },
+  {
+    "type": "too_short",
+    "loc": [
+      "license"
+    ],
+    "msg": "List should have at least 1 item after validation, not 0",
+    "input": [],
+    "ctx": {
+      "field_type": "List",
+      "min_length": 1,
+      "actual_length": 0
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/too_short"
+  }
+]

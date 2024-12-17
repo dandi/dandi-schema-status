@@ -1,0 +1,92 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R01 CA 123456-01A1
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 10482405324
+      numberOfFiles: 40
+      numberOfSubjects: 14
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - PlaneSegmentation
+      - TwoPhotonSeries
+      - BehavioralTimeSeries
+      - ImagingPlane
+      - OpticalChannel
+    citation: Rapid induction of place fields in RSC and V1 by holographic stimulation
+      during spatial learning (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001041/draft
+    contributor:
+    - awardNumber: 1 R01 CA 123456-01A1
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-29T17:42:28.231955+00:00'
+    description: Simultaneous two-photon imaging and two-photon holographic stimulation
+      in head-fixed mice performing VR task.
+    id: DANDI:001041/draft
+    identifier: DANDI:001041
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/001041/versions/draft/assets/
+    name: Rapid induction of place fields in RSC and V1 by holographic stimulation
+      during spatial learning
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    url: https://dandiarchive.org/dandiset/001041/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

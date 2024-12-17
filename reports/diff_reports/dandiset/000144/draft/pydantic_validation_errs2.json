@@ -1,0 +1,71 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000144/draft",
+      "url": "https://dandiarchive.org/dandiset/000144/draft",
+      "name": "croat-test",
+      "version": "draft",
+      "citation": "Roat, Chris (2021) croat-test (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000144/draft",
+      "identifier": "DANDI:000144",
+      "contributor": [
+        {
+          "name": "Roat, Chris",
+          "email": "chris.roat@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2021-10-08T19:19:23.708807+00:00",
+      "description": "Testing",
+      "assetsSummary": {
+        "species": [],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 589064856,
+        "numberOfFiles": 2,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule",
+          "TwoPhotonSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "schemaVersion": "0.6.0",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000144/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

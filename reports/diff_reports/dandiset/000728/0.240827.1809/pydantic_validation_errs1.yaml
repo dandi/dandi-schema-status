@@ -1,0 +1,131 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 62484268521319
+      numberOfFiles: 3036
+      numberOfSubjects: 271
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - OpticalChannel
+      - TwoPhotonSeries
+      - ImagingPlane
+      - PlaneSegmentation
+      - ProcessingModule
+      - BehavioralTimeSeries
+      - SpatialSeries
+      - CompassDirection
+      - PupilTracking
+      - EyeTracking
+    citation: Allen Institute (2024) Allen Institute - Visual Coding - Optical Physiology
+      (Version 0.240827.1809) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000728/0.240827.1809
+    contributor:
+    - affiliation: []
+      email: cody.c.baker.phd@gmail.com
+      includeInCitation: false
+      name: Baker, Cody
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    - email: info@alleninstitute.org
+      identifier: https://ror.org/03cpe7c52
+      includeInCitation: true
+      name: Allen Institute
+      roleName:
+      - dcite:Funder
+      - dcite:ContactPerson
+      schemaKey: Organization
+      url: https://alleninstitute.org/
+    dateCreated: '2023-12-11T05:09:39.457563+00:00'
+    datePublished: '2024-08-27T18:09:04.150074+00:00'
+    description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
+      physiology) dataset is a large-scale, standardized survey of physiological activity
+      across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
+      dataset features visually evoked calcium responses from GCaMP6-expressing neurons
+      in a range of cortical layers, visual areas, and Cre lines. We hope that experimentalists
+      and modelers will use these comprehensive, open datasets as a testbed for theories
+      of visual information processing.
+
+
+      Full documentation of the Visual Coding Ophys dataset and tutorials can be found
+      here: https://observatory.brain-map.org/visualcoding/
+
+
+      The Visual Coding Ecephys (NeuroPixels) dataset can be found here: https://dandiarchive.org/dandiset/000021
+
+
+      '
+    ethicsApproval: []
+    id: DANDI:000728/0.240827.1809
+    identifier: DANDI:000728
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000728/0.240827.1809/assets.yaml
+    name: Allen Institute - Visual Coding - Optical Physiology
+    protocol: []
+    publishedBy:
+      endDate: '2024-08-27T18:09:04.150074+00:00'
+      id: urn:uuid:b5178ec3-dce6-42cf-8f89-e02f9c6869a7
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-08-27T18:09:04.150074+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:8ee522b3-6cdf-4ebc-8d7c-7b200e3adf87
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: 7c4a0ddf6a0af514cfb9794958b7d15cebaeecbc
+      name: Example Notebook
+      relation: dcite:IsSupplementTo
+      repository: dandi/example-notebooks
+      resourceType: dcite:ComputationalNotebook
+      schemaKey: Resource
+      url: https://github.com/dandi/example-notebooks/tree/master/000728/AllenInstitute
+    - identifier: 3c42c5225c156b59e20d549d4889be7e7ebb8209
+      name: Conversion Software
+      relation: dcite:IsSourceOf
+      repository: catalystneuro/visual-coding-to-nwb-v2
+      resourceType: dcite:Software
+      schemaKey: Resource
+      url: https://github.com/catalystneuro/visual-coding-to-nwb-v2
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000728/0.240827.1809
+    version: 0.240827.1809
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,122 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: ''
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 52286262335
+      numberOfFiles: 1
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ElectrodeGroup
+    citation: Ye, Zhiwen; Shaker, Jordan; Steinmetz, Nicholas (2024) Neuropixels Ultra
+      Probe Imposed Motion Dataset (Version 0.240404.0339) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000957/0.240404.0339
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/00cvxb145
+        name: University of Washington
+        schemaKey: Affiliation
+      email: yezhiwen@uw.edu
+      identifier: 0000-0003-4311-1037
+      includeInCitation: true
+      name: Ye, Zhiwen
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      schemaKey: Person
+    - email: jshaker@uw.edu
+      includeInCitation: true
+      name: Shaker, Jordan
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    - email: nick.steinmetz@gmail.com
+      identifier: 0000-0001-7029-2908
+      includeInCitation: true
+      name: Steinmetz, Nicholas
+      roleName:
+      - dcite:ProjectManager
+      schemaKey: Person
+    - awardNumber: NIH BRAIN Initiative (U01NS113252)
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: NIH
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-04-04T02:49:30.994898+00:00'
+    datePublished: '2024-04-04T03:39:07.512583+00:00'
+    description: "Neuropixels Ultra Probe Imposed Motion Dataset provides a dataset,
+      where Neuropixels Ultra (NP Ultra) probe motion was artificially imposed during
+      brain recording in awake mice.\nNP Ultra probe measures neural activity at ultra-high
+      density, with 6-micron center-to-center spacing between sites, in 8x48 configuration.
+      \nThis dataset provides an opportunity for designing a motion correction algorithm
+      with neural activity sampled at an unprecedented spatiotemporal resolution.
+      \ "
+    ethicsApproval: []
+    id: DANDI:000957/0.240404.0339
+    identifier: DANDI:000957
+    keywords:
+    - Neuropixels ultra, imposed motion, V1
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000957/0.240404.0339/assets.yaml
+    name: Neuropixels Ultra Probe Imposed Motion Dataset
+    protocol: []
+    publishedBy:
+      endDate: '2024-04-04T03:39:07.512583+00:00'
+      id: urn:uuid:42835dff-8e0c-4eaa-934f-59b607cdd7bd
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-04-04T03:39:07.512583+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:0317f12e-6853-42c7-bb70-793aa47a428b
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: 10.1101/2023.08.23.554527
+      name: Ultra-high density electrodes improve detection, yield, and cell type
+        specificity of brain recordings
+      relation: dcite:IsSupplementTo
+      repository: bioRxiv
+      resourceType: dcite:Dataset
+      schemaKey: Resource
+      url: https://www.biorxiv.org/content/10.1101/2023.08.23.554527v2
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget:
+    - sampling neural activity during probe-brain motion at an unprecedented spatiotemporal
+      resolution
+    url: https://dandiarchive.org/dandiset/000957/0.240404.0339
+    version: 0.240404.0339
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

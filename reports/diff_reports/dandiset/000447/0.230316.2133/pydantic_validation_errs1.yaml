@@ -1,0 +1,130 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: signal filtering technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 35480039952
+      numberOfFiles: 5
+      numberOfSubjects: 5
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Position
+      - ElectricalSeries
+      - Units
+      - ElectrodeGroup
+      - LFP
+      - ProcessingModule
+      - SpatialSeries
+    citation: Shin, Justin; Jadhav, Shantanu P (2023) Novel-familiar-novel WTrack
+      (CA1-PFC) (Version 0.230316.2133) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000447/0.230316.2133
+    contributor:
+    - affiliation: []
+      email: jdshin@brandeis.edu
+      includeInCitation: true
+      name: Shin, Justin
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Jadhav, Shantanu P
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: false
+      name: Tang, Wenbo
+      roleName: []
+      schemaKey: Person
+    - awardNumber: R01MH112661
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-02-17T18:04:07.516903+00:00'
+    datePublished: '2023-03-16T21:33:14.703199+00:00'
+    description: Hippocampal-prefrontal recordings in rats (dorsal CA1 region of the
+      hippocampus and primarily the prelimbic region of prefrontal cortex) during
+      exposure to novel and familiar WTrack environments. Data includes spikes from
+      single units, local field potential recordings, position (x, y, velocity), and
+      trajectory information. Each file contains data from 3 behavioral epochs - Novel
+      Wtrack (first exposure) - Familiar WTrack - Novel WTrack (second exposure)
+    ethicsApproval:
+    - contactPoint:
+        email: iacuc-group@brandeis.edu
+        schemaKey: ContactPoint
+        url: https://www.brandeis.edu/ora/compliance/acup.html
+      identifier: '21001'
+      schemaKey: EthicsApproval
+    id: DANDI:000447/0.230316.2133
+    identifier: DANDI:000447
+    keywords:
+    - Hippocampus, Prefrontal cortex, Learning, Memory, Decision making
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000447/0.230316.2133/assets.yaml
+    name: Novel-familiar-novel WTrack (CA1-PFC)
+    protocol: []
+    publishedBy:
+      endDate: '2023-03-16T21:33:14.703199+00:00'
+      id: urn:uuid:f56f012f-d676-46ea-a547-5da7bd443d7c
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-03-16T21:33:14.703199+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:c0e8b490-e675-4bac-a02b-93b6573a38f1
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1016/j.celrep.2023.112246
+      name: Geometric transformation of cognitive maps for generalization across hippocampal-prefrontal
+        circuits
+      relation: dcite:IsDescribedBy
+      repository: Cell Reports
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.celrep.2023.112246
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000447/0.230316.2133
+    version: 0.230316.2133
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

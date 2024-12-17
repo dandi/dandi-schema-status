@@ -1,0 +1,152 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000036/0.230515.1917",
+      "url": "https://dandiarchive.org/dandiset/000036/0.230515.1917",
+      "name": "Allen Institute Openscope - Measuring Stimulus-Evoked Neurophysiological Differentiation in Distinct Populations of Neurons in Mouse Visual Cortex",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230515.1917",
+      "citation": "Lecoq, Jerome; Mayner, Will (2023) Allen Institute Openscope - Measuring Stimulus-Evoked Neurophysiological Differentiation in Distinct Populations of Neurons in Mouse Visual Cortex (Version 0.230515.1917) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000036/0.230515.1917",
+      "keywords": [
+        "two photon imaging",
+        "visual stimuli",
+        "mice",
+        "openscope"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000036",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "url": "https://alleninstitute.org/person/jerome-lecoq/",
+          "name": "Lecoq, Jerome",
+          "email": "jeromel@alleninstitute.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FundingAcquisition",
+            "dcite:Methodology",
+            "dcite:ProjectAdministration",
+            "dcite:Supervision",
+            "dcite:Validation",
+            "dcite:ContactPerson",
+            "dcite:Producer"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0131-0938",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "url": "http://willmayner.com",
+          "name": "Mayner, Will",
+          "email": "wmayner@gmail.com",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:ContactPerson",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:ProjectLeader",
+            "dcite:Researcher",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-9737-6260",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2020-08-18T08:05:48.731000+00:00",
+      "description": "Despite significant progress in understanding neural coding, it remains unclear how the coordinated activity of large populations of neurons relates to what an observer actually perceives. Since neurophysiological differences must underlie differences among percepts, differentiation analysis-quantifying distinct patterns of neurophysiological activity-has been proposed as an \"inside-out\" approach that addresses this question. This methodology contrasts with \"outside-in\" approaches such as feature tuning and decoding analyses, which are defined in terms of extrinsic experimental variables. Here, we used two-photon calcium imaging in mice of both sexes to systematically survey stimulus-evoked neurophysiological differentiation (ND) in excitatory neuronal populations in layers (L)2/3, L4, and L5 across five visual cortical areas (primary, lateromedial, anterolateral, posteromedial, and anteromedial) in response to naturalistic and phase-scrambled movie stimuli. We find that unscrambled stimuli evoke greater ND than scrambled stimuli specifically in L2/3 of the anterolateral and anteromedial areas, and that this effect is modulated by arousal state and locomotion. By contrast, decoding performance was far above chance and did not vary substantially across areas and layers. Differentiation also differed within the unscrambled stimulus set, suggesting that differentiation analysis may be used to probe the ethological relevance of individual stimuli.\n\nFor more details, consult the associated publication : https://doi.org/10.1523/eneuro.0280-21.2021",
+      "publishedBy": {
+        "id": "urn:uuid:8b0ec73b-4456-4318-9157-f93d60882133",
+        "name": "DANDI publish",
+        "endDate": "2023-05-15T19:17:45.768158+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-05-15T19:17:45.768158+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:4bd5bb67-4b4a-4aca-8087-75848cff2543",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 79771339536,
+        "numberOfFiles": 57,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "BehavioralTimeSeries",
+          "PlaneSegmentation"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-05-15T19:17:45.768158+00:00",
+      "schemaVersion": "0.6.0",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "We thank the Allen Institute founder, Paul G. Allen, for his vision, encouragement, and support; Allan Jones for providing the crucial environment that enabled our large-scale team effort; Andrew Haun for helpful comments and assistance with creating the noise stimulus; Jonathan Lang for assistance filming the naturalistic stimuli; and Larissa Albantakis, Leonardo S. Barbosa, Tom Bugnon, Graham Findlay, Marcello Massimini, and Shuntaro Sasai for helpful discussions.",
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.1523/eneuro.0280-21.2021",
+          "name": "Measuring Stimulus-Evoked Neurophysiological Differentiation in Distinct Populations of Neurons in Mouse Visual Cortex",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource",
+          "identifier": "10.1523/eneuro.0280-21.2021",
+          "repository": "eNeuro"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000036/0.230515.1917/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

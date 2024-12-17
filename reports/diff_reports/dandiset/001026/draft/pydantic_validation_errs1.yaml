@@ -1,0 +1,46 @@
+- ctx:
+    pattern: ^([\w\s\-\.']+),\s+([\w\s\-\.']+)$
+  input: Caroline A. Runyan
+  loc:
+  - contributor
+  - 1
+  - Person
+  - name
+  msg: String should match pattern '^([\w\s\-\.']+),\s+([\w\s\-\.']+)$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+- ctx:
+    error: relative URL without a base
+  input: runyanlab.org
+  loc:
+  - contributor
+  - 1
+  - Person
+  - url
+  msg: Input should be a valid URL, relative URL without a base
+  type: url_parsing
+  url: https://errors.pydantic.dev/2.9/v/url_parsing
+- ctx:
+    pattern: ^([\w\s\-\.']+),\s+([\w\s\-\.']+)$
+  input: Christine F. Khoury
+  loc:
+  - contributor
+  - 2
+  - Person
+  - name
+  msg: String should match pattern '^([\w\s\-\.']+),\s+([\w\s\-\.']+)$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

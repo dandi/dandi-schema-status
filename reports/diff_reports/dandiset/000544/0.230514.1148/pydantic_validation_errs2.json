@@ -1,0 +1,114 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000544/0.230514.1148",
+      "url": "https://dandiarchive.org/dandiset/000544/0.230514.1148",
+      "name": "Test Dataset",
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC0-1.0"
+      ],
+      "version": "0.230514.1148",
+      "citation": "Bakshi, Kushal (2023) Test Dataset (Version 0.230514.1148) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000544/0.230514.1148",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000544",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Bakshi, Kushal",
+          "email": "kushal.bakshi@datajoint.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-05-14T11:40:20.181078+00:00",
+      "description": "Test dataset for DataJoint uploads to DANDI",
+      "publishedBy": {
+        "id": "urn:uuid:60a5521d-c37f-4409-91df-d339fed130a3",
+        "name": "DANDI publish",
+        "endDate": "2023-05-14T11:48:37.072939+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-05-14T11:48:37.072939+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:836824d9-0a59-48e6-9d88-f1e825d37a73",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 485784554,
+        "numberOfFiles": 1,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "BehavioralEvents",
+          "BehavioralTimeSeries",
+          "Units",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-05-14T11:48:37.072939+00:00",
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000544/0.230514.1148/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

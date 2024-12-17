@@ -1,0 +1,197 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000692/0.240402.2118",
+      "url": "https://dandiarchive.org/dandiset/000692/0.240402.2118",
+      "name": "Whole-brain spontaneous GCaMP activity with NeuroPAL cell ID information of semi-restricted worms",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240402.2118",
+      "citation": "Suzuki, Ryoga; Wen, Chentao; Sprague, Daniel; Onami, Shuichi; Kimura, Koutarou D (2024) Whole-brain spontaneous GCaMP activity with NeuroPAL cell ID information of semi-restricted worms (Version 0.240402.2118) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000692/0.240402.2118",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000692",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Suzuki, Ryoga",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:ProjectMember",
+            "dcite:Researcher",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "Nagoya City University",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://github.com/WenChentao",
+          "name": "Wen, Chentao",
+          "email": "chentao.wen@riken.jp",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Methodology",
+            "dcite:Researcher",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-8609-476X",
+          "affiliation": [
+            {
+              "name": "RIKEN Center for Biosystems Dynamics Research",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Sprague, Daniel",
+          "email": "Daniel.Sprague@ucsf.edu",
+          "roleName": [
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0009-0001-7773-2280",
+          "affiliation": [
+            {
+              "name": "UCSF Department of Neurology",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://www.bdr.riken.jp/en/research/labs/onami-s/index.html",
+          "name": "Onami, Shuichi",
+          "email": "sonami@riken.jp",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Methodology",
+            "dcite:Software",
+            "dcite:Supervision"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-8255-1724",
+          "affiliation": [
+            {
+              "name": "RIKEN Center for Biosystems Dynamics Research",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kimura, Koutarou D",
+          "email": "kokimura@nsc.nagoya-cu.ac.jp",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:ContactPerson",
+            "dcite:FundingAcquisition",
+            "dcite:Methodology",
+            "dcite:ProjectLeader",
+            "dcite:Supervision",
+            "dcite:Validation"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3359-1578",
+          "affiliation": [
+            {
+              "name": "Nagoya City University",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-11-03T08:53:28.963969+00:00",
+      "description": "Spontaneous neuronal activities were extracted from GCaMP and tagRFP images, covering nearly all neurons in the nematode C. elegans brain. Cell segmentation and tracking were performed using 3DeeCellTracker (https://github.com/WenChentao/3DeeCellTracker). Neuronal identity information was derived from NeuroPAL signals with the NeuroPAL Auto-ID software (https://www.yeminilab.com/neuropal) and manual corrections. During the data acquisition, worms were semi-restricted in a microfluidic device (https://www.nature.com/articles/nature06292). Note: There are occasional transient failures in neuronal tracking. We recommend researchers to use a moving median filter (e.g., \u00b13) on the time series data to address this issue.",
+      "publishedBy": {
+        "id": "urn:uuid:2bec0798-d6b8-49ab-a3d2-1ed6bc3b3268",
+        "name": "DANDI publish",
+        "endDate": "2024-04-02T21:18:56.957752+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-04-02T21:18:56.957752+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:feefc56d-ef63-403a-9421-9057d9efb5cc",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 80537036658,
+        "numberOfFiles": 9,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-04-02T21:18:56.957752+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "acknowledgement": "Data was acquired by Ryoga Suzuki in the Kimura lab. The software for data formatting was performed by Chentao Wen, Shuichi Onami, and Daniel Sprague.",
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000692/0.240402.2118/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

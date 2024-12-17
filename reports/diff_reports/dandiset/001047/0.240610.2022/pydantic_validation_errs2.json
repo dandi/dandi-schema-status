@@ -1,0 +1,125 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001047/0.240610.2022",
+      "url": "https://dandiarchive.org/dandiset/001047/0.240610.2022",
+      "name": "Use of MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near Electrode Ablation",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240610.2022",
+      "citation": "Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Use of MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near Electrode Ablation (Version 0.240610.2022) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001047/0.240610.2022",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001047",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Silkunas, Mantas",
+          "schemaKey": "Person",
+          "identifier": "0000-0002-4568-9265",
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [
+            "dcite:ProjectLeader"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1R21EY034258",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-06-04T17:21:04.141576+00:00",
+      "description": "This study enhanced the Next Generation (NG) CanCan protocols using MHz compression for electric pulse packet delivery. The NG CanCan protocol's packets were delivered at  0.2 MHz. Compared to the same protocol delivered at a 1 Hz frequency, the MHz compression significantly reduced the cell ablation area near the electrodes while maintaining the same level of effect at the center. The experimental setup utilized a four-electrode array. For cell permeabilization evaluation, YoPro-1 was used, and to assess cell death two hours post-protocol delivery, Propidium Iodide was used. This study was supported by NIH grant 1R21EY034258.",
+      "publishedBy": {
+        "id": "urn:uuid:e667b356-347f-4e23-9303-20f618dd5a00",
+        "name": "DANDI publish",
+        "endDate": "2024-06-10T20:22:04.641181+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-06-10T20:22:04.641181+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:1aa1f797-f801-4241-8e59-cfa6ffddf533",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 14156734169,
+        "numberOfFiles": 54,
+        "numberOfSubjects": 12,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2024-06-10T20:22:04.641181+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "schemaKey": "Project",
+          "identifier": "NIH 1R21EY034258"
+        }
+      ],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001047/0.240610.2022/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

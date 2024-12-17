@@ -1,0 +1,215 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    acknowledgement: 'We thank Ryan Ly for his generous help in generating and validating
+      the dataset. '
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 245591965505
+      numberOfFiles: 308
+      numberOfSubjects: 8
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ImagingPlane
+      - ProcessingModule
+      - OpticalChannel
+      - Position
+      - SpatialSeries
+      - BehavioralTimeSeries
+      - PlaneSegmentation
+    citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon
+      calcium imaging of mouse posterior cortical areas during dynamic navigation
+      decisions (Tseng et al., 2022, Neuron) (Version 0.230728.1727) [Data set]. DANDI
+      archive. https://dandiarchive.org/dandiset/000579/0.230728.1727
+    contributor:
+    - affiliation:
+      - name: Harvard Medical School
+        schemaKey: Affiliation
+      email: shihyitseng41@gmail.com
+      identifier: 0000-0002-5029-433X
+      includeInCitation: true
+      name: Tseng, Shih-Yi
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      - dcite:Conceptualization
+      schemaKey: Person
+    - affiliation:
+      - name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0003-2045-3747
+      includeInCitation: true
+      name: Chettih, Selmaan
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      schemaKey: Person
+    - affiliation:
+      - name: Harvard Medical School
+        schemaKey: Affiliation
+      email: 'Christopher_Harvey@hms.harvard.edu '
+      identifier: 0000-0001-9850-2268
+      includeInCitation: true
+      name: Harvey, Christopher
+      roleName:
+      - dcite:Conceptualization
+      - dcite:FundingAcquisition
+      - dcite:ContactPerson
+      schemaKey: Person
+    - awardNumber: DP1 MH125776
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: "National Institutes of Health Director\u2019s Pioneer Award"
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.nih.gov/
+    - awardNumber: R01 NS089521
+      contactPoint: []
+      identifier: https://ror.org/01s5ya894
+      includeInCitation: false
+      name: National Institute of Neurological Disorders and Stroke
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.ninds.nih.gov/
+    - awardNumber: R01 MH107620
+      contactPoint: []
+      identifier: https://ror.org/04xeg9z08
+      includeInCitation: false
+      name: National Institute of Mental Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nimh.nih.gov/
+    - awardNumber: R01 NS108410
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health BRAIN Initiative
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://braininitiative.nih.gov/
+    dateCreated: '2023-07-10T21:58:09.569708+00:00'
+    datePublished: '2023-07-28T17:27:02.559597+00:00'
+    description: "This is the dataset for Tseng et al, \"Shared and specialized coding
+      across posterior cortical areas for dynamic navigation decisions\" in Neuron
+      (2022). The dataset contains calcium activity of >200,000 neurons recorded from
+      6 different cortical areas in mouse posterior cortex L2/3 and L5 using two-photon
+      imaging, including V1 and secondary visual areas, retrosplenial cortex (RSC)
+      and posterior parietal cortex (PPC), while the mice were performing a flexible
+      decision-making task based on rule-switching during virtual navigation. There
+      are total 300 behavior + imaging sessions collected from 8 mice. The neurons
+      in each experiment have been registered into the Allen Institute Mouse Common
+      Coordinate Framework (CCF) based on widefield retinotopy. In addition, these
+      neurons contain fluorescent labels of retroAAV injected in one of the two sets
+      of projection targets: an anterior part of anterior cingulate cortex/secondary
+      motor cortex (ACC/M2) and striatum, or a posterior part of ACC/M2 and orbitofrontal
+      cortex (OFC).   \n\nPlease see the related paper for more details: https://doi.org/10.1016/j.neuron.2022.05.012\n\nAdditional
+      resources:\n\n- Jupyter notebook for a tutorial to read and extract information
+      from these NWB files: https://github.com/sytseng/Notebook_for_Dandiset_000579\n\n-
+      NWB extension code for custom lab meta data (required for reading NWB files):
+      https://github.com/sytseng/ndx-harvey-swac \n\n- Code and tutorials for fitting
+      GLM to neural activity in Tensorflow 2: https://github.com/sytseng/GLM_Tensorflow_2"
+    ethicsApproval: []
+    id: DANDI:000579/0.230728.1727
+    identifier: DANDI:000579
+    keywords:
+    - mouse
+    - cortex
+    - decision-making
+    - navigation
+    - virtual reality
+    - two-photon imaging
+    - posterior cortex
+    - posterior parietal cortex
+    - retrosplenial cortex
+    - visual cortex
+    - rule-switching
+    - flexible decisions
+    - retrograde labeling
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000579/0.230728.1727/assets.yaml
+    name: Two-photon calcium imaging of mouse posterior cortical areas during dynamic
+      navigation decisions (Tseng et al., 2022, Neuron)
+    protocol: []
+    publishedBy:
+      endDate: '2023-07-28T17:27:02.559597+00:00'
+      id: urn:uuid:6d49336c-a6e7-45b6-889c-c94d6b8ab132
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-07-28T17:27:02.559597+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:4341c65d-6985-45bc-9233-3de397efabba
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: Original paper
+      name: Shared and specialized coding across posterior cortical areas for dynamic
+        navigation decisions
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.neuron.2022.05.012
+    - identifier: Data loading tutorial
+      name: Github repository for NWB file reading tutorial notebook
+      relation: dcite:IsDocumentedBy
+      repository: Notebook_for_Dandiset_000579
+      schemaKey: Resource
+      url: https://github.com/sytseng/Notebook_for_Dandiset_000579
+    - identifier: NWB extension for lab meta data
+      name: Github repository for NWB extension code for custom lab meta data
+      relation: dcite:IsSupplementedBy
+      repository: ndx-harvey-swac
+      schemaKey: Resource
+      url: https://github.com/sytseng/ndx-harvey-swac
+    - identifier: GLM code in Tensorflow 2
+      name: Code and tutorials for fitting neural activity with GLM in Tensorflow
+        2
+      relation: dcite:IsContinuedBy
+      repository: GLM_Tensorflow_2
+      schemaKey: Resource
+      url: https://github.com/sytseng/GLM_Tensorflow_2
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000579/0.230728.1727
+    version: 0.230728.1727
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

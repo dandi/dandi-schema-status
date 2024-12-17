@@ -1,0 +1,116 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 5 R01 NS 119519-03
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1224628150491
+      numberOfFiles: 28
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+        name: Macaca mulatta - Rhesus monkey
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ProcessingModule
+      - Units
+      - SpatialSeries
+      - ElectricalSeries
+    citation: 'vLTM/STM: Macaque spiking activity in prefrontal cortex during visual
+      long- and short-term memory (2024). (Version draft) [Data set]. DANDI archive.
+      https://doi.org/10.80507/dandi.123456/0.123456.1234'
+    contributor:
+    - awardNumber: 5 R01 NS 119519-03
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-12-12T22:21:07.537348+00:00'
+    datePublished: '2024-02-06T17:25:42.066095+00:00'
+    description: 'This dataset contains sorted unit spiking times from a macaque performing
+      a visual long- and short-term memory task. The experiment switches between a
+      long- and a short-term memory task in a block-like fashion. In the short-term
+      memory task, the monkey is presented with three objects placed in random locations
+      in the periphery. The monkey must respond by retrieving and saccading to the
+      location of a cued object after a one-second delay. In the long-term memory
+      task, the objects are not presented in their corresponding locations. Instead,
+      the monkey must respond according to a set of learned long-term object-location
+      associations. Neural activity was recorded from the dorsolateral and ventrolateral
+      prefrontal cortex.  '
+    doi: 10.80507/dandi.123456/0.123456.1234
+    id: DANDI:000767/draft
+    identifier: DANDI:000767
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000767/versions/draft/assets/
+    name: 'vLTM/STM: Macaque spiking activity in prefrontal cortex during visual long-
+      and short-term memory'
+    publishedBy:
+      endDate: '2024-02-06T17:25:42.066095+00:00'
+      id: urn:uuid:df2d38dd-810b-4242-bcd8-fe791621718e
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-02-06T17:25:42.066095+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:802f384c-00bd-40ae-898b-03b111beadb4
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000767/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

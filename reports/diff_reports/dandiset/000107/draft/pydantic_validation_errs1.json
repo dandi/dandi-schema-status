@@ -1,0 +1,29 @@
+[
+  {
+    "type": "too_short",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "List should have at least 1 item after validation, not 0",
+    "input": [],
+    "ctx": {
+      "field_type": "List",
+      "min_length": 1,
+      "actual_length": 0
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/too_short"
+  },
+  {
+    "type": "enum",
+    "loc": [
+      "license",
+      0
+    ],
+    "msg": "Input should be 'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'",
+    "input": "spdx:CC-BY-NC-4.0",
+    "ctx": {
+      "expected": "'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/enum"
+  }
+]

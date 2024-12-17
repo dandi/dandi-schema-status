@@ -1,0 +1,126 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R21 EY 035437-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1588258750
+      numberOfFiles: 8
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ElectrodeGroup
+    citation: Green laser stimulation on wild type rat retina ex vivo recoded by multi
+      electrode array (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+    contributor:
+    - awardNumber: 1 R21 EY 035437-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-02-02T06:52:08.201514+00:00'
+    datePublished: '2024-02-02T07:50:04.890899+00:00'
+    description: Green laser stimulation on extracted rat retina from wild-type Long
+      Evans rat. The green laser was delivered every ten seconds with a one-second
+      duration, starting at 5th second. The recording length is one minute. The signals
+      were recorded with a 252-channel multi-electrode array.
+    doi: 10.80507/dandi.123456/0.123456.1234
+    id: DANDI:000884/draft
+    identifier: DANDI:000884
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000884/versions/draft/assets/
+    name: Green laser stimulation on wild type rat retina ex vivo recoded by multi
+      electrode array
+    publishedBy:
+      endDate: '2024-02-02T07:50:04.890899+00:00'
+      id: urn:uuid:305cdaeb-ba8e-4eb6-8d87-39d988078db4
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-02-02T07:50:04.890899+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:39b596fc-f2ad-47bd-adca-7a29946792cc
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000884/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input: 10.80507/dandi.123456/0.123456.1234
+  loc:
+  - doi
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input:
+    endDate: '2024-02-02T07:50:04.890899+00:00'
+    id: urn:uuid:305cdaeb-ba8e-4eb6-8d87-39d988078db4
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2024-02-02T07:50:04.890899+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:39b596fc-f2ad-47bd-adca-7a29946792cc
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input: '2024-02-02T07:50:04.890899+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden

@@ -1,0 +1,144 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000632/0.231012.1930",
+      "url": "https://dandiarchive.org/dandiset/000632/0.231012.1930",
+      "name": "Electroporation efficiency of co-directional and cross-directional paired pulses",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.231012.1930",
+      "citation": "Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023) Electroporation efficiency of co-directional and cross-directional paired pulses (Version 0.231012.1930) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000632/0.231012.1930",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000632",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kim, Vitalii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0699-5582",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Semenov, Iurii",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0302-1355",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health ",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "NIH 1R21EY034258",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-09-14T19:01:32.791752+00:00",
+      "description": "The efficiency of electroporation was evaluated in an experiment involving co-directional and cross-directional paired pulses using a triangular electrode array. BPAE cell monolayers were exposed to trains of four paired pulses, each consisting of 600 + 600 ns, at two distinct frequencies: 1 Hz and 770 kHz, with an amplitude of 10 kV/cm. In one scenario, the electric field direction remained consistent throughout each pair (co-directional). In another, the field direction was altered by 90\u00b0 (cross-directional). The electroporation efficiency was quantified through the cells\u2019 uptake of YoPro-1 dye, serving as a measure of the permeabilization of the cell membranes under varying electric field orientations and frequencies. Supported by NIH 1R21EY034258\n",
+      "publishedBy": {
+        "id": "urn:uuid:2055eb82-1c12-4486-8ff3-f6280f01734c",
+        "name": "DANDI publish",
+        "endDate": "2023-10-12T19:30:39.700247+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-10-12T19:30:39.700247+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:560985d9-e52f-4575-9d11-b7d923cbb4af",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Bos taurus - Cattle",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9913"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 42744120707,
+        "numberOfFiles": 24,
+        "numberOfSubjects": 24,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2023-10-12T19:30:39.700247+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "used": [],
+          "schemaKey": "Project",
+          "identifier": "NIH 1R21EY034258",
+          "wasAssociatedWith": []
+        }
+      ],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.3390/ijms241310921",
+          "name": "Control of the Electroporation Efficiency of Nanosecond Pulses by Swinging the Electric Field Vector Direction",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000632/0.231012.1930/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

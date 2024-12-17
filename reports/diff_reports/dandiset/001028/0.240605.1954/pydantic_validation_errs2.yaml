@@ -1,0 +1,116 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 10869905261
+      numberOfFiles: 12
+      numberOfSubjects: 12
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+        name: Cricetulus griseus - Cricetulus aureus
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Gudvangen, Emily; Mangalanathan, Uma; Semenov, Iurii;
+      Pakhomov, Andrei (2024) CANCAN focusing of electroporation in 3D (Version 0.240605.1954)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001028/0.240605.1954
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Gudvangen, Emily
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-0126-5660
+      includeInCitation: true
+      name: Mangalanathan, Uma
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:Author
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: NIH 1R21EY034258
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-16T19:10:42.432316+00:00'
+    datePublished: '2024-06-05T19:54:28.697402+00:00'
+    description: Tips of electrodes in a quadrupole array were either in contact with
+      cell monolayer (0 mm distance) or were placed 1, 2, or 3 mm above it. Packet
+      2 was applied 10 times, starting from each electrode, to a total of 40 packets
+      delivered. The amplitude of the first pulse in the packet was 6.4 kV. Electroporation
+      of the cells was evaluated using 1 uM YoPro-1 cell impermeable fluorescent dye.
+      The study was supported in part by R21EY034258 from the National Eye Institute
+      to A.G.P
+    ethicsApproval: []
+    id: DANDI:001028/0.240605.1954
+    identifier: DANDI:001028
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001028/0.240605.1954/assets.yaml
+    name: CANCAN focusing of electroporation in 3D
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-05T19:54:28.697402+00:00'
+      id: urn:uuid:1f220a45-dfc8-4e8a-8934-cb630d807337
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-05T19:54:28.697402+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:264d7d45-3f03-4fc5-b28b-0aaddf6e4402
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: doi.org/10.1016/j.bioelechem.2023.108437
+      name: Next generation CANCAN focusing for remote stimulation by nanosecond electric
+        pulses
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.1016/j.bioelechem.2023.108437
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001028/0.240605.1954
+    version: 0.240605.1954
+    wasGeneratedBy:
+    - identifier: 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

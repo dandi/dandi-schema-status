@@ -1,0 +1,32 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation:
+    - name: Department of Neurosurgery, Cedars-Sinai Medical Center
+      schemaKey: Affiliation
+    - name: Department of Neurology, Cedars-Sinai Medical Center
+      schemaKey: Affiliation
+    - name: Center for Neural Science and Medicine, Department of Biomedical Sciences,
+        Cedars-Sinai Medical Center
+      schemaKey: Affiliation
+    - name: Division of Biology and Biological Engineering, California Institute of
+        Technology
+      schemaKey: Affiliation
+    identifier: 0000-0002-9207-7069
+    includeInCitation: true
+    name: Rutishauser, Ueli
+    roleName:
+    - dcite:Author
+    - dcite:Conceptualization
+    - dcite:ContactPerson
+    - dcite:FormalAnalysis
+    - dcite:FundingAcquisition
+    - dcite:ProjectAdministration
+    schemaKey: Person
+  loc:
+  - contributor
+  - 10
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

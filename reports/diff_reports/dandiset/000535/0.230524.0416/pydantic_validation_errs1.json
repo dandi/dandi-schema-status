@@ -1,0 +1,244 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000535/0.230524.0416",
+      "url": "https://dandiarchive.org/dandiset/000535/0.230524.0416",
+      "name": "Allen Institute Openscope - Effects of Periodic Visual Stimulation on Neural Activity in Mouse Visual Cortex",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230524.0416",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Lecoq, Jerome; Murdock, Mitchell H.; Arkhipov, Anton; Ito, Shinya; Ren, Naixin; Billeh, Yazan N. (2023) Allen Institute Openscope - Effects of Periodic Visual Stimulation on Neural Activity in Mouse Visual Cortex (Version 0.230524.0416) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000535/0.230524.0416",
+      "keywords": [
+        "two-photon",
+        "cortical recording",
+        "gamma",
+        "neuroprotection",
+        "oscillations",
+        "visual stimuli"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000535",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Lecoq, Jerome",
+          "email": "jeromel@alleninstitute.org",
+          "roleName": [
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FundingAcquisition",
+            "dcite:Maintainer",
+            "dcite:Methodology",
+            "dcite:Producer",
+            "dcite:ProjectManager",
+            "dcite:ProjectAdministration",
+            "dcite:Software",
+            "dcite:Supervision",
+            "dcite:Validation",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0131-0938",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Murdock, Mitchell H.",
+          "email": "mitchm@mit.edu",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:DataCurator",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Software",
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0131-0938",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Arkhipov, Anton",
+          "email": "antona@alleninstitute.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:DataManager",
+            "dcite:Investigation",
+            "dcite:Software",
+            "dcite:Supervision",
+            "dcite:Validation",
+            "dcite:FundingAcquisition",
+            "dcite:Maintainer",
+            "dcite:Producer",
+            "dcite:ProjectManager",
+            "dcite:DataCurator",
+            "dcite:ProjectLeader",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-1106-8310",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Ito, Shinya",
+          "email": "shinya.ito@alleninstitute.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:FormalAnalysis",
+            "dcite:Researcher",
+            "dcite:Software",
+            "dcite:Validation",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Visualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5529-223X",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Ren, Naixin",
+          "email": "naixin.ren@alleninstitute.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Software",
+            "dcite:Validation",
+            "dcite:Visualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3074-281X",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Billeh, Yazan N.",
+          "email": "yaz.billeh@gmail.com",
+          "roleName": [
+            "dcite:Author",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Researcher",
+            "dcite:Software"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5200-4992",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-05-09T23:58:56.843461+00:00",
+      "description": "This study investigates the effects of periodic sensory stimulation (PSS) on the activity of neurons of different types in the mouse visual cortex. The PSS modality used is the flickering light visual stimulation. The dataset provides calcium imaging data from VIP (vasoactive intestinal peptide), SST (somatostatin), and PV (parvalbumin) expressing inhibitory neuron, as well as excitatory neurons in V1, in mice exposed to different visual stimulation conditions.\n \nThe visual stimulus is provided by an LED strip that is programmed for 4 conditions: 40 Hz flicker (gamma frequency), 8 Hz flicker (theta frequency), random frequency (light delivered with a random interval determined by a Poisson process with an average frequency of 40 Hz), and constant light on. Those conditions are reported in NWB file trial table. The LED strip was positioned in front of the mouse right eye in place of the visual stimulation screen used in (De Vries, Lecoq, Buice et al, Nature Neuroscience 2020). Light illumination started approximately 485 seconds into the experiment. The exact timing can be found in the stimulus table. Each mouse was recorded multiple times with individual cells matched. Each recording session only used one of the above stimulus conditions.\n \nThe data includes images from layers 2/3 and 5 (layer 4 instead of 5 for VIP) of the left visual cortex, capturing the contributions of superficial and deep cortical neurons to the network dynamics under visual PSS. The dataset was collected from 5 mice for SST, 6 mice for VIP, 2 mice for PV, and 2 mice for excitatory neurons. Mice were awake but not trained to perform any tasks. They were passively viewing the LED strip.  All animal procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at the Allen Institute for Brain Science in compliance with NIH guidelines.",
+      "publishedBy": {
+        "id": "urn:uuid:ee7cf436-0ccf-4450-9a2a-c825cc129dc5",
+        "name": "DANDI publish",
+        "endDate": "2023-05-24T04:16:22.237868+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-05-24T04:16:22.237868+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:b0ce6f9d-4ea8-4557-933d-1e1bd9635a66",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 6827396992,
+        "numberOfFiles": 115,
+        "numberOfSubjects": 15,
+        "variableMeasured": [
+          "OpticalChannel",
+          "ImagingPlane",
+          "PlaneSegmentation",
+          "BehavioralTimeSeries",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-05-24T04:16:22.237868+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "\u200bAllen Institute Institutional Animal Care and Use Committee (IACUC), protocol 1801",
+          "contactPoint": {
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "acknowledgement": "We thank the Allen Institute founder, Paul G. Allen, for his vision, encouragement, and support.",
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000535/0.230524.0416/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

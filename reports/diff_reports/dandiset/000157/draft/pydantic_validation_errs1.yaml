@@ -1,0 +1,45 @@
+- ctx:
+    pattern: ^([\w\s\-\.']+),\s+([\w\s\-\.']+)$
+  input: ', '
+  loc:
+  - contributor
+  - 0
+  - Person
+  - name
+  msg: String should match pattern '^([\w\s\-\.']+),\s+([\w\s\-\.']+)$'
+  type: string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+    citation: ',  (2021) xiaoai (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000157/draft'
+    contributor:
+    - affiliation: []
+      email: xzc5220@psu.edu
+      includeInCitation: true
+      name: ', '
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2021-11-01T15:51:34.078221+00:00'
+    description: test
+    id: DANDI:000157/draft
+    identifier: DANDI:000157
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000157/versions/draft/assets/
+    name: xiaoai
+    repository: https://dandiarchive.org/
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000157/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

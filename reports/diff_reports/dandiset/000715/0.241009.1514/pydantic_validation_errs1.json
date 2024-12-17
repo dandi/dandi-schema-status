@@ -1,0 +1,169 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000715/0.241009.1514",
+      "url": "https://dandiarchive.org/dandiset/000715/0.241009.1514",
+      "name": "NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241009.1514",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Yemini, Eviatar; Venkatachalam, Vivek; Lin, Albert; Varol, Erdem; Sprague, Daniel; Paninski, Liam; Samuel, Arivinthan; Hobert, Oliver (2024) NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm (Version 0.241009.1514) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000715/0.241009.1514",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000715",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Yemini, Eviatar",
+          "email": "eviatar.yemini@umassmed.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:DataCollector",
+            "dcite:Methodology",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Venkatachalam, Vivek",
+          "roleName": [
+            "dcite:ProjectMember",
+            "dcite:Researcher"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Lin, Albert",
+          "roleName": [
+            "dcite:ProjectMember"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Varol, Erdem",
+          "roleName": [
+            "dcite:ProjectMember"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Sprague, Daniel",
+          "email": "Daniel.sprague@ucsf.edu",
+          "roleName": [
+            "dcite:DataCurator"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Paninski, Liam",
+          "roleName": [
+            "dcite:ProjectMember"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Samuel, Arivinthan",
+          "roleName": [
+            "dcite:ProjectMember"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Hobert, Oliver",
+          "roleName": [
+            "dcite:Investigation"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-11-20T22:09:13.916173+00:00",
+      "description": "10 original NeuroPAL datasets used to train the statistical atlas in 'Statistical Atlas of C. elegans Neurons' and 'NeuroPAL: A Multicolor Atlas for Whole-Brain Neuronal Identification in C. elegans.\n\n",
+      "publishedBy": {
+        "id": "urn:uuid:e54fe51c-1f4a-4fea-9056-06e49ad48646",
+        "name": "DANDI publish",
+        "endDate": "2024-10-09T15:14:13.133706+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-09T15:14:13.133706+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:d892d560-3ffd-4fb2-829f-757c51d8e1f2",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 835049434,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 10,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-09T15:14:13.133706+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000715/0.241009.1514/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

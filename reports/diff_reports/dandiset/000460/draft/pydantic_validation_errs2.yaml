@@ -1,0 +1,60 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R21 EY 033669-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+      schemaKey: AssetsSummary
+    citation: Protein recorders of neural activity (2023). (Version draft) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000460/draft
+    contributor:
+    - awardNumber: 1 R21 EY 033669-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-03-17T12:45:36.580816+00:00'
+    description: This dataset contains testing and validation data on protein structures
+      designed to record histories of neural activity.
+    id: DANDI:000460/draft
+    identifier: DANDI:000460
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000460/versions/draft/assets/
+    name: Protein recorders of neural activity
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000460/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

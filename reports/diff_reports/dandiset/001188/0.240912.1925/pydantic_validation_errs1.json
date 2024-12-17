@@ -1,0 +1,112 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001188/0.240912.1925",
+      "url": "https://dandiarchive.org/dandiset/001188/0.240912.1925",
+      "name": "A combinatorial neural code for long-term motor memory.",
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240912.1925",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json",
+      "citation": "Li, Nuo (2024) A combinatorial neural code for long-term motor memory (Version 0.240912.1925) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001188/0.240912.1925",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001188",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Li, Nuo",
+          "email": "nuo.li@bcm.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-09-04T12:36:49.925287+00:00",
+      "description": "Data from \"A combinatorial neural code for long-term motor memory.\" Jae-Hyun Kim, Kayvon Daie, Nuo Li. Nature 2024\n\nLongitudinal calcium imaging of anterior lateral motor cortex in the mouse across multiple tasks, in which mice learned to perform directional licking in different task contexts. \n\nThis work was funded by the Pew Scholars Program, NIH NS112312, NS113110, NS131229, NS132025, McKnight Foundation, and Simons Collaboration on the Global Brain. \n",
+      "publishedBy": {
+        "id": "urn:uuid:9fcfe0b4-9c24-45df-92c0-42808942e6c8",
+        "name": "DANDI publish",
+        "endDate": "2024-09-12T19:25:40.635679+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-09-12T19:25:40.635679+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:f40fba0b-c6bb-4f20-95b4-7a09f72d9233",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 57581742295,
+        "numberOfFiles": 233,
+        "numberOfSubjects": 14,
+        "variableMeasured": [
+          "ProcessingModule",
+          "TwoPhotonSeries",
+          "OpticalChannel",
+          "PlaneSegmentation",
+          "ImagingPlane"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "two-photon microscopy technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-09-12T19:25:40.635679+00:00",
+      "schemaVersion": "0.6.8",
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001188/0.240912.1925/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

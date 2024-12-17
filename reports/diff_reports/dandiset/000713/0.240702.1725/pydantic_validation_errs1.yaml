@@ -1,0 +1,120 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: signal filtering technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 4761056388409
+      numberOfFiles: 4293
+      numberOfSubjects: 81
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - Units
+      - ElectricalSeries
+      - LFP
+    citation: Allen Institute - Visual Behavior - Neuropixels (2024). (Version 0.240702.1725)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000713/0.240702.1725
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/03cpe7c52
+        name: Allen Institute
+        schemaKey: Affiliation
+      email: chris.morrison@alleninstitute.org
+      identifier: 0000-0001-9419-3947
+      includeInCitation: false
+      name: Morrison, Christopher
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    - email: corbettb@alleninstitute.org
+      identifier: 0009-0001-2847-7754
+      includeInCitation: false
+      name: Bennett, Corbett
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2023-11-17T22:05:54.773189+00:00'
+    datePublished: '2024-07-02T17:25:15.540013+00:00'
+    description: 'Data released here is for archival purposes. The recommended route
+      for interacting with these data is through the AllenSDK (https://github.com/AllenInstitute/AllenSDK/)
+      which provides methods for downloading and processing data. Documentation of
+      the AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/.
+      Full documentation of the Visual Behavior Neuropixels dataset and tutorials
+      can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html '
+    ethicsApproval: []
+    id: DANDI:000713/0.240702.1725
+    identifier: DANDI:000713
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000713/0.240702.1725/assets.yaml
+    name: Allen Institute - Visual Behavior - Neuropixels
+    protocol: []
+    publishedBy:
+      endDate: '2024-07-02T17:25:15.540013+00:00'
+      id: urn:uuid:2b4de3f0-e3e7-4dcf-a056-e308bd8885a5
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-07-02T17:25:15.540013+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:2adec883-7b6b-485d-a677-736e7f5cca22
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Behavior Session Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/behavior_sessions.csv
+    - name: Ecephys Session Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/ecephys_sessions.csv
+    - name: Probe Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/probes.csv
+    - name: Channel Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/channels.csv
+    - name: Unit Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/units.csv
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000713/0.240702.1725
+    version: 0.240702.1725
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

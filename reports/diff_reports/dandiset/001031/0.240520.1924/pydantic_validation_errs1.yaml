@@ -1,0 +1,100 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 4305334
+      numberOfFiles: 10
+      numberOfSubjects: 20
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: 'Silkuniene, Giedre; Kim, Vitalii; Pakhomov, Andrei (2024) High-frequency
+      (100 kHz) rectangular bipolar pulses stimulation of individual hippocampal neurons:
+      the effect of electric field (Version 0.240520.1924) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/001031/0.240520.1924'
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - identifier: 0000-0003-0699-5582
+      includeInCitation: true
+      name: Kim, Vitalii
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: 5R21EY034803
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-18T20:33:31.336567+00:00'
+    datePublished: '2024-05-20T19:24:37.666319+00:00'
+    description: This dataset includes recordings of hippocampal neurons stimulated
+      at 100 kHz under various amplitudes (measured as one polarity, V; the peak-to-peak
+      value would be double this amount). Rectangular bipolar pulses were applied
+      continuously for 2 seconds, beginning at 25 ms, with a 50% duty cycle. The pulse
+      amplitude was constant at the indicated voltage. For the electrode configuration
+      used, 1V corresponds to 36 V/cm. Neuron action potentials were visualized using
+      the voltage-sensitive fluorescent dye, FluoVolt. This study was partially supported
+      by NIH grant 15R21EY034803.
+    ethicsApproval: []
+    id: DANDI:001031/0.240520.1924
+    identifier: DANDI:001031
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001031/0.240520.1924/assets.yaml
+    name: 'High-frequency (100 kHz) rectangular bipolar pulses stimulation of individual
+      hippocampal neurons: the effect of electric field'
+    protocol: []
+    publishedBy:
+      endDate: '2024-05-20T19:24:37.666319+00:00'
+      id: urn:uuid:3213d9be-59fc-4ec8-863e-d9a4fdab63d8
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-20T19:24:37.666319+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:4df2f1a7-edba-42ad-afa9-2cf66a1e3598
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001031/0.240520.1924
+    version: 0.240520.1924
+    wasGeneratedBy:
+    - identifier: 5R21EY034803
+      name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,179 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R21 EY 035437-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000884/draft",
+      "doi": "10.80507/dandi.123456/0.123456.1234",
+      "url": "https://dandiarchive.org/dandiset/000884/draft",
+      "name": "Green laser stimulation on wild type rat retina ex vivo recoded by multi electrode array",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "Green laser stimulation on wild type rat retina ex vivo recoded by multi electrode array (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000884",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R21 EY 035437-01"
+        }
+      ],
+      "dateCreated": "2024-02-02T06:52:08.201514+00:00",
+      "description": "Green laser stimulation on extracted rat retina from wild-type Long Evans rat. The green laser was delivered every ten seconds with a one-second duration, starting at 5th second. The recording length is one minute. The signals were recorded with a 252-channel multi-electrode array.",
+      "publishedBy": {
+        "id": "urn:uuid:305cdaeb-ba8e-4eb6-8d87-39d988078db4",
+        "name": "DANDI publish",
+        "endDate": "2024-02-02T07:50:04.890899+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-02-02T07:50:04.890899+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:39b596fc-f2ad-47bd-adca-7a29946792cc",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Rattus norvegicus - Norway rat",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1588258750,
+        "numberOfFiles": 8,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-02-02T07:50:04.890899+00:00",
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000884/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "10.80507/dandi.123456/0.123456.1234",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "publishedBy"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": {
+      "id": "urn:uuid:305cdaeb-ba8e-4eb6-8d87-39d988078db4",
+      "name": "DANDI publish",
+      "endDate": "2024-02-02T07:50:04.890899+00:00",
+      "schemaKey": "PublishActivity",
+      "startDate": "2024-02-02T07:50:04.890899+00:00",
+      "wasAssociatedWith": [
+        {
+          "id": "urn:uuid:39b596fc-f2ad-47bd-adca-7a29946792cc",
+          "name": "DANDI API",
+          "version": "0.1.0",
+          "schemaKey": "Software",
+          "identifier": "RRID:SCR_017571"
+        }
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "datePublished"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "2024-02-02T07:50:04.890899+00:00",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  }
+]

@@ -1,0 +1,62 @@
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 1382476285228
+      numberOfFiles: 14
+      numberOfSubjects: 14
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Ishii, Kentaro (2024) Ishii et al 2023 (Version 0.241109.2357) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/001249/0.241109.2357
+    contributor:
+    - affiliation: []
+      email: ken1223@uw.edu
+      includeInCitation: true
+      name: Ishii, Kentaro
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-11-05T23:18:49.415406+00:00'
+    datePublished: '2024-11-09T23:57:05.553053+00:00'
+    description: FosTRAP dataset used in Ishii et al 2023, https://doi.org/10.7554/eLife.91765.1
+    id: DANDI:001249/0.241109.2357
+    identifier: DANDI:001249
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001249/0.241109.2357/assets.yaml
+    name: Ishii et al 2023
+    publishedBy:
+      endDate: '2024-11-09T23:57:05.553053+00:00'
+      id: urn:uuid:346a6139-405b-4531-95ee-f05568badcc9
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-11-09T23:57:05.553053+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:caa51057-e96e-4333-a2f5-3cbc20d44858
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    url: https://dandiarchive.org/dandiset/001249/0.241109.2357
+    version: 0.241109.2357
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

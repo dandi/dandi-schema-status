@@ -1,0 +1,74 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 U19 NS 113201-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+      schemaKey: AssetsSummary
+    citation: Burgers VLS 12 Ephys Dataset (2023). (Version draft) [Data set]. DANDI
+      archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+    contributor:
+    - awardNumber: 1 U19 NS 113201-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-10-16T18:51:55.642838+00:00'
+    datePublished: '2023-11-09T21:55:05.987749+00:00'
+    description: 'First 90 minutes of burgers VLS 12 ephys recording dataset. '
+    doi: 10.80507/dandi.123456/0.123456.1234
+    id: DANDI:000685/draft
+    identifier: DANDI:000685
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000685/versions/draft/assets/
+    name: Burgers VLS 12 Ephys Dataset
+    publishedBy:
+      endDate: '2023-11-09T21:55:05.987749+00:00'
+      id: urn:uuid:9d99994e-6b9c-49f6-9f64-42c402b605b0
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-11-09T21:55:05.987749+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:8b17596d-fb4c-476b-b672-17d6b352a46f
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000685/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

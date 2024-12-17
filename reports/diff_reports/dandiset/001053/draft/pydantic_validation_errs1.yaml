@@ -1,0 +1,61 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 R01 CA 123456-01A1
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+      schemaKey: AssetsSummary
+    citation: All-optical cohort visual cortex 2023 (2024). (Version draft) [Data
+      set]. DANDI archive. https://dandiarchive.org/dandiset/001053/draft
+    contributor:
+    - awardNumber: 1 R01 CA 123456-01A1
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-06-10T18:28:59.197177+00:00'
+    description: Targeted 2p stimulation of functionally-identified ensembles in V1
+      and LM
+    id: DANDI:001053/draft
+    identifier: DANDI:001053
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/001053/versions/draft/assets/
+    name: All-optical cohort visual cortex 2023
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    url: https://dandiarchive.org/dandiset/001053/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

@@ -1,0 +1,93 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1360390639
+      numberOfFiles: 10
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+        name: Macaca mulatta - Rhesus monkey
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ElectrodeGroup
+    citation: Devergnas, Annaelle (2024) SN recording during Temporal lobe seizures
+      (Version 0.240621.2139) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001069/0.240621.2139
+    contributor:
+    - affiliation:
+      - name: Emory Primate Center
+        schemaKey: Affiliation
+      awardNumber: ''
+      email: adeverg@emory.edu
+      includeInCitation: true
+      name: Devergnas, Annaelle
+      roleName:
+      - dcite:DataCollector
+      - dcite:Author
+      - dcite:ProjectLeader
+      - dcite:Conceptualization
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-06-21T16:58:13.699396+00:00'
+    datePublished: '2024-06-21T21:39:45.609593+00:00'
+    description: 'This data set contains the electrophysiological recordings from
+      2 NHPs during temporal lobe seizures induced by penicillin injection into the
+      hippocampus. '
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: PROTO201700590
+      schemaKey: EthicsApproval
+    id: DANDI:001069/0.240621.2139
+    identifier: DANDI:001069
+    keywords:
+    - basal ganglia, SNr, SN, TLE, temporal lobe seizure, Non-human primate, seizure
+      onset, penicillin
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001069/0.240621.2139/assets.yaml
+    name: SN recording during Temporal lobe seizures
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-21T21:39:45.609593+00:00'
+      id: urn:uuid:6b0e30f9-a61a-4a64-a479-2f04ad96ef5f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-21T21:39:45.609593+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:acdf5f31-bd0a-40e8-b00c-84e95600791b
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001069/0.240621.2139
+    version: 0.240621.2139
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

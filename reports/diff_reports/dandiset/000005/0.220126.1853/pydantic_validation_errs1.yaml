@@ -1,0 +1,24 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation:
+    - contactPoint: []
+      identifier: https://ror.org/013sk6x84
+      includeInCitation: false
+      name: Janelia Research Campus, Howard Hughes Medical Institute
+      roleName: []
+      schemaKey: Affiliation
+    identifier: 0000-0002-6670-7362
+    includeInCitation: true
+    name: Svoboda, Karel
+    roleName:
+    - dcite:Author
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 3
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

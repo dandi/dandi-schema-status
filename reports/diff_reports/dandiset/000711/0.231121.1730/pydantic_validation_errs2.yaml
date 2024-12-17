@@ -1,0 +1,198 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1508058148534
+      numberOfFiles: 6015
+      numberOfSubjects: 107
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - ImagingPlane
+      - PlaneSegmentation
+      - OpticalChannel
+    citation: Allen Institute for Brain Science; Olsen, Shawn; Garrett, Marina; Groblewski,
+      Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version
+      0.231121.1730) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000711/0.231121.1730
+    contributor:
+    - contactPoint: []
+      identifier: https://ror.org/00dcv1019
+      includeInCitation: true
+      name: Allen Institute for Brain Science
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://alleninstitute.org/
+    - affiliation:
+      - identifier: https://ror.org/03cpe7c52
+        name: Allen Institute
+        schemaKey: Affiliation
+      email: shawno@alleninstitute.org
+      identifier: 0000-0002-9568-7057
+      includeInCitation: true
+      name: Olsen, Shawn
+      roleName:
+      - dcite:Conceptualization
+      - dcite:ProjectLeader
+      - dcite:Supervision
+      - dcite:Resources
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03cpe7c52
+        name: Allen Institute
+        schemaKey: Affiliation
+      email: chris.morrison@alleninstitute.org
+      identifier: 0000-0001-9419-3947
+      includeInCitation: false
+      name: Morrison, Christopher
+      roleName:
+      - dcite:DataCurator
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03cpe7c52
+        name: Allen Institute
+        schemaKey: Affiliation
+      email: marinag@alleninstitute.org
+      identifier: 0000-0002-5271-2291
+      includeInCitation: true
+      name: Garrett, Marina
+      roleName:
+      - dcite:Conceptualization
+      - dcite:ProjectLeader
+      - dcite:Validation
+      - dcite:DataCurator
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03cpe7c52
+        name: Allen Institute
+        schemaKey: Affiliation
+      email: peterg@alleninstitute.org
+      identifier: 0000-0002-6529-1414
+      includeInCitation: true
+      name: Groblewski, Peter
+      roleName:
+      - dcite:Conceptualization
+      - dcite:ProjectLeader
+      - dcite:Supervision
+      - dcite:ProjectAdministration
+      schemaKey: Person
+    dateCreated: '2023-11-14T17:08:29.884713+00:00'
+    datePublished: '2023-11-21T17:30:05.290058+00:00'
+    description: "The Visual Behavior Ophys dataset was generated using in vivo 2-photon
+      calcium imaging (also called optical physiology, or \u201Cophys\u201D) to measure
+      the activity of genetically identified neurons in the visual cortex of mice
+      performing a go/no-go visual change detection task. Population of neurons were
+      recorded over multiple days with varying sensory and behavioral contexts, including
+      familiar and novel stimuli, and passive exposure sessions. This dataset can
+      be used to evaluate the influence of experience, expectation, and task engagement
+      on neural coding and dynamics in excitatory, Vip inhibitory, and Sst inhibitory
+      cell populations. \n\nThe full ophys dataset includes neural and behavioral
+      measurements from 107 well-trained mice during 703 in vivo 2-photon imaging
+      sessions from 326 unique fields of view, resulting in a total of 50,476 cortical
+      neurons recorded. The full behavioral training history of all imaged mice is
+      also provided as part of the dataset, allowing investigation into task learning,
+      behavioral strategy, and inter-animal variability. There are a total of 4,782
+      behavior sessions available for analysis.\n\nFull documentation of the Visual
+      Behavior Ophys dataset and tutorials can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_optical_physiology.html\n\nThe
+      recommended route for interacting with these data is through the AllenSDK (https://github.com/AllenInstitute/AllenSDK/)
+      which provides methods for downloading and processing data. Documentation of
+      the AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/.
+      \n\nThere are several metadata summary tables that are available as \"related
+      resources\" associated with this DANDI-set. You can also use the AllenSDK to
+      download these tables. See this notebook (https://allensdk.readthedocs.io/en/latest/_static/examples/nb/visual_behavior_ophys_data_access.html)
+      for information on downloading the metadata and the associated NWB files.\n\nPublicly
+      available pre-prints using this dataset include: \n\nStimulus novelty uncovers
+      coding diversity in visual cortical circuits\nhttps://doi.org/10.1101/2023.02.14.528085
+      \n\nBehavioral strategy shapes activation of the Vip-Sst disinhibitory circuit
+      in visual cortex\nhttps://doi.org/10.1101/2023.04.28.538575 \n\nFamiliarity
+      modulated synapses model visual cortical circuit novelty responses\nhttps://doi.org/10.1101/2023.08.16.553635 "
+    ethicsApproval: []
+    id: DANDI:000711/0.231121.1730
+    identifier: DANDI:000711
+    keywords:
+    - mouse
+    - visual cortex
+    - 2-photon microscopy
+    - calcium imaging
+    - excitatory neurons
+    - inhibitory neurons
+    - novelty
+    - task engagement
+    - behavior
+    - learning
+    - change detection
+    - 'disinhibition '
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000711/0.231121.1730/assets.yaml
+    name: Allen Institute - Visual Behavior - Optical Physiology
+    protocol: []
+    publishedBy:
+      endDate: '2023-11-21T17:30:05.290058+00:00'
+      id: urn:uuid:e528945f-8172-4c62-baa9-02faae462c49
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-11-21T17:30:05.290058+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:a2de9173-ca0f-4f60-b3a9-e3a633b330bd
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Ophys Sessions Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_session_table.csv
+    - identifier: ''
+      name: Behavior Sessions Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/behavior_session_table.csv
+    - name: Ophys Experiments Metadata Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_experiment_table.csv
+    - name: Ophys Cells Table
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_cells_table.csv
+    - name: Natural Movie One
+      relation: dcite:IsMetadataFor
+      schemaKey: Resource
+      url: https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/resources/Movie_TOE1.npy
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget:
+    - This dataset can be used to evaluate the influence of experience, expectation,
+      and task engagement on neural coding and dynamics in excitatory and inhibitory
+      cell populations.
+    url: https://dandiarchive.org/dandiset/000711/0.231121.1730
+    version: 0.231121.1730
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

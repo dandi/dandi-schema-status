@@ -1,0 +1,95 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 UM1 NS 132358-02"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001089/draft",
+      "url": "https://dandiarchive.org/dandiset/001089/draft",
+      "name": "Internal capsule model",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "Internal capsule model (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001089/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001089",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 UM1 NS 132358-02"
+        }
+      ],
+      "dateCreated": "2024-07-17T18:21:02.062348+00:00",
+      "description": "Internal capsule model of the macaque",
+      "assetsSummary": {
+        "species": [],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Brain Imaging Data Structure (BIDS)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_016124"
+          }
+        ],
+        "numberOfBytes": 608,
+        "numberOfFiles": 2,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "schemaVersion": "0.6.8",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/001089/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

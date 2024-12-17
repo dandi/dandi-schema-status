@@ -1,0 +1,155 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 52741296155
+      numberOfFiles: 2037
+      numberOfSubjects: 13
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+        name: Macaca mulatta - Rhesus monkey
+        schemaKey: SpeciesType
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
+        name: Macaca nemestrina - Pigtail macaque
+        schemaKey: SpeciesType
+      variableMeasured:
+      - EyeTracking
+      - SpatialSeries
+      - ProcessingModule
+    citation: Xiao, Will; Sharma, Saloni; Kreiman, Gabriel; Livingstone, Margaret
+      (2023) Extracellular recording along macaque ventral stream during natural image
+      free viewing (Version 0.230912.0201) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000628/0.230912.0201
+    contributor:
+    - affiliation:
+      - name: Harvard Medical Schoo
+        schemaKey: Affiliation
+      email: xiaow@g.harvard.edu
+      identifier: 0000-0001-5555-3217
+      includeInCitation: true
+      name: Xiao, Will
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:DataCollector
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FormalAnalysis
+      - dcite:Investigation
+      - dcite:Maintainer
+      - dcite:Methodology
+      - dcite:ProjectLeader
+      - dcite:ProjectMember
+      - dcite:ProjectManager
+      - dcite:Researcher
+      - dcite:Software
+      - dcite:Visualization
+      schemaKey: Person
+    - affiliation:
+      - name: Harvard Medical School
+        schemaKey: Affiliation
+      identifier: 0000-0002-0273-2091
+      includeInCitation: true
+      name: Sharma, Saloni
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:Researcher
+      - dcite:ProjectMember
+      - dcite:Investigation
+      - dcite:Conceptualization
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-3505-8475
+      includeInCitation: true
+      name: Kreiman, Gabriel
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FundingAcquisition
+      - dcite:Investigation
+      - dcite:Methodology
+      - dcite:Researcher
+      - dcite:Resources
+      - dcite:Supervision
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-1950-0123
+      includeInCitation: true
+      name: Livingstone, Margaret
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:DataCollector
+      - dcite:FundingAcquisition
+      - dcite:Investigation
+      - dcite:Methodology
+      - dcite:Researcher
+      - dcite:Supervision
+      schemaKey: Person
+    dateCreated: '2023-09-09T01:39:26.115969+00:00'
+    datePublished: '2023-09-12T02:01:34.143114+00:00'
+    description: Recordings spanning six areas in the macaque ventral stream (V1,
+      V2 ,V4, PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental
+      sessions, 883 hours, 13 monkeys, 4.6 million fixations, and thousands of natural
+      images. For more information, see the preprint at https://doi.org/10.1101/2023.02.08.527666
+    ethicsApproval: []
+    id: DANDI:000628/0.230912.0201
+    identifier: DANDI:000628
+    keywords:
+    - Macaque
+    - Ventral stream
+    - Free viewing
+    - Natural images
+    - Extracellular electrophysiology
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000628/0.230912.0201/assets.yaml
+    name: Extracellular recording along macaque ventral stream during natural image
+      free viewing
+    protocol:
+    - https://doi.org/10.1101/2023.02.08.527666
+    publishedBy:
+      endDate: '2023-09-12T02:01:34.143114+00:00'
+      id: urn:uuid:02c650cd-f601-45fb-80e8-5bad257f5711
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-09-12T02:01:34.143114+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:90de85d6-d642-4069-a3ca-87e56dbb55b6
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget:
+    - Testing neuronal spatial, temporal, and featural selectivity in the ventral
+      visual pathway during minimally constrained viewing of natural images
+    url: https://dandiarchive.org/dandiset/000628/0.230912.0201
+    version: 0.230912.0201
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

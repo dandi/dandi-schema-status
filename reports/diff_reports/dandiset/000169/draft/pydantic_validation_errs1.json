@@ -1,0 +1,30 @@
+[
+  {
+    "type": "string_pattern_mismatch",
+    "loc": [
+      "contributor",
+      0,
+      "Person",
+      "name"
+    ],
+    "msg": "String should match pattern '^([\\w\\s\\-\\.']+),\\s+([\\w\\s\\-\\.']+)$'",
+    "input": ", ",
+    "ctx": {
+      "pattern": "^([\\w\\s\\-\\.']+),\\s+([\\w\\s\\-\\.']+)$"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+  },
+  {
+    "type": "url_parsing",
+    "loc": [
+      "protocol",
+      0
+    ],
+    "msg": "Input should be a valid URL, relative URL without a base",
+    "input": "Neuropixels recordings",
+    "ctx": {
+      "error": "relative URL without a base"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+  }
+]

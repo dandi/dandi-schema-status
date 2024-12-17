@@ -1,0 +1,205 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 61460302104
+      numberOfFiles: 43
+      numberOfSubjects: 14
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - PlaneSegmentation
+      - ImagingPlane
+      - BehavioralTimeSeries
+      - ProcessingModule
+      - OpticalChannel
+    citation: Lecoq, Jerome A.; Garrett, Marina; Choi, Hannah; Mazzucato, Luca; Wyrick,
+      David (2023) Allen Institute Openscope - Differential encoding of temporal context
+      and expectation (Version 0.230602.2022) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000488/0.230602.2022
+    contributor:
+    - contactPoint: []
+      identifier: https://ror.org/03cpe7c52
+      includeInCitation: false
+      name: Allen Institute
+      roleName:
+      - dcite:Funder
+      - dcite:Producer
+      schemaKey: Organization
+      url: https://alleninstitute.org/
+    - affiliation: []
+      email: jeromel@alleninstitute.org
+      identifier: 0000-0002-0131-0938
+      includeInCitation: true
+      name: Lecoq, Jerome A.
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:DataCurator
+      - dcite:DataManager
+      - dcite:FundingAcquisition
+      - dcite:Methodology
+      - dcite:Producer
+      - dcite:ProjectManager
+      - dcite:ProjectMember
+      - dcite:ProjectAdministration
+      - dcite:Supervision
+      - dcite:Validation
+      schemaKey: Person
+    - affiliation: []
+      email: marinag@alleninstitute.org
+      identifier: 0000-0002-5271-2291
+      includeInCitation: true
+      name: Garrett, Marina
+      roleName:
+      - dcite:Conceptualization
+      - dcite:FormalAnalysis
+      - dcite:Methodology
+      - dcite:ProjectLeader
+      - dcite:Software
+      - dcite:Supervision
+      - dcite:Author
+      schemaKey: Person
+    - affiliation: []
+      email: hannahch@gatech.edu
+      identifier: 0000-0002-8192-1121
+      includeInCitation: true
+      name: Choi, Hannah
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:FormalAnalysis
+      - dcite:Methodology
+      - dcite:ProjectLeader
+      - dcite:Supervision
+      schemaKey: Person
+    - affiliation: []
+      email: lmazzuca@uoregon.edu
+      includeInCitation: true
+      name: Mazzucato, Luca
+      roleName:
+      - dcite:Author
+      - dcite:FormalAnalysis
+      - dcite:ProjectLeader
+      - dcite:Software
+      - dcite:Supervision
+      - dcite:Visualization
+      schemaKey: Person
+    - affiliation: []
+      email: davidgwyrick@gmail.com
+      includeInCitation: true
+      name: Wyrick, David
+      roleName:
+      - dcite:Author
+      - dcite:FormalAnalysis
+      - dcite:Methodology
+      - dcite:ProjectMember
+      - dcite:Researcher
+      - dcite:Software
+      - dcite:Visualization
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2023-04-21T17:07:16.030644+00:00'
+    datePublished: '2023-06-02T20:22:54.169162+00:00'
+    description: "This dataset was collected for the Predictive Coding project, as
+      part of the Allen Institute for Brain Science's OpenScope project. \n\nThe experimental
+      design involved visual stimulation with sequences of 4 natural scene images
+      (ABCD) that are repeated many times, with an occasional rare oddball image in
+      the 4th place in the sequence (ABCX). There are 10 unique oddball images which
+      are each shown 10 times during the recording session. The main sequence (ABCD)
+      is shown thousands of times. In addition to the oddball blocks there are control
+      conditions where the 4 main sequence images and 10 oddball images are shown
+      either entirely randomly, or where pairwise image transitions are maintained,
+      but the overall sequence is shuffled (example pairs: AB, BC, CD, CX, XA, etc).
+      \n\nDuring this stimulus paradigm, 2-photon calcium imaging was used to record
+      neural activity in three cortical areas (one area per recording session): the
+      primary visual cortex, higher order visual area PM, and the retrosplenial cortex,
+      across multiple cortical depths. During the recordings, mice were free to run
+      on a circular disk and running speed was measured, along with pupil diameter
+      and eye position. In each mouse, two of the three areas were imaged, and the
+      third had a retrograde tracer (rAAV-mRuby2) injected to label inputs to that
+      region. No differences in physiology were identified between retrogradely labeled
+      and non-labeled neurons, thus this information was not included in the primary
+      study of this dataset. \n\nResults are provided in the form of normalized calcium
+      traces (dF/F) for all recorded neurons, along with running speed, pupil measurements,
+      and the timing of all stimulus events. "
+    ethicsApproval:
+    - contactPoint:
+        schemaKey: ContactPoint
+      identifier: Allen Institute institutional Animal Care and Use Committee
+      schemaKey: EthicsApproval
+    id: DANDI:000488/0.230602.2022
+    identifier: DANDI:000488
+    keywords:
+    - neocortex
+    - pyramidal neurons
+    - two-photon calcium imaging
+    - mouse VisP
+    - prediction
+    - predictive coding
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000488/0.230602.2022/assets.yaml
+    name: Allen Institute Openscope - Differential encoding of temporal context and
+      expectation
+    protocol:
+    - https://doi.org/10.1038/s41593-019-0550-9
+    publishedBy:
+      endDate: '2023-06-02T20:22:54.169162+00:00'
+      id: urn:uuid:ed6b74b7-0a68-44df-bd06-eef19cafbdd7
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-06-02T20:22:54.169162+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:f9e4f6c7-e902-4646-953c-fdc2dd7b6ee0
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget:
+    - 'The objective of this study was to ask whether prediction (expected sequence
+      information) and prediction error (unexpected oddball) signals are present at
+      different stages of the visual hierarchy. Retrosplenial cortex is an associational
+      area involved in scene processing and spatial navigation that provides feedback
+      to the primary visual cortex (VISp), and to higher visual area PM (VISpm). The
+      predictive coding framework posits that prediction error signals are produced
+      in lower regions and propagated up to higher areas in the higherarchy to update
+      internal predictions about the environment, while predictions based on learned
+      expectations are feed back to lower areas to minimize activity associated with
+      expected stimuli. This dataset allows testing of these predictions in 3 hierarchically
+      connected areas using naturalistic stimuli in behaving mice.  . '
+    url: https://dandiarchive.org/dandiset/000488/0.230602.2022
+    version: 0.230602.2022
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,80 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1365465792
+      numberOfFiles: 40
+      numberOfSubjects: 10
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+    citation: 'Shao, TongZe (2024) Data for: Distinct spatiotemporal patterns of syntactic
+      and semantic processing in human inferior frontal gyrus (Version 0.240921.1006)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001193/0.240921.1006'
+    contributor:
+    - affiliation: []
+      email: shaoxydd8888@gmail.com
+      includeInCitation: true
+      name: Shao, TongZe
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-09-15T10:15:00.439571+00:00'
+    datePublished: '2024-09-21T10:06:46.306271+00:00'
+    description: 'This dataset comprises high-gamma brain activity recordings (70-150
+      Hz) obtained through electrocorticography (ECoG) from human subjects. It focuses
+      on neural responses during syntactic and semantic processing tasks, specifically
+      within the inferior frontal gyrus. The data is formatted in the Neurodata Without
+      Borders (NWB) standard, facilitating ease of use and integration within the
+      neuroscience community. This dataset supports the findings published in the
+      article "Distinct spatiotemporal patterns of syntactic and semantic processing
+      in human inferior frontal gyrus," accessible via DOI: 10.1038/s41562-022-01334-6.'
+    id: DANDI:001193/0.240921.1006
+    identifier: DANDI:001193
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001193/0.240921.1006/assets.yaml
+    name: 'Data for: Distinct spatiotemporal patterns of syntactic and semantic processing
+      in human inferior frontal gyrus'
+    publishedBy:
+      endDate: '2024-09-21T10:06:46.306271+00:00'
+      id: urn:uuid:caa96381-23d1-4c04-b187-a977e0ac62cc
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-09-21T10:06:46.306271+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:fde00872-7413-4e07-aaf1-36c0f4ffb357
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.8
+    url: https://dandiarchive.org/dandiset/001193/0.240921.1006
+    version: 0.240921.1006
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

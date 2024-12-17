@@ -1,0 +1,23 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    affiliation:
+    - name: Department of Neuroscience, Baylor College of Medicine
+      schemaKey: Affiliation
+    - name: Center for Neuroscience and Artificial Intelligence, Baylor College of
+        Medicine
+      schemaKey: Affiliation
+    identifier: 0000-0001-6844-3551
+    includeInCitation: true
+    name: Fahey, Paul G.
+    roleName:
+    - dcite:Author
+    - dcite:ContactPerson
+    schemaKey: Person
+  loc:
+  - contributor
+  - 13
+  - Person
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

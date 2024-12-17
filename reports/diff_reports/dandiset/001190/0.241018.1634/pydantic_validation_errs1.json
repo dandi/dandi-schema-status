@@ -1,0 +1,164 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001190/0.241018.1634",
+      "url": "https://dandiarchive.org/dandiset/001190/0.241018.1634",
+      "name": "In vivo Calcium Imaging: Genotype Data: NOR",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.241018.1634",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json",
+      "citation": "Fitting, Sylvia ; Yadav-Samudrala, Barkha (2024) In vivo Calcium Imaging: Genotype Data: NOR (Version 0.241018.1634) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001190/0.241018.1634",
+      "keywords": [
+        "In vivo calcium imaging, endocannabinoids, HIV-1, Tat"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001190",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Fitting, Sylvia ",
+          "email": "sfitting@email.unc.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Conceptualization",
+            "dcite:FundingAcquisition",
+            "dcite:Author",
+            "dcite:Investigation",
+            "dcite:ProjectLeader",
+            "dcite:Sponsor"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "University of North Carolina at Chapel Hill",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Yadav-Samudrala, Barkha",
+          "email": "yadavb@email.unc.edu",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:ContactPerson",
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Producer",
+            "dcite:ProjectLeader",
+            "dcite:ProjectManager",
+            "dcite:ProjectMember",
+            "dcite:ProjectAdministration",
+            "dcite:Researcher",
+            "dcite:Validation",
+            "dcite:Visualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-2967-2017",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-09-05T14:40:30.580826+00:00",
+      "description": "Data set for Tat(-) and Tat(+) male mice comparing genotype differences without any drug treatment\nResearcher: Barkha J. Yadav Samudrala and Sylvia Fitting",
+      "publishedBy": {
+        "id": "urn:uuid:de43493a-14e4-46d0-8553-2d37a517f216",
+        "name": "DANDI publish",
+        "endDate": "2024-10-18T16:34:10.491088+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-10-18T16:34:10.491088+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:f1c046d2-d344-4daf-a3cd-e81ae4f96747",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "HIV-1 Tat Transgenic Mouse Model"
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 220201651439,
+        "numberOfFiles": 16,
+        "numberOfSubjects": 8,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ImagingPlane",
+          "ProcessingModule",
+          "OpticalChannel"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-10-18T16:34:10.491088+00:00",
+      "schemaVersion": "0.6.8",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "23.056",
+          "contactPoint": {
+            "url": "https://research.unc.edu/iacuc/",
+            "email": "sfitting@email.unc.edu",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001190/0.241018.1634/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

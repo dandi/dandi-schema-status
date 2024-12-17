@@ -1,0 +1,261 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 5865794202897
+      numberOfFiles: 12
+      numberOfSubjects: 12
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+        name: Danio rerio - Zebra fish
+        schemaKey: SpeciesType
+      variableMeasured:
+      - TwoPhotonSeries
+      - OpticalChannel
+      - ProcessingModule
+      - ImagingPlane
+      - PlaneSegmentation
+    citation: Mu, Yu; Bennett, Davis V.; Rubinov, Mikail; Lim, Jing-Xuan; Yang, Chao-Tsung;
+      Tanimoto, Masashi; Mensh, Brett D. ; Looger, Loren L.; Narayan, Sujatha; Ahrens,
+      Misha B. (2024) Glia Accumulate Evidence that Actions Are Futile and Suppress
+      Unsuccessful Behavior (Version 0.240822.1759) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000350/0.240822.1759
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      email: muy@janelia.hhmi.org
+      identifier: 0000-0001-9297-4854
+      includeInCitation: true
+      name: Mu, Yu
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:DataManager
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      - identifier: https://ror.org/024mw5h28
+        name: University of Chicago
+        schemaKey: Affiliation
+      identifier: 0000-0002-5056-407X
+      includeInCitation: true
+      name: Bennett, Davis V.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      - identifier: https://ror.org/02vm5rt34
+        name: Vanderbilt University
+        schemaKey: Affiliation
+      identifier: 0000-0002-4787-7075
+      includeInCitation: true
+      name: Rubinov, Mikail
+      roleName:
+      - dcite:Author
+      - dcite:FormalAnalysis
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/006w34k90
+        name: Howard Hughes Medical Institute
+        schemaKey: Affiliation
+      identifier: 0000-0002-5983-9164
+      includeInCitation: true
+      name: Lim, Jing-Xuan
+      roleName:
+      - dcite:DataManager
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Yang, Chao-Tsung
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      identifier: 0000-0002-7653-1081
+      includeInCitation: true
+      name: Tanimoto, Masashi
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      identifier: 0000-0003-2288-054X
+      includeInCitation: true
+      name: 'Mensh, Brett D. '
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      identifier: 0000-0002-7531-1757
+      includeInCitation: true
+      name: Looger, Loren L.
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      identifier: 0000-0002-3741-1319
+      includeInCitation: true
+      name: Narayan, Sujatha
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/013sk6x84
+        name: Janelia Research Campus
+        schemaKey: Affiliation
+      email: ahrensm@janelia.hhmi.org
+      identifier: 0000-0002-3457-4462
+      includeInCitation: true
+      name: Ahrens, Misha B.
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:ContactPerson
+      - dcite:Investigation
+      - dcite:ProjectLeader
+      - dcite:ProjectManager
+      - dcite:ProjectAdministration
+      schemaKey: Person
+      url: https://www.janelia.org/lab/ahrens-lab
+    - awardNumber: '325171'
+      contactPoint: []
+      identifier: https://ror.org/006w34k90
+      includeInCitation: false
+      name: Howard Hughes Medical Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: http://www.hhmi.org/
+    - awardNumber: 542943SPI
+      contactPoint: []
+      identifier: https://ror.org/01cmst727
+      includeInCitation: false
+      name: Simons Collaboration on the Global Brain Awards
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.simonsfoundation.org
+    - affiliation:
+      - identifier: https://ror.org/01d74sk53
+        name: CatalystNeuro
+        schemaKey: Affiliation
+      email: cody.c.baker.phd@gmail.com
+      identifier: 0000-0002-0829-4790
+      includeInCitation: false
+      name: Baker, Cody
+      roleName:
+      - dcite:Software
+      - dcite:DataCurator
+      schemaKey: Person
+      url: https://www.catalystneuro.com/team/
+    dateCreated: '2022-10-30T19:50:01.557863+00:00'
+    datePublished: '2024-08-22T17:59:27.040376+00:00'
+    description: 'When a behavior repeatedly fails to achieve its goal, animals often
+      give up and become passive, which can be strategic for preserving energy or
+      regrouping between attempts. It is unknown how the brain identifies behavioral
+      failures and mediates this behavioral-state switch. In larval zebrafish swimming
+      in virtual reality, visual feedback can be withheld so that swim attempts fail
+      to trigger expected visual flow. After tens of seconds of such motor futility,
+      animals became passive for similar durations. Whole-brain calcium imaging revealed
+      noradrenergic neurons that responded specifically to failed swim attempts and
+      radial astrocytes whose calcium levels accumulated with increasing numbers of
+      failed attempts. Using cell ablation and optogenetic or chemogenetic activation,
+      we found that noradrenergic neurons progressively activated brainstem radial
+      astrocytes, which then suppressed swimming. Thus, radial astrocytes perform
+      a computation critical for behavior: they accumulate evidence that current actions
+      are ineffective and consequently drive changes in behavioral states.'
+    ethicsApproval: []
+    id: DANDI:000350/0.240822.1759
+    identifier: DANDI:000350
+    keywords:
+    - neuroscience
+    - glia
+    - astrocytes
+    - norepinephrine
+    - noradrenaline
+    - learned helplessness
+    - neuromodulation
+    - behavioral states
+    - evidence accumulation
+    - zebrafish
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000350/0.240822.1759/assets.yaml
+    name: Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful
+      Behavior
+    protocol: []
+    publishedBy:
+      endDate: '2024-08-22T17:59:27.040376+00:00'
+      id: urn:uuid:19088d33-db8c-40f1-8af5-e554b0a852ad
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-08-22T17:59:27.040376+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:fa2ce8cb-86e0-48cb-9c9c-593a6bd3d874
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1016/j.cell.2019.05.050
+      name: Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful
+        Behavior
+      relation: dcite:IsDescribedBy
+      repository: Cell
+      schemaKey: Resource
+      url: https://www.sciencedirect.com/science/article/pii/S009286741930621X
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget:
+    - motor activity
+    - whole-brain
+    - radial astrocytes
+    url: https://dandiarchive.org/dandiset/000350/0.240822.1759
+    version: 0.240822.1759
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

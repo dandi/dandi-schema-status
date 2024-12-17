@@ -1,0 +1,121 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000715/0.240611.1953",
+      "url": "https://dandiarchive.org/dandiset/000715/0.240611.1953",
+      "name": "NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240611.1953",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Yemini, Eviatar; Sprague, Daniel (2024) NeuroPAL: Atlas of C. elegans neuron locations and colors in NeuroPAL worm (Version 0.240611.1953) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000715/0.240611.1953",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000715",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Yemini, Eviatar",
+          "email": "evictor.yemini@umassmed.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:DataCollector",
+            "dcite:Methodology"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Sprague, Daniel",
+          "email": "Daniel.sprague@ucsf.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCurator",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-11-20T22:09:13.916173+00:00",
+      "description": "10 original NeuroPAL datasets used to train the statistical atlas in 'Statistical Atlas of C. elegans Neurons' and 'NeuroPAL: A Multicolor Atlas for Whole-Brain Neuronal Identification in C. elegans.\n\n",
+      "publishedBy": {
+        "id": "urn:uuid:58122841-0c8a-453c-95dc-1e10ef5dbe9a",
+        "name": "DANDI publish",
+        "endDate": "2024-06-11T19:53:26.406652+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-06-11T19:53:26.406652+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:795ba968-0063-4a5e-af73-9f07b9099dba",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Caenorhabditis elegans",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 835049434,
+        "numberOfFiles": 10,
+        "numberOfSubjects": 10,
+        "variableMeasured": [
+          "PlaneSegmentation",
+          "ProcessingModule"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-06-11T19:53:26.406652+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000715/0.240611.1953/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

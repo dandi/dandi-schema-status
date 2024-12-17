@@ -1,0 +1,31 @@
+[
+  {
+    "type": "union_tag_not_found",
+    "loc": [
+      "contributor",
+      1
+    ],
+    "msg": "Unable to extract tag using discriminator 'schemaKey'",
+    "input": {},
+    "ctx": {
+      "discriminator": "'schemaKey'"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

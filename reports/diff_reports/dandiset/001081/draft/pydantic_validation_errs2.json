@@ -1,0 +1,84 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R01 CA 123456-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001081/draft",
+      "url": "https://dandiarchive.org/dandiset/001081/draft",
+      "name": "Mouse Hippocampal Sharp Wave Ripple Dataset from Public Neuropixels Datasets",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "Mouse Hippocampal Sharp Wave Ripple Dataset from Public Neuropixels Datasets (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001081/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001081",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R01 CA 123456-01"
+        }
+      ],
+      "dateCreated": "2024-07-02T20:10:08.096075+00:00",
+      "description": "Here we present the SWR data from the ABI and IBL datasets in a sharable format, which integrates with their APIs.  We have extracted, curated using field standards, and shared over 2,054,021 SWR events from 258 mice from these datasets as well as the code used to process them. Foundation Grant FDN-143209 and project grant PJT-180631",
+      "assetsSummary": {
+        "schemaKey": "AssetsSummary",
+        "numberOfBytes": 0,
+        "numberOfFiles": 0
+      },
+      "schemaVersion": "0.6.7",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/001081/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

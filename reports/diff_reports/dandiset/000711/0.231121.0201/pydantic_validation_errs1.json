@@ -1,0 +1,234 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000711/0.231121.0201",
+      "url": "https://dandiarchive.org/dandiset/000711/0.231121.0201",
+      "name": "Allen Institute - Visual Behavior - Optical Physiology",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.231121.0201",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Allen Institute for Brain Science; Olsen, Shawn; Garrett, Marina; Groblewski, Peter (2023) Allen Institute - Visual Behavior - Optical Physiology (Version 0.231121.0201) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000711/0.231121.0201",
+      "keywords": [
+        "mouse",
+        "visual cortex",
+        "2-photon microscopy",
+        "calcium imaging",
+        "excitatory neurons",
+        "inhibitory neurons",
+        "novelty",
+        "task engagement",
+        "behavior",
+        "learning",
+        "change detection",
+        "disinhibition "
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000711",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "url": "http://alleninstitute.org/",
+          "name": "Allen Institute for Brain Science",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/00dcv1019",
+          "contactPoint": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Olsen, Shawn",
+          "email": "shawno@alleninstitute.org",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:ProjectLeader",
+            "dcite:Supervision",
+            "dcite:Resources"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-9568-7057",
+          "affiliation": [
+            {
+              "name": "Allen Institute",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/03cpe7c52"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Morrison, Christopher",
+          "email": "chris.morrison@alleninstitute.org",
+          "roleName": [
+            "dcite:DataCurator"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-9419-3947",
+          "affiliation": [
+            {
+              "name": "Allen Institute",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/03cpe7c52"
+            }
+          ],
+          "includeInCitation": false
+        },
+        {
+          "name": "Garrett, Marina",
+          "email": "marinag@alleninstitute.org",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:ProjectLeader",
+            "dcite:Validation",
+            "dcite:DataCurator",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-5271-2291",
+          "affiliation": [
+            {
+              "name": "Allen Institute",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/03cpe7c52"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Groblewski, Peter",
+          "email": "peterg@alleninstitute.org",
+          "roleName": [
+            "dcite:Conceptualization",
+            "dcite:ProjectLeader",
+            "dcite:Supervision",
+            "dcite:ProjectAdministration"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-6529-1414",
+          "affiliation": [
+            {
+              "name": "Allen Institute",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/03cpe7c52"
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-11-14T17:08:29.884713+00:00",
+      "description": "The Visual Behavior Ophys dataset was generated using in vivo 2-photon calcium imaging (also called optical physiology, or \u201cophys\u201d) to measure the activity of genetically identified neurons in the visual cortex of mice performing a go/no-go visual change detection task. Population of neurons were recorded over multiple days with varying sensory and behavioral contexts, including familiar and novel stimuli, and passive exposure sessions. This dataset can be used to evaluate the influence of experience, expectation, and task engagement on neural coding and dynamics in excitatory, Vip inhibitory, and Sst inhibitory cell populations. \n\nThe full ophys dataset includes neural and behavioral measurements from 107 well-trained mice during 703 in vivo 2-photon imaging sessions from 326 unique fields of view, resulting in a total of 50,476 cortical neurons recorded. The full behavioral training history of all imaged mice is also provided as part of the dataset, allowing investigation into task learning, behavioral strategy, and inter-animal variability. There are a total of 4,782 behavior sessions available for analysis.\n\nFull documentation of the Visual Behavior Ophys dataset and tutorials can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_optical_physiology.html\n\nThe recommended route for interacting with these data is through the AllenSDK (https://github.com/AllenInstitute/AllenSDK/) which provides methods for downloading and processing data. Documentation of the AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/. \n\nThere are several metadata summary tables that are available as \"related resources\" associated with this DANDI-set. You can also use the AllenSDK to download these tables. See this notebook (https://allensdk.readthedocs.io/en/latest/_static/examples/nb/visual_behavior_ophys_data_access.html) for information on downloading the metadata and the associated NWB files.\n\nPublicly available pre-prints using this dataset include: \n\nStimulus novelty uncovers coding diversity in visual cortical circuits\nhttps://doi.org/10.1101/2023.02.14.528085 \n\nBehavioral strategy shapes activation of the Vip-Sst disinhibitory circuit in visual cortex\nhttps://doi.org/10.1101/2023.04.28.538575 \n\nFamiliarity modulated synapses model visual cortical circuit novelty responses\nhttps://doi.org/10.1101/2023.08.16.553635 ",
+      "publishedBy": {
+        "id": "urn:uuid:e63a4a93-4be6-4123-99f4-abb583ddaed6",
+        "name": "DANDI publish",
+        "endDate": "2023-11-21T02:01:55.332196+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-11-21T02:01:55.332196+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:e1ed99db-73a9-4858-b2d7-d4ff4e7c17d5",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "This dataset can be used to evaluate the influence of experience, expectation, and task engagement on neural coding and dynamics in excitatory and inhibitory cell populations."
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "microscopy approach; cell population imaging",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1508058148534,
+        "numberOfFiles": 6015,
+        "numberOfSubjects": 107,
+        "variableMeasured": [
+          "ProcessingModule",
+          "ImagingPlane",
+          "PlaneSegmentation",
+          "OpticalChannel"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-11-21T02:01:55.332196+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_session_table.csv",
+          "name": "Ophys Sessions Metadata Table",
+          "relation": "dcite:IsMetadataFor",
+          "schemaKey": "Resource"
+        },
+        {
+          "url": "https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/behavior_session_table.csv",
+          "name": "Behavior Sessions Metadata Table",
+          "relation": "dcite:IsMetadataFor",
+          "schemaKey": "Resource",
+          "identifier": ""
+        },
+        {
+          "url": "https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_experiment_table.csv",
+          "name": "Ophys Experiments Metadata Table",
+          "relation": "dcite:IsMetadataFor",
+          "schemaKey": "Resource"
+        },
+        {
+          "url": "https://visual-behavior-ophys-data.s3.us-west-2.amazonaws.com/visual-behavior-ophys/project_metadata/ophys_cells_table.csv",
+          "name": "Ophys Cells Table",
+          "relation": "dcite:IsMetadataFor",
+          "schemaKey": "Resource"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000711/0.231121.0201/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000897/0.240605.1710",
+      "url": "https://dandiarchive.org/dandiset/000897/0.240605.1710",
+      "name": "Neupane_Fiete_Jazayeri_Mental navigation_NHP_EntorhinalCortex",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240605.1710",
+      "citation": "Neupane, Sujaya; Fiete, Ila; Jazayeri, Mehrdad (2024) Neupane_Fiete_Jazayeri_Mental navigation_NHP_EntorhinalCortex (Version 0.240605.1710) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000897/0.240605.1710",
+      "keywords": [
+        "entorhinal cortex, cognitive map, mental navigation, "
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000897",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Neupane, Sujaya",
+          "email": "sujayanyaupane@gmail.com",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0052-3122",
+          "includeInCitation": true
+        },
+        {
+          "name": "Fiete, Ila",
+          "email": "fiete@mit.edu",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-4738-2539",
+          "includeInCitation": true
+        },
+        {
+          "name": "Jazayeri, Mehrdad",
+          "email": "mjaz@mit.edu",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-9764-6961",
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institute of Mental Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/05xj56w78",
+          "awardNumber": "NIMH-MH129046",
+          "includeInCitation": false
+        },
+        {
+          "name": "Natural Science and Engineering Council of Canada",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01h531d29",
+          "awardNumber": "NSERC PDF-516867-2018",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-02-26T20:53:07.949077+00:00",
+      "description": "The dataset contains electrophysiology data recorded from the entorhinal cortex of two NHPs performing a mental navigation task. The recording probes used were V-probe with 32 channels or 64 channels, manufactured by Plexon Inc. ",
+      "publishedBy": {
+        "id": "urn:uuid:d58da278-5701-4b19-9d3f-be95245f2d27",
+        "name": "DANDI publish",
+        "endDate": "2024-06-05T17:10:33.732071+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-06-05T17:10:33.732071+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:e91af7af-cbfc-40ae-8555-256dee6780de",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Mental navigation in the primate entorhinal cortex"
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 361973386790,
+        "numberOfFiles": 30,
+        "numberOfSubjects": 2,
+        "variableMeasured": [
+          "Units",
+          "ElectrodeGroup",
+          "SpatialSeries",
+          "ProcessingModule",
+          "ElectricalSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-06-05T17:10:33.732071+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "2203000084",
+          "contactPoint": {
+            "url": "https://cac.mit.edu/",
+            "email": "cacpo@mit.edu",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000897/0.240605.1710/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

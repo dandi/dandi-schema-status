@@ -1,0 +1,97 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 118440312
+      numberOfFiles: 178
+      numberOfSubjects: 14
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Semenov, Iurii; Pakhomov, Andrei (2024) Characterization
+      of Neuron Action Potential Triggering Using Sine Wave Electrostimulation at
+      Varying Frequencies_part1 (Version 0.240527.1432) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/001032/0.240527.1432
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - awardNumber: 5R21EY034803
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-05-21T17:22:23.862583+00:00'
+    datePublished: '2024-05-27T14:32:48.193794+00:00'
+    description: This experimental series aimed to characterize the triggering of
+      action potentials (APs) in neurons using sine waves and modulated sine waves
+      at varying frequencies. The experiments were conducted on E18 Sprague Dawley
+      rat hippocampal neurons (BrainBits, Springfield, IL), employing the voltage-sensitive
+      dye FluoVolt (Thermo Fisher Scientific, Waltham, MA) as the AP reporter.
+    ethicsApproval: []
+    id: DANDI:001032/0.240527.1432
+    identifier: DANDI:001032
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/001032/0.240527.1432/assets.yaml
+    name: Characterization of Neuron Action Potential Triggering Using Sine Wave Electrostimulation
+      at Varying Frequencies_part1
+    protocol: []
+    publishedBy:
+      endDate: '2024-05-27T14:32:48.193794+00:00'
+      id: urn:uuid:05de0248-ec0a-488b-9b2c-db29f47c2148
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-27T14:32:48.193794+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:9fe71dd6-ad45-4b01-a87f-feb3e9c016d2
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/001032/0.240527.1432
+    version: 0.240527.1432
+    wasGeneratedBy:
+    - identifier: 5R21EY034803
+      name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

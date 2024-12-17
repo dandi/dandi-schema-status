@@ -1,0 +1,152 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001025/0.240605.1826",
+      "url": "https://dandiarchive.org/dandiset/001025/0.240605.1826",
+      "name": "The impact of voltage on CANCAN focusing of electroporation using four-electrode arrays of varying sizes",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240605.1826",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json",
+      "citation": "Silkuniene, Giedre; Gudvangen, Emily; Mangalanathan, Uma; Semenov, Iurii; Pakhomov, Andrei (2024) The impact of voltage on CANCAN focusing of electroporation using four-electrode arrays of varying sizes (Version 0.240605.1826) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001025/0.240605.1826",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001025",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Silkuniene, Giedre",
+          "email": "giedre.silkuniene@gmail.com",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8436-9718",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Gudvangen, Emily",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "includeInCitation": true
+        },
+        {
+          "name": "Mangalanathan, Uma",
+          "schemaKey": "Person",
+          "identifier": "0000-0003-0126-5660",
+          "includeInCitation": true
+        },
+        {
+          "name": "Semenov, Iurii",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0302-1355",
+          "includeInCitation": true
+        },
+        {
+          "name": "Pakhomov, Andrei",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ProjectLeader"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3816-3860",
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": " NIH 1R21EY034258",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2024-05-15T20:33:08.663366+00:00",
+      "description": "The study examines the effect of pulse voltage on CANCAN focusing of electroporation using electrode arrays of different sizes. Adjustments in the amplitude of nanosecond electroporation pulses influenced the intensity of electroporation but did not alter its spatial characteristics across the electrode array. The study was supported in part by NIH R21EY034258",
+      "publishedBy": {
+        "id": "urn:uuid:1356c1de-6e1c-4328-8eb3-0e266982f693",
+        "name": "DANDI publish",
+        "endDate": "2024-06-05T18:26:43.401312+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-06-05T18:26:43.401312+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:8e6f895c-1a80-49e3-a611-e3dbd90941e6",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Cricetulus griseus - Cricetulus aureus",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10029"
+          }
+        ],
+        "approach": [],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 10690479132,
+        "numberOfFiles": 21,
+        "numberOfSubjects": 19,
+        "variableMeasured": [],
+        "measurementTechnique": []
+      },
+      "datePublished": "2024-06-05T18:26:43.401312+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [
+        {
+          "name": "Targeted Neuromodulation by Nanosecond Pulsed Electric Fields",
+          "schemaKey": "Project",
+          "identifier": "NIH 1R21EY034258"
+        }
+      ],
+      "relatedResource": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37030093/",
+          "name": "Next generation CANCAN focusing for remote stimulation by nanosecond electric pulses",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource",
+          "identifier": "10.1016/j.bioelechem.2023.108437"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001025/0.240605.1826/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

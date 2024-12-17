@@ -1,0 +1,142 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      0,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "li, nuo",
+      "roleName": [
+        "dcite:ContactPerson"
+      ],
+      "schemaKey": "Person",
+      "affiliation": [],
+      "awardNumber": "1 R01 NS 112312-01",
+      "includeInCitation": false
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000572/0.230826.0140",
+      "url": "https://dandiarchive.org/dandiset/000572/0.230826.0140",
+      "name": "Activity map of a cortico-cerebellar loop underlying motor planning",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230826.0140",
+      "citation": "Activity map of a cortico-cerebellar loop underlying motor planning (2023). (Version 0.230826.0140) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000572/0.230826.0140",
+      "keywords": [],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000572",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "li, nuo",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "awardNumber": "1 R01 NS 112312-01",
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2023-07-03T20:17:43.540225+00:00",
+      "description": "Data from \"Activity map of a cortico-cerebellar loop underlying motor planning\" Jia Zhu, Hana Hasanbegovic, Liu D. Liu, Zhenyu Gao, Nuo Li. Nat Neurosci 2023\n\nAn activity map of the cerebellar cortex during a delayed response task in which mice used short-term memory to plan directional licking.\n\nSupported by Robert and Janice McNair Foundation, Whitehall Foundation, Alfred P. Sloan Foundation, Searle Scholars Program, Pew Scholars Program, NIH NS104781, NS112312, NS113110, McKnight Foundation, Simons Collaboration on the Global Brain.\n",
+      "publishedBy": {
+        "id": "urn:uuid:2077e463-eb4c-46ef-a713-4640b9ff746f",
+        "name": "DANDI publish",
+        "endDate": "2023-08-26T01:40:31.941614+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-08-26T01:40:31.941614+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:ba68c635-6267-4411-bf73-1bcbd573d922",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "An activity map of the cerebellar cortex during a delayed response task in which mice used short-term memory to plan directional licking."
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Mus musculus - House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "optogenetic approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 311812040462,
+        "numberOfFiles": 289,
+        "numberOfSubjects": 37,
+        "variableMeasured": [
+          "OptogeneticSeries",
+          "SpikeEventSeries",
+          "ElectrodeGroup",
+          "Units"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-08-26T01:40:31.941614+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000572/0.230826.0140/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

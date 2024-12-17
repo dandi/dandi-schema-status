@@ -1,0 +1,75 @@
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 208220320
+      numberOfFiles: 30
+      numberOfSubjects: 10
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - ImagingPlane
+      - PlaneSegmentation
+      - OpticalChannel
+    citation: Reimer, Marike (2024) VR-SASE Virtual Reality Dendritic Spine Analysis
+      (Version 0.240716.1414) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000723/0.240716.1414
+    contributor:
+    - affiliation: []
+      email: marike.reimer@yale.edu
+      includeInCitation: true
+      name: Reimer, Marike
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2023-12-05T19:37:24.190508+00:00'
+    datePublished: '2024-07-16T14:14:23.762988+00:00'
+    description: The VR-SASE workflow uses Open Brush, open source, virtual reality
+      art software, and Blender to segment neurons.  A DataJoint pipeline determines
+      spatial distribution of dendritic spines, filters them based on morphological
+      parameters and is exported into a CSV for further analysis.
+    id: DANDI:000723/0.240716.1414
+    identifier: DANDI:000723
+    license:
+    - spdx:CC0-1.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000723/0.240716.1414/assets.yaml
+    name: VR-SASE Virtual Reality Dendritic Spine Analysis
+    publishedBy:
+      endDate: '2024-07-16T14:14:23.762988+00:00'
+      id: urn:uuid:a9e231f0-2a7f-4c8e-b19a-b2f1af8aa0f8
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-07-16T14:14:23.762988+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:c1950ef4-6fe6-4170-9107-3332430df81e
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000723/0.240716.1414
+    version: 0.240716.1414
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

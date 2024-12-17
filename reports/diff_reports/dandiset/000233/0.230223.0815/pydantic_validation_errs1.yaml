@@ -1,0 +1,170 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+    about:
+    - dxdate: []
+      identifier: snomedct:44054006
+      name: Type 2 Diabetes
+      schemaKey: Disorder
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0002421
+      name: Hippocampus
+      schemaKey: Anatomy
+    - identifier: http://purl.obolibrary.org/obo/UBERON_0001898
+      name: Hypothalamus
+      schemaKey: Anatomy
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: signal filtering technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 12320920243380
+      numberOfFiles: 345
+      numberOfSubjects: 25
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectricalSeries
+      - ProcessingModule
+      - LFP
+      - ElectrodeGroup
+    citation: "Tingley, David; McClain, Kathryn; Kaya, Ekin; Carpenter, Jordan; Buzs\xE1ki,
+      Gy\xF6rgy (2023) A metabolic function of the hippocampal sharp wave-ripple (Version
+      0.230223.0815) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000233/0.230223.0815"
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/0190ak572
+        name: New York University
+        schemaKey: Affiliation
+      email: davidtingley2@gmail.com
+      identifier: 0000-0003-4263-0476
+      includeInCitation: true
+      name: Tingley, David
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: McClain, Kathryn
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/03z9tma90
+        name: "Bo\u011Fazi\xE7i University"
+        schemaKey: Affiliation
+      - identifier: https://ror.org/0190ak572
+        name: New York University
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Kaya, Ekin
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05xg72x27
+        name: Norwegian University of Science and Technology
+        schemaKey: Affiliation
+      - identifier: https://ror.org/0190ak572
+        name: New York University
+        schemaKey: Affiliation
+      includeInCitation: true
+      name: Carpenter, Jordan
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - name: New York University
+        schemaKey: Affiliation
+      identifier: 0000-0002-3100-4800
+      includeInCitation: true
+      name: "Buzs\xE1ki, Gy\xF6rgy"
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - awardNumber: MH122391, U19NS104590, and U19NS107616
+      contactPoint: []
+      identifier: https://ror.org/01cwqze88
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+      url: https://www.nih.gov/
+    dateCreated: '2022-04-15T01:15:44.204424+00:00'
+    datePublished: '2023-02-23T08:15:22.880501+00:00'
+    description: The hippocampus has previously been implicated in both cognitive
+      and endocrine functions. We simultaneously measured electrophysiological activity
+      from the hippocampus and interstitial glucose concentrations in the body of
+      freely behaving rats to identify an activity pattern that may link these disparate
+      functions of the hippocampus. Here we report that clusters of sharp wave-ripples
+      recorded from the hippocampus reliably predicted a decrease in peripheral glucose
+      concentrations within about 10 min. This correlation was not dependent on circadian,
+      ultradian or meal-triggered fluctuations, could be mimicked with optogenetically
+      induced ripples in the hippocampus (but not in the parietal cortex) and was
+      attenuated to chance levels by pharmacogenetically suppressing activity of the
+      lateral septum, which is the major conduit between the hippocampus and the hypothalamus.
+      Our findings demonstrate that a function of the sharp wave-ripple is to modulate
+      peripheral glucose homeostasis, and offer a mechanism for the link between sleep
+      disruption and blood glucose dysregulation in type 2 diabetes.
+    ethicsApproval: []
+    id: DANDI:000233/0.230223.0815
+    identifier: DANDI:000233
+    keywords:
+    - glucose
+    - 'ecephys '
+    - pharmacology
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000233/0.230223.0815/assets.yaml
+    name: A metabolic function of the hippocampal sharp wave-ripple
+    protocol: []
+    publishedBy:
+      endDate: '2023-02-23T08:15:22.880501+00:00'
+      id: urn:uuid:ca89e51d-8ce6-491e-99f8-6bd54d375690
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-02-23T08:15:22.880501+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:b7cacd90-1357-4bf1-8777-e85690f53341
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.1038/s41586-021-03811-w
+      name: A metabolic function of the hippocampal sharp wave-ripple
+      relation: dcite:IsDescribedBy
+      repository: Nature
+      schemaKey: Resource
+      url: https://www.nature.com/articles/s41586-021-03811-w
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.2
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000233/0.230223.0815
+    version: 0.230223.0815
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

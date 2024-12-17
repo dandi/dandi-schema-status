@@ -1,0 +1,143 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 761176077983
+      numberOfFiles: 221
+      numberOfSubjects: 66
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
+        name: Drosophila melanogaster - Fruit fly
+        schemaKey: SpeciesType
+      variableMeasured:
+      - OpticalChannel
+      - SpatialSeries
+      - TwoPhotonSeries
+      - CompassDirection
+      - ProcessingModule
+      - PlaneSegmentation
+      - ImagingPlane
+    citation: Basnak, Melanie Ailin; Wilson, Rachel (2024) Two-photon calcium imaging
+      of EPG cells in Drosophila Melanogaster presented with cues of varying reliability
+      (Version 0.240801.1040) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000289/0.240801.1040
+    contributor:
+    - awardNumber: 1 R34 NS 123819-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - affiliation: []
+      email: melanie.basnak@gmail.com
+      identifier: 0000-0002-4398-747X
+      includeInCitation: true
+      name: Basnak, Melanie Ailin
+      roleName:
+      - dcite:Author
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      - dcite:Researcher
+      - dcite:Conceptualization
+      schemaKey: Person
+    - affiliation: []
+      email: rachel_wilson@hms.harvard.edu
+      identifier: 0000-0001-8573-9266
+      includeInCitation: true
+      name: Wilson, Rachel
+      roleName:
+      - dcite:Author
+      - dcite:Conceptualization
+      - dcite:ContactPerson
+      - dcite:Supervision
+      schemaKey: Person
+    - contactPoint: []
+      includeInCitation: false
+      name: Howard Hughes Medical Institute
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - contactPoint: []
+      includeInCitation: false
+      name: Harvard Medical School
+      roleName:
+      - dcite:Affiliation
+      schemaKey: Organization
+    dateCreated: '2022-06-29T17:26:03.175597+00:00'
+    datePublished: '2024-08-01T10:40:00.978214+00:00'
+    description: This dandiset contains the data associated with "Uncertainty and
+      learning in a biological ring attractor" (Basnak et al., in preparation). It
+      is comprised of two-photon calcium imaging, stimulus variables, and behavioral
+      measurements of fruit flies presented with cues of varying reliability.
+    ethicsApproval: []
+    id: DANDI:000289/0.240801.1040
+    identifier: DANDI:000289
+    keywords:
+    - navigation
+    - central complex
+    - drosophila
+    - uncertainty
+    - learning
+    - ring attractor
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000289/0.240801.1040/assets.yaml
+    name: Two-photon calcium imaging of EPG cells in Drosophila Melanogaster presented
+      with cues of varying reliability
+    protocol: []
+    publishedBy:
+      endDate: '2024-08-01T10:40:00.978214+00:00'
+      id: urn:uuid:e699bff3-8f5a-4d92-ab4c-e0f6b87caff5
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-08-01T10:40:00.978214+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:b2bbddc4-9dc4-42a7-8dce-e313b9039cde
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Analysis code
+      relation: dcite:IsSupplementTo
+      schemaKey: Resource
+      url: https://github.com/mbasnak/analysis_code
+    - name: Bayesian inference in ring attractor networks
+      relation: dcite:IsSupplementTo
+      schemaKey: Resource
+      url: https://www.biorxiv.org/content/10.1101/2021.12.17.473253v4
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.3
+    studyTarget:
+    - Assess if the compass neurons of Drosophila are able to represent uncertainty
+    - Study the neural and behavioral strategies adopted by drosophila when faced
+      with navigational uncertainty
+    url: https://dandiarchive.org/dandiset/000289/0.240801.1040
+    version: 0.240801.1040
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

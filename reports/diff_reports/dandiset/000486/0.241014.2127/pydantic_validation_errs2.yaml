@@ -1,0 +1,85 @@
+- input:
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1267438793
+      numberOfFiles: 36
+      numberOfSubjects: 36
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+        name: Danio rerio - Zebra fish
+        schemaKey: SpeciesType
+      variableMeasured:
+      - CompassDirection
+      - Position
+      - ProcessingModule
+      - SpatialSeries
+    citation: Haesemeyer, Martin (2024) Thermal Plaid Replay Experiments (Version
+      0.241014.2127) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000486/0.241014.2127
+    contributor:
+    - awardNumber: 5 R01 NS 123887-02
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - email: martin.haesemeyer@osumc.edu
+      includeInCitation: true
+      name: Haesemeyer, Martin
+      roleName:
+      - dcite:ContactPerson
+      - dcite:DataCollector
+      schemaKey: Person
+    dateCreated: '2023-04-20T20:59:59.652701+00:00'
+    datePublished: '2024-10-14T21:27:11.066955+00:00'
+    description: Larval zebrafish experiencing the replay of another fish that navigated
+      a virtual thermal plaid created by an infrared stimulus laser
+    ethicsApproval: []
+    id: DANDI:000486/0.241014.2127
+    identifier: DANDI:000486
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000486/0.241014.2127/assets.yaml
+    name: Thermal Plaid Replay Experiments
+    protocol: []
+    publishedBy:
+      endDate: '2024-10-14T21:27:11.066955+00:00'
+      id: urn:uuid:289bb7d7-72a2-4880-9748-2f707021b681
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-10-14T21:27:11.066955+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:eb0b68c6-9ed5-4748-b54a-697a5e54debf
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000486/0.241014.2127
+    version: 0.241014.2127
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

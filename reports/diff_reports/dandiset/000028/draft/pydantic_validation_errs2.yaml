@@ -1,0 +1,108 @@
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 42942229688
+      numberOfFiles: 3
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+      - Units
+    citation: Simulated cortical Neuropixels recording with ground truth (2021). (Version
+      draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000028/draft
+    dateCreated: '2020-07-26T21:11:42.917000+00:00'
+    description: A 10 minute Neuropixels recording simulated using the MEArec Python
+      package (Buccino et al., 2020). The recording contains the spiking activity
+      of 250 biophysically detailed neurons (200 excitatory and 50 inhibitory cells
+      from the Neocortical Micro Circuit Portal with independent Poisson firing patterns,
+      and additive Gaussian noise with 10uV standard deviation.
+    id: DANDI:000028/draft
+    identifier: DANDI:000028
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000028/versions/draft/assets/
+    name: Simulated cortical Neuropixels recording with ground truth
+    repository: https://dandiarchive.org/
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000028/draft
+    version: draft
+  loc:
+  - contributor
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 42942229688
+      numberOfFiles: 3
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+      - Units
+    citation: Simulated cortical Neuropixels recording with ground truth (2021). (Version
+      draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000028/draft
+    dateCreated: '2020-07-26T21:11:42.917000+00:00'
+    description: A 10 minute Neuropixels recording simulated using the MEArec Python
+      package (Buccino et al., 2020). The recording contains the spiking activity
+      of 250 biophysically detailed neurons (200 excitatory and 50 inhibitory cells
+      from the Neocortical Micro Circuit Portal with independent Poisson firing patterns,
+      and additive Gaussian noise with 10uV standard deviation.
+    id: DANDI:000028/draft
+    identifier: DANDI:000028
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000028/versions/draft/assets/
+    name: Simulated cortical Neuropixels recording with ground truth
+    repository: https://dandiarchive.org/
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000028/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

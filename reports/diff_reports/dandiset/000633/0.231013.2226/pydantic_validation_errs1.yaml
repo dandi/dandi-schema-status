@@ -1,0 +1,110 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 2137420087
+      numberOfFiles: 2
+      numberOfSubjects: 2
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
+        name: Bos taurus - Cattle
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
+      The difference in electroporation patterns produced by a train of single pulses
+      and a train of paired pulses (Version 0.231013.2226) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000633/0.231013.2226
+    contributor:
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      identifier: 0000-0001-8436-9718
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-0699-5582
+      includeInCitation: true
+      name: Kim, Vitalii
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0002-0302-1355
+      includeInCitation: true
+      name: Semenov, Iurii
+      roleName: []
+      schemaKey: Person
+    - affiliation: []
+      identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      roleName: []
+      schemaKey: Person
+    - awardNumber: NIH 1R21EY034258
+      contactPoint: []
+      includeInCitation: false
+      name: 'National Institutes of Health '
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2023-09-14T19:09:10.314783+00:00'
+    datePublished: '2023-10-13T22:26:28.557920+00:00'
+    description: The difference in electroporation patterns produced by a train of
+      single pulses and a train of paired pulses. Supported by NIH 1R21EY034258
+    ethicsApproval: []
+    id: DANDI:000633/0.231013.2226
+    identifier: DANDI:000633
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000633/0.231013.2226/assets.yaml
+    name: The difference in electroporation patterns produced by a train of single
+      pulses and a train of paired pulses
+    protocol: []
+    publishedBy:
+      endDate: '2023-10-13T22:26:28.557920+00:00'
+      id: urn:uuid:d49e6896-d70a-49f6-ad89-eecd30f5d9ec
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-10-13T22:26:28.557920+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:33cc64d9-192e-48cd-9db1-456733c2d43e
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - name: Control of the Electroporation Efficiency of Nanosecond Pulses by Swinging
+        the Electric Field Vector Direction
+      relation: dcite:IsPublishedIn
+      schemaKey: Resource
+      url: https://doi.org/10.3390/ijms241310921
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000633/0.231013.2226
+    version: 0.231013.2226
+    wasGeneratedBy:
+    - identifier: NIH 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+      used: []
+      wasAssociatedWith: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

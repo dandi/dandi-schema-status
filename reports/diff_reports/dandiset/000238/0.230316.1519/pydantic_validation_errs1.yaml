@@ -1,0 +1,101 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: behavioral approach
+        schemaKey: ApproachType
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: two-photon microscopy technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 25911936112
+      numberOfFiles: 6
+      numberOfSubjects: 6
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+        name: Danio rerio - Zebra fish
+        schemaKey: SpeciesType
+      variableMeasured:
+      - OpticalChannel
+      - BehavioralTimeSeries
+      - TwoPhotonSeries
+      - PlaneSegmentation
+      - ImagingPlane
+      - ProcessingModule
+    citation: Haesemeyer, Martin; Schwinn, Sina (2023) Thermoregulatory Responses
+      Reticulospinal system (Version 0.230316.1519) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000238/0.230316.1519
+    contributor:
+    - awardNumber: 1 R01 NS 123887-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - affiliation: []
+      email: haesemeyer.1@osu.edu
+      includeInCitation: true
+      name: Haesemeyer, Martin
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      includeInCitation: true
+      name: Schwinn, Sina
+      roleName:
+      - dcite:DataCollector
+      schemaKey: Person
+    dateCreated: '2022-04-16T22:46:04.756411+00:00'
+    datePublished: '2023-03-16T15:19:35.598196+00:00'
+    description: Imaging in the hindbrain and midbrain of nac -/-; Elavl3-H2B:GCaMP6s
+      +/- larval zebrafish after reticulospinal backfills with Texas-Red Dextran during
+      random wave temperature stimulus presentation
+    ethicsApproval: []
+    id: DANDI:000238/0.230316.1519
+    identifier: DANDI:000238
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000238/0.230316.1519/assets.yaml
+    name: Thermoregulatory Responses Reticulospinal system
+    protocol: []
+    publishedBy:
+      endDate: '2023-03-16T15:19:35.598196+00:00'
+      id: urn:uuid:09227549-a257-4b02-b8b5-22e7ea917ed3
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-03-16T15:19:35.598196+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:0a5005a4-d8e5-40cb-a506-f4e94a5c30bb
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.2
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000238/0.230316.1519
+    version: 0.230316.1519
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

@@ -1,0 +1,251 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000628/0.240428.2041",
+      "url": "https://dandiarchive.org/dandiset/000628/0.240428.2041",
+      "name": "Extracellular recording along macaque ventral visual pathway during natural image free viewing",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240428.2041",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "Xiao, Will; Sharma, Saloni; Kreiman, Gabriel; Livingstone, Margaret; National Institutes of Health (2024) Extracellular recording along macaque ventral visual pathway during natural image free viewing (Version 0.240428.2041) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000628/0.240428.2041",
+      "keywords": [
+        "Macaque",
+        "Ventral stream",
+        "Free viewing",
+        "Natural images",
+        "Extracellular electrophysiology"
+      ],
+      "protocol": [
+        "https://www.nature.com/articles/s41593-024-01631-5"
+      ],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000628",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Xiao, Will",
+          "email": "xiaow@g.harvard.edu",
+          "roleName": [
+            "dcite:ContactPerson",
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:DataCollector",
+            "dcite:DataCurator",
+            "dcite:DataManager",
+            "dcite:FormalAnalysis",
+            "dcite:Investigation",
+            "dcite:Maintainer",
+            "dcite:Methodology",
+            "dcite:ProjectLeader",
+            "dcite:ProjectMember",
+            "dcite:ProjectManager",
+            "dcite:Researcher",
+            "dcite:Software",
+            "dcite:Visualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-5555-3217",
+          "affiliation": [
+            {
+              "name": "Harvard Medical Schoo",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Sharma, Saloni",
+          "roleName": [
+            "dcite:Author",
+            "dcite:DataCollector",
+            "dcite:Researcher",
+            "dcite:ProjectMember",
+            "dcite:Investigation",
+            "dcite:Conceptualization"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0273-2091",
+          "affiliation": [
+            {
+              "name": "Harvard Medical School",
+              "schemaKey": "Affiliation"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Kreiman, Gabriel",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:FundingAcquisition",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Researcher",
+            "dcite:Resources",
+            "dcite:Supervision"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-3505-8475",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Livingstone, Margaret",
+          "roleName": [
+            "dcite:Author",
+            "dcite:Conceptualization",
+            "dcite:DataCollector",
+            "dcite:FundingAcquisition",
+            "dcite:Investigation",
+            "dcite:Methodology",
+            "dcite:Researcher",
+            "dcite:Supervision"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-1950-0123",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "R01 EY016187; R01 EY025670; P30 EY012196; R01 EY026025",
+          "contactPoint": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2023-09-09T01:39:26.115969+00:00",
+      "description": "Recordings spanning six areas in the macaque ventral visual pathway (V1, V2 ,V4, PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883 hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more information, see the journal article: https://www.nature.com/articles/s41593-024-01631-5.",
+      "publishedBy": {
+        "id": "urn:uuid:6b340019-603e-4539-8124-8018e6bf96e6",
+        "name": "DANDI publish",
+        "endDate": "2024-04-28T20:41:01.730249+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-04-28T20:41:01.730249+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:1cad25b2-1fc1-4dce-86b7-a58dc5a8ad54",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Testing neuronal selectivity during naturalistic free viewing"
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          },
+          {
+            "name": "Macaca nemestrina - Pigtail macaque",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9545"
+          }
+        ],
+        "approach": [
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 52741296155,
+        "numberOfFiles": 2037,
+        "numberOfSubjects": 13,
+        "variableMeasured": [
+          "ProcessingModule",
+          "EyeTracking",
+          "SpatialSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "analytical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-04-28T20:41:01.730249+00:00",
+      "schemaVersion": "0.6.4",
+      "ethicsApproval": [
+        {
+          "schemaKey": "EthicsApproval",
+          "identifier": "HMS IACUC IS00001049",
+          "contactPoint": {
+            "url": "https://iacuc.hms.harvard.edu/",
+            "email": "IACUC@hms.harvard.edu",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://www.nature.com/articles/s41593-024-01631-5",
+          "name": "Journal article",
+          "relation": "dcite:IsPublishedIn",
+          "schemaKey": "Resource",
+          "identifier": "https://www.nature.com/articles/s41593-024-01631-5",
+          "repository": "Nature Neuroscience",
+          "resourceType": "dcite:JournalArticle"
+        },
+        {
+          "url": "https://github.com/willwx/free_viewing",
+          "name": "Related code",
+          "relation": "dcite:IsReferencedBy",
+          "schemaKey": "Resource",
+          "identifier": "https://github.com/willwx/free_viewing",
+          "repository": "GitHub",
+          "resourceType": "dcite:Software"
+        },
+        {
+          "url": "https://osf.io/sde8m",
+          "name": "Non-NWB data",
+          "relation": "dcite:IsSupplementedBy",
+          "schemaKey": "Resource",
+          "identifier": "https://osf.io/sde8m",
+          "repository": "Open Science Framework",
+          "resourceType": "dcite:Dataset"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000628/0.240428.2041/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

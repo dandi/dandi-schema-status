@@ -1,0 +1,108 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1218408045
+      numberOfFiles: 6
+      numberOfSubjects: 5
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - PlaneSegmentation
+      - ProcessingModule
+      - ImagingPlane
+      - OpticalChannel
+    citation: "Daste, Simon; Pierr\xE9, Andrea; Pham, Tuan (2023) Two photon calcium
+      imaging of mice piriform cortex under passive odor presentation (Version 0.230720.2001)
+      [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000167/0.230720.2001"
+    contributor:
+    - affiliation: []
+      email: simon_daste@brown.edu
+      identifier: 0000-0001-5139-2743
+      includeInCitation: true
+      name: Daste, Simon
+      roleName:
+      - dcite:Author
+      - dcite:DataCollector
+      - dcite:Researcher
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: andrea_pierre@brown.edu
+      identifier: 0000-0003-4501-5428
+      includeInCitation: true
+      name: "Pierr\xE9, Andrea"
+      roleName:
+      - dcite:Software
+      - dcite:ContactPerson
+      schemaKey: Person
+    - affiliation: []
+      email: tuanhpham@brown.edu
+      identifier: 0000-0001-6891-3760
+      includeInCitation: true
+      name: Pham, Tuan
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Software
+      schemaKey: Person
+    dateCreated: '2021-11-10T22:38:18.542708+00:00'
+    datePublished: '2023-07-20T20:01:31.157812+00:00'
+    description: 'Two-photon calcium imaging of mouse piriform cortex pyramidal population,
+      under head-fixed condition and passive odor stimulus delivery. There were 10
+      different odors used (8 trials each), delivered at 10-second for each of the
+      30-second trial. Imaging was preprocessed with Suite2p. The data was collected
+      by Simon Daste in the Fleischmann lab at Brown University. Showcase notebook
+      available at: https://gitlab.com/fleischmann-lab/datasets/daste-odor-set-2021-11'
+    ethicsApproval: []
+    id: DANDI:000167/0.230720.2001
+    identifier: DANDI:000167
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000167/0.230720.2001/assets.yaml
+    name: Two photon calcium imaging of mice piriform cortex under passive odor presentation
+    protocol: []
+    publishedBy:
+      endDate: '2023-07-20T20:01:31.157812+00:00'
+      id: urn:uuid:a5a6691c-2f79-4c19-9ee1-081f9e2fb29f
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-07-20T20:01:31.157812+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:36ba342b-2860-4aed-80ee-1999d2f1e82b
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000167/0.230720.2001
+    version: 0.230720.2001
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

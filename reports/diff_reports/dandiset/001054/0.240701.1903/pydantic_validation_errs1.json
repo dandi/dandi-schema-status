@@ -1,0 +1,117 @@
+[
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001054/0.240701.1903",
+      "url": "https://dandiarchive.org/dandiset/001054/0.240701.1903",
+      "name": "Hippocampal stimulation during temporal lobe seizure",
+      "about": [],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.240701.1903",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json",
+      "citation": "Devergnas, Annaelle (2024) Hippocampal stimulation during temporal lobe seizure (Version 0.240701.1903) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001054/0.240701.1903",
+      "keywords": [
+        "temporal lobe seizure, asynchronous stimulation, hippocampal stimulation"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001054",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Devergnas, Annaelle",
+          "email": "adeverg@emory.edu",
+          "roleName": [
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-0461-6422",
+          "affiliation": [],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2024-06-13T17:58:43.700749+00:00",
+      "description": "Four non-human primates were used for this study in two contemporaneous cohorts. One cohort (n=3 hemispheres) was implanted with the Medtronic RC+S stimulation (GIN cohort) and recording system connected to two 4-contact ring electrodes to evaluate three unilateral stimulation patterns: 7 Hz Ring ADMES, 20 Hz Dual Ring, and 125 Hz Dual Ring (analog of clinical stimulation). In an additional cohort (EPC cohort, n=2), two 12-contact segmented electrodes were implanted in the right hippocampus and connected to an externalized recording and stimulation system to allow more flexibility in the stimulation pattern. In this second cohort, 4 variations of stimulation were evaluated (7 Hz Full ADMES, 7 Hz Ring ADMES, 31 Hz Wide Ring, and 31 Hz Dual Ring).  ",
+      "publishedBy": {
+        "id": "urn:uuid:2235f78f-396f-473c-8a79-e157e5ffe117",
+        "name": "DANDI publish",
+        "endDate": "2024-07-01T19:03:56.551493+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-07-01T19:03:56.551493+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:8f29146e-069f-4122-9c86-03d6d94fbeec",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [
+        "Evaluating ADMES hippocampal stimulation for temporal lobe seizure"
+      ],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "Macaca mulatta - Rhesus monkey",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_9544"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 28973606241,
+        "numberOfFiles": 117,
+        "numberOfSubjects": 1,
+        "variableMeasured": [
+          "ElectricalSeries",
+          "ElectrodeGroup"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "surgical technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2024-07-01T19:03:56.551493+00:00",
+      "schemaVersion": "0.6.7",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/001054/0.240701.1903/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

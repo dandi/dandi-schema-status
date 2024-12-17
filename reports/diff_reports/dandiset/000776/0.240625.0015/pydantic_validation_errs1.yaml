@@ -1,0 +1,175 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 1011743300552
+      numberOfFiles: 38
+      numberOfSubjects: 38
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+        name: Caenorhabditis elegans
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - BehavioralTimeSeries
+      - PlaneSegmentation
+      - BehavioralEvents
+    citation: Wan, Flossie; Atanas, Adam; Kim, Jungsoo; Wang, Ziyu; Bueno, Eric; Becker,
+      McCoy; Kang, Di; Park, Jungyeon; Kramer, Talya; Estrem, Cassi; Baskoylu, Saba;
+      Dag, Ugur; Kalogeropoulou, Elpiniki; Gomes, Matthw; Sprague, Daniel; Cohen,
+      Netta; Mansinghka, Vikash (2024) Brain-wide representations of behavior spanning
+      multiple timescales and states in C. elegans (Version 0.240625.0015) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000776/0.240625.0015
+    contributor:
+    - includeInCitation: true
+      name: Wan, Flossie
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Atanas, Adam
+      roleName:
+      - dcite:ProjectLeader
+      schemaKey: Person
+    - includeInCitation: true
+      name: Kim, Jungsoo
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Wang, Ziyu
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Bueno, Eric
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Becker, McCoy
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Kang, Di
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Park, Jungyeon
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Kramer, Talya
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Estrem, Cassi
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Baskoylu, Saba
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Dag, Ugur
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Kalogeropoulou, Elpiniki
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Gomes, Matthw
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - affiliation: []
+      email: daniel.y.sprague@gmail.com
+      includeInCitation: true
+      name: Sprague, Daniel
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Cohen, Netta
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: true
+      name: Mansinghka, Vikash
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    - includeInCitation: false
+      name: Flavell, Steve
+      roleName:
+      - dcite:ProjectMember
+      schemaKey: Person
+    dateCreated: '2024-01-09T20:32:27.801335+00:00'
+    datePublished: '2024-06-25T00:15:48.451055+00:00'
+    description: "Dataset of 38 worms from 'Brain-wide representations of behavior
+      spanning multiple timescales and states in C. elegans'. Each NWB file contains
+      the NIR bright-field images, GCaMP images, and NeuroPAL structural images, ROI
+      locations and IDs, labeled activity traces, and behavioral information. \n"
+    ethicsApproval: []
+    id: DANDI:000776/0.240625.0015
+    identifier: DANDI:000776
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000776/0.240625.0015/assets.yaml
+    name: Brain-wide representations of behavior spanning multiple timescales and
+      states in C. elegans
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-25T00:15:48.451055+00:00'
+      id: urn:uuid:6ddc2a94-e7d4-40c9-8617-c8074aec4151
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-25T00:15:48.451055+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:bde46c91-acc4-4d6d-9ea9-4cb1118532bf
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000776/0.240625.0015
+    version: 0.240625.0015
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

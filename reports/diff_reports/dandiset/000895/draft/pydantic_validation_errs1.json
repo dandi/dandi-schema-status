@@ -1,0 +1,103 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 RF1 NS 132025-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000895/draft",
+      "doi": "10.80507/dandi.123456/0.123456.1234",
+      "url": "https://dandiarchive.org/dandiset/000895/draft",
+      "name": "ALM Neuropixels 2.0 recording during bilateral photoinhibition",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
+      "citation": "ALM Neuropixels 2.0 recording during bilateral photoinhibition (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000895",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 RF1 NS 132025-01"
+        }
+      ],
+      "dateCreated": "2024-02-12T20:47:04.272436+00:00",
+      "description": "These experiments measure neuronal responses from the left hemisphere of premotor cortex (anterior lateral motor cortex, ALM) of adult mice performing pole location discrimination with a short-term memory. Two Neuropixels probes are used to record from hundreds of neurons simultaneously to look for modular organization within ALM. In a subset of trials, we inactivate activity of both hemispheres.",
+      "publishedBy": {
+        "id": "urn:uuid:fd260beb-f114-498c-b1bf-cc76fba509f3",
+        "name": "DANDI publish",
+        "endDate": "2024-02-13T20:33:15.197899+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2024-02-13T20:33:15.197899+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:c2c779b1-7349-4df8-bfc4-faebf5ca639e",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "assetsSummary": {
+        "schemaKey": "AssetsSummary",
+        "numberOfBytes": 0,
+        "numberOfFiles": 1
+      },
+      "datePublished": "2024-02-13T20:33:15.197899+00:00",
+      "schemaVersion": "0.6.4",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000895/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

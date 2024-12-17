@@ -1,0 +1,84 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor"
+    ],
+    "msg": "Value error, At least one contributor must have role ContactPerson",
+    "input": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "roleName": [
+          "dcite:Funder"
+        ],
+        "schemaKey": "Organization",
+        "awardNumber": "1 R21 EY 033669-01"
+      }
+    ],
+    "ctx": {
+      "error": "At least one contributor must have role ContactPerson"
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:001093/draft",
+      "url": "https://dandiarchive.org/dandiset/001093/draft",
+      "name": "HaloTag Time-Stamping of cFos Transcription in Mouse Brain",
+      "access": [
+        {
+          "status": "dandi:EmbargoedAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "HaloTag Time-Stamping of cFos Transcription in Mouse Brain (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001093/draft",
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:001093",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "awardNumber": "1 R21 EY 033669-01"
+        }
+      ],
+      "dateCreated": "2024-07-22T15:43:12.767577+00:00",
+      "description": "These images are from a cross-sectional slice through a tet-tag mouse brain expressing a TRE::HaloTag-NLS construct. The mouse was intravenously injected with HaloTag-ligand-JF669 on day 1 and HaloTag-ligand-JF552 on day 2.",
+      "assetsSummary": {
+        "schemaKey": "AssetsSummary",
+        "numberOfBytes": 0,
+        "numberOfFiles": 0
+      },
+      "schemaVersion": "0.6.8",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/001093/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  },
+  {
+    "type": "value_error",
+    "loc": [
+      "access",
+      0
+    ],
+    "msg": "Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy.",
+    "input": {
+      "status": "dandi:EmbargoedAccess",
+      "schemaKey": "AccessRequirements"
+    },
+    "ctx": {
+      "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  }
+]

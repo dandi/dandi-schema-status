@@ -1,0 +1,76 @@
+- input:
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 485784554
+      numberOfFiles: 1
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: Mus musculus - House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - BehavioralEvents
+      - BehavioralTimeSeries
+      - Units
+      - ElectrodeGroup
+    citation: Bakshi, Kushal (2023) Test Dataset (Version 0.230514.1148) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000544/0.230514.1148
+    contributor:
+    - affiliation: []
+      email: kushal.bakshi@datajoint.com
+      includeInCitation: true
+      name: Bakshi, Kushal
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2023-05-14T11:40:20.181078+00:00'
+    datePublished: '2023-05-14T11:48:37.072939+00:00'
+    description: Test dataset for DataJoint uploads to DANDI
+    id: DANDI:000544/0.230514.1148
+    identifier: DANDI:000544
+    license:
+    - spdx:CC0-1.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000544/0.230514.1148/assets.yaml
+    name: Test Dataset
+    publishedBy:
+      endDate: '2023-05-14T11:48:37.072939+00:00'
+      id: urn:uuid:60a5521d-c37f-4409-91df-d339fed130a3
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-05-14T11:48:37.072939+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:836824d9-0a59-48e6-9d88-f1e825d37a73
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    url: https://dandiarchive.org/dandiset/000544/0.230514.1148
+    version: 0.230514.1148
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

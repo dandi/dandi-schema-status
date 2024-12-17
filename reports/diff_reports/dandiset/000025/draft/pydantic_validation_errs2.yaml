@@ -1,0 +1,18 @@
+- ctx:
+    error: Contact person must have an email address.
+  input:
+    contactPoint:
+    - email: ' bbp.channelpedia@epfl.ch'
+      schemaKey: ContactPoint
+    includeInCitation: false
+    name: Blue Brain Project, EPFL
+    roleName:
+    - dcite:ContactPerson
+    schemaKey: Organization
+  loc:
+  - contributor
+  - 0
+  - Organization
+  msg: Value error, Contact person must have an email address.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

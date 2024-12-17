@@ -1,0 +1,257 @@
+[
+  {
+    "type": "value_error",
+    "loc": [
+      "contributor",
+      0,
+      "Person"
+    ],
+    "msg": "Value error, Contact person must have an email address.",
+    "input": {
+      "name": "Senzai, Yuta",
+      "roleName": [
+        "dcite:Author",
+        "dcite:ContactPerson",
+        "dcite:DataCollector",
+        "dcite:FormalAnalysis"
+      ],
+      "schemaKey": "Person",
+      "affiliation": [],
+      "includeInCitation": true
+    },
+    "ctx": {
+      "error": "Contact person must have an email address."
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000003/0.230629.1955",
+      "url": "https://dandiarchive.org/dandiset/000003/0.230629.1955",
+      "name": "Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells",
+      "about": [
+        {
+          "name": "hippocampus",
+          "schemaKey": "Anatomy",
+          "identifier": "UBERON:0002421"
+        }
+      ],
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements",
+          "contactPoint": {
+            "email": "petersen.peter@gmail.com",
+            "schemaKey": "ContactPoint"
+          }
+        }
+      ],
+      "license": [
+        "spdx:CC-BY-4.0"
+      ],
+      "version": "0.230629.1955",
+      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json",
+      "citation": "Senzai, Yuta; Fernandez-Ruiz, Antonio; Buzs\u00e1ki, Gy\u00f6rgy (2023) Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells (Version 0.230629.1955) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000003/0.230629.1955",
+      "keywords": [
+        "cell types",
+        "current source density",
+        "laminar recordings",
+        "oscillations",
+        "mossy cells",
+        "granule cells",
+        "optogenetics"
+      ],
+      "protocol": [],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000003",
+      "repository": "https://dandiarchive.org",
+      "contributor": [
+        {
+          "name": "Senzai, Yuta",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson",
+            "dcite:DataCollector",
+            "dcite:FormalAnalysis"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Fernandez-Ruiz, Antonio",
+          "roleName": [
+            "dcite:Author",
+            "dcite:FormalAnalysis"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0001-8481-0796",
+          "affiliation": [],
+          "includeInCitation": true
+        },
+        {
+          "name": "Buzs\u00e1ki, Gy\u00f6rgy",
+          "roleName": [
+            "dcite:Author"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0002-3100-4800",
+          "affiliation": [
+            {
+              "name": "New York University Langone Medical Center",
+              "schemaKey": "Affiliation",
+              "identifier": "https://ror.org/005dvqh91"
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "url": "https://www.nih.gov/",
+          "name": "National Institutes of Health",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cwqze88",
+          "awardNumber": "NIHMH54671, MH107396, NS090583",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "http://hnf.jp/",
+          "name": "Nakajima Foundation",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/000k40t10",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "http://www.nsf.gov/",
+          "name": "National Science Foundation",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/021nxhr62",
+          "awardNumber": "PIRE",
+          "contactPoint": [],
+          "includeInCitation": false
+        },
+        {
+          "url": "https://www.simonsfoundation.org",
+          "name": "Simons Foundation",
+          "roleName": [
+            "dcite:Funder"
+          ],
+          "schemaKey": "Organization",
+          "identifier": "https://ror.org/01cmst727",
+          "contactPoint": [],
+          "includeInCitation": false
+        }
+      ],
+      "dateCreated": "2020-03-15T22:56:55.655000+00:00",
+      "description": "Data from \"Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells\" Senzai, Buzsaki, Neuron 2017. Electrophysiology recordings of hippocampus during theta maze exploration.",
+      "publishedBy": {
+        "id": "urn:uuid:1d146605-5d67-4517-91b4-51cd3b9a5cf3",
+        "name": "DANDI publish",
+        "endDate": "2023-06-29T19:55:30.807473+00:00",
+        "schemaKey": "PublishActivity",
+        "startDate": "2023-06-29T19:55:30.807473+00:00",
+        "wasAssociatedWith": [
+          {
+            "id": "urn:uuid:0fca6ff4-84ca-42fe-bbed-85d3fb4291f0",
+            "name": "DANDI API",
+            "version": "0.1.0",
+            "schemaKey": "Software",
+            "identifier": "RRID:SCR_017571"
+          }
+        ]
+      },
+      "studyTarget": [],
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 2559248010229,
+        "numberOfFiles": 101,
+        "numberOfSubjects": 16,
+        "variableMeasured": [
+          "DecompositionSeries",
+          "LFP",
+          "Units",
+          "Position",
+          "ElectricalSeries"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "signal filtering technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "fourier analysis technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "multi electrode extracellular electrophysiology recording technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "datePublished": "2023-06-29T19:55:30.807473+00:00",
+      "schemaVersion": "0.6.0",
+      "ethicsApproval": [],
+      "wasGeneratedBy": [],
+      "relatedResource": [
+        {
+          "url": "https://doi.org/10.1016/j.neuron.2016.12.011",
+          "name": "Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells",
+          "relation": "dcite:IsDescribedBy",
+          "schemaKey": "Resource",
+          "identifier": "doi:10.1016/j.neuron.2016.12.011"
+        }
+      ],
+      "manifestLocation": [
+        "https://dandiarchive.s3.amazonaws.com/dandisets/000003/0.230629.1955/assets.yaml"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

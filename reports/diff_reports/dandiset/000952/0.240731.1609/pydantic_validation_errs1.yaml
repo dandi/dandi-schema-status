@@ -1,0 +1,73 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 74361063204
+      numberOfFiles: 216
+      numberOfSubjects: 73
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Koloski, Miranda  (2024) 32 CH local field potential recording of rodents
+      performing a temporal discounting task (Version 0.240731.1609) [Data set]. DANDI
+      archive. https://dandiarchive.org/dandiset/000952/0.240731.1609
+    contributor:
+    - affiliation: []
+      email: mfrancoeur@health.ucsd.edu
+      includeInCitation: true
+      name: 'Koloski, Miranda '
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2024-04-02T02:19:05.334329+00:00'
+    datePublished: '2024-07-31T16:09:47.277109+00:00'
+    description: 'Local field potential (LFP) recordings from 12 male Long-Evans rats
+      during a temporal discounting task. LFP was recording using an RHD interface
+      board (Intantech) and Open Ephys recording software. Data was recorded at 1Khz,
+      with a band-pass filter set at 0.3 to 999 Hz during acquisition. Physiology
+      data was integrated with behavioral data using a lab-streaming-layer (LSL) protocol.
+      Recordings are taken from 32 different brain areas. Subjects chose between a
+      small (10uL/ 1s) reward delivered after a fixed short delay (500ms after response)
+      or a large (30uL/3s) reward delivered after a fixed delay that varied from session
+      to session (500ms, 1, 2, 5, 10, 20s). '
+    id: DANDI:000952/0.240731.1609
+    identifier: DANDI:000952
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000952/0.240731.1609/assets.yaml
+    name: 32 CH local field potential recording of rodents performing a temporal discounting
+      task
+    publishedBy:
+      endDate: '2024-07-31T16:09:47.277109+00:00'
+      id: urn:uuid:9af3fa97-be31-4a92-b070-a36fbeef2d76
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-07-31T16:09:47.277109+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:b8647d45-b60e-4af2-ae3f-b2b1c5fd01f5
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.7
+    url: https://dandiarchive.org/dandiset/000952/0.240731.1609
+    version: 0.240731.1609
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

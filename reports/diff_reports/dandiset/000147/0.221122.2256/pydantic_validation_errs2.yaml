@@ -1,0 +1,143 @@
+- input:
+    about:
+    - identifier: UBERON:0034889
+      name: posterior parietal cortex
+      schemaKey: Anatomy
+    - dxdate: []
+      identifier: SNOMEDCT:11538006
+      name: tetraplegia
+      schemaKey: Disorder
+    access: []
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: spike sorting technique
+        schemaKey: MeasurementTechniqueType
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 77665528
+      numberOfFiles: 10
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured:
+      - Units
+      - ElectrodeGroup
+    citation: 'Guan, Charles; Aflalo, Tyson; Zhang, Carey; Andersen, Richard (2022)
+      PPC_Finger: human posterior parietal cortex recordings during attempted finger
+      movements (Version 0.221122.2256) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000147/0.221122.2256'
+    contributor:
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: cguan@caltech.edu
+      identifier: 0000-0002-8040-8844
+      includeInCitation: true
+      name: Guan, Charles
+      roleName:
+      - dcite:ContactPerson
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: taflalo@caltech.edu
+      identifier: 0000-0002-0101-2455
+      includeInCitation: true
+      name: Aflalo, Tyson
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: carey.zhang@gmail.com
+      identifier: 0000-0001-9867-4510
+      includeInCitation: true
+      name: Zhang, Carey
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+    - affiliation:
+      - identifier: https://ror.org/05dxps055
+        name: California Institute of Technology
+        schemaKey: Affiliation
+      email: richard.andersen@vis.caltech.edu
+      identifier: 0000-0002-7947-0472
+      includeInCitation: true
+      name: Andersen, Richard
+      roleName:
+      - dcite:Author
+      schemaKey: Person
+      url: https://www.vis.caltech.edu/
+    dateCreated: '2021-10-13T22:14:45.568140+00:00'
+    datePublished: '2022-11-22T22:56:33.022261+00:00'
+    description: 'This dataset contains neural activity and trial information from
+      a tetraplegic human participant performing a brain-computer interface (BCI)
+      finger press task. Neural activity was recorded from a 96-channel Utah array
+      (Blackrock) implanted in the left posterior parietal cortex (PPC) at the junction
+      of the postcentral and intraparietal sulci (PC-IP). On each trial, a finger
+      cue, at a pseudorandom location on a screen, was selected. The participant immediately
+      looked at the cue and pressed the cued finger until decoder feedback was shown
+      (1.5 seconds after the cue).
+
+
+      This dataset includes sorted unit spiking times, finger cue, in-session classified
+      finger, cue location, and trial timing.'
+    ethicsApproval: []
+    id: DANDI:000147/0.221122.2256
+    identifier: DANDI:000147
+    keywords:
+    - PPC
+    - human
+    - finger
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000147/0.221122.2256/assets.yaml
+    name: 'PPC_Finger: human posterior parietal cortex recordings during attempted
+      finger movements'
+    protocol: []
+    publishedBy:
+      endDate: '2022-11-22T22:56:33.022261+00:00'
+      id: urn:uuid:0139b708-461d-4753-afb8-920c59580bcf
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2022-11-22T22:56:33.022261+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:cd4e54e6-ae6b-412e-8d10-fbb55ffa5a00
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource:
+    - identifier: https://doi.org/10.7554/eLife.74478
+      name: Stability of motor representations after paralysis
+      relation: dcite:IsDescribedBy
+      repository: eLife
+      schemaKey: Resource
+      url: https://doi.org/10.7554/eLife.74478
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000147/0.221122.2256
+    version: 0.221122.2256
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

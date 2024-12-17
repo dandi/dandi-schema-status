@@ -1,0 +1,107 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.6/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach: []
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique: []
+      numberOfBytes: 2762531957
+      numberOfFiles: 5
+      numberOfSubjects: 5
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+        name: Homo sapiens - Human
+        schemaKey: SpeciesType
+      variableMeasured: []
+    citation: Silkunas, Mantas; Silkuniene, Giedre; Pakhomov, Andrei (2024) Visualization
+      and characterization of membrane lesions (Version 0.240511.1846) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000938/0.240511.1846
+    contributor:
+    - identifier: 0000-0002-4568-9265
+      includeInCitation: true
+      name: Silkunas, Mantas
+      schemaKey: Person
+    - affiliation: []
+      email: giedre.silkuniene@gmail.com
+      includeInCitation: true
+      name: Silkuniene, Giedre
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - identifier: 0000-0003-3816-3860
+      includeInCitation: true
+      name: Pakhomov, Andrei
+      schemaKey: Person
+    - awardNumber: NIH 15R21EY034803
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    - awardNumber: NIH 1R21EY034258
+      includeInCitation: false
+      name: National Institutes of Health
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2024-03-12T19:12:10.562597+00:00'
+    datePublished: '2024-05-11T18:46:23.398745+00:00'
+    description: In this study, real-time imaging was used to visualize individual
+      electropores and demonstrate their persistence in electroporated cells. HEK
+      923 cells were cultured on Indium Tin Oxide (ITO)-coated coverslips and loaded
+      with the Cal520 fluorescent indicator for visualization. Real-time imaging was
+      performed in Total Internal Reflection Fluorescent (TIRF) mode. Electrophysiological
+      manipulations were applied using a patch clamp in voltage clamp mode, set in
+      a whole-cell configuration. The protocol included a command voltage of 0 mV
+      interrupted by a -50 mV pulse for 50 ms and a -400 mV pulse for 1 ms at frame
+      91, returning to -50 mV for 50 ms. Additionally, 0.4 seconds into the second
+      and third stacks, the command voltage was changed from 0 mV to -50 mV for 50
+      ms. The study was supported in part by NIH 15R21EY034803 and NIH 1R21EY034258.
+    ethicsApproval: []
+    id: DANDI:000938/0.240511.1846
+    identifier: DANDI:000938
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000938/0.240511.1846/assets.yaml
+    name: Visualization and characterization of membrane lesions
+    protocol: []
+    publishedBy:
+      endDate: '2024-05-11T18:46:23.398745+00:00'
+      id: urn:uuid:7145e20f-26dd-4118-9b9b-80a9edb6e8f9
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-05-11T18:46:23.398745+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:1bc432a4-c7c7-44a3-8e9e-a6652b7b0369
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.6
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000938/0.240511.1846
+    version: 0.240511.1846
+    wasGeneratedBy:
+    - identifier: 1R21EY034258
+      name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+      schemaKey: Project
+    - identifier: R21EY034803
+      name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
+      schemaKey: Project
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

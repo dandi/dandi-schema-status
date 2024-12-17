@@ -1,0 +1,148 @@
+[
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "contributor",
+      0,
+      "Person",
+      "affiliation",
+      0,
+      "includeInCitation"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": false,
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "contributor",
+      1,
+      "Person",
+      "affiliation",
+      0,
+      "includeInCitation"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": false,
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "missing",
+    "loc": [
+      "license"
+    ],
+    "msg": "Field required",
+    "input": {
+      "id": "DANDI:000060/draft",
+      "url": "https://dandiarchive.org/dandiset/000060/draft",
+      "name": "Dataset for Finkelstein, Fontolan et al. \"Attractor dynamics gate cortical information flow during decision-making\"",
+      "access": [
+        {
+          "status": "dandi:OpenAccess",
+          "schemaKey": "AccessRequirements"
+        }
+      ],
+      "version": "draft",
+      "citation": "Finkelstein, Arseny; Svoboda, Karel (2021) Dataset for Finkelstein, Fontolan et al. \"Attractor dynamics gate cortical information flow during decision-making\" (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000060/draft",
+      "keywords": [
+        "motor cortex",
+        "extracellular electrophysiology",
+        "decision-making",
+        "attractor",
+        "optogenetic stimulation"
+      ],
+      "schemaKey": "Dandiset",
+      "identifier": "DANDI:000060",
+      "repository": "https://dandiarchive.org/",
+      "contributor": [
+        {
+          "name": "Finkelstein, Arseny",
+          "email": "arsenyf@gmail.com",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "identifier": "0000-0003-1480-5670",
+          "affiliation": [
+            {
+              "name": "Janelia Research Campus, Howard Hughes Medical Institute",
+              "schemaKey": "Affiliation",
+              "includeInCitation": false
+            }
+          ],
+          "includeInCitation": true
+        },
+        {
+          "name": "Svoboda, Karel",
+          "email": "svobodak@janelia.hhmi.org",
+          "roleName": [
+            "dcite:Author",
+            "dcite:ContactPerson"
+          ],
+          "schemaKey": "Person",
+          "affiliation": [
+            {
+              "name": "Janelia Research Campus, Howard Hughes Medical Institute",
+              "schemaKey": "Affiliation",
+              "includeInCitation": false
+            }
+          ],
+          "includeInCitation": true
+        }
+      ],
+      "dateCreated": "2021-03-11T23:35:18.872000+00:00",
+      "description": "Extracellular electrophysiology recordings in anterior lateral motor cortex and in vibrissal sensory cortex in mice trained to detect optogenetic stimulation of the vibrissal sensory cortex.\n\nThe data analysis code for this dataset is available here: \n https://github.com/arsenyf/FinkelsteinFontolan_2021NN",
+      "assetsSummary": {
+        "species": [
+          {
+            "name": "House mouse",
+            "schemaKey": "SpeciesType",
+            "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+          }
+        ],
+        "approach": [
+          {
+            "name": "electrophysiological approach",
+            "schemaKey": "ApproachType"
+          },
+          {
+            "name": "behavioral approach",
+            "schemaKey": "ApproachType"
+          }
+        ],
+        "schemaKey": "AssetsSummary",
+        "dataStandard": [
+          {
+            "name": "Neurodata Without Borders (NWB)",
+            "schemaKey": "StandardsType",
+            "identifier": "RRID:SCR_015242"
+          }
+        ],
+        "numberOfBytes": 1009087545,
+        "numberOfFiles": 98,
+        "numberOfSubjects": 9,
+        "variableMeasured": [
+          "Units",
+          "BehavioralEvents"
+        ],
+        "measurementTechnique": [
+          {
+            "name": "behavioral technique",
+            "schemaKey": "MeasurementTechniqueType"
+          },
+          {
+            "name": "spike sorting technique",
+            "schemaKey": "MeasurementTechniqueType"
+          }
+        ]
+      },
+      "schemaVersion": "0.6.0",
+      "manifestLocation": [
+        "https://api.dandiarchive.org/api/dandisets/000060/versions/draft/assets/"
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/missing"
+  }
+]

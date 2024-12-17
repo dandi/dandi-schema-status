@@ -1,0 +1,106 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: patch clamp technique
+        schemaKey: MeasurementTechniqueType
+      - name: current clamp technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 297607244
+      numberOfFiles: 1
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - CurrentClampSeries
+      - PatchClampSeries
+      - BehavioralTimeSeries
+    citation: testing_2 (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000069/draft
+    dateCreated: '2021-04-24T04:25:48.861913+00:00'
+    description: 'just testing
+
+      '
+    id: DANDI:000069/draft
+    identifier: DANDI:000069
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000069/versions/draft/assets/
+    name: testing_2
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000069/draft
+    version: draft
+  loc:
+  - contributor
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      - name: behavioral approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: behavioral technique
+        schemaKey: MeasurementTechniqueType
+      - name: patch clamp technique
+        schemaKey: MeasurementTechniqueType
+      - name: current clamp technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 297607244
+      numberOfFiles: 1
+      numberOfSubjects: 1
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+        name: House mouse
+        schemaKey: SpeciesType
+      variableMeasured:
+      - CurrentClampSeries
+      - PatchClampSeries
+      - BehavioralTimeSeries
+    citation: testing_2 (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000069/draft
+    dateCreated: '2021-04-24T04:25:48.861913+00:00'
+    description: 'just testing
+
+      '
+    id: DANDI:000069/draft
+    identifier: DANDI:000069
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000069/versions/draft/assets/
+    name: testing_2
+    schemaKey: Dandiset
+    schemaVersion: 0.6.0
+    url: https://dandiarchive.org/dandiset/000069/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

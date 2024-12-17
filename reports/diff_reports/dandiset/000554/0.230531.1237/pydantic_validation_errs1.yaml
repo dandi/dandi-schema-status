@@ -1,0 +1,109 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: electrophysiological approach
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: surgical technique
+        schemaKey: MeasurementTechniqueType
+      - name: multi electrode extracellular electrophysiology recording technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 129066795249
+      numberOfFiles: 36
+      numberOfSubjects: 4
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+        name: Rattus norvegicus - Norway rat
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ElectrodeGroup
+      - ElectricalSeries
+    citation: Tchoe, Youngbin (2023) Human brain mapping with multithousand-channel
+      PtNRGrids resolves spatiotemporal dynamics (Version 0.230531.1237) [Data set].
+      DANDI archive. https://dandiarchive.org/dandiset/000554/0.230531.1237
+    contributor:
+    - affiliation: []
+      email: ybtchoe@gmail.com
+      includeInCitation: true
+      name: Tchoe, Youngbin
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    dateCreated: '2023-05-31T12:15:43.584820+00:00'
+    datePublished: '2023-05-31T12:37:34.601908+00:00'
+    description: "This dataset contains recordings from PtNRGrids, which are devices
+      designed to record electrocorticography (ECoG) activities from the brain surface
+      at high-spatial resolution. PtNRGrids used here were a square-shaped array with
+      1024 channels and a 150-\xB5m pitch, which was implanted to record neural activity
+      from the entire right primary somatosensory barrel cortex. The sensory response
+      on the brain was evoked by delivering air puffs through a microcapillary tube
+      to individually stimulate individual whiskers on the contralateral side. This
+      dataset demonstrates the high-spatial resolution recording capability of PtNRGrids
+      isolate functional cortical columns in sub-mm resolution from the surface of
+      the brain.\n\n[Publication corresponding to this dataset] Tchoe, Youngbin, et
+      al. \"Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal
+      dynamics.\" Science translational medicine 14.628 (2022): eabj1441.\n[Electrode
+      mapping information & Basic analysis codes] Github: https://ytchoe.github.io/"
+    ethicsApproval: []
+    id: DANDI:000554/0.230531.1237
+    identifier: DANDI:000554
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000554/0.230531.1237/assets.yaml
+    name: Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal
+      dynamics
+    protocol: []
+    publishedBy:
+      endDate: '2023-05-31T12:37:34.601908+00:00'
+      id: urn:uuid:95d91de6-34bb-4c27-9470-c30ef2c34836
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2023-05-31T12:37:34.601908+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:614eddae-4907-4adc-9150-3369ac8d8bdf
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000554/0.230531.1237
+    version: 0.230531.1237
+    wasGeneratedBy:
+    - identifier: UG3NS123723-02
+      name: Thin, High-Density, High-Performance, Depth and Surface Microelectrodes
+        for Diagnosis and Treatment of Epilepsy
+      schemaKey: Project
+      used: []
+      wasAssociatedWith: []
+    - identifier: DP2EB029757-01
+      name: Bringing Light to Functional Mapping in Resective Neurosurgery
+      schemaKey: Project
+      used: []
+      wasAssociatedWith: []
+    - identifier: R01NS123655-01
+      name: Integration of High Definition Display Technologies with Platinum Nanorod
+        Microelectrodes for Large Scale in-vivo Recording and Stimulation
+      schemaKey: Project
+      used: []
+      wasAssociatedWith: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

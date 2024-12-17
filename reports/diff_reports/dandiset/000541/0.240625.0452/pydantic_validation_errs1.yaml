@@ -1,0 +1,105 @@
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+    about: []
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:OpenAccess
+    assetsSummary:
+      approach:
+      - name: microscopy approach; cell population imaging
+        schemaKey: ApproachType
+      dataStandard:
+      - identifier: RRID:SCR_015242
+        name: Neurodata Without Borders (NWB)
+        schemaKey: StandardsType
+      measurementTechnique:
+      - name: analytical technique
+        schemaKey: MeasurementTechniqueType
+      numberOfBytes: 30525162874
+      numberOfFiles: 21
+      numberOfSubjects: 21
+      schemaKey: AssetsSummary
+      species:
+      - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+        name: Caenorhabditis elegans
+        schemaKey: SpeciesType
+      variableMeasured:
+      - ProcessingModule
+      - PlaneSegmentation
+    citation: Yemini, Ev; Nejatbakhsh, Amin; Venkatachalam, Vivek; Lin, Albert; Sprague,
+      Daniel; Samuel, Aravinthan; Hobert, Oliver (2024) NeuroPAL Microfluidic Chip
+      Images and GCaMP activity (Version 0.240625.0452) [Data set]. DANDI archive.
+      https://dandiarchive.org/dandiset/000541/0.240625.0452
+    contributor:
+    - includeInCitation: true
+      name: Yemini, Ev
+      schemaKey: Person
+    - includeInCitation: true
+      name: Nejatbakhsh, Amin
+      schemaKey: Person
+    - includeInCitation: true
+      name: Venkatachalam, Vivek
+      schemaKey: Person
+    - includeInCitation: true
+      name: Lin, Albert
+      schemaKey: Person
+    - includeInCitation: false
+      name: Varol, Erdem
+      schemaKey: Person
+    - affiliation: []
+      email: daniel.y.sprague@gmail.com
+      includeInCitation: true
+      name: Sprague, Daniel
+      roleName:
+      - dcite:ContactPerson
+      schemaKey: Person
+    - includeInCitation: true
+      name: Samuel, Aravinthan
+      schemaKey: Person
+    - includeInCitation: false
+      name: Paninski, Liam
+      schemaKey: Person
+    - includeInCitation: true
+      name: Hobert, Oliver
+      schemaKey: Person
+    dateCreated: '2023-05-12T00:36:15.913485+00:00'
+    datePublished: '2024-06-25T04:52:46.730633+00:00'
+    description: 'NeuroPAL Microfluidic chip images and GCaMP activity from "NeuroPAL:
+      A Multicolor Atlas for Whole-Brain Neuronal Identification in C. elegans" and
+      "Extracting neural signals from semi-immobilized animals with deformable non-negative
+      matrix factorization." '
+    ethicsApproval: []
+    id: DANDI:000541/0.240625.0452
+    identifier: DANDI:000541
+    keywords: []
+    license:
+    - spdx:CC-BY-4.0
+    manifestLocation:
+    - https://dandiarchive.s3.amazonaws.com/dandisets/000541/0.240625.0452/assets.yaml
+    name: NeuroPAL Microfluidic Chip Images and GCaMP activity
+    protocol: []
+    publishedBy:
+      endDate: '2024-06-25T04:52:46.730633+00:00'
+      id: urn:uuid:d9088362-f9dd-47c5-aed5-b97477bada71
+      name: DANDI publish
+      schemaKey: PublishActivity
+      startDate: '2024-06-25T04:52:46.730633+00:00'
+      wasAssociatedWith:
+      - id: urn:uuid:1dedd4eb-2101-4c45-819f-b8df37c1aeae
+        identifier: RRID:SCR_017571
+        name: DANDI API
+        schemaKey: Software
+        version: 0.1.0
+    relatedResource: []
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.4
+    studyTarget: []
+    url: https://dandiarchive.org/dandiset/000541/0.240625.0452
+    version: 0.240625.0452
+    wasGeneratedBy: []
+  loc:
+  - doi
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing

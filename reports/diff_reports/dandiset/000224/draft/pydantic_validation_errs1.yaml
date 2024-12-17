@@ -1,0 +1,60 @@
+- ctx:
+    error: At least one contributor must have role ContactPerson
+  input:
+  - awardNumber: 1 U01 NS 120822-01
+    name: National Institutes of Health (NIH)
+    roleName:
+    - dcite:Funder
+    schemaKey: Organization
+  loc:
+  - contributor
+  msg: Value error, At least one contributor must have role ContactPerson
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error
+- input:
+    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+    access:
+    - schemaKey: AccessRequirements
+      status: dandi:EmbargoedAccess
+    assetsSummary:
+      numberOfBytes: 0
+      numberOfFiles: 0
+    citation: Dual polarity voltage imaging (2022). (Version draft) [Data set]. DANDI
+      archive. https://dandiarchive.org/dandiset/000224/draft
+    contributor:
+    - awardNumber: 1 U01 NS 120822-01
+      name: National Institutes of Health (NIH)
+      roleName:
+      - dcite:Funder
+      schemaKey: Organization
+    dateCreated: '2022-03-15T19:40:36.864517+00:00'
+    description: In vivo 1-photon fluorescence time series dataset from dual polarity
+      multiplexed voltage imaging experiments
+    id: DANDI:000224/draft
+    identifier: DANDI:000224
+    manifestLocation:
+    - https://api.dandiarchive.org/api/dandisets/000224/versions/draft/assets/
+    name: Dual polarity voltage imaging
+    repository: https://dandiarchive.org
+    schemaKey: Dandiset
+    schemaVersion: 0.6.2
+    url: https://dandiarchive.org/dandiset/000224/draft
+    version: draft
+  loc:
+  - license
+  msg: Field required
+  type: missing
+  url: https://errors.pydantic.dev/2.9/v/missing
+- ctx:
+    error: An embargo end date is required for NIH awards to be in compliance with
+      NIH resource sharing policy.
+  input:
+    schemaKey: AccessRequirements
+    status: dandi:EmbargoedAccess
+  loc:
+  - access
+  - 0
+  msg: Value error, An embargo end date is required for NIH awards to be in compliance
+    with NIH resource sharing policy.
+  type: value_error
+  url: https://errors.pydantic.dev/2.9/v/value_error

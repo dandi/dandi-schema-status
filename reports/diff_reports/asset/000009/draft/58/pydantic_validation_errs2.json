@@ -1,0 +1,35 @@
+[
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "publishedBy"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": {
+      "id": "urn:uuid:3e44c036-7106-4efd-a9fd-fd10727830e2",
+      "name": "DANDI publish",
+      "endDate": "2022-01-26T19:03:11.613999+00:00",
+      "schemaKey": "PublishActivity",
+      "startDate": "2022-01-26T19:03:11.613999+00:00",
+      "wasAssociatedWith": [
+        {
+          "id": "urn:uuid:22722603-022d-40cf-938a-86c9c02ef866",
+          "name": "DANDI API",
+          "version": "0.1.0",
+          "schemaKey": "Software",
+          "identifier": "RRID:SCR_017571"
+        }
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "datePublished"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "2022-01-26T19:03:11.613999+00:00",
+    "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+  }
+]

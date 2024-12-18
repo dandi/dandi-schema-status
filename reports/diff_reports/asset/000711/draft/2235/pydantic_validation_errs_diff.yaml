@@ -1,0 +1,23 @@
+- input:
+    endDate: '2023-11-21T02:02:15.778908+00:00'
+    id: urn:uuid:85562eda-0b85-4c55-9dd4-888e1c8fce0f
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2023-11-21T02:02:15.778908+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:a644ca0d-716b-4137-9273-a88089faa39b
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+- input: '2023-11-21T02:02:15.778908+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.9/v/extra_forbidden

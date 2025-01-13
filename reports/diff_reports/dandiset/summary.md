@@ -1,3 +1,85 @@
+### Pydantic errs 1 counts
+
+| Error category | Count |
+|----------------|-------|
+|\('enum', "Input should be 'spdx:CC0\-1\.0' or 'spdx:CC\-BY\-4\.0'", \('license', '\[\*\]'\)\)|3|
+|\('list\_type', 'Input should be a valid array', \('license',\)\)|2|
+|\('literal\_error', "Input should be 'Project'", \('wasGeneratedBy', '\[\*\]', 'schemaKey'\)\)|1|
+|\('missing', 'Field required', \('contributor',\)\)|17|
+|\('missing', 'Field required', \('doi',\)\)|184|
+|\('missing', 'Field required', \('ethicsApproval', '\[\*\]', 'identifier'\)\)|2|
+|\('missing', 'Field required', \('license',\)\)|112|
+|\('missing', 'Field required', \('relatedResource', '\[\*\]', 'relation'\)\)|2|
+|\('missing', 'Field required', \('wasGeneratedBy', '\[\*\]', 'name'\)\)|4|
+|\('string\_pattern\_mismatch', "String should match pattern '^\(\[\\\\w\\\\s\\\\\-\\\\\.'\]\+\),\\\\s\+\(\[\\\\w\\\\s\\\\\-\\\\\.'\]\+\)$'", \('contributor', '\[\*\]', 'Person', 'name'\)\)|135|
+|\('string\_pattern\_mismatch', "String should match pattern '^\[a\-zA\-Z0\-9\-\]\+:\[a\-zA\-Z0\-9\-/\\\\\.\_\]\+$'", \('about', '\[\*\]', 'Disorder', 'identifier', 'constrained\-str'\)\)|5|
+|\('string\_pattern\_mismatch', "String should match pattern '^\[a\-zA\-Z0\-9\-\]\+:\[a\-zA\-Z0\-9\-/\\\\\.\_\]\+$'", \('about', '\[\*\]', 'GenericType', 'identifier', 'constrained\-str'\)\)|2|
+|\('string\_pattern\_mismatch', "String should match pattern '^\\\\d\{4\}\-\\\\d\{4\}\-\\\\d\{4\}\-\(\\\\d\{3\}X&#124;\\\\d\{4\}\)$'", \('contributor', '\[\*\]', 'Person', 'identifier'\)\)|1|
+|\('string\_too\_long', 'String should have at most 150 characters', \('name',\)\)|2|
+|\('too\_short', 'List should have at least 1 item after validation, not 0', \('contributor',\)\)|8|
+|\('too\_short', 'List should have at least 1 item after validation, not 0', \('license',\)\)|6|
+|\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('about', '\[\*\]'\)\)|19|
+|\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('contributor', '\[\*\]'\)\)|7|
+|\('url\_parsing', 'Input should be a valid URL, input is empty', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, input is empty', \('contributor', '\[\*\]', 'Person', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|3|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'GenericType', 'identifier', "url\['http','https'\]"\)\)|2|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('access', '\[\*\]', 'contactPoint', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Organization', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Person', 'url'\)\)|4|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('ethicsApproval', '\[\*\]', 'contactPoint', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('protocol', '\[\*\]'\)\)|6|
+|\('url\_scheme', "URL scheme should be 'http' or 'https'", \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('value\_error', 'Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy\.', \('access', '\[\*\]'\)\)|231|
+|\('value\_error', 'Value error, At least one contributor must have role ContactPerson', \('contributor',\)\)|116|
+|\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Organization'\)\)|1|
+|\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Person'\)\)|103|
+|\('value\_error', 'value is not a valid email address: The email address contains unsafe characters: ZERO WIDTH SPACE\.', \('contributor', '\[\*\]', 'Person', 'email'\)\)|1|
+
+### Pydantic errs 2 counts
+
+| Error category | Count |
+|----------------|-------|
+|\('enum', "Input should be 'spdx:CC0\-1\.0' or 'spdx:CC\-BY\-4\.0'", \('license', '\[\*\]'\)\)|3|
+|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'contactPoint'\)\)|16|
+|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'includeInCitation'\)\)|158|
+|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'roleName'\)\)|16|
+|\('extra\_forbidden', 'Extra inputs are not permitted', \('datePublished',\)\)|158|
+|\('extra\_forbidden', 'Extra inputs are not permitted', \('doi',\)\)|152|
+|\('extra\_forbidden', 'Extra inputs are not permitted', \('publishedBy',\)\)|158|
+|\('list\_type', 'Input should be a valid array', \('license',\)\)|2|
+|\('literal\_error', "Input should be 'Project'", \('wasGeneratedBy', '\[\*\]', 'schemaKey'\)\)|1|
+|\('missing', 'Field required', \('contributor',\)\)|17|
+|\('missing', 'Field required', \('doi',\)\)|184|
+|\('missing', 'Field required', \('ethicsApproval', '\[\*\]', 'identifier'\)\)|2|
+|\('missing', 'Field required', \('license',\)\)|112|
+|\('missing', 'Field required', \('relatedResource', '\[\*\]', 'relation'\)\)|2|
+|\('missing', 'Field required', \('wasGeneratedBy', '\[\*\]', 'name'\)\)|4|
+|\('string\_pattern\_mismatch', "String should match pattern '^\(\[\\\\w\\\\s\\\\\-\\\\\.'\]\+\),\\\\s\+\(\[\\\\w\\\\s\\\\\-\\\\\.'\]\+\)$'", \('contributor', '\[\*\]', 'Person', 'name'\)\)|135|
+|\('string\_pattern\_mismatch', "String should match pattern '^\[a\-zA\-Z0\-9\-\]\+:\[a\-zA\-Z0\-9\-/\\\\\.\_\]\+$'", \('about', '\[\*\]', 'Disorder', 'identifier', 'constrained\-str'\)\)|5|
+|\('string\_pattern\_mismatch', "String should match pattern '^\[a\-zA\-Z0\-9\-\]\+:\[a\-zA\-Z0\-9\-/\\\\\.\_\]\+$'", \('about', '\[\*\]', 'GenericType', 'identifier', 'constrained\-str'\)\)|2|
+|\('string\_pattern\_mismatch', "String should match pattern '^\\\\d\{4\}\-\\\\d\{4\}\-\\\\d\{4\}\-\(\\\\d\{3\}X&#124;\\\\d\{4\}\)$'", \('contributor', '\[\*\]', 'Person', 'identifier'\)\)|1|
+|\('string\_too\_long', 'String should have at most 150 characters', \('name',\)\)|2|
+|\('too\_short', 'List should have at least 1 item after validation, not 0', \('contributor',\)\)|8|
+|\('too\_short', 'List should have at least 1 item after validation, not 0', \('license',\)\)|6|
+|\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('about', '\[\*\]'\)\)|19|
+|\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('contributor', '\[\*\]'\)\)|7|
+|\('url\_parsing', 'Input should be a valid URL, input is empty', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, input is empty', \('contributor', '\[\*\]', 'Person', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|3|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'GenericType', 'identifier', "url\['http','https'\]"\)\)|2|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('access', '\[\*\]', 'contactPoint', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Organization', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Person', 'url'\)\)|4|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('ethicsApproval', '\[\*\]', 'contactPoint', 'url'\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('protocol', '\[\*\]'\)\)|6|
+|\('url\_scheme', "URL scheme should be 'http' or 'https'", \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('value\_error', 'Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy\.', \('access', '\[\*\]'\)\)|231|
+|\('value\_error', 'Value error, At least one contributor must have role ContactPerson', \('contributor',\)\)|116|
+|\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Organization'\)\)|1|
+|\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Person'\)\)|86|
+|\('value\_error', 'value is not a valid email address: The email address contains unsafe characters: ZERO WIDTH SPACE\.', \('contributor', '\[\*\]', 'Person', 'email'\)\)|1|
+
 | dandiset | version | pydantic errs 1 | pydantic errs 2 | pydantic errs diff |
 |----------|---------|-----------------|-----------------|--------------------|
 | [000003](./000003/) | [0.210812.1448](./000003/0.210812.1448/) | [1 (1 value_error)](./000003/0.210812.1448/pydantic_validation_errs1.json) | [1 (1 value_error)](./000003/0.210812.1448/pydantic_validation_errs2.json) | same |

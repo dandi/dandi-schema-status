@@ -8,7 +8,7 @@
   - roleName
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input: []
   loc:
   - contributor
@@ -19,7 +19,7 @@
   - contactPoint
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input: false
   loc:
   - contributor
@@ -30,7 +30,7 @@
   - includeInCitation
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - ctx:
     discriminator: '''schemaKey'''
   input: {}
@@ -39,7 +39,7 @@
   - 2
   msg: Unable to extract tag using discriminator 'schemaKey'
   type: union_tag_not_found
-  url: https://errors.pydantic.dev/2.9/v/union_tag_not_found
+  url: https://errors.pydantic.dev/2.10/v/union_tag_not_found
 - input:
     about: []
     access:
@@ -153,4 +153,4 @@
   - doi
   msg: Field required
   type: missing
-  url: https://errors.pydantic.dev/2.9/v/missing
+  url: https://errors.pydantic.dev/2.10/v/missing

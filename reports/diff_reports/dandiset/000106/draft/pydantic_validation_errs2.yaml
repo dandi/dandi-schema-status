@@ -8,7 +8,7 @@
   - url
   msg: Input should be a valid URL, relative URL without a base
   type: url_parsing
-  url: https://errors.pydantic.dev/2.9/v/url_parsing
+  url: https://errors.pydantic.dev/2.10/v/url_parsing
 - ctx:
     expected: '''spdx:CC0-1.0'' or ''spdx:CC-BY-4.0'''
   input: spdx:CC-BY-NC-4.0
@@ -17,7 +17,7 @@
   - 0
   msg: Input should be 'spdx:CC0-1.0' or 'spdx:CC-BY-4.0'
   type: enum
-  url: https://errors.pydantic.dev/2.9/v/enum
+  url: https://errors.pydantic.dev/2.10/v/enum
 - ctx:
     error: relative URL without a base
   input: www.inb.unam.mx
@@ -28,7 +28,7 @@
   - url
   msg: Input should be a valid URL, relative URL without a base
   type: url_parsing
-  url: https://errors.pydantic.dev/2.9/v/url_parsing
+  url: https://errors.pydantic.dev/2.10/v/url_parsing
 - ctx:
     error: relative URL without a base
   input: www.inb.unam.mx
@@ -39,4 +39,4 @@
   - url
   msg: Input should be a valid URL, relative URL without a base
   type: url_parsing
-  url: https://errors.pydantic.dev/2.9/v/url_parsing
+  url: https://errors.pydantic.dev/2.10/v/url_parsing

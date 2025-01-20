@@ -20,16 +20,16 @@
 |\('too\_short', 'List should have at least 1 item after validation, not 0', \('license',\)\)|6|
 |\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('about', '\[\*\]'\)\)|19|
 |\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('contributor', '\[\*\]'\)\)|7|
-|\('url\_parsing', 'Input should be a valid URL, input is empty', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, input is empty', \('about', '\[\*\]', 'Disorder', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, input is empty', \('contributor', '\[\*\]', 'Person', 'url'\)\)|1|
-|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|3|
-|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'GenericType', 'identifier', "url\['http','https'\]"\)\)|2|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'Disorder', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|3|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'GenericType', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|2|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('access', '\[\*\]', 'contactPoint', 'url'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Organization', 'url'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Person', 'url'\)\)|4|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('ethicsApproval', '\[\*\]', 'contactPoint', 'url'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('protocol', '\[\*\]'\)\)|6|
-|\('url\_scheme', "URL scheme should be 'http' or 'https'", \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('url\_scheme', "URL scheme should be 'http' or 'https'", \('about', '\[\*\]', 'Disorder', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|1|
 |\('value\_error', 'Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy\.', \('access', '\[\*\]'\)\)|231|
 |\('value\_error', 'Value error, At least one contributor must have role ContactPerson', \('contributor',\)\)|116|
 |\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Organization'\)\)|1|
@@ -64,16 +64,16 @@
 |\('too\_short', 'List should have at least 1 item after validation, not 0', \('license',\)\)|6|
 |\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('about', '\[\*\]'\)\)|19|
 |\('union\_tag\_not\_found', "Unable to extract tag using discriminator 'schemaKey'", \('contributor', '\[\*\]'\)\)|7|
-|\('url\_parsing', 'Input should be a valid URL, input is empty', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('url\_parsing', 'Input should be a valid URL, input is empty', \('about', '\[\*\]', 'Disorder', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, input is empty', \('contributor', '\[\*\]', 'Person', 'url'\)\)|1|
-|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|3|
-|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'GenericType', 'identifier', "url\['http','https'\]"\)\)|2|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'Disorder', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|3|
+|\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('about', '\[\*\]', 'GenericType', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|2|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('access', '\[\*\]', 'contactPoint', 'url'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Organization', 'url'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('contributor', '\[\*\]', 'Person', 'url'\)\)|4|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('ethicsApproval', '\[\*\]', 'contactPoint', 'url'\)\)|1|
 |\('url\_parsing', 'Input should be a valid URL, relative URL without a base', \('protocol', '\[\*\]'\)\)|6|
-|\('url\_scheme', "URL scheme should be 'http' or 'https'", \('about', '\[\*\]', 'Disorder', 'identifier', "url\['http','https'\]"\)\)|1|
+|\('url\_scheme', "URL scheme should be 'http' or 'https'", \('about', '\[\*\]', 'Disorder', 'identifier', 'function\-wrap\[wrap\_val\(\)\]'\)\)|1|
 |\('value\_error', 'Value error, An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy\.', \('access', '\[\*\]'\)\)|231|
 |\('value\_error', 'Value error, At least one contributor must have role ContactPerson', \('contributor',\)\)|116|
 |\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Organization'\)\)|1|

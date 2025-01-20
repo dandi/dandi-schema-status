@@ -6,10 +6,10 @@
   - 0
   - GenericType
   - identifier
-  - url['http','https']
+  - function-wrap[wrap_val()]
   msg: Input should be a valid URL, relative URL without a base
   type: url_parsing
-  url: https://errors.pydantic.dev/2.9/v/url_parsing
+  url: https://errors.pydantic.dev/2.10/v/url_parsing
 - ctx:
     pattern: ^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\._]+$
   input: 2photon data
@@ -21,7 +21,7 @@
   - constrained-str
   msg: String should match pattern '^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\._]+$'
   type: string_pattern_mismatch
-  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.10/v/string_pattern_mismatch
 - ctx:
     error: relative URL without a base
   input: 2015-0023
@@ -30,4 +30,4 @@
   - 0
   msg: Input should be a valid URL, relative URL without a base
   type: url_parsing
-  url: https://errors.pydantic.dev/2.9/v/url_parsing
+  url: https://errors.pydantic.dev/2.10/v/url_parsing

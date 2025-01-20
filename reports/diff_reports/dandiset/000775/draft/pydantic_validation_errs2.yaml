@@ -10,13 +10,13 @@
   msg: Value error, An embargo end date is required for NIH awards to be in compliance
     with NIH resource sharing policy.
   type: value_error
-  url: https://errors.pydantic.dev/2.9/v/value_error
+  url: https://errors.pydantic.dev/2.10/v/value_error
 - input: 10.80507/dandi.123456/0.123456.1234
   loc:
   - doi
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input:
     endDate: '2024-01-09T17:30:55.719423+00:00'
     id: urn:uuid:7835230c-3897-471a-946d-5163bc4f3046
@@ -33,10 +33,10 @@
   - publishedBy
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input: '2024-01-09T17:30:55.719423+00:00'
   loc:
   - datePublished
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden

@@ -10,7 +10,7 @@
     "ctx": {
       "discriminator": "'schemaKey'"
     },
-    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+    "url": "https://errors.pydantic.dev/2.10/v/union_tag_not_found"
   },
   {
     "type": "url_parsing",
@@ -19,14 +19,14 @@
       0,
       "Disorder",
       "identifier",
-      "url['http','https']"
+      "function-wrap[wrap_val()]"
     ],
     "msg": "Input should be a valid URL, input is empty",
     "input": "",
     "ctx": {
       "error": "input is empty"
     },
-    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+    "url": "https://errors.pydantic.dev/2.10/v/url_parsing"
   },
   {
     "type": "string_pattern_mismatch",
@@ -42,7 +42,7 @@
     "ctx": {
       "pattern": "^[a-zA-Z0-9-]+:[a-zA-Z0-9-/\\._]+$"
     },
-    "url": "https://errors.pydantic.dev/2.9/v/string_pattern_mismatch"
+    "url": "https://errors.pydantic.dev/2.10/v/string_pattern_mismatch"
   },
   {
     "type": "union_tag_not_found",
@@ -55,7 +55,7 @@
     "ctx": {
       "discriminator": "'schemaKey'"
     },
-    "url": "https://errors.pydantic.dev/2.9/v/union_tag_not_found"
+    "url": "https://errors.pydantic.dev/2.10/v/union_tag_not_found"
   },
   {
     "type": "url_parsing",
@@ -68,7 +68,7 @@
     "ctx": {
       "error": "relative URL without a base"
     },
-    "url": "https://errors.pydantic.dev/2.9/v/url_parsing"
+    "url": "https://errors.pydantic.dev/2.10/v/url_parsing"
   },
   {
     "type": "missing",
@@ -79,7 +79,7 @@
     ],
     "msg": "Field required",
     "input": {},
-    "url": "https://errors.pydantic.dev/2.9/v/missing"
+    "url": "https://errors.pydantic.dev/2.10/v/missing"
   },
   {
     "type": "value_error",
@@ -95,7 +95,7 @@
     "ctx": {
       "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
     },
-    "url": "https://errors.pydantic.dev/2.9/v/value_error"
+    "url": "https://errors.pydantic.dev/2.10/v/value_error"
   },
   {
     "type": "missing",
@@ -106,6 +106,6 @@
     ],
     "msg": "Field required",
     "input": {},
-    "url": "https://errors.pydantic.dev/2.9/v/missing"
+    "url": "https://errors.pydantic.dev/2.10/v/missing"
   }
 ]

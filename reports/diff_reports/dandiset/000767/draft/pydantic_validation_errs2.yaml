@@ -10,7 +10,7 @@
   - contributor
   msg: Value error, At least one contributor must have role ContactPerson
   type: value_error
-  url: https://errors.pydantic.dev/2.9/v/value_error
+  url: https://errors.pydantic.dev/2.10/v/value_error
 - input:
     access:
     - schemaKey: AccessRequirements
@@ -99,7 +99,7 @@
   - license
   msg: Field required
   type: missing
-  url: https://errors.pydantic.dev/2.9/v/missing
+  url: https://errors.pydantic.dev/2.10/v/missing
 - ctx:
     error: An embargo end date is required for NIH awards to be in compliance with
       NIH resource sharing policy.
@@ -112,13 +112,13 @@
   msg: Value error, An embargo end date is required for NIH awards to be in compliance
     with NIH resource sharing policy.
   type: value_error
-  url: https://errors.pydantic.dev/2.9/v/value_error
+  url: https://errors.pydantic.dev/2.10/v/value_error
 - input: 10.80507/dandi.123456/0.123456.1234
   loc:
   - doi
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input:
     endDate: '2024-02-06T17:25:42.066095+00:00'
     id: urn:uuid:df2d38dd-810b-4242-bcd8-fe791621718e
@@ -135,10 +135,10 @@
   - publishedBy
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input: '2024-02-06T17:25:42.066095+00:00'
   loc:
   - datePublished
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden

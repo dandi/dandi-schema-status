@@ -8,7 +8,7 @@
   - name
   msg: String should match pattern '^([\w\s\-\.']+),\s+([\w\s\-\.']+)$'
   type: string_pattern_mismatch
-  url: https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+  url: https://errors.pydantic.dev/2.10/v/string_pattern_mismatch
 - ctx:
     error: An embargo end date is required for NIH awards to be in compliance with
       NIH resource sharing policy.
@@ -21,13 +21,13 @@
   msg: Value error, An embargo end date is required for NIH awards to be in compliance
     with NIH resource sharing policy.
   type: value_error
-  url: https://errors.pydantic.dev/2.9/v/value_error
+  url: https://errors.pydantic.dev/2.10/v/value_error
 - input: 10.80507/dandi.123456/0.123456.1234
   loc:
   - doi
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input:
     endDate: '2024-01-23T21:12:53.569261+00:00'
     id: urn:uuid:135c18bb-473b-4a7d-8a7d-5719a959c0f9
@@ -44,10 +44,10 @@
   - publishedBy
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
 - input: '2024-01-23T21:12:53.569261+00:00'
   loc:
   - datePublished
   msg: Extra inputs are not permitted
   type: extra_forbidden
-  url: https://errors.pydantic.dev/2.9/v/extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden

@@ -3,12 +3,6 @@
 | Error category | Count |
 |----------------|-------|
 |\('enum', "Input should be 'spdx:CC0\-1\.0' or 'spdx:CC\-BY\-4\.0'", \('license', '\[\*\]'\)\)|3|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'contactPoint'\)\)|0|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'includeInCitation'\)\)|0|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'roleName'\)\)|0|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('datePublished',\)\)|0|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('doi',\)\)|0|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('publishedBy',\)\)|0|
 |\('list\_type', 'Input should be a valid array', \('license',\)\)|2|
 |\('literal\_error', "Input should be 'Project'", \('wasGeneratedBy', '\[\*\]', 'schemaKey'\)\)|1|
 |\('missing', 'Field required', \('contributor',\)\)|17|
@@ -90,16 +84,17 @@
 
 | Error category | Removed | Gained |
 |----------------|---------|--------|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'contactPoint'\)\)|0|16|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'includeInCitation'\)\)|0|158|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'roleName'\)\)|0|16|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('datePublished',\)\)|0|158|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('doi',\)\)|0|152|
-|\('extra\_forbidden', 'Extra inputs are not permitted', \('publishedBy',\)\)|0|158|
-|\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Person'\)\)|17|0|
+|[\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'contactPoint'\)\)](#cat-0)|0|16|
+|[\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'includeInCitation'\)\)](#cat-1)|0|158|
+|[\('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'roleName'\)\)](#cat-2)|0|16|
+|[\('extra\_forbidden', 'Extra inputs are not permitted', \('datePublished',\)\)](#cat-3)|0|158|
+|[\('extra\_forbidden', 'Extra inputs are not permitted', \('doi',\)\)](#cat-4)|0|152|
+|[\('extra\_forbidden', 'Extra inputs are not permitted', \('publishedBy',\)\)](#cat-5)|0|158|
+|[\('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Person'\)\)](#cat-6)|17|0|
 
 ## Pydantic errs diff detailed tables
 
+<a id="cat-0"></a>
 ### \('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'contactPoint'\)\)
 
 | type | msg | loc | Data instance path | Gained |
@@ -121,6 +116,7 @@
 |extra_forbidden|Extra inputs are not permitted|\('contributor', 3, 'Person', 'affiliation', 0, 'contactPoint'\)|[000011/draft](000011/draft)|1|
 |extra_forbidden|Extra inputs are not permitted|\('contributor', 3, 'Person', 'affiliation', 0, 'contactPoint'\)|[000029/draft](000029/draft)|1|
 
+<a id="cat-1"></a>
 ### \('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'includeInCitation'\)\)
 
 | type | msg | loc | Data instance path | Gained |
@@ -284,6 +280,7 @@
 |extra_forbidden|Extra inputs are not permitted|\('contributor', 43, 'Person', 'affiliation', 0, 'includeInCitation'\)|[000026/draft](000026/draft)|1|
 |extra_forbidden|Extra inputs are not permitted|\('contributor', 45, 'Person', 'affiliation', 0, 'includeInCitation'\)|[000026/draft](000026/draft)|1|
 
+<a id="cat-2"></a>
 ### \('extra\_forbidden', 'Extra inputs are not permitted', \('contributor', '\[\*\]', 'Person', 'affiliation', '\[\*\]', 'roleName'\)\)
 
 | type | msg | loc | Data instance path | Gained |
@@ -305,6 +302,7 @@
 |extra_forbidden|Extra inputs are not permitted|\('contributor', 3, 'Person', 'affiliation', 0, 'roleName'\)|[000011/draft](000011/draft)|1|
 |extra_forbidden|Extra inputs are not permitted|\('contributor', 3, 'Person', 'affiliation', 0, 'roleName'\)|[000029/draft](000029/draft)|1|
 
+<a id="cat-3"></a>
 ### \('extra\_forbidden', 'Extra inputs are not permitted', \('datePublished',\)\)
 
 | type | msg | loc | Data instance path | Gained |
@@ -468,6 +466,7 @@
 |extra_forbidden|Extra inputs are not permitted|\('datePublished',\)|[001075/draft](001075/draft)|1|
 |extra_forbidden|Extra inputs are not permitted|\('datePublished',\)|[001171/draft](001171/draft)|1|
 
+<a id="cat-4"></a>
 ### \('extra\_forbidden', 'Extra inputs are not permitted', \('doi',\)\)
 
 | type | msg | loc | Data instance path | Gained |
@@ -625,6 +624,7 @@
 |extra_forbidden|Extra inputs are not permitted|\('doi',\)|[000894/draft](000894/draft)|1|
 |extra_forbidden|Extra inputs are not permitted|\('doi',\)|[000895/draft](000895/draft)|1|
 
+<a id="cat-5"></a>
 ### \('extra\_forbidden', 'Extra inputs are not permitted', \('publishedBy',\)\)
 
 | type | msg | loc | Data instance path | Gained |
@@ -788,6 +788,7 @@
 |extra_forbidden|Extra inputs are not permitted|\('publishedBy',\)|[001075/draft](001075/draft)|1|
 |extra_forbidden|Extra inputs are not permitted|\('publishedBy',\)|[001171/draft](001171/draft)|1|
 
+<a id="cat-6"></a>
 ### \('value\_error', 'Value error, Contact person must have an email address\.', \('contributor', '\[\*\]', 'Person'\)\)
 
 | type | msg | loc | Data instance path | Removed |

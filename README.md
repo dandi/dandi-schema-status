@@ -1,7 +1,9 @@
 # validation-diff-reports
 
-- [dandiset validation diff reports](./reports/diff_reports/dandiset/summary.md)
-- [asset validation diff reports](./reports/diff_reports/asset/summary.md)
+- [dandiset Pydantic validation diff reports](./reports/diff_reports/dandiset/pydantic_errs_summary.md)
+- [asset Pydantic validation diff reports](./reports/diff_reports/asset/pydantic_errs_summary.md)
+- [dandiset JSON Schema validation diff reports](./reports/diff_reports/dandiset/jsonschema_errs_summary.md)
+- [asset JSON Schema validation diff reports](./reports/diff_reports/asset/jsonschema_errs_summary.md)
 
 ## summary from yarik of the results for assets
 

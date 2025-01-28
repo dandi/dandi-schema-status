@@ -1,0 +1,19 @@
+- absolute_path:
+  - datePublished
+  absolute_schema_path:
+  - properties
+  - datePublished
+  - format
+  message: '''2021-08-19T03:45:23.964345'' is not a ''date-time'''
+- absolute_path:
+  - publishedBy
+  absolute_schema_path:
+  - properties
+  - publishedBy
+  - anyOf
+  message: '{''id'': ''urn:uuid:63af79e9-0de1-4a46-acc1-d783fe72c1c6'', ''name'':
+    ''DANDI publish'', ''endDate'': ''2021-08-19T03:45:23.964345'', ''schemaKey'':
+    ''PublishActivity'', ''startDate'': ''2021-08-19T03:45:23.964345'', ''wasAssociatedWith'':
+    [{''id'': ''urn:uuid:02b5b376-777f-48ca-a774-8cd73d4be8ef'', ''name'': ''DANDI
+    API'', ''version'': ''0.1.0'', ''schemaKey'': ''Software'', ''identifier'': ''RRID:SCR_017571''}]}
+    is not valid under any of the given schemas'

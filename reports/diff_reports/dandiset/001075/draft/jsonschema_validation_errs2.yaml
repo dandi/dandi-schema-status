@@ -1,0 +1,18 @@
+- absolute_path: []
+  absolute_schema_path:
+  - additionalProperties
+  message: Additional properties are not allowed ('datePublished', 'publishedBy' were
+    unexpected)
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://github.com/catalystneuro/leifer_lab_to_nwb'', ''name'':
+    ''Leifer Lab to NWB'', ''relation'': ''dcite:IsCompiledBy'', ''schemaKey'': ''Resource'',
+    ''repository'': ''leifer_lab_to_nwb'', ''resourceType'': ''dcite:Software''},
+    {''url'': ''https://doi.org/10.1038/s41586-023-06683-4'', ''name'': ''Neural signal
+    propagation atlas of Caenorhabditis elegans'', ''relation'': ''dcite:IsDescribedBy'',
+    ''schemaKey'': ''Resource'', ''identifier'': ''10.1038/s41586-023-06683-4'', ''resourceType'':
+    ''dcite:JournalArticle''}] is not valid under any of the given schemas'

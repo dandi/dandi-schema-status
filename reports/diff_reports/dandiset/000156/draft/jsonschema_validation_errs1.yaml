@@ -1,0 +1,16 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - protocol
+  absolute_schema_path:
+  - properties
+  - protocol
+  - anyOf
+  message: '[''tes''] is not valid under any of the given schemas'

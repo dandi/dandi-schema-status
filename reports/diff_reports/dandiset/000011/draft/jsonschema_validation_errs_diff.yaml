@@ -1,0 +1,55 @@
+$insert:
+- - 0
+  - absolute_path:
+    - contributor
+    - 0
+    absolute_schema_path:
+    - properties
+    - contributor
+    - items
+    - oneOf
+    message: '{''name'': ''Li, Nuo'', ''roleName'': [''dcite:Author'', ''dcite:DataCollector''],
+      ''schemaKey'': ''Person'', ''identifier'': ''0000-0002-6613-5018'', ''affiliation'':
+      [{''name'': ''Janelia Research Campus, Howard Hughes Medical Institute'', ''schemaKey'':
+      ''Affiliation'', ''includeInCitation'': False}], ''includeInCitation'': True}
+      is not valid under any of the given schemas'
+- - 1
+  - absolute_path:
+    - contributor
+    - 1
+    absolute_schema_path:
+    - properties
+    - contributor
+    - items
+    - oneOf
+    message: '{''name'': ''Daie, Kayvon'', ''roleName'': [''dcite:Author''], ''schemaKey'':
+      ''Person'', ''affiliation'': [{''name'': ''Janelia Research Campus, Howard Hughes
+      Medical Institute'', ''schemaKey'': ''Affiliation'', ''includeInCitation'':
+      False}], ''includeInCitation'': True} is not valid under any of the given schemas'
+- - 2
+  - absolute_path:
+    - contributor
+    - 2
+    absolute_schema_path:
+    - properties
+    - contributor
+    - items
+    - oneOf
+    message: '{''name'': ''Svoboda, Karel'', ''roleName'': [''dcite:Author''], ''schemaKey'':
+      ''Person'', ''affiliation'': [{''name'': ''Janelia Research Campus, Howard Hughes
+      Medical Institute'', ''schemaKey'': ''Affiliation'', ''includeInCitation'':
+      False}], ''includeInCitation'': True} is not valid under any of the given schemas'
+- - 3
+  - absolute_path:
+    - contributor
+    - 3
+    absolute_schema_path:
+    - properties
+    - contributor
+    - items
+    - oneOf
+    message: '{''name'': ''Druckmann, Shaul'', ''roleName'': [''dcite:Author'', ''dcite:ContactPerson''],
+      ''schemaKey'': ''Person'', ''identifier'': ''0000-0003-0068-3377'', ''affiliation'':
+      [{''name'': ''Janelia Research Campus, Howard Hughes Medical Institute'', ''roleName'':
+      [], ''schemaKey'': ''Affiliation'', ''contactPoint'': [], ''includeInCitation'':
+      False}], ''includeInCitation'': True} is not valid under any of the given schemas'

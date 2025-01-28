@@ -1,0 +1,25 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://science.sciencemag.org/content/351/6280/1440'', ''name'':
+    ''Diversity in neural firing dynamics supports both rigid and learned hippocampal
+    sequences'', ''relation'': ''dcite:IsDescribedBy'', ''schemaKey'': ''Resource'',
+    ''identifier'': ''https://doi.org/10.1126/science.aad1935'', ''repository'': ''Science'',
+    ''resourceType'': ''dcite:JournalArticle''}, {''url'': ''https://www.nature.com/articles/srep32193'',
+    ''name'': ''Uncovering representations of sleep-associated hippocampal ensemble
+    spike activity'', ''relation'': ''dcite:IsDescribedBy'', ''schemaKey'': ''Resource'',
+    ''identifier'': ''https://doi.org/10.1038/srep32193'', ''repository'': ''Scientific
+    Reports'', ''resourceType'': ''dcite:JournalArticle''}] is not valid under any
+    of the given schemas'

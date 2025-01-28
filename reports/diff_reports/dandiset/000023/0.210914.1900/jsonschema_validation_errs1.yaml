@@ -1,0 +1,27 @@
+- absolute_path:
+  - about
+  absolute_schema_path:
+  - properties
+  - about
+  - anyOf
+  message: '[{''name'': ''neocortex'', ''identifier'': ''http://purl.obolibrary.org/obo/UBERON_0001950''}]
+    is not valid under any of the given schemas'
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://www.biorxiv.org/content/10.1101/2020.03.31.018820v1'',
+    ''name'': ''Human cortical expansion involves diversification and specialization
+    of supragranular intratelencephalic-projecting neurons'', ''relation'': ''dcite:IsSupplementTo''}]
+    is not valid under any of the given schemas'

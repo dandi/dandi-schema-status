@@ -1,0 +1,20 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://www.nature.com/articles/nn.3968'', ''name'': ''nternally
+    organized mechanisms of the head direction sense'', ''relation'': ''dcite:IsDescribedBy'',
+    ''schemaKey'': ''Resource'', ''identifier'': ''nternally organized mechanisms
+    of the head direction sense'', ''repository'': ''Nature Neuroscience'', ''resourceType'':
+    ''dcite:JournalArticle''}] is not valid under any of the given schemas'

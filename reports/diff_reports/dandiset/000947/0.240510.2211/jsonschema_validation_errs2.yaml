@@ -1,0 +1,25 @@
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000829'',
+    ''name'': ''Neural activity during a simple reaching task in macaques is counter
+    to gating and rebound in basal ganglia-thalamic communication'', ''relation'':
+    ''dcite:IsDescribedBy'', ''schemaKey'': ''Resource'', ''identifier'': ''https://doi.org/10.1371/journal.pbio.3000829'',
+    ''repository'': ''PLOS Biology'', ''resourceType'': ''dcite:JournalArticle''},
+    {''url'': ''https://github.com/dandi/example-notebooks/blob/master/000947/TurnerLab/public_demo/000947_demo.ipynb'',
+    ''name'': ''Reach-related Single Unit Activity in the Parkinsonian Macaque'',
+    ''relation'': ''dcite:IsDescribedBy'', ''schemaKey'': ''Resource'', ''identifier'':
+    '''', ''repository'': ''example-notebooks'', ''resourceType'': ''dcite:ComputationalNotebook''},
+    {''url'': ''https://www.biorxiv.org/content/10.1101/2023.09.08.556120v2'', ''name'':
+    ''Detecting rhythmic spiking through the power spectra of point process model
+    residuals'', ''relation'': ''dcite:IsDescribedBy'', ''schemaKey'': ''Resource'',
+    ''identifier'': ''https://doi.org/10.1101/2023.09.08.556120'', ''repository'':
+    ''bioRxiv'', ''resourceType'': ''dcite:Preprint''}] is not valid under any of
+    the given schemas'
+- absolute_path: []
+  absolute_schema_path:
+  - required
+  message: '''doi'' is a required property'

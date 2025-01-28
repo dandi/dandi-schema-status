@@ -1,0 +1,14 @@
+- absolute_path:
+  - about
+  absolute_schema_path:
+  - properties
+  - about
+  - anyOf
+  message: '[{}] is not valid under any of the given schemas'
+- absolute_path:
+  - wasGeneratedBy
+  absolute_schema_path:
+  - properties
+  - wasGeneratedBy
+  - anyOf
+  message: '[{}] is not valid under any of the given schemas'

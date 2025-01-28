@@ -1,0 +1,50 @@
+[
+  {
+    "message": "'schemaKey' is a required property",
+    "absolute_schema_path": [
+      "properties",
+      "access",
+      "items",
+      "required"
+    ],
+    "absolute_path": [
+      "access",
+      0
+    ]
+  },
+  {
+    "message": "{'name': 'Last, First', 'roleName': ['dcite:Author', 'dcite:ContactPerson'], 'schemaKey': 'Person', 'identifier': '0000-0003-3456-2493', 'affiliation': [{'name': 'An Institution', 'roleName': [], 'schemaKey': 'Affiliation', 'contactPoint': [], 'includeInCitation': False}], 'includeInCitation': True} is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "contributor",
+      "items",
+      "oneOf"
+    ],
+    "absolute_path": [
+      "contributor",
+      0
+    ]
+  },
+  {
+    "message": "'2021-07-30T15:38:57.319324' is not a 'date-time'",
+    "absolute_schema_path": [
+      "properties",
+      "datePublished",
+      "format"
+    ],
+    "absolute_path": [
+      "datePublished"
+    ]
+  },
+  {
+    "message": "{'id': 'urn:uuid:6cc410d2-f1a0-45a5-95ca-19c0ed7e12ac', 'name': 'DANDI publish', 'endDate': '2021-07-30T15:38:57.319324', 'schemaKey': 'PublishActivity', 'startDate': '2021-07-30T15:38:57.319324', 'wasAssociatedWith': [{'id': 'urn:uuid:c8b633ff-c3b8-478c-b7eb-858093ccbdbb', 'name': 'DANDI API', 'version': '0.1.0', 'schemaKey': 'Software', 'identifier': 'RRID:SCR_017571'}]} is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "publishedBy",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "publishedBy"
+    ]
+  }
+]

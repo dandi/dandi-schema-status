@@ -1,0 +1,27 @@
+- absolute_path:
+  - datePublished
+  absolute_schema_path:
+  - properties
+  - datePublished
+  - format
+  message: '''2021-08-12T15:14:52.509016'' is not a ''date-time'''
+- absolute_path:
+  - publishedBy
+  absolute_schema_path:
+  - properties
+  - publishedBy
+  - anyOf
+  message: '{''id'': ''urn:uuid:dc68724f-47a2-4dd1-80cd-478f5efc9182'', ''name'':
+    ''DANDI publish'', ''endDate'': ''2021-08-12T15:14:52.509016'', ''schemaKey'':
+    ''PublishActivity'', ''startDate'': ''2021-08-12T15:14:52.509016'', ''wasAssociatedWith'':
+    [{''id'': ''urn:uuid:14aecbe0-2d0f-48f1-85fb-612b3f5976a9'', ''name'': ''DANDI
+    API'', ''version'': ''0.1.0'', ''schemaKey'': ''Software'', ''identifier'': ''RRID:SCR_017571''}]}
+    is not valid under any of the given schemas'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://www.sciencedirect.com/science/article/abs/pii/S0896627320303925'',
+    ''relation'': ''dcite:IsDescribedBy''}] is not valid under any of the given schemas'

@@ -1,0 +1,38 @@
+- absolute_path:
+  - about
+  absolute_schema_path:
+  - properties
+  - about
+  - anyOf
+  message: '[{''schemaKey'': ''Disorder'', ''identifier'': ''''}, {''schemaKey'':
+    ''Anatomy''}, {}] is not valid under any of the given schemas'
+- absolute_path:
+  - contributor
+  - 1
+  absolute_schema_path:
+  - properties
+  - contributor
+  - items
+  - oneOf
+  message: '{} is not valid under any of the given schemas'
+- absolute_path:
+  - ethicsApproval
+  absolute_schema_path:
+  - properties
+  - ethicsApproval
+  - anyOf
+  message: '[{}] is not valid under any of the given schemas'
+- absolute_path:
+  - protocol
+  absolute_schema_path:
+  - properties
+  - protocol
+  - anyOf
+  message: '[''My Protocol''] is not valid under any of the given schemas'
+- absolute_path:
+  - wasGeneratedBy
+  absolute_schema_path:
+  - properties
+  - wasGeneratedBy
+  - anyOf
+  message: '[{}] is not valid under any of the given schemas'

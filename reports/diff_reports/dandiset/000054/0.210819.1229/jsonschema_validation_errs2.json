@@ -1,0 +1,48 @@
+[
+  {
+    "message": "[{'name': 'hippocampus', 'identifier': 'http://purl.obolibrary.org/obo/UBERON_0014548'}] is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "about",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "about"
+    ]
+  },
+  {
+    "message": "'schemaKey' is a required property",
+    "absolute_schema_path": [
+      "properties",
+      "access",
+      "items",
+      "required"
+    ],
+    "absolute_path": [
+      "access",
+      0
+    ]
+  },
+  {
+    "message": "'2021-08-19T12:29:19.122029' is not a 'date-time'",
+    "absolute_schema_path": [
+      "properties",
+      "datePublished",
+      "format"
+    ],
+    "absolute_path": [
+      "datePublished"
+    ]
+  },
+  {
+    "message": "{'id': 'urn:uuid:29182228-f44e-4a93-ad0b-603e82223720', 'name': 'DANDI publish', 'endDate': '2021-08-19T12:29:19.122029', 'schemaKey': 'PublishActivity', 'startDate': '2021-08-19T12:29:19.122029', 'wasAssociatedWith': [{'id': 'urn:uuid:22ccdf14-be39-4fa1-bb91-aadfb442ea2d', 'name': 'DANDI API', 'version': '0.1.0', 'schemaKey': 'Software', 'identifier': 'RRID:SCR_017571'}]} is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "publishedBy",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "publishedBy"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+- absolute_path:
+  - access
+  - 0
+  - contactPoint
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - properties
+  - contactPoint
+  - anyOf
+  message: '{''url'': ''www.inb.unam.mx'', ''email'': ''pradol@unam.mx'', ''schemaKey'':
+    ''ContactPoint''} is not valid under any of the given schemas'
+- absolute_path:
+  - contributor
+  - 0
+  absolute_schema_path:
+  - properties
+  - contributor
+  - items
+  - oneOf
+  message: '{''url'': ''www.inb.unam.mx'', ''name'': ''Merchant, Hugo'', ''email'':
+    ''hugomerchant@unam.mx'', ''roleName'': [''dcite:Author''], ''schemaKey'': ''Person'',
+    ''identifier'': ''0000-0002-3488-9501'', ''affiliation'': [], ''includeInCitation'':
+    False} is not valid under any of the given schemas'
+- absolute_path:
+  - ethicsApproval
+  absolute_schema_path:
+  - properties
+  - ethicsApproval
+  - anyOf
+  message: '[{''schemaKey'': ''EthicsApproval'', ''identifier'': ''111'', ''contactPoint'':
+    {''url'': ''www.inb.unam.mx'', ''email'': ''pradol@unam.mx'', ''schemaKey'': ''ContactPoint''}}]
+    is not valid under any of the given schemas'
+- absolute_path:
+  - license
+  - 0
+  absolute_schema_path:
+  - properties
+  - license
+  - items
+  - enum
+  message: '''spdx:CC-BY-NC-4.0'' is not one of [''spdx:CC0-1.0'', ''spdx:CC-BY-4.0'']'

@@ -1,0 +1,48 @@
+[
+  {
+    "message": "'schemaKey' is a required property",
+    "absolute_schema_path": [
+      "properties",
+      "access",
+      "items",
+      "required"
+    ],
+    "absolute_path": [
+      "access",
+      0
+    ]
+  },
+  {
+    "message": "'2021-08-12T14:57:31.160475' is not a 'date-time'",
+    "absolute_schema_path": [
+      "properties",
+      "datePublished",
+      "format"
+    ],
+    "absolute_path": [
+      "datePublished"
+    ]
+  },
+  {
+    "message": "{'id': 'urn:uuid:d60ad1a8-cd01-480a-819a-80327d9952fd', 'name': 'DANDI publish', 'endDate': '2021-08-12T14:57:31.160475', 'schemaKey': 'PublishActivity', 'startDate': '2021-08-12T14:57:31.160475', 'wasAssociatedWith': [{'id': 'urn:uuid:1954bca2-ce63-4c63-be91-7dfa3389cc46', 'name': 'DANDI API', 'version': '0.1.0', 'schemaKey': 'Software', 'identifier': 'RRID:SCR_017571'}]} is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "publishedBy",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "publishedBy"
+    ]
+  },
+  {
+    "message": "[{'url': 'https://www.nature.com/articles/nn.2134', 'relation': 'dcite:IsDescribedBy'}] is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "relatedResource",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "relatedResource"
+    ]
+  }
+]

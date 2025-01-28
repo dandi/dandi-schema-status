@@ -1,0 +1,17 @@
+- absolute_path:
+  - about
+  absolute_schema_path:
+  - properties
+  - about
+  - anyOf
+  message: '[{''name'': ''neocortex'', ''identifier'': ''http://purl.obolibrary.org/obo/UBERON_0001950''}]
+    is not valid under any of the given schemas'
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'

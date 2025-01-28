@@ -1,0 +1,37 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - datePublished
+  absolute_schema_path:
+  - properties
+  - datePublished
+  - format
+  message: '''2021-08-12T15:15:38.643636'' is not a ''date-time'''
+- absolute_path:
+  - publishedBy
+  absolute_schema_path:
+  - properties
+  - publishedBy
+  - anyOf
+  message: '{''id'': ''urn:uuid:4b6a2801-6f95-440d-bfc2-2100a463c848'', ''name'':
+    ''DANDI publish'', ''endDate'': ''2021-08-12T15:15:38.643636'', ''schemaKey'':
+    ''PublishActivity'', ''startDate'': ''2021-08-12T15:15:38.643636'', ''wasAssociatedWith'':
+    [{''id'': ''urn:uuid:7f4f7c9c-6f5b-4546-a885-b0b4f0264c42'', ''name'': ''DANDI
+    API'', ''version'': ''0.1.0'', ''schemaKey'': ''Software'', ''identifier'': ''RRID:SCR_017571''}]}
+    is not valid under any of the given schemas'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://www.sciencedirect.com/science/article/pii/S0896627316300563'',
+    ''relation'': ''dcite:IsDescribedBy'', ''identifier'': ''doi: 10.1016/j.neuron.2016.03.036''}]
+    is not valid under any of the given schemas'

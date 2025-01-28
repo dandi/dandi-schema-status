@@ -1,0 +1,33 @@
+- absolute_path:
+  - contributor
+  - 0
+  absolute_schema_path:
+  - properties
+  - contributor
+  - items
+  - oneOf
+  message: '{''name'': ''Tao, Can'', ''email'': ''cantao@usc.edu'', ''roleName'':
+    [''dcite:DataCollector'', ''dcite:Author'', ''dcite:Conceptualization'', ''dcite:ContactPerson''],
+    ''schemaKey'': ''Person'', ''affiliation'': [{''name'': ''University of Southern
+    California'', ''schemaKey'': ''Affiliation'', ''includeInCitation'': False}],
+    ''includeInCitation'': True} is not valid under any of the given schemas'
+- absolute_path:
+  - contributor
+  - 1
+  absolute_schema_path:
+  - properties
+  - contributor
+  - items
+  - oneOf
+  message: '{''name'': ''Zhang, Guang-Wei'', ''email'': ''guangwei.zhang@med.usc.edu'',
+    ''roleName'': [''dcite:DataManager''], ''schemaKey'': ''Person'', ''identifier'':
+    ''0000-0002-3228-1981'', ''affiliation'': [{''name'': ''University of Southern
+    California'', ''schemaKey'': ''Affiliation'', ''includeInCitation'': False}],
+    ''includeInCitation'': True} is not valid under any of the given schemas'
+- absolute_path:
+  - license
+  absolute_schema_path:
+  - properties
+  - license
+  - minItems
+  message: '[] should be non-empty'

@@ -1,0 +1,23 @@
+- absolute_path:
+  - about
+  absolute_schema_path:
+  - properties
+  - about
+  - anyOf
+  message: '[{}, {''name'': ''amygdala''}] is not valid under any of the given schemas'
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - license
+  absolute_schema_path:
+  - properties
+  - license
+  - minItems
+  message: '[] should be non-empty'

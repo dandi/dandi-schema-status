@@ -1,0 +1,20 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://www.sciencedirect.com/science/article/pii/S0896627316300563'',
+    ''name'': ''Network Homeostasis and State Dynamics of Neocortical Sleep'', ''relation'':
+    ''dcite:IsDescribedBy'', ''schemaKey'': ''Resource'', ''identifier'': ''https://doi.org/10.1016/j.neuron.2016.03.036'',
+    ''repository'': ''Neuron'', ''resourceType'': ''dcite:JournalArticle''}] is not
+    valid under any of the given schemas'

@@ -1,0 +1,16 @@
+- absolute_path:
+  - contributor
+  absolute_schema_path:
+  - properties
+  - contributor
+  - minItems
+  message: '[] should be non-empty'
+- absolute_path:
+  - license
+  - 0
+  absolute_schema_path:
+  - properties
+  - license
+  - items
+  - enum
+  message: '''spdx:CC-BY-NC-4.0'' is not one of [''spdx:CC0-1.0'', ''spdx:CC-BY-4.0'']'

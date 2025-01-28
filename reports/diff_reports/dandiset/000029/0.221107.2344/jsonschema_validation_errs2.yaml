@@ -1,0 +1,26 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - contributor
+  - 0
+  absolute_schema_path:
+  - properties
+  - contributor
+  - items
+  - oneOf
+  message: '{''name'': ''Last, First'', ''roleName'': [''dcite:Author'', ''dcite:ContactPerson''],
+    ''schemaKey'': ''Person'', ''identifier'': ''0000-0003-3456-2493'', ''affiliation'':
+    [{''name'': ''An Institution'', ''roleName'': [], ''schemaKey'': ''Affiliation'',
+    ''contactPoint'': [], ''includeInCitation'': False}], ''includeInCitation'': True}
+    is not valid under any of the given schemas'
+- absolute_path: []
+  absolute_schema_path:
+  - required
+  message: '''doi'' is a required property'

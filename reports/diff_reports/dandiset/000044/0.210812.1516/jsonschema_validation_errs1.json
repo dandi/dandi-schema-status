@@ -1,0 +1,48 @@
+[
+  {
+    "message": "'schemaKey' is a required property",
+    "absolute_schema_path": [
+      "properties",
+      "access",
+      "items",
+      "required"
+    ],
+    "absolute_path": [
+      "access",
+      0
+    ]
+  },
+  {
+    "message": "'2021-08-12T15:16:05.197111' is not a 'date-time'",
+    "absolute_schema_path": [
+      "properties",
+      "datePublished",
+      "format"
+    ],
+    "absolute_path": [
+      "datePublished"
+    ]
+  },
+  {
+    "message": "{'id': 'urn:uuid:e4c71a14-8e1f-4ea1-b10b-687a7f661a2e', 'name': 'DANDI publish', 'endDate': '2021-08-12T15:16:05.197111', 'schemaKey': 'PublishActivity', 'startDate': '2021-08-12T15:16:05.197111', 'wasAssociatedWith': [{'id': 'urn:uuid:e5aa1351-6de3-4bc3-8496-056d2ca82528', 'name': 'DANDI API', 'version': '0.1.0', 'schemaKey': 'Software', 'identifier': 'RRID:SCR_017571'}]} is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "publishedBy",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "publishedBy"
+    ]
+  },
+  {
+    "message": "[{'url': 'https://science.sciencemag.org/content/351/6280/1440', 'relation': 'dcite:IsDescribedBy', 'identifier': 'doi: 10.1126/science.aad1935'}, {'url': 'https://www.nature.com/articles/srep32193', 'relation': 'dcite:IsDescribedBy', 'identifier': 'doi: 10.1038/srep32193'}] is not valid under any of the given schemas",
+    "absolute_schema_path": [
+      "properties",
+      "relatedResource",
+      "anyOf"
+    ],
+    "absolute_path": [
+      "relatedResource"
+    ]
+  }
+]

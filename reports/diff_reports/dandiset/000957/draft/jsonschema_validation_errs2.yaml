@@ -1,0 +1,16 @@
+- absolute_path: []
+  absolute_schema_path:
+  - additionalProperties
+  message: Additional properties are not allowed ('datePublished', 'publishedBy' were
+    unexpected)
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://www.biorxiv.org/content/10.1101/2023.08.23.554527v2'',
+    ''name'': ''Ultra-high density electrodes improve detection, yield, and cell type
+    specificity of brain recordings'', ''relation'': ''dcite:IsSupplementTo'', ''schemaKey'':
+    ''Resource'', ''identifier'': ''10.1101/2023.08.23.554527'', ''repository'': ''bioRxiv'',
+    ''resourceType'': ''dcite:Dataset''}] is not valid under any of the given schemas'

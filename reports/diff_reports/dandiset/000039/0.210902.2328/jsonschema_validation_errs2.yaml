@@ -1,0 +1,17 @@
+- absolute_path:
+  - access
+  - 0
+  absolute_schema_path:
+  - properties
+  - access
+  - items
+  - required
+  message: '''schemaKey'' is a required property'
+- absolute_path:
+  - relatedResource
+  absolute_schema_path:
+  - properties
+  - relatedResource
+  - anyOf
+  message: '[{''url'': ''https://elifesciences.org/articles/55130'', ''relation'':
+    ''dcite:IsDescribedBy''}] is not valid under any of the given schemas'

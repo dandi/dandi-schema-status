@@ -38,7 +38,6 @@
         }
       ],
       "version": "draft",
-      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json",
       "citation": "White light stimulation on wild type rat retina ex vivo recoded by multi electrode array (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234",
       "schemaKey": "Dandiset",
       "identifier": "DANDI:000882",
@@ -134,5 +133,47 @@
       "error": "An embargo end date is required for NIH awards to be in compliance with NIH resource sharing policy."
     },
     "url": "https://errors.pydantic.dev/2.10/v/value_error"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "doi"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "10.80507/dandi.123456/0.123456.1234",
+    "url": "https://errors.pydantic.dev/2.10/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "publishedBy"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": {
+      "id": "urn:uuid:f36b76a4-0207-48d0-ba9f-fbcd8391e134",
+      "name": "DANDI publish",
+      "endDate": "2024-02-02T06:14:04.779213+00:00",
+      "schemaKey": "PublishActivity",
+      "startDate": "2024-02-02T06:14:04.779213+00:00",
+      "wasAssociatedWith": [
+        {
+          "id": "urn:uuid:97c44530-b582-4d26-b440-62614e66b619",
+          "name": "DANDI API",
+          "version": "0.1.0",
+          "schemaKey": "Software",
+          "identifier": "RRID:SCR_017571"
+        }
+      ]
+    },
+    "url": "https://errors.pydantic.dev/2.10/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "datePublished"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": "2024-02-02T06:14:04.779213+00:00",
+    "url": "https://errors.pydantic.dev/2.10/v/extra_forbidden"
   }
 ]

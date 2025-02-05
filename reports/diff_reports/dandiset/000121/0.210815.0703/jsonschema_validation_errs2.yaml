@@ -1,13 +1,4 @@
 - absolute_path:
-  - about
-  absolute_schema_path:
-  - properties
-  - about
-  - anyOf
-  message: '[{''name'': ''premotor cortex'', ''identifier'': ''http://purl.obolibrary.org/obo/UBERON_0016634''},
-    {''name'': ''Motor Cortex'', ''schemaKey'': ''Anatomy'', ''identifier'': ''http://purl.obolibrary.org/obo/UBERON_0001384''}]
-    is not valid under any of the given schemas'
-- absolute_path:
   - datePublished
   absolute_schema_path:
   - properties
@@ -26,13 +17,3 @@
     [{''id'': ''urn:uuid:bc36ea51-b348-4fce-9d96-564acb494a13'', ''name'': ''DANDI
     API'', ''version'': ''0.1.0'', ''schemaKey'': ''Software'', ''identifier'': ''RRID:SCR_017571''}]}
     is not valid under any of the given schemas'
-- absolute_path:
-  - relatedResource
-  absolute_schema_path:
-  - properties
-  - relatedResource
-  - anyOf
-  message: '[{''url'': ''https://doi.org/10.1371/journal.pcbi.1006808'', ''name'':
-    ''Structure and variability of delay activity in premotor cortex'', ''relation'':
-    ''dcite:IsDescribedBy'', ''identifier'': ''10.1371/journal.pcbi.1006808'', ''repository'':
-    ''PLOS Computational Biology''}] is not valid under any of the given schemas'

@@ -12,7 +12,6 @@
   type: value_error
   url: https://errors.pydantic.dev/2.10/v/value_error
 - input:
-    '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
     access:
     - schemaKey: AccessRequirements
       status: dandi:EmbargoedAccess
@@ -96,3 +95,32 @@
     with NIH resource sharing policy.
   type: value_error
   url: https://errors.pydantic.dev/2.10/v/value_error
+- input: 10.80507/dandi.123456/0.123456.1234
+  loc:
+  - doi
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
+- input:
+    endDate: '2024-02-02T06:14:04.779213+00:00'
+    id: urn:uuid:f36b76a4-0207-48d0-ba9f-fbcd8391e134
+    name: DANDI publish
+    schemaKey: PublishActivity
+    startDate: '2024-02-02T06:14:04.779213+00:00'
+    wasAssociatedWith:
+    - id: urn:uuid:97c44530-b582-4d26-b440-62614e66b619
+      identifier: RRID:SCR_017571
+      name: DANDI API
+      schemaKey: Software
+      version: 0.1.0
+  loc:
+  - publishedBy
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden
+- input: '2024-02-02T06:14:04.779213+00:00'
+  loc:
+  - datePublished
+  msg: Extra inputs are not permitted
+  type: extra_forbidden
+  url: https://errors.pydantic.dev/2.10/v/extra_forbidden

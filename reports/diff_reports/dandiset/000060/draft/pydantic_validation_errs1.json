@@ -1,5 +1,33 @@
 [
   {
+    "type": "extra_forbidden",
+    "loc": [
+      "contributor",
+      0,
+      "Person",
+      "affiliation",
+      0,
+      "includeInCitation"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": false,
+    "url": "https://errors.pydantic.dev/2.10/v/extra_forbidden"
+  },
+  {
+    "type": "extra_forbidden",
+    "loc": [
+      "contributor",
+      1,
+      "Person",
+      "affiliation",
+      0,
+      "includeInCitation"
+    ],
+    "msg": "Extra inputs are not permitted",
+    "input": false,
+    "url": "https://errors.pydantic.dev/2.10/v/extra_forbidden"
+  },
+  {
     "type": "missing",
     "loc": [
       "license"
@@ -16,7 +44,6 @@
         }
       ],
       "version": "draft",
-      "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json",
       "citation": "Finkelstein, Arseny; Svoboda, Karel (2021) Dataset for Finkelstein, Fontolan et al. \"Attractor dynamics gate cortical information flow during decision-making\" (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000060/draft",
       "keywords": [
         "motor cortex",

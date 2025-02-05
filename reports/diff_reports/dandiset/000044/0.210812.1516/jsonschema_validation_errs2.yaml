@@ -1,13 +1,4 @@
 - absolute_path:
-  - access
-  - 0
-  absolute_schema_path:
-  - properties
-  - access
-  - items
-  - required
-  message: '''schemaKey'' is a required property'
-- absolute_path:
   - datePublished
   absolute_schema_path:
   - properties
@@ -26,14 +17,3 @@
     [{''id'': ''urn:uuid:e5aa1351-6de3-4bc3-8496-056d2ca82528'', ''name'': ''DANDI
     API'', ''version'': ''0.1.0'', ''schemaKey'': ''Software'', ''identifier'': ''RRID:SCR_017571''}]}
     is not valid under any of the given schemas'
-- absolute_path:
-  - relatedResource
-  absolute_schema_path:
-  - properties
-  - relatedResource
-  - anyOf
-  message: '[{''url'': ''https://science.sciencemag.org/content/351/6280/1440'', ''relation'':
-    ''dcite:IsDescribedBy'', ''identifier'': ''doi: 10.1126/science.aad1935''}, {''url'':
-    ''https://www.nature.com/articles/srep32193'', ''relation'': ''dcite:IsDescribedBy'',
-    ''identifier'': ''doi: 10.1038/srep32193''}] is not valid under any of the given
-    schemas'

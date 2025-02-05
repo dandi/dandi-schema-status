@@ -1,18 +1,5 @@
 [
   {
-    "message": "'schemaKey' is a required property",
-    "absolute_schema_path": [
-      "properties",
-      "access",
-      "items",
-      "required"
-    ],
-    "absolute_path": [
-      "access",
-      0
-    ]
-  },
-  {
     "message": "'2021-08-12T15:15:38.643636' is not a 'date-time'",
     "absolute_schema_path": [
       "properties",
@@ -32,17 +19,6 @@
     ],
     "absolute_path": [
       "publishedBy"
-    ]
-  },
-  {
-    "message": "[{'url': 'https://www.sciencedirect.com/science/article/pii/S0896627316300563', 'relation': 'dcite:IsDescribedBy', 'identifier': 'doi: 10.1016/j.neuron.2016.03.036'}] is not valid under any of the given schemas",
-    "absolute_schema_path": [
-      "properties",
-      "relatedResource",
-      "anyOf"
-    ],
-    "absolute_path": [
-      "relatedResource"
     ]
   }
 ]
